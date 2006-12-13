@@ -100,7 +100,7 @@ $lang = array_merge($lang, array(
 	'ORDER'					=> 'Упорядочить',
 	'OTHER'					=> 'Другая',
 
-	'POST_IP'				=> 'Отправлено с IP/домена',
+	'POST_IP'				=> 'IP/Хост',
 
 	'RANK'					=> 'Звание',
 	'REAL_NAME'				=> 'Имя получателя',
@@ -121,7 +121,7 @@ $lang = array_merge($lang, array(
 	'USER_ADMIN'			=> 'Управление пользователем',
 	'USER_FORUM'			=> 'Статистика пользователя',
 	'USER_ONLINE'			=> 'В сети',
-	'USER_PRESENCE'			=> 'Присутствие на форуме',
+	'USER_PRESENCE'			=> 'Присутствие на форумах',
 
 	'VIEWING_PROFILE'		=> 'Профиль пользователя %s',
 	'VISITED'				=> 'Последнее посещение',
