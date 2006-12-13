@@ -102,7 +102,6 @@ $lang = array_merge($lang, array(
 	'VOTE_SUBMITTED'		=> 'Спасибо, ваш голос учтен.',
 
 	'WROTE'				=> 'писал(а)',
-
 ));
 
 ?>

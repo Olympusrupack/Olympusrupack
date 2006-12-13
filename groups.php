@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* groups [English]
+* groups [Russian]
 *
 * @package language
 * @version $Id: groups.php,v 1.15 2006/10/30 16:19:32 acydburn Exp $
@@ -31,58 +31,58 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ALREADY_DEFAULT_GROUP'	=> 'The selected group is already your default group',
-	'ALREADY_IN_GROUP'		=> 'You are already a member of the selected group',
+	'ALREADY_DEFAULT_GROUP'	=> 'Выбранная группа уже является вашей группой по умолчанию',
+	'ALREADY_IN_GROUP'		=> 'Вы уже являетесь членом выбранной группы',
 
-	'CHANGED_DEFAULT_GROUP'	=> 'Successfully changed default group',
+	'CHANGED_DEFAULT_GROUP'	=> 'Группа по умолчанию успешно изменена',
 	
-	'GROUP_AVATAR'						=> 'Group avatar', 
-	'GROUP_CHANGE_DEFAULT'				=> 'Are you sure you want to change your default membership to the group “%s”?',
-	'GROUP_CLOSED'						=> 'Closed',
-	'GROUP_DESC'						=> 'Group description',
-	'GROUP_HIDDEN'						=> 'Hidden',
-	'GROUP_INFORMATION'					=> 'Usergroup information', 
-	'GROUP_IS_CLOSED'					=> 'This is a closed group, new members cannot automatically join.',
-	'GROUP_IS_FREE'						=> 'This is a freely open group, all new members are welcome.', 
-	'GROUP_IS_HIDDEN'					=> 'This is a hidden group, only members of this group can view its membership.',
-	'GROUP_IS_OPEN'						=> 'This is an open group, members can apply to join.',
-	'GROUP_IS_SPECIAL'					=> 'This is a special group, special groups are managed by the board administrators.', 
-	'GROUP_JOIN'						=> 'Join group',
-	'GROUP_JOIN_CONFIRM'				=> 'Are you sure you want to join the selected group?',
-	'GROUP_JOIN_PENDING'				=> 'Request to join group',
-	'GROUP_JOIN_PENDING_CONFIRM'		=> 'Are you sure you want to request joining the selected group?',
-	'GROUP_JOINED'						=> 'Successfully joined selected group',
-	'GROUP_JOINED_PENDING'				=> 'Successfully requested group membership. Please wait for a group leader to approve your membership.',
-	'GROUP_LIST'						=> 'Manage users',
-	'GROUP_MEMBERS'						=> 'Group members',
-	'GROUP_NAME'						=> 'Group name',
-	'GROUP_OPEN'						=> 'Open',
-	'GROUP_RANK'						=> 'Group rank', 
-	'GROUP_RESIGN_MEMBERSHIP'			=> 'Resign group membership',
-	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> 'Are you sure you want to resign your membership from the selected group?',
-	'GROUP_RESIGN_PENDING'				=> 'Resign a pending group membership',
-	'GROUP_RESIGN_PENDING_CONFIRM'		=> 'Are you sure you want to resign your pending membership from the selected group?',
-	'GROUP_RESIGNED_MEMBERSHIP'			=> 'You were successfully removed from the selected group',
-	'GROUP_RESIGNED_PENDING'			=> 'Your pending membership was successfully removed from the selected group',
-	'GROUP_TYPE'						=> 'Group type',
-	'GROUP_UNDISCLOSED'					=> 'Hidden group',
-	'FORUM_UNDISCLOSED'					=> 'Moderating hidden forum(s)',
+	'GROUP_AVATAR'						=> 'Аватара группы', 
+	'GROUP_CHANGE_DEFAULT'				=> 'Вы уверены, что хотите изменить вашу группу по умолчанию на “%s”?',
+	'GROUP_CLOSED'						=> 'Группа с закрытым членством',
+	'GROUP_DESC'						=> 'Описание группы',
+	'GROUP_HIDDEN'						=> 'Скрытая группа',
+	'GROUP_INFORMATION'					=> 'Информация о группе', 
+	'GROUP_IS_CLOSED'					=> 'Это группа с закрытым членством, автоматическое добавление пользователей не разрешается.',
+	'GROUP_IS_FREE'						=> 'Это группа со свободным членством, любой пользователь может вступить в неё.', 
+	'GROUP_IS_HIDDEN'					=> 'Это скрытая группа, только члены этой группы могут просматривать список входящих в нее пользователей.',
+	'GROUP_IS_OPEN'						=> 'Это группа с открытым членством, любой пользователь может подать просьбу о вступлении.',
+	'GROUP_IS_SPECIAL'					=> 'Это специальная группа, управляемая администратором форума.', 
+	'GROUP_JOIN'						=> 'Вступить в группу',
+	'GROUP_JOIN_CONFIRM'				=> 'Вы уверены, что хотите вступить в выбранную группу?',
+	'GROUP_JOIN_PENDING'				=> 'Запрос на вступление в группу',
+	'GROUP_JOIN_PENDING_CONFIRM'		=> 'Вы уверены, что хотите запросить членство в этой группе?',
+	'GROUP_JOINED'						=> 'Вы успешно вступили в выбранную группу',
+	'GROUP_JOINED_PENDING'				=> 'Запрос на вступление в группу успешно отправлен. Пожалуйста, ожидайте подтверждения от руководителя группы.',
+	'GROUP_LIST'						=> 'Управление пользователями',
+	'GROUP_MEMBERS'						=> 'Члены группы',
+	'GROUP_NAME'						=> 'Название группы',
+	'GROUP_OPEN'						=> 'Группа с открытым членством',
+	'GROUP_RANK'						=> 'Звание в группе', 
+	'GROUP_RESIGN_MEMBERSHIP'			=> 'Выйти из группы',
+	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> 'Вы уверены, что хотите выйти из выбранной группы?',
+	'GROUP_RESIGN_PENDING'				=> 'Отозвать запрос на вступление в группу',
+	'GROUP_RESIGN_PENDING_CONFIRM'		=> 'Вы уверены, что хотите отозвать запрос на вступление в выбранную группу?',
+	'GROUP_RESIGNED_MEMBERSHIP'			=> 'Вы были успешно удалены из выбранной группы',
+	'GROUP_RESIGNED_PENDING'			=> 'Ваш запрос на членство в выбранной группе успешно отозван',
+	'GROUP_TYPE'						=> 'Тип группы',
+	'GROUP_UNDISCLOSED'					=> 'Скрытая группа',
+	'FORUM_UNDISCLOSED'					=> 'Модерирование скрытого форума(ов)',
 
-	'LOGIN_EXPLAIN_GROUP'	=> 'You need to login to view group details',
+	'LOGIN_EXPLAIN_GROUP'	=> 'Вы должны войти для просмотра информации о группе',
 
-	'NO_LEADERS'					=> 'You are not a leader of any group',
-	'NOT_LEADER_OF_GROUP'			=> 'The requested operation cannot be taken because you are not a leader of the selected group.',
-	'NOT_MEMBER_OF_GROUP'			=> 'The requested operation cannot be taken because you are not a member of the selected group.',
-	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'You are not allowed to resign from your default group.',
+	'NO_LEADERS'					=> 'Вы не являетесь руководителем какой-либо группы',
+	'NOT_LEADER_OF_GROUP'			=> 'Запрошенная операция не может быть выполнена, поскольку вы не являетесь руководителем выбранной группы.',
+	'NOT_MEMBER_OF_GROUP'			=> 'Запрошенная операция не может быть выполнена, поскольку вы не являетесь членом выбранной группы.',
+	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'Вы не можете отказаться от членства в группе по умолчанию.',
 	
-	'PRIMARY_GROUP'		=> 'Primary group',
+	'PRIMARY_GROUP'		=> 'Основная группа',
 
-	'REMOVE_SELECTED'		=> 'Remove selected',
+	'REMOVE_SELECTED'		=> 'Удалить выбранное',
 
-	'USER_GROUP_CHANGE'			=> 'From “%1$s” group to “%2$s”',
-	'USER_GROUP_DEMOTE'			=> 'Demote leadership',
-	'USER_GROUP_DEMOTE_CONFIRM'	=> 'Are you sure you want to demote as group leader from the selected group?',
-	'USER_GROUP_DEMOTED'		=> 'Successfully demoted your leadership.',
+	'USER_GROUP_CHANGE'			=> 'Из группы “%1$s” в группу “%2$s”',
+	'USER_GROUP_DEMOTE'			=> 'Отказаться от руководства',
+	'USER_GROUP_DEMOTE_CONFIRM'	=> 'Вы уверены, что хотите отказаться от руководства выбранной группой?',
+	'USER_GROUP_DEMOTED'		=> 'Вы прекратили руководство группой.',
 ));
 
 ?>
