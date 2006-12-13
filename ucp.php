@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* ucp [English]
+* ucp [Russian]
 *
 * @package language
 * @version $Id: ucp.php,v 1.86 2006/11/24 14:59:13 acydburn Exp $
@@ -32,22 +32,22 @@ if (empty($lang) || !is_array($lang))
 
 // Privacy policy and T&C
 $lang = array_merge($lang, array(
-	'TERMS_OF_USE_CONTENT'	=> 'By accessing “%1$s” (hereinafter “we”, “us”, “our”, “%1$s”, “%2$s”), you agree to be legally bound by the following terms. If you do not agree to be legally bound by all of the following terms then please do not access and/or use “%1$s”. We may change these at any time and we’ll do our utmost in informing you, though it would be prudent to review this regularly yourself as your continued usage of “%1$s” after changes mean you agree to be legally bound by these terms as they are updated and/or amended.<br />
+	'TERMS_OF_USE_CONTENT'	=> 'By accessing «%1$s» (в дальнейшем «мы», «наш», «%1$s», «%2$s»), вы подтверждаете своё согласие со следующими условиями. If you do not agree to be legally bound by all of the following terms then please do not access and/or use «%1$s». We may change these at any time and we’ll do our utmost in informing you, though it would be prudent to review this regularly yourself as your continued usage of «%1$s» after changes mean you agree to be legally bound by these terms as they are updated and/or amended.<br />
 	<br />
-	Our forums are powered by phpBB (hereinafter “they”, “them”, “their”, “phpBB software”, “www.phpbb.com”, “phpBB Group”, “phpBB Teams”) which is a bulletin board solution released under the “<a href="http://www.gnu.org/licenses/gpl.html">General Public License</a>” (hereinafter “GPL”) and can be downloaded from <a href="http://www.phpbb.com/">www.phpbb.com</a>. The phpBB software only facilitates Internet based discussions and the GPL strictly forbids them in what we allow and/or disallow as permissible content and/or conduct. For further information about phpBB, please see: <a href="http://www.phpbb.com/">http://www.phpbb.com/</a>.<br />
+	Our forums are powered by phpBB (в дальнейшем «они», «ПО phpBB», «www.phpbb.com», «phpBB Group», «phpBB Teams») which is a bulletin board solution released under the «<a href="http://www.gnu.org/licenses/gpl.html">General Public License</a>» (hereinafter «GPL») and can be downloaded from <a href="http://www.phpbb.com/">www.phpbb.com</a>. The phpBB software only facilitates Internet based discussions and the GPL strictly forbids them in what we allow and/or disallow as permissible content and/or conduct. For further information about phpBB, please see: <a href="http://www.phpbb.com/">http://www.phpbb.com/</a>.<br />
 	<br />
-	You agree not to post any abusive, obscene, vulgar, slanderous, hateful, threatening, sexually-orientated or any other material that may violate any laws be it of your country, the country where “%1$s” is hosted or International Law. Doing so may lead to you being immediately and permanently banned, with notification of your Internet Service Provider if deemed required by us. The IP address of all posts are recorded to aid in enforcing these conditions. You agree that “%1$s” have the right to remove, edit, move or close any topic at any time should we see fit. As a user you agree to any information you have entered to being stored in a database. While this information will not be disclosed to any third party without your consent, neither “%1$s” nor phpBB shall be held responsible for any hacking attempt that may lead to the data being compromised.
+	You agree not to post any abusive, obscene, vulgar, slanderous, hateful, threatening, sexually-orientated or any other material that may violate any laws be it of your country, the country where «%1$s» is hosted or International Law. Doing so may lead to you being immediately and permanently banned, with notification of your Internet Service Provider if deemed required by us. The IP address of all posts are recorded to aid in enforcing these conditions. You agree that «%1$s» have the right to remove, edit, move or close any topic at any time should we see fit. As a user you agree to any information you have entered to being stored in a database. While this information will not be disclosed to any third party without your consent, neither «%1$s» nor phpBB shall be held responsible for any hacking attempt that may lead to the data being compromised.
 	',
 
-	'PRIVACY_POLICY'		=> 'This policy explains in detail how “%1$s” along with its affiliated companies (hereinafter “we”, “us”, “our”, “%1$s”, “%2$s”) and phpBB (hereinafter “they”, “them”, “their”, “phpBB software”, “www.phpbb.com”, “phpBB Group”, “phpBB Teams”) use any information collected during any session of usage by you (hereinafter “your information”).<br />
+	'PRIVACY_POLICY'		=> 'Это соглашение подробно объясняет, как «%1$s» и его подразделения (в дальнейшем «мы», «наш», «%1$s», «%2$s») и phpBB (в дальнейшем «они», «ПО phpBB», «www.phpbb.com», «Группа phpBB», «Команда phpBB») используют информацию, полученную во время любого из ваших пользовательских сеансов (в дальнейшем «ваша информация»).<br />
 	<br />
-	Your information is collected via two ways. Firstly, by browsing “%1$s” will cause the phpBB software to create a number of cookies, which are small text files that are downloaded on to your computer’s web browser temporary files. The first two cookies just contain a user identifier (hereinafter “user-id”) and an anonymous session identifier (hereinafter “session-id”), automatically assigned to you by the phpBB software. A third cookie will be created once you have browsed topics within “%1$s” and is used to store which topics have been read, thereby improving your user experience.<br />
+	Ваша информация собирается двумя способами. Во-первых, просмотр «%1$s» приведёт к созданию программным обеспечением phpBB определенного числа "cookies" (небольшие текстовые файлы, загружаемые в папку временных файлов вашего браузера). Первые две "cookie" содержат только идентификатор пользователя (в дальнейшем «user-id») и идентификатор анонимного сеанса (в дальнейшем «session-id»), автоматически присвоенные вам ПО phpBB. Третья "cookie" будет создана после просмотра одной из тем на форумах «%1$s» и будет использоваться для хранения информации о прочтенных вами темах, таким образом повышая удобство работы с форумами.<br />
 	<br />
-	We may also create cookies external to the phpBB software whilst browsing “%1$s”, though these are outside the scope of this document which is intended to only cover the pages created by the phpBB software. The second way in which we collect your information is by what you submit to us. This can be, and is not limited to: posting as an anonymous user (hereinafter “anonymous posts”), registering on “%1$s” (hereinafter “your account”) and posts submitted by you after registration and whilst logged in (hereinafter “your posts”).<br />
+	Также, во время просмотра форумов «%1$s», мы можем установить cookies, внешние по отношению к ПО phpBB, однако они выходят за рамки этого документа, целью которого является рассмотрение страниц, созданных исключительно ПО phpBB. Вторым источником получения вашей информации являются данные, которые вы отправляете на форум. Ими могут быть, но не ограничиваются: сообщения, размещенные под учётной записью Гостя (в дальнейшем «анонимные сообщения»), данные, указанные при регистрации на форумах «%1$s» (в дальнейшем «ваша учётная запись») и сообщения, оставленные вами после регистрации и авторизации (в дальнейшем «ваши сообщения»).<br />
 	<br />
-	Your account will at a bare minimum contain a uniquely identifiable name (hereinafter “your user name”), a personal password used for logging into your account (hereinafter “your password”) and a personal, valid email address (hereinafter “your email”). Your information for your account at “%1$s” is protected by data-protection laws applicable in the country that hosts us. Any information beyond your user name, your password and your email required by “%1$s” during the registration process are at our digression what is mandatory and what is optional. In all cases, you have the option of what information in your account is publicly displayed. Furthermore, within your account, you have the option to opt-in or opt-out of automatically generated emails from the phpBB software.<br />
+	Ваша учётная запись будет содержать, как минимум, однозначно идентифицируемое имя (в дальнейшем «ваше имя пользователя»), индивидуальный пароль для входа под вашей учётной записью (далее «ваш пароль») и реальный адрес email (в дальнейшем «ваш адрес email»). Ваша информация из вашей учётной записи на форумах «%1$s» охраняется законами о защите компьютерной информации, применяемыми в стране, предоставляющей нам услуги хостинга. Любая информация, запрашиваемая при регистрации на форумах «%1$s», кроме вашего имени пользователя, вашего пароля и вашего адреса email, может быть на наше усмотрение как необходимой, так и необязательной ко вводу. В любом случае у вас есть возможность выбрать, какая информация из вашей учётной записи будет общедоступна. Кроме того у вас есть возможность согласиться/отказаться от получения сообщений, автоматически сгенерированных ПО phpBB.<br />
 	<br />
-	Your password is ciphered (a one-way hash) so that it is secure. However, it is recommended that you do not reuse the same password across a number of different websites. Your password is the means of accessing your account at “%1$s”, so please guard it carefully and under no circumstance will anyone affiliated with “%1$s”, phpBB or another 3rd party, legitimately ask you for your password. Should you forget your password for your account, you can use the “I forgot my password” feature provided by the phpBB software. This process will ask you to submit your user name and your email, then the phpBB software will generate a new password to reclaim your account.<br />
+	Ваш пароль надежно зашифрован (однонаправленным хэшированием). Однако не рекомендуется использовать этот же самый пароль при регистрации на других сайтах. Ваш пароль является средством доступа к вашей учётной записи на форумах «%1$s», пожалуйста, храните его в тайне, ни при каких обстоятельствах ни «%1$s», ни phpBB, ни другое третье лицо не в праве спрашивать ваш пароль. В случае, если вы забудете ваш пароль к вашей учётной записи, вы сможете воспользоваться функцией восстановления пароля «Забыли пароль?», предусмотренной ПО phpBB. Вам будет необходимо ввести ваши имя пользователя и ваш адрес email, после чего ПО phpBB сгенерирует вам новый пароль для вашей учётной записи.<br />
 	',
 ));
 
@@ -122,7 +122,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_REMOVE_FOLDER'		=> 'This folder can not be removed.',
 	'CHANGE_DEFAULT_GROUP'		=> 'Change default group',
 	'CHANGE_PASSWORD'			=> 'Change password',
-	'CLICK_RETURN_FOLDER'		=> '%1$sReturn to your “%3$s” folder%2$s',
+	'CLICK_RETURN_FOLDER'		=> '%1$sReturn to your «%3$s» folder%2$s',
 	'CONFIRMATION'				=> 'Confirmation of registration',
 	'CONFIRM_CHANGES'			=> 'Confirm changes',	
 	'CONFIRM_EMAIL'				=> 'Confirm email address',
@@ -185,15 +185,15 @@ $lang = array_merge($lang, array(
 	'EXPORT_AS_MSG'				=> 'Export as MSG',
 	'EXPORT_FOLDER'				=> 'Export Folder',
 
-	'FIELD_REQUIRED'					=> 'The field “%s” must be completed.',
-	'FIELD_TOO_SHORT'					=> 'The field “%1$s” is too short, a minimum of %2$d characters is required.',
-	'FIELD_TOO_LONG'					=> 'The field “%1$s” is too long, a maximum of %2$d characters is allowed.',
-	'FIELD_TOO_SMALL'					=> 'The value of “%1$s” is too small, a minimum value of %2$d is required.',
-	'FIELD_TOO_LARGE'					=> 'The value of “%1$s” is too large, a maximum value of %2$d is allowed.',
-	'FIELD_INVALID_CHARS_NUMBERS_ONLY'	=> 'The field “%s” has invalid characters, only numbers are allowed.',
-	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> 'The field “%s” has invalid characters, only alphanumeric characters are allowed.',
-	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> 'The field “%s” has invalid characters, only alphanumeric, space or -+_[] characters are allowed.',
-	'FIELD_INVALID_DATE'				=> 'The field “%s” has an invalid date.',
+	'FIELD_REQUIRED'					=> 'The field «%s» must be completed.',
+	'FIELD_TOO_SHORT'					=> 'The field «%1$s» is too short, a minimum of %2$d characters is required.',
+	'FIELD_TOO_LONG'					=> 'The field «%1$s» is too long, a maximum of %2$d characters is allowed.',
+	'FIELD_TOO_SMALL'					=> 'The value of «%1$s» is too small, a minimum value of %2$d is required.',
+	'FIELD_TOO_LARGE'					=> 'The value of «%1$s» is too large, a maximum value of %2$d is allowed.',
+	'FIELD_INVALID_CHARS_NUMBERS_ONLY'	=> 'The field «%s» has invalid characters, only numbers are allowed.',
+	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> 'The field «%s» has invalid characters, only alphanumeric characters are allowed.',
+	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> 'The field «%s» has invalid characters, only alphanumeric, space or -+_[] characters are allowed.',
+	'FIELD_INVALID_DATE'				=> 'The field «%s» has an invalid date.',
 
 	'FOE_MESSAGE'				=> 'Message from foe',
 	'FOES_EXPLAIN'				=> 'Foes are users which will be ignored by default. Posts by these users will not be fully visible and personal messages will not be permitted. Please note that you cannot ignore moderators or administrators.',
@@ -280,7 +280,7 @@ $lang = array_merge($lang, array(
 	'NOT_ADDED_FOES_FRIENDS'		=> 'You cannot add users to your foes list who are on your friends list.',
 	'NOT_ADDED_FOES_SELF'			=> 'You cannot add yourself to the foes list.',
 	'NOT_AGREE'						=> 'I do not agree to these terms',
-	'NOT_ENOUGH_SPACE_FOLDER'		=> 'The destination folder “%s” seems to be full. The requested action has not been taken.',
+	'NOT_ENOUGH_SPACE_FOLDER'		=> 'The destination folder «%s» seems to be full. The requested action has not been taken.',
 	'NOT_MOVED_MESSAGE'				=> 'You have 1 private message currently on hold because of full folder.',
 	'NOT_MOVED_MESSAGES'			=> 'You have %d private messages currently on hold because of full folder.',
 	'NO_ACTION_MODE'				=> 'No message action specified.',
