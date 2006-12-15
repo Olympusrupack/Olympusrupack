@@ -570,7 +570,7 @@ $lang = array_merge($lang, array(
    'USER_POST'            	=> '%d сообщение',
    'USER_POSTS'         	=> '%d сообщений',
    'USERS'               	=> 'Пользователи',
-   'USE_PERMISSIONS'      	=> 'Проверить права пользователей',
+   'USE_PERMISSIONS'      	=> 'Проверить права пользователя',
 
    'VIEWED'               	=> 'Просмотров',
    'VIEWING_FAQ'            => 'Просмотр FAQ',
