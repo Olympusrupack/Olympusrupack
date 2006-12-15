@@ -118,7 +118,7 @@ $lang = array_merge($lang, array(
 	'SORT_POST_COUNT'		=> 'Число сообщений',
 
 	'USERNAME_BEGINS_WITH'	=> 'Имя пользователя начинается с',
-	'USER_ADMIN'			=> 'Управление пользователем',
+	'USER_ADMIN'			=> 'Администрирование пользователя',
 	'USER_FORUM'			=> 'Статистика пользователя',
 	'USER_ONLINE'			=> 'В сети',
 	'USER_PRESENCE'			=> 'Присутствие на форумах',
