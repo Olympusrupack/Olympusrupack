@@ -68,40 +68,40 @@ $lang = array_merge($lang, array(
 	'MOVE_TOPIC'						=> 'Переместить тему',
 
 	'NO_ATTACHMENT_SELECTED'			=> 'Вы не выбрали вложение для загрузки или просмотра.',
-	'NO_NEWER_TOPICS'		=> 'В этом форуме нет более новых тем',
-	'NO_OLDER_TOPICS'		=> 'В этом форуме нет более старых тем',
-	'NO_UNREAD_POSTS'		=> 'В этой теме нет новых непрочитанных сообщений',
-	'NO_VOTE_OPTION'		=> 'Вы должны указать вариант ответа при голосовании.',
-	'NO_VOTES'				=> 'Ответы отсутствуют.',
+	'NO_NEWER_TOPICS'					=> 'В этом форуме нет более новых тем',
+	'NO_OLDER_TOPICS'					=> 'В этом форуме нет более старых тем',
+	'NO_UNREAD_POSTS'					=> 'В этой теме нет новых непрочитанных сообщений',
+	'NO_VOTE_OPTION'					=> 'Вы должны указать вариант ответа при голосовании.',
+	'NO_VOTES'							=> 'Ответы отсутствуют.',
 
-	'POLL_ENDED_AT'			=> 'Опрос закончился %s',
-	'POLL_RUN_TILL'			=> 'Опрос проводится до %s',
-	'POLL_VOTED_OPTION'		=> 'Вы голосовали за этот вариант',
-	'PRINT_TOPIC'			=> 'Для печати',
+	'POLL_ENDED_AT'						=> 'Опрос закончился %s',
+	'POLL_RUN_TILL'						=> 'Опрос проводится до %s',
+	'POLL_VOTED_OPTION'					=> 'Вы голосовали за этот вариант',
+	'PRINT_TOPIC'						=> 'Для печати',
 
-	'QUICK_MOD'				=> 'Быстрые действия',
-	'QUOTE'					=> 'Цитата',
+	'QUICK_MOD'							=> 'Быстрые действия',
+	'QUOTE'								=> 'Цитата',
 
-	'REPLY_TO_TOPIC'		=> 'Ответить на тему',
-	'RETURN_POST'			=> '%sВернуться к сообщению%s',
+	'REPLY_TO_TOPIC'					=> 'Ответить на тему',
+	'RETURN_POST'						=> '%sВернуться к сообщению%s',
 
-	'SUBMIT_VOTE'			=> 'Проголосовать',
+	'SUBMIT_VOTE'						=> 'Проголосовать',
 
-	'TOTAL_VOTES'			=> 'Всего голосов',
+	'TOTAL_VOTES'						=> 'Всего голосов',
 
-	'UNLOCK_TOPIC'			=> 'Открыть тему',
+	'UNLOCK_TOPIC'						=> 'Открыть тему',
 
-	'VIEW_INFO'				=> 'Информация о сообщении',
-	'VIEW_NEXT_TOPIC'		=> 'След. тема',
-	'VIEW_PREVIOUS_TOPIC'	=> 'Пред. тема',
-	'VIEW_RESULTS'			=> 'Результаты голосования',
-	'VIEW_TOPIC_POST'		=> '1 сообщение',
-	'VIEW_TOPIC_POSTS'		=> 'Сообщений: %d',
-	'VIEW_UNREAD_POST'		=> 'Первое новое сообщение',
-	'VISIT_WEBSITE'			=> 'WWW',
-	'VOTE_SUBMITTED'		=> 'Спасибо, ваш голос учтен.',
+	'VIEW_INFO'							=> 'Информация о сообщении',
+	'VIEW_NEXT_TOPIC'					=> 'След. тема',
+	'VIEW_PREVIOUS_TOPIC'				=> 'Пред. тема',
+	'VIEW_RESULTS'						=> 'Результаты голосования',
+	'VIEW_TOPIC_POST'					=> '1 сообщение',
+	'VIEW_TOPIC_POSTS'					=> 'Сообщений: %d',
+	'VIEW_UNREAD_POST'					=> 'Первое новое сообщение',
+	'VISIT_WEBSITE'						=> 'WWW',
+	'VOTE_SUBMITTED'					=> 'Спасибо, ваш голос учтен.',
 
-	'WROTE'				=> 'писал(а)',
+	'WROTE'								=> 'писал(а)',
 ));
 
 ?>
