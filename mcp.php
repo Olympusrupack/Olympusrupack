@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 	'DISAPPROVE_POST_CONFIRM'	=> 'Вы уверены, что хотите отклонить это сообщение?',
 	'DISAPPROVE_POSTS'			=> 'Отклонить сообщения',
 	'DISAPPROVE_POSTS_CONFIRM'	=> 'Вы уверены, что хотите отклонить выбранные сообщения?',
-	'DISPLAY_LOG'				=> 'Показать записи за:',
+	'DISPLAY_LOG'				=> 'Показать записи за',
 	'DISPLAY_OPTIONS'			=> 'Показать настройки',
 
 	'EMPTY_REPORT'					=> 'Вы должны обосновать эту жалобу',
