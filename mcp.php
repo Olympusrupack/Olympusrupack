@@ -169,9 +169,9 @@ $lang = array_merge($lang, array(
 
 	'MCP_QUEUE'								=> 'Очередь на модерацию',
 	'MCP_QUEUE_APPROVE_DETAILS'				=> 'Информация об одобрении',
-	'MCP_QUEUE_UNAPPROVED_POSTS'			=> 'Сообщения, ожидающие одобрения',
+	'MCP_QUEUE_UNAPPROVED_POSTS'			=> 'Сообщения',
 	'MCP_QUEUE_UNAPPROVED_POSTS_EXPLAIN'	=> 'Это список всех сообщений, требующих одобрения перед тем, как они станут видимы пользователям',
-	'MCP_QUEUE_UNAPPROVED_TOPICS'			=> 'Темы, ожидающие одобрения',
+	'MCP_QUEUE_UNAPPROVED_TOPICS'			=> 'Темы',
 	'MCP_QUEUE_UNAPPROVED_TOPICS_EXPLAIN'	=> 'Это список всех тем, требующих одобрения перед тем, как они станут видимы пользователям',
 
 	'MCP_VIEW_USER'			=> 'Просмотр предупреждений конкретного пользователя',
