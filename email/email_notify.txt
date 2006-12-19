@@ -1,16 +1,16 @@
-Subject: “{SITENAME}” — Email a friend
+Subject: “{SITENAME}” — Письмо друга
 
-Hello {TO_USERNAME},
+Здравствуйте, {TO_USERNAME}!
 
-This email was sent from “{SITENAME}” by {FROM_USERNAME} who thought you may be interested in the following topic:
+Данное письмо было отправлено с сайта “{SITENAME}” пользователем {FROM_USERNAME}, который считает, что вам может быть интересна данная тема:
 
 {TOPIC_NAME}
 
-You can find it at:
+Вы можете найти ее по этому адресу:
 
 {U_TOPIC}
 
-A message from {FROM_USERNAME} may also be included below. Please note that this message has not been seen or approved by the board administrators. If you wish to complain about having received this email please contact the board administrator at {BOARD_EMAIL}. Please quote the the message headers when contacting this address.
+Оригинальное сообщение от {FROM_USERNAME} также может быть отображено ниже. Учтите, что данное сообщение не было отправлено либо просмотрено администрацией форума. Если вы хотите пожаловаться на содержимое данного письма, то вы можете связаться с администратором по адресу {BOARD_EMAIL}. При отправке сообщения на этот адрес процитируйте заголовки полученного письма.
 
 ----------
 
