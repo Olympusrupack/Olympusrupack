@@ -1,16 +1,16 @@
-Subject: Topic reply notification — “{TOPIC_TITLE}”
+﻿Subject: Уведомление об ответе в теме “{TOPIC_TITLE}”
 
-Hello {USERNAME},
+Здравствуйте, {USERNAME}!
 
-You are receiving this notification because you are watching the topic, “{TOPIC_TITLE}” at “{SITENAME}”. This topic has received a reply since your last visit. You can use the following link to view the replies made, no more notifications will be sent until you visit the topic.
+Вы получили это сообщение потому, что вы подписаны на тему “{TOPIC_TITLE}” форума “{SITENAME}”. В этой теме появилось новое сообщение с момента вашего последнего посещения. Вы можете перейти по данной ссылке чтобы увидеть новые сообщения. 
 
-If you want to view the newest post made since your last visit, click the following link:
+Если вы хотите увидеть последнее сообщение, появившееся с момента вашего последнего визита, нажмите на эту ссылку:
 {U_NEWEST_POST}
 
-If you want to view the topic, click the following link:
+Если вы хотите просмотреть всю тему, то нажмите сюда:
 {U_TOPIC}
 
-If you no longer wish to watch this topic you can either click the “Stop watching this topic” link found at the bottom of the topic above, or by clicking the following link:
+Если вы больше не хотите получать уведомления об ответах в этой теме, нажмите ссылку "Отписаться" при просмотре темы, либо кликните на эту ссылку:
 
 {U_STOP_WATCHING_TOPIC}
 
