@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /** 
 *
 * ucp [Russian]
@@ -360,7 +360,7 @@ $lang = array_merge($lang, array(
 	'REMOVE_FOLDER_CONFIRM'				=> 'Вы уверены, что хотите удалить эту папку?',
 	'RENAME'							=> 'Переименовать',
 	'RENAME_FOLDER'						=> 'Переименовать папку',
-	'REPLIED_MESSAGE'					=> 'Ответить на сообщение',
+	'REPLIED_MESSAGE'					=> 'Отвеченные сообщения',
 	'RESIGN_SELECTED'					=> 'Покинуть выбранную',
 	'RETURN_FOLDER'						=> '%1$sВернуться в предыдущую папку%2$s',
 	'RETURN_UCP'						=> '%sВернуться в Профиль%s',
