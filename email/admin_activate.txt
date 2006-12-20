@@ -1,13 +1,13 @@
-Subject: Activate user account
+Subject: Активируйте пользователя
 
-Hello,
+Здравствуйте,
 
-The account owned by “{USERNAME}” has been deactivated or newly created, you should check the details of this user (if required) and handle it appropiatly.
+Учетная запись, созданная «{USERNAME}» была деактивирована либо заново создана. Вы должны проверить профиль этого пользователя и (если требуется) активировать его.
 
-Use this link to view the users profile:
+Ссыдка на просмотр профиля пользователя:
 {U_USER_DETAILS}
 
-Use this link to activate the account:
+Сылка для активации аккаунта:
 {U_ACTIVATE}
 
 

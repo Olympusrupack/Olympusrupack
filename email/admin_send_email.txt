@@ -1,11 +1,11 @@
 
-The following is an email sent to you by an administrator of “{SITENAME}”. If this message is spam, contains abusive or other comments you find offensive please contact the webmaster of the board at the following address:
+Это посьмо было отправлено вам администратором «{SITENAME}». Если данное сообщение - спам,  содержащее оскорбильтельные или другие фразы, которые вы сочли обидными, свяжитесь с веб-мастером конференции по следующему адресу:
 
 {CONTACT_EMAIL}
 
-Include this full email (particularly the headers). 
+Вложите полную версию письма (включая заголовки).
 
-Message sent to you follows:
+Сообщение, отправленное вам:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}
