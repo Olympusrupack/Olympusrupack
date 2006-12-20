@@ -1,9 +1,9 @@
-Subject: Your request has been approved
+Subject: Ваша просьба была удовлетворена
 
-Congratulations,
+Поздравляем!
 
-Your request to join the “{GROUP_NAME}” group on “{SITENAME}” has been approved.
-Click on the following link to see your group membership.
+Ваша просьба о вступлении в группу "{GROUP_NAME}" на конференции {SITENAME} была удовлетворена.
+Перейдите по ссылке, чтобы увидеть информацию о вашем членстве в группах: 
 
 {U_GROUP}
 

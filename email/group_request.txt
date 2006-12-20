@@ -1,9 +1,9 @@
-Subject: A request to join your group has been made
+Subject: Просьба о вступлении в группу
 
-Dear {USERNAME},
+Уважаемый {USERNAME},
 
-A user has requested to join the group “{GROUP_NAME}” you moderate on “{SITENAME}”.
-To approve or deny this request for group membership please visit the following link:
+На конференции “{SITENAME}” пользователь попросил о вступлении в группу “{GROUP_NAME}”, лидером которой вы являетесь.
+Чтобы удовлетворить или отклонить эту просьбу, перейдите по следующей ссылке:
 
 {U_PENDING}
 
