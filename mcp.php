@@ -158,7 +158,7 @@ $lang = array_merge($lang, array(
 
 	'MCP_NOTES'						=> 'Заметки о пользователе',
 	'MCP_NOTES_FRONT'				=> 'Главная страница',
-	'MCP_NOTES_USER'				=> 'Информация о пользователе',
+	'MCP_NOTES_USER'				=> 'Информация',
 
 	'MCP_REPORTS'					=> 'Обжалованные сообщения',
 	'MCP_REPORT_DETAILS'			=> 'Информация об жалобе',
