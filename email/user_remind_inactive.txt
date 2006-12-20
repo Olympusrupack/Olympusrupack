@@ -1,11 +1,11 @@
-Subject: Inactive account reminder
+Subject: Напоминание об отключенной учетной записи
 
-Hello {USERNAME},
+Здравствуйте, {USERNAME}!
 
-On {REGISTER_DATE} you registered a new account at “{SITENAME}”. So far you have not activated this account, you must do this before you can login. For your convenience the activation link is repeated below.
+{REGISTER_DATE} вы зарегистрировали новую учетную запись на “{SITENAME}”. Вы должны активировать ее для дальнейшего использования. Для вашего удобства ссылка для активации приведена ниже.
  
 {U_ACTIVATE}
 
-Thank you for registering at “{SITENAME}”, we look forward to your participation.
+Спасибо за регистрацию на “{SITENAME}”, мы надеемся на ваше участие в конференции.
 
 {EMAIL_SIG}
