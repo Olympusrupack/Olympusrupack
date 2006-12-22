@@ -1,26 +1,26 @@
-Subject: Welcome to “{SITENAME}” — {U_BOARD}
+Subject: Добро пожаловать на конференцию «{SITENAME}» — {U_BOARD}
 
 {WELCOME_MSG}
 
-In compliance with the COPPA act your account is currently inactive.
+В соответствии с актом COPPA ваша учётная запись не была активирована.
 
-Please print this message out and have your parent or guardian sign and date it. Then fax it to:
+Пожалуйста, распечатайте это сообщение и попросите вашего родителя или опекуна подписать его и поставить дату. Затем отправьте его по факсу:
 
 {FAX_INFO}
 
-OR mail it to:
+Или по почте:
 
 {MAIL_INFO}
 
 ------------------------------ CUT HERE ------------------------------
-Permission to participate at “{SITENAME}”
+Permission to participate at «{SITENAME}»
 
 Username: {USERNAME}
 Email: {EMAIL_ADDRESS}
 
-I HAVE REVIEWED THE INFORMATION PROVIDED BY MY CHILD AND HEREBY GRANT PERMISSION TO “{SITENAME}” TO STORE THIS INFORMATION. 
+I HAVE REVIEWED THE INFORMATION PROVIDED BY MY CHILD AND HEREBY GRANT PERMISSION TO «{SITENAME}» TO STORE THIS INFORMATION. 
 I UNDERSTAND THIS INFORMATION CAN BE CHANGED AT ANY TIME BY ENTERING A PASSWORD. 
-I UNDERSTAND THAT I MAY REQUEST FOR THIS INFORMATION TO BE REMOVED FROM “{SITENAME}” AT ANY TIME.
+I UNDERSTAND THAT I MAY REQUEST FOR THIS INFORMATION TO BE REMOVED FROM «{SITENAME}» AT ANY TIME.
 
 
 Parent or guardian 
@@ -33,10 +33,10 @@ Date: _______________
 ------------------------------ CUT HERE ------------------------------
 
 
-Once the administrator has recived the above form via fax or regular mail your account will be activated.
+Как только администратор получит эту форму по факсу или по почте, ваша учётная запись будет активирована.
 
-Please do not forget your password as it has been encrypted in our database and we cannot retrieve it for you. However, should you forget your password you can request a new one which will be activated in the same way as this account.
+Не забывайте свой пароль: он хранится в нашей базе в зашифрованном виде, и мы не сможем вам его выслать. Если вы всё же забудете пароль, то сможете запросить новый, который придётся активизировать таким же образом, как и вашу учётную запись.
 
-Thank you for registering.
+Спасибо за регистрацию!
 
 {EMAIL_SIG}
