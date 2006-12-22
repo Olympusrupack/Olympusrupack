@@ -1,8 +1,8 @@
-Subject: Report closed — “{POST_SUBJECT}”
+Subject: Жалоба закрыта — «{POST_SUBJECT}»
 
-Hello {USERNAME},
+Здравствуйте, {USERNAME}!
 
-You are receiving this notification because the report you filed on the post “{POST_SUBJECT}” in “{TOPIC_TITLE}” at “{SITENAME}” was handled by a moderator or by an administrator. The report was afterwards closed. If you have further questions contact {CLOSER_NAME} with a personal message.
+Вы получили это уведомление потому, что поданная вами жалоба на сообщение «{POST_SUBJECT}» в теме «{TOPIC_TITLE}» на сайте «{SITENAME}» была рассмотрена модератором или администратором. После рассмотрения жалоба была закрыта. По возникшим в дальнейшем вопросам свяжитесь с {CLOSER_NAME} посредством личного сообщения.
 
 
 {EMAIL_SIG}

@@ -1,8 +1,8 @@
-Subject: Report deleted — “{POST_SUBJECT}”
+Subject: Жалоба удалена — «{POST_SUBJECT}»
 
-Hello {USERNAME},
+Здравствуйте, {USERNAME}!
 
-You are receiving this notification because the report you filed on the post “{POST_SUBJECT}” in “{TOPIC_TITLE}” at “{SITENAME}” was deleted by a moderator or by an administrator.
+Вы получили это уведомление потому, что поданная вами жалоба на сообщение «{POST_SUBJECT}» в теме «{TOPIC_TITLE}» на сайте «{SITENAME}» была удалена модератором или администратором.
 
 
 {EMAIL_SIG}

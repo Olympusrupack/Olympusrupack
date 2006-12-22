@@ -1,13 +1,13 @@
 
-Hello {TO_USERNAME},
+Здравствуйте, {TO_USERNAME}!
 
-The following is a message sent to you by {FROM_USERNAME} via your account on “{SITENAME}”. If this message is spam, contains abusive or other comments you find offensive please contact the webmaster of the board at the following address:
+Ниже следует письмо, отправленное вам пользователем {FROM_USERNAME} через вашу учетную запись на сайте «{SITENAME}». Если это сообщение является спамом, содержит оскорбления или прочие неприятные вам комментарии, пожалуйста свяжитесь с администратором конференции по адресу:
 
 {BOARD_EMAIL}
 
-Include this full message. Please note that the sender address has been set to the boards IM account.
+Включите данное сообщение целиком. Пожалуйста учтите, что адрес отправителя является адресом учетной записи конференции для мгновенных сообщений.
 
-Message sent to you follows
+Посланное вам сообщение:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}

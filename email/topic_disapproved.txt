@@ -1,10 +1,10 @@
-Subject: Topic disapproved — “{TOPIC_TITLE}”
+Subject: Тема отклонена — «{TOPIC_TITLE}»
 
-Hello {USERNAME},
+Здравствуйте, {USERNAME}!
 
-You are receiving this notification because your topic “{TOPIC_TITLE}” at “{SITENAME}” was disapproved by a moderator or administrator.
+Вы получили это уведомление потому, что ваша тема «{TOPIC_TITLE}» на сайте «{SITENAME}» была отклонена модератором или администратором.
 
-The following reason was given for the disapproval:
+Тема была отклонена по следующей причине:
 
 {REASON}
 
