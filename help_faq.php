@@ -231,8 +231,8 @@ $help = array(
       1 => 'If you are a member of more than one usergroup, your default is used to determine which group colour and group rank should be shown for you by default. The board administrator may grant you permission to change your default usergroup via your User Control Panel.'
    ),
    array(
-      0 => 'What is “The team” link?',
-      1 => 'This page provides you with a list of the board staff, including board administrators and moderators which includes details of which forums they moderate.'
+      0 => 'Что означает ссылка “ Команда форума”?',
+      1 => 'Эта страница отображает список всей команды форума, администраторов форума и модераторов, включая то, какие форумы они модерируют.'
    ),
    array(
       0 => '--',
