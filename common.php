@@ -391,7 +391,7 @@ $lang = array_merge($lang, array(
    'PRIVATE_MESSAGE'      	=> 'Личное сообщение',
    'PRIVATE_MESSAGES'      	=> 'Личные сообщения',
    'PRIVATE_MESSAGING'      => 'Личные сообщения',
-   'PROFILE'            	=> 'Профиль',
+   'PROFILE'            	=> 'Личный раздел',
 
    'READING_FORUM'            	=> 'Просмотр тем в форуме %s',
    'READING_GLOBAL_ANNOUNCE'  	=> 'Чтение общего объявления',
