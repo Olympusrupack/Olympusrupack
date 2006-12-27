@@ -85,7 +85,7 @@ $lang = array_merge($lang, array(
 	'SORT_POST_SUBJECT'			=> 'Заголовок сообщения',
 	'SORT_TIME'					=> 'Время размещения',
 
-	'TOO_FEW_AUTHOR_CHARS'		=> 'Вы должны ввести не менее %d символов имени автора.',
+	'TOO_FEW_AUTHOR_CHARS'	=> 'Вы должны ввести не менее %d символов имени автора.',
 ));
 
 ?>
