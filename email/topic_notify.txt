@@ -1,4 +1,4 @@
-﻿Subject: Уведомление об ответе в теме «{TOPIC_TITLE}»
+Subject: Уведомление об ответе в теме «{TOPIC_TITLE}»
 
 Здравствуйте, {USERNAME}!
 
