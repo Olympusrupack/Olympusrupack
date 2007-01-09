@@ -40,7 +40,7 @@ $lang = array_merge($lang, array(
 	'FOUND_SEARCH_MATCHES'		=> 'Результатов поиска: %d',
 	'FOUND_MORE_SEARCH_MATCHES'	=> 'Результатов поиска более %d',
 
-	'GLOBAL'				=> 'Общее объявление',
+	'GLOBAL'				=> 'Важная',
 
 	'IGNORED_TERMS'			=> 'проигнорированы',
 	'IGNORED_TERMS_EXPLAIN'	=> 'Следующие слова в поисковом запросе были проигнорированы: <strong>%s</strong>',
