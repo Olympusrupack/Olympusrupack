@@ -64,6 +64,7 @@ $lang = array_merge($lang, array(
 	'DELETE_REPORT_CONFIRM'		=> 'Вы уверены, что хотите удалить выбранную жалобу?',
 	'DELETE_REPORTS'			=> 'Удалить жалобы',
 	'DELETE_REPORTS_CONFIRM'	=> 'Вы уверены, что хотите удалить выбранные жалобы?',
+	'DELETE_SHADOW_TOPIC'		=> 'Удалить ссылку в старом форуме',
 	'DELETE_TOPICS'				=> 'Удалить выбранные темы',
 	'DELETE_TOPICS_CONFIRM'		=> 'Вы уверены, что хотите удалить эти темы?',
 	'DELETE_TOPIC_CONFIRM'		=> 'Вы уверены, что хотите удалить эту тему?',
@@ -95,6 +96,7 @@ $lang = array_merge($lang, array(
 	'GLOBAL_ANNOUNCEMENT'	=> 'Важная',
 
 	'IP_INFO'				=> 'Информация об IP-адресе',
+	'IPS_POSTED_FROM'		=> 'IP-адреса, с которых пользователь отправлял сообщения',
 
 	'LATEST_LOGS'				=> 'Последние 5 действий',
 	'LATEST_REPORTED'			=> 'Последние 5 жалоб',
@@ -208,10 +210,10 @@ $lang = array_merge($lang, array(
 	'NO_POST_REPORT'				=> 'Жалоба на это сообщение не направлялась.',
 	'NO_POST_SELECTED'				=> 'Вы должны выбрать хотя бы одно сообщение для того, чтобы произвести это действие',
 	'NO_REASON_DISAPPROVAL'			=> 'Пожалуйста, укажите подходящую причину отклонения',
+	'NO_REPORTS'					=> 'Нет жалоб',
 	'NO_TOPIC_ICON'					=> 'Нет',
 	'NO_TOPIC_SELECTED'				=> 'Вы должны выбрать хотя бы одну тему для того, чтобы произвести это действие',
 
-	'OTHER_IPS'				=> 'Другие IP-адреса, с которых этот пользователь отправлял сообщения',
 	'ONLY_TOPIC'			=> 'Только тема «%s»',
 	'OTHER_USERS'			=> 'Пользователи, отправлявшие сообщения с этого IP-адреса',
 
@@ -261,9 +263,12 @@ $lang = array_merge($lang, array(
 	'RETURN_POST'				=> '%sВернуться к сообщению%s',
 	'RETURN_QUEUE'				=> '%sВернуться к очереди%s',
 	'RETURN_REPORTS'			=> '%sВернуться к жалобам%s',
+	'RETURN_TOPIC_SIMPLE'		=> '%sReturn to the topic%s',
 
 	'SEARCH_POSTS_BY_USER'		=> 'Поиск сообщений по',
 	'SELECT_ACTION'				=> 'Выбрать желаемое действие',
+	'SELECT_FORUM_GLOBAL_ANNOUNCEMENT'	=> 'Пожалуйста, выберите форум, в котором будет отображаться эта важная тема.',
+	'SELECT_FORUM_GLOBAL_ANNOUNCEMENTS'	=> 'Одна или более из выбранных тем являются важными. Пожалуйста, выберите форум, в котором они будут отображаться.',
 	'SELECT_TOPICS_FROM'		=> 'Выбрать темы из',
 	'SELECT_TOPIC'				=> 'Выбрать тему',
 	'SELECT_USER'				=> 'Выбрать пользователя',
@@ -289,6 +294,7 @@ $lang = array_merge($lang, array(
 	'TOPICS_LOCKED_SUCCESS'		=> 'Выбранные темы были закрыты',
 	'TOPICS_MOVED_SUCCESS'		=> 'Выбранные темы были успешно перемещены',
 	'TOPICS_RESYNC_SUCCESS'		=> 'Выбранные темы были синхронизированы',
+	'TOPICS_TYPE_CHANGED'		=> 'Типы тем успешно изменены.',
 	'TOPICS_UNLOCKED_SUCCESS'	=> 'Выбранные темы были открыты',
 	'TOPIC_APPROVED_SUCCESS'	=> 'Выбранная тема была одобрена',
 	'TOPIC_DELETED_SUCCESS'		=> 'Выбранная тема была успешно удалена из базы данных',
