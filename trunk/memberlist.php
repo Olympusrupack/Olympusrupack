@@ -92,7 +92,6 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Для просмотра профилей вы должны быть авторизованы.',
 
 	'MORE_THAN'				=> 'больше',
-	'MSNM'					=> 'MSNM',
 
 	'NO_EMAIL'				=> 'Вам не разрешено посылать email этому пользователю.',
 	'NO_VIEW_USERS'			=> 'У вас нет доступа к списку пользователей.',
