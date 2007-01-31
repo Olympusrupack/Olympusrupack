@@ -4,7 +4,7 @@
 * acp_bots [English]
 *
 * @package language
-* @version $Id: bots.php,v 1.6 2006/10/02 15:10:29 acydburn Exp $
+* @version $Id: bots.php,v 1.8 2007/01/21 18:33:45 acydburn Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -18,7 +18,9 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-// DEVELOPERS PLEASE NOTE 
+// DEVELOPERS PLEASE NOTE
+//
+// All language files should use UTF-8 as their encoding and the files must not contain a BOM.
 //
 // Placeholders can now contain order information, e.g. instead of
 // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
@@ -46,7 +48,7 @@ $lang = array_merge($lang, array(
 	'BOT_LANG_EXPLAIN'	=> 'The language presented to the bot as it browses.',
 	'BOT_LAST_VISIT'	=> 'Last visit',
 	'BOT_IP'			=> 'Bot IP address',
-	'BOT_IP_EXPLAIN'	=> 'Partial matches are allowed, seperate addresses with a comma.',
+	'BOT_IP_EXPLAIN'	=> 'Partial matches are allowed, separate addresses with a comma.',
 	'BOT_NAME'			=> 'Bot name',
 	'BOT_NAME_EXPLAIN'	=> 'Used only for your own information.',
 	'BOT_NEVER'			=> 'Never',
