@@ -4,7 +4,7 @@
 * search [Russian]
 *
 * @package language
-* @version $Id: search.php,v 1.15 2006/10/08 11:25:20 acydburn Exp $
+* @version $Id: search.php,v 1.19 2007/01/21 18:33:45 acydburn Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -45,13 +45,15 @@ $lang = array_merge($lang, array(
 	'IGNORED_TERMS'			=> 'проигнорированы',
 	'IGNORED_TERMS_EXPLAIN'	=> 'Следующие слова в поисковом запросе были проигнорированы: <strong>%s</strong>',
 
+	'JUMP_TO_POST'			=> 'Перейти к сообщению',
+
 	'NO_KEYWORDS'			=> 'Для поиска вы должны ввести, как минимум, одно слово. Длина каждого слова должна быть не менее %d и не более %d символов, исключая символ шаблона *.',
 	'NO_RECENT_SEARCHES'	=> 'За последнее время поисковых запросов не было.',
 	'NO_SEARCH'				=> 'Извините, но вам запрещено пользоваться поиском.',
 	'NO_SEARCH_RESULTS'		=> 'Подходящих тем или сообщений не найдено.',
 	'NO_SEARCH_TIME'		=> 'Вы не можете произвести поиск сразу после предыдущего. Пожалуйста, попробуйте чуть позже.',
-	'WORD_IN_NO_POST'		=> 'Подходящих сообщений не найдено, поскольку слово %s нигде не встречается.',
-	'WORDS_IN_NO_POST'		=> 'Подходящих сообщений не найдено, поскольку слова %s нигде не встречаются.',
+	'WORD_IN_NO_POST'		=> 'Подходящих сообщений не найдено, поскольку слово <strong>%s</strong> нигде не встречается.',
+	'WORDS_IN_NO_POST'		=> 'Подходящих сообщений не найдено, поскольку слова <strong>%s</strong> нигде не встречаются.',
 
 	'POST_CHARACTERS'		=> 'символов сообщений',
 
