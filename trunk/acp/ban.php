@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* acp_ban [English]
+* acp_ban [Russian]
 *
 * @package language
 * @version $Id: ban.php,v 1.10 2006/12/22 22:51:12 shs Exp $
@@ -32,42 +32,42 @@ if (empty($lang) || !is_array($lang))
 
 // Banning
 $lang = array_merge($lang, array(
-	'1_HOUR'		=> '1 hour',
-	'30_MINS'		=> '30 minutes',
-	'6_HOURS'		=> '6 hours',
+	'1_HOUR'		=> '1 час',
+	'30_MINS'		=> '30 минут',
+	'6_HOURS'		=> '6 часов',
 
-	'ACP_BAN_EXPLAIN'	=> 'Here you can control the banning of users by name, IP or email address. These methods prevent a user reaching any part of the board. You can give a short (255 character) reason for the ban if you wish. This will be displayed in the admin log. The length of a ban can also be specified. If you want the ban to end on a specific date rather than after a set time period select <u>Until</u> for the ban length and enter a date in yyyy-mm-dd format.',
+	'ACP_BAN_EXPLAIN'	=> 'Здесь вы можете закрывать пользователям доступ к конференции по имени, email или IP-адресу. Эти методы не позволят пользователю попасть ни в один из разделов конференции. При желании вы можете оставить краткую (максимум 255 знаков) причину отключения, которая будет отображаться в логе администратора. Также можно указать продолжительность закрытия доступа. Если вы хотите, чтобы блокировка закончилась в определенный день, а не через установленный период времени, выберите <u>До даты</u> в качестве продолжительности отключения и введите дату в формате ГГГГ-ММ-ДД.',
 
-	'BAN_EXCLUDE'			=> 'Exclude from banning',
-	'BAN_LENGTH'			=> 'Length of ban',
-	'BAN_REASON'			=> 'Reason for ban',
-	'BAN_GIVE_REASON'		=> 'Reason shown to the banned',
-	'BAN_UPDATE_SUCCESSFUL'	=> 'The banlist has been updated successfully.',
+	'BAN_EXCLUDE'			=> 'Добавить в белый список',
+	'BAN_LENGTH'			=> 'Продолжительность отключения',
+	'BAN_REASON'			=> 'Причина закрытия доступа',
+	'BAN_GIVE_REASON'		=> 'Причина, показываемая пользователю',
+	'BAN_UPDATE_SUCCESSFUL'	=> 'Чёрный список был успешно обновлён.',
 
-	'EMAIL_BAN'					=> 'Ban one or more email addresses',
-	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Enable this to exclude the entered email address from all current bans.',
-	'EMAIL_BAN_EXPLAIN'			=> 'To specify more than one email address enter each on a new line. To match partial addresses use * as the wildcard, e.g. <samp>*@hotmail.com</samp>, <samp>*@*.domain.tld</samp>, etc.',
-	'EMAIL_NO_BANNED'			=> 'No banned email addresses',
-	'EMAIL_UNBAN'				=> 'Un-ban or un-exclude emails',
-	'EMAIL_UNBAN_EXPLAIN'		=> 'You can unban (or un-exclude) multiple email addresses in one go using the appropriate combination of mouse and keyboard for your computer and browser. Excluded email addresses have a marked background.',
+	'EMAIL_BAN'					=> 'Запретить один или несколько адресов email',
+	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Исключить введённые адреса email из чёрного списка.',
+	'EMAIL_BAN_EXPLAIN'			=> 'Чтобы указать несколько разных адресов, вводите каждый из них с новой строки. Чтобы указать шаблон, используйте *, например, <samp>*@mail.ru</samp>, <samp>*@*.domain.tld</samp>, и т. д.',
+	'EMAIL_NO_BANNED'			=> 'Чёрный список адресов email пуст',
+	'EMAIL_UNBAN'				=> 'Вновь разрешить адреса email или удалить адреса из белого списка',
+	'EMAIL_UNBAN_EXPLAIN'		=> 'Вы можете вновь разрешить несколько адресов email (или удалить их из белого списка) за один раз, используя подходящую для вашего компьютера и браузера комбинацию клавиатуры и мыши. Адреса email из белого списка выделены особо.',
 
-	'IP_BAN'					=> 'Ban one or more IPs',
-	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'Enable this to exclude the entered IP from all current bans.',
-	'IP_BAN_EXPLAIN'			=> 'To specify several different IPs or hostnames enter each on a new line. To specify a range of IP addresses separate the start and end with a hyphen (-), to specify a wildcard use *',
-	'IP_HOSTNAME'				=> 'IP addresses or hostnames',
-	'IP_NO_BANNED'				=> 'No banned IP addresses',
-	'IP_UNBAN'					=> 'Un-ban or un-exclude IPs',
-	'IP_UNBAN_EXPLAIN'			=> 'You can unban (or un-exclude) multiple IP addresses in one go using the appropriate combination of mouse and keyboard for your computer and browser. Excluded IPs have a marked background.',
+	'IP_BAN'					=> 'Закрыть доступ с одного или нескольких IP-адресов',
+	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'Исключить введённые IP-адреса из чёрного списка.',
+	'IP_BAN_EXPLAIN'			=> 'Чтобы указать несколько разных адресов или хостов, вводите каждый из них с новой строки. Чтобы указать диапазон IP-адресов, разделите его начало и конец дефисом (-), чтобы указать шаблон, используйте *',
+	'IP_HOSTNAME'				=> 'IP-адреса или хосты',
+	'IP_NO_BANNED'				=> 'Чёрный список IP-адресов пуст',
+	'IP_UNBAN'					=> 'Вновь открыть доступ с адресов IP или удалить адреса из белого списка',
+	'IP_UNBAN_EXPLAIN'			=> 'Вы можете вновь разрешить доступ с нескольких адресов IP (или удалить их из белого списка) за один раз, используя подходящую для вашего компьютера и браузера комбинацию клавиатуры и мыши. IP-адреса из белого списка выделены особо.',
 
-	'PERMANENT'		=> 'Permanent',
+	'PERMANENT'		=> 'Бессрочно',
 	
-	'UNTIL'						=> 'Until',
-	'USER_BAN'					=> 'Ban one or more usernames',
-	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Enable this to exclude the entered users from all current bans.',
-	'USER_BAN_EXPLAIN'			=> 'You can ban multiple users in one go by entering each name on a new line. Use the <u>Find a member</u> facility to look up and add one or more users automatically.',
-	'USER_NO_BANNED'			=> 'No banned usernames',
-	'USER_UNBAN'				=> 'Un-ban or un-exclude usernames',
-	'USER_UNBAN_EXPLAIN'		=> 'You can unban (or un-exclude) multiple users in one go using the appropriate combination of mouse and keyboard for your computer and browser. Excluded users have a marked background.',
+	'UNTIL'						=> 'До даты',
+	'USER_BAN'					=> 'Закрыть доступ одному или нескольким пользователям',
+	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Исключить введённых пользователей из чёрного списка.',
+	'USER_BAN_EXPLAIN'			=> 'Вы можете закрыть доступ нескольким пользователям за один раз, введя каждое из их имен с новой строки. Используйте возможность <u>Найти пользователя</u> для автоматического поиска и добавления одного или нескольких имён пользователей.',
+	'USER_NO_BANNED'			=> 'Чёрный список пользователей пуст',
+	'USER_UNBAN'				=> 'Вновь открыть доступ пользователям или удалить пользователей из белого списка',
+	'USER_UNBAN_EXPLAIN'		=> 'Вы можете вновь открыть доступ нескольким пользователям (или удалить их из белого списка) за один раз, используя подходящую для вашего компьютера и браузера комбинацию клавиатуры и мыши. Пользователи из белого списка выделены особо.',
 ));
 
 ?>
