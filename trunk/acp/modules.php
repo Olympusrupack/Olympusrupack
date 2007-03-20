@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* acp_modules [English]
+* acp_modules [Russian]
 *
 * @package language
 * @version $Id: modules.php,v 1.11 2007/01/26 16:09:16 acydburn Exp $
@@ -31,49 +31,49 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Here you are able to manage all kind of modules. Please note that the ACP has a three-level menu structure (Category -> Category -> Module) whereby the others having a two-level menu structure (Category -> Module) which must be kept. Please also be aware that you may lock out yourself if you disable or delete the modules responsible for the module management itself.',
-	'ADD_MODULE'					=> 'Add module',
-	'ADD_MODULE_CONFIRM'			=> 'Are you sure you want to add the selected module with the selected mode?',
-	'ADD_MODULE_TITLE'				=> 'Add module',
+	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Здесь вы можете управлять всеми типами модулей. Пожалуйста, отметьте, что Административный раздел имеет трехуровневую структуру меню (Категория-> Категория-> Модуль), в результате чего другие подразделы имеют двухуровневую структуру меню (Категория-> Модуль), которая должна быть сохранена. Пожалуйста, также учтите, что вы может заблокировать доступ самому себе, если вы дезактивируетет или удалите модули, ответственные непосредственно за модуль управления модулями.',
+	'ADD_MODULE'					=> 'Добавить модуль',
+	'ADD_MODULE_CONFIRM'			=> 'Вы уверены, что хотите добавить выбранный модуль с выбранным способом использования?',
+	'ADD_MODULE_TITLE'				=> 'Добавление модуля',
 
-	'CANNOT_REMOVE_MODULE'	=> 'Unable to remove module, it has assigned children. Please remove or move all children before performing this action.',
-	'CATEGORY'				=> 'Category',
-	'CHOOSE_MODE'			=> 'Choose module mode',
-	'CHOOSE_MODE_EXPLAIN'	=> 'Choose the modules mode being used.',
-	'CHOOSE_MODULE'			=> 'Choose module',
-	'CHOOSE_MODULE_EXPLAIN'	=> 'Choose the file being called by this module.',
-	'CREATE_MODULE'			=> 'Create new module',
+	'CANNOT_REMOVE_MODULE'	=> 'Невозможно удалить модуль, имеющий дочерние модули. Пожалуйста, удалите или переместите все дочерние модули перед выполнением этого действия.',
+	'CATEGORY'				=> 'Категория',
+	'CHOOSE_MODE'			=> 'Выбор метода использования', // способ? направление?
+	'CHOOSE_MODE_EXPLAIN'	=> 'Выберите метод использования модулей.',
+	'CHOOSE_MODULE'			=> 'Выбор модуля',
+	'CHOOSE_MODULE_EXPLAIN'	=> 'Выберите файл, вызываемый данным модулем.',
+	'CREATE_MODULE'			=> 'Создать новый модуль',
 
-	'DEACTIVATED_MODULE'	=> 'Deactivated module',
-	'DELETE_MODULE'			=> 'Delete module',
-	'DELETE_MODULE_CONFIRM'	=> 'Are you sure you want to remove this module?',
+	'DEACTIVATED_MODULE'	=> 'Дезактивировать модуль',
+	'DELETE_MODULE'			=> 'Удалить модуль',
+	'DELETE_MODULE_CONFIRM'	=> 'Вы уверены, что хотите удалить этот модуль?',
 
-	'EDIT_MODULE'			=> 'Edit module',
-	'EDIT_MODULE_EXPLAIN'	=> 'Here you are able to enter module specific settings',
+	'EDIT_MODULE'			=> 'Редактирование модуля',
+	'EDIT_MODULE_EXPLAIN'	=> 'Здесь вы можете ввести установки модуля',
 
-	'HIDDEN_MODULE'			=> 'Hidden module',
+	'HIDDEN_MODULE'			=> 'Спрятать модуль',
 
-	'MODULE'					=> 'Module',
-	'MODULE_ADDED'				=> 'Module successfully added.',
-	'MODULE_DELETED'			=> 'Module successfully removed.',
-	'MODULE_DISPLAYED'			=> 'Module displayed',
-	'MODULE_DISPLAYED_EXPLAIN'	=> 'If you do not wish to display this module, but want to use it, set this to no.',
-	'MODULE_EDITED'				=> 'Module successfully edited.',
-	'MODULE_ENABLED'			=> 'Module enabled',
-	'MODULE_LANGNAME'			=> 'Module language name',
-	'MODULE_LANGNAME_EXPLAIN'	=> 'Enter the displayed module name. Use language constant if name is served from language file.',
-	'MODULE_TYPE'				=> 'Module type',
+	'MODULE'					=> 'Модуль',
+	'MODULE_ADDED'				=> 'Модуль успешно добавлен.',
+	'MODULE_DELETED'			=> 'Модуль успешно удален.',
+	'MODULE_DISPLAYED'			=> 'Отражение модуля',
+	'MODULE_DISPLAYED_EXPLAIN'	=> 'Если вы не хотите, чтобы модуль отражался в списке, но хотите его использовать, установите переключатель в положение "нет".',
+	'MODULE_EDITED'				=> 'Модуль успешно отредактирован.',
+	'MODULE_ENABLED'			=> 'Модуль доступен',
+	'MODULE_LANGNAME'			=> 'Имя модуля',
+	'MODULE_LANGNAME_EXPLAIN'	=> 'Введите отражаемое имя модуля. Используйте имя переменной, если имя модуля объявлено в языковом файле.',
+	'MODULE_TYPE'				=> 'Тип модуля',
 
-	'NO_CATEGORY_TO_MODULE'	=> 'Unable to turn category into module. Please remove/move all children before performing this action.',
-	'NO_MODULE'				=> 'No module found.',
-	'NO_MODULE_ID'			=> 'No module id specified.',
-	'NO_MODULE_LANGNAME'	=> 'No module language name specified.',
-	'NO_PARENT'				=> 'No Parent',
+	'NO_CATEGORY_TO_MODULE'	=> 'Невозможно объявить категорию модулем. Пожалуйста, удалите/переместите все дочерние модули перед выполнением этого действия.',
+	'NO_MODULE'				=> 'Модулей не найдено.',
+	'NO_MODULE_ID'			=> 'Не определен ID модуля.',
+	'NO_MODULE_LANGNAME'	=> 'Не определено имя модуля.',
+	'NO_PARENT'				=> 'Нет родителя',
 
-	'PARENT'				=> 'Parent',
-	'PARENT_NO_EXIST'		=> 'Parent does not exist.',
+	'PARENT'				=> 'Родитель',
+	'PARENT_NO_EXIST'		=> 'Родитель не существует.',
 
-	'SELECT_MODULE'			=> 'Select a module',
+	'SELECT_MODULE'			=> 'Выберите модуль',
 ));
 
 ?>
