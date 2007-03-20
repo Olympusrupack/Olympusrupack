@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* acp_database [English]
+* acp_database [Russian]
 *
 * @package language
 * @version $Id: database.php,v 1.13 2006/12/02 13:19:24 acydburn Exp $
@@ -32,36 +32,36 @@ if (empty($lang) || !is_array($lang))
 
 // Database Backup/Restore
 $lang = array_merge($lang, array(
-	'ACP_BACKUP_EXPLAIN'	=> 'Here you can backup all your phpBB related data. You may store the resulting archive in your <samp>store/</samp> folder or download it directly. Depending on your server configuration you be able to compress the file in a number of formats.',
-	'ACP_RESTORE_EXPLAIN'	=> 'This will perform a full restore of all phpBB tables from a saved file. If your server supports it you may use a gzip or bzip2 compressed text file and it will automatically be decompressed. <strong>WARNING</strong> This will overwrite any existing data. The restore may take a long time to process please do not move from this page till it is complete.',
+	'ACP_BACKUP_EXPLAIN'	=> 'Здесь вы можете создать резервную копию всех данных конференции. Вы можете сохранть результирующий архив в папке <samp>store/</samp> или скачать его. В зависимости от конфигурации сервера может быть доступно сжатие файла резервной копии в нескольких форматах.',
+	'ACP_RESTORE_EXPLAIN'	=> 'Будет произведено полное восстановление всех таблиц phpBB из сохранённого файла. Если сервер поддерживает такую возможность, вы можете использовать сжатые файлы gzip или bzip2, которые будут автоматически разархивированы. <strong>ВНИМАНИЕ</strong> Все существующие данные будут уничтожены. Восстановление может занять длительное время, поэтому не удаляйте эту страницу до его полного завершения.',
 
-	'BACKUP_DELETE'		=> 'The backup file has been deleted successfully.',
-	'BACKUP_INVALID'	=> 'The selected file to backup is invalid.',
-	'BACKUP_OPTIONS'	=> 'Backup options',
-	'BACKUP_SUCCESS'	=> 'The backup file has been created successfully.',
-	'BACKUP_TYPE'		=> 'Backup type',
+	'BACKUP_DELETE'		=> 'Файл резервной копии был успешно удалён.',
+	'BACKUP_INVALID'	=> 'Выбран неверный файл резервной копии.',
+	'BACKUP_OPTIONS'	=> 'Настройки резервного копирования',
+	'BACKUP_SUCCESS'	=> 'Файл резервной копии успешно создан.',
+	'BACKUP_TYPE'		=> 'Вид резервного копирования',
 
-	'DATABASE'			=> 'Database utilities',
-	'DATA_ONLY'			=> 'Data only',
-	'DELETE_BACKUP'		=> 'Delete backup',
-	'DESELECT_ALL'		=> 'Deselect all',
-	'DOWNLOAD_BACKUP'	=> 'Download backup',
+	'DATABASE'			=> 'Управление БД',
+	'DATA_ONLY'			=> 'Только данные',
+	'DELETE_BACKUP'		=> 'Удалить резервную копию',
+	'DESELECT_ALL'		=> 'Снять выделение',
+	'DOWNLOAD_BACKUP'	=> 'Скачать резервную копию',
 
-	'FILE_TYPE'			=> 'File type',
-	'FULL_BACKUP'		=> 'Full',
+	'FILE_TYPE'			=> 'Тип файла',
+	'FULL_BACKUP'		=> 'Полное',
 
-	'RESTORE_OPTIONS'		=> 'Restore options',
-	'RESTORE_SUCCESS'		=> 'The database has been successfully restored.<br /><br />Your board should be back to the state it was when the backup was made.',
+	'RESTORE_OPTIONS'		=> 'Настройки восстановления',
+	'RESTORE_SUCCESS'		=> 'База данных была успешно восстановлена.<br /><br />Конференция восстановлена по состоянию на момент создания резервной копии.',
 
-	'SELECT_ALL'			=> 'Select all',
-	'SELECT_FILE'			=> 'Select a file',
-	'START_BACKUP'			=> 'Start backup',
-	'START_RESTORE'			=> 'Start restore',
-	'STORE_AND_DOWNLOAD'	=> 'Store and download',
-	'STORE_LOCAL'			=> 'Store file locally',
-	'STRUCTURE_ONLY'		=> 'Structure only',
+	'SELECT_ALL'			=> 'Выбрать всё',
+	'SELECT_FILE'			=> 'Выбрать файл',
+	'START_BACKUP'			=> 'Начать резервное копирование',
+	'START_RESTORE'			=> 'Начать восстановление',
+	'STORE_AND_DOWNLOAD'	=> 'Сохранить и скачать',
+	'STORE_LOCAL'			=> 'Сохранить локально',
+	'STRUCTURE_ONLY'		=> 'Только структура',
 
-	'TABLE_SELECT'		=> 'Table select',
+	'TABLE_SELECT'		=> 'Выбрать таблицы',
 ));
 
 ?>

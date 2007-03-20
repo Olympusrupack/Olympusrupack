@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* acp_email [English]
+* acp_email [Russian]
 *
 * @package language
 * @version $Id: email.php,v 1.11 2007/01/26 16:09:16 acydburn Exp $
@@ -32,31 +32,31 @@ if (empty($lang) || !is_array($lang))
 
 // Email settings
 $lang = array_merge($lang, array(
-	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Here you can email a message to either all of your users or all users of a specific group. To do this, an email will be sent out to the administrative email address supplied, with a blind carbon copy sent to all recipients. If you are emailing a large group of people please be patient after submitting and do not stop the page halfway through. It is normal for a mass emailing to take a long time, you will be notified when the script has completed',
-	'ALL_USERS'						=> 'All users',
+	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Здесь вы можете отправить email-сообщения всем пользователям или членам определённой группы.Для этого email-сообщение будет отправлено с email-адреса администратора конференции, with a blind carbon copy sent to all recipients. Если вы отправляете сообщения большой группе людей, пожалуйста, потерпите и не останавливайте процесс отправки до его полного завершения. Длительное время отправки является нормальным при массовой рассылке, вы будете уведомлены о завершении операции',
+	'ALL_USERS'						=> 'Все пользователи',
 
-	'COMPOSE'				=> 'Compose',
+	'COMPOSE'				=> 'Создать',
 
-	'EMAIL_SEND_ERROR'		=> 'There were one or more errors while sending the email. Please check the %sError log%s for detailed error messages.',
-	'EMAIL_SENT'			=> 'This message has been sent.',
-	'EMAIL_SENT_QUEUE'		=> 'This message has been queued for sending.',
+	'EMAIL_SEND_ERROR'		=> 'При отправке сообщения произошла одна или несколько ошибок. Пожалуйста, проверьте %sЖурнал ошибок%s для получения более полной информации.',
+	'EMAIL_SENT'			=> 'Сообщение было отправлено.',
+	'EMAIL_SENT_QUEUE'		=> 'Это сообщение поставлено в очередь для отправки.',
 
-	'LOG_SESSION'			=> 'Log mail session to critical log',
+	'LOG_SESSION'			=> 'Вести журнал критических ошибок сеанса сассылки',
 
-	'SEND_IMMEDIATELY'		=> 'Send immediately',
-	'SEND_TO_GROUP'			=> 'Send to group',
-	'SEND_TO_USERS'			=> 'Send to users',
-	'SEND_TO_USERS_EXPLAIN'	=> 'Entering names here will override any group selected above. Enter each username on a new line.',
+	'SEND_IMMEDIATELY'		=> 'Отправить немедленно',
+	'SEND_TO_GROUP'			=> 'Отправить группе',
+	'SEND_TO_USERS'			=> 'Отправить пользователям',
+	'SEND_TO_USERS_EXPLAIN'	=> 'Сообщение будет отправлено по указанным адресам вместо указанной выше группы. Вводите каждое имя пользователя с новой строки.',
 	
-	'MAIL_HIGH_PRIORITY'	=> 'High',
-	'MAIL_LOW_PRIORITY'		=> 'Low',
-	'MAIL_NORMAL_PRIORITY'	=> 'Normal',
-	'MAIL_PRIORITY'			=> 'Mail priority',
-	'MASS_MESSAGE'			=> 'Your message',
-	'MASS_MESSAGE_EXPLAIN'	=> 'Please note that you may enter only plain text. All markup will be removed before sending.',
+	'MAIL_HIGH_PRIORITY'	=> 'Высокий',
+	'MAIL_LOW_PRIORITY'		=> 'Низкий',
+	'MAIL_NORMAL_PRIORITY'	=> 'Обычный',
+	'MAIL_PRIORITY'			=> 'Приоритет расылки',
+	'MASS_MESSAGE'			=> 'Ваше сообщение',
+	'MASS_MESSAGE_EXPLAIN'	=> 'Пожалуйста, учтите, что вы можете использовать только обычный текст. Любая разметка будет удалена перед отправкой.',
 	
-	'NO_EMAIL_MESSAGE'		=> 'You must enter a message.',
-	'NO_EMAIL_SUBJECT'		=> 'You must specify a subject for your message.',
+	'NO_EMAIL_MESSAGE'		=> 'Вы должны ввести текст сообщения.',
+	'NO_EMAIL_SUBJECT'		=> 'Вы должны указать тему сообщения.',
 ));
 
 ?>
