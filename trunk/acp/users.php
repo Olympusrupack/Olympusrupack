@@ -77,7 +77,7 @@ $lang = array_merge($lang, array(
 
    'REGISTERED'         => 'Зарегистрирован',
    'REGISTERED_IP'         => 'Зарегистрирован с IP-адреса',
-   'RETAIN_POSTS'         => 'Задержанные сообщения',
+   'RETAIN_POSTS'         => 'Отложить сообщения',
 
    'SELECT_FORM'         => 'Выбрать форму',
    'SELECT_USER'         => 'Выбрать пользователя',
