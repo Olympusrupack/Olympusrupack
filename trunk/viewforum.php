@@ -4,7 +4,7 @@
 * viewforum [Russian]
 *
 * @package language
-* @version $Id: viewforum.php,v 1.14 2006/11/19 20:08:15 acydburn Exp $
+* @version $Id: viewforum.php,v 1.15 2006/12/01 16:12:15 shs Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *

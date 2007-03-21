@@ -4,7 +4,7 @@
 * groups [Russian]
 *
 * @package language
-* @version $Id: groups.php,v 1.15 2006/10/30 16:19:32 acydburn Exp $
+* @version $Id: groups.php,v 1.16 2006/12/22 22:51:33 shs Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 	'GROUP_DESC'						=> 'Описание группы',
 	'GROUP_HIDDEN'						=> 'Скрытая группа',
 	'GROUP_INFORMATION'					=> 'Информация о группе', 
-	'GROUP_IS_CLOSED'					=> 'Это закрытая группа, автоматическое добавление пользователей не разрешается.',
+	'GROUP_IS_CLOSED'					=> 'Это закрытая группа, автоматическое добавление пользователей не разрешается, для вступления необходимо приглашение от лидера группы.',
 	'GROUP_IS_FREE'						=> 'Это общедоступная группа, любой пользователь может вступить в неё.', 
 	'GROUP_IS_HIDDEN'					=> 'Это скрытая группа, только члены этой группы могут просматривать список входящих в нее пользователей.',
 	'GROUP_IS_OPEN'						=> 'Это открытая группа, любой пользователь может подать просьбу о вступлении.',

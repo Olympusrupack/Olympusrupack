@@ -4,7 +4,7 @@
 * common [Russian]
 *
 * @package language
-* @version $Id: common.php,v 1.129 2006/11/24 14:59:13 acydburn Exp $
+* @version $Id: common.php,v 1.143 2007/01/27 17:21:20 shs Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -175,7 +175,7 @@ $lang = array_merge($lang, array(
 	'FORUM_RULES'			=> 'Правила форума',
 	'FORUM_RULES_LINK'		=> 'Посмотреть правила форума',
 	'FROM'					=> 'из',
-	'FSOCK_DISABLED'		=> 'Невозможно завершить операцию, поскольку функции fsock были отключены или сервер не найден.',
+	'FSOCK_DISABLED'		=> 'Невозможно завершить операцию, поскольку функции fsock были отключены или запрашиваемый сервер не найден.',
 
 	'FTP_FSOCK_HOST'				=> 'FTP-сервер',
 	'FTP_FSOCK_HOST_EXPLAIN'		=> 'FTP-сервер для соединения с вашим сайтом',
@@ -370,7 +370,7 @@ $lang = array_merge($lang, array(
 	'PLAY_QUICKTIME_FILE'	=> 'Воспроизвести файл QuickTime',
 	'PM'					=> 'Личное сообщение',
 	'POSTING_MESSAGE'		=> 'Размещение сообщения в форуме %s',
-	'POSTING_PRIVATE_MESSAGE'	=> 'Размещение личного сообщения',
+	'POSTING_PRIVATE_MESSAGE'	=> 'Составление личного сообщения',
 	'POST'					=> 'Сообщение',
 	'POST_ANNOUNCEMENT'		=> 'Объявление',
 	'POST_STICKY'			=> 'Прикрепленная',

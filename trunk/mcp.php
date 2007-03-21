@@ -4,7 +4,7 @@
 * mcp [Russian]
 *
 * @package language
-* @version $Id: mcp.php,v 1.56 2006/10/08 11:25:20 acydburn Exp $
+* @version $Id: mcp.php,v 1.63 2007/01/22 17:05:12 acydburn Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -263,28 +263,28 @@ $lang = array_merge($lang, array(
 	'RETURN_POST'				=> '%sВернуться к сообщению%s',
 	'RETURN_QUEUE'				=> '%sВернуться к очереди%s',
 	'RETURN_REPORTS'			=> '%sВернуться к жалобам%s',
-	'RETURN_TOPIC_SIMPLE'		=> '%sReturn to the topic%s',
+	'RETURN_TOPIC_SIMPLE'		=> '%sВернуться к теме%s',
 
-	'SEARCH_POSTS_BY_USER'		=> 'Поиск сообщений по',
-	'SELECT_ACTION'				=> 'Выбрать желаемое действие',
+	'SEARCH_POSTS_BY_USER'				=> 'Поиск сообщений по',
+	'SELECT_ACTION'						=> 'Выбрать желаемое действие',
 	'SELECT_FORUM_GLOBAL_ANNOUNCEMENT'	=> 'Пожалуйста, выберите форум, в котором будет отображаться эта важная тема.',
 	'SELECT_FORUM_GLOBAL_ANNOUNCEMENTS'	=> 'Одна или более из выбранных тем являются важными. Пожалуйста, выберите форум, в котором они будут отображаться.',
-	'SELECT_TOPICS_FROM'		=> 'Выбрать темы из',
-	'SELECT_TOPIC'				=> 'Выбрать тему',
-	'SELECT_USER'				=> 'Выбрать пользователя',
-	'SORT_ACTION'				=> 'Лог действий',
-	'SORT_DATE'					=> 'Дата',
-	'SORT_IP'					=> 'IP-адрес',
-	'SORT_WARNINGS'				=> 'Предупреждения',
-	'SPLIT_AFTER'				=> 'Отделить сообщения после выбранного',
-	'SPLIT_FORUM'				=> 'Форум для новой темы',
-	'SPLIT_POSTS'				=> 'Отделить выбранные сообщения',
-	'SPLIT_SUBJECT'				=> 'Заголовок новой темы',
-	'SPLIT_TOPIC_ALL'			=> 'Отделить тему после выбранных сообщений',
-	'SPLIT_TOPIC_ALL_CONFIRM'	=> 'Вы уверены, что хотите разделить эту тему?',
-	'SPLIT_TOPIC_BEYOND'		=> 'Разделить тему до выбранного сообщения',
-	'SPLIT_TOPIC_BEYOND_CONFIRM'=> 'Вы уверены, что хотите разделить эту тему до выбранного сообщения?',
-	'SPLIT_TOPIC_EXPLAIN'		=> 'Используя нижеприведенную форму, вы можете разделить тему на две, или путем выбора отдельных сообщений, или путем отделения после выбранного сообщения',
+	'SELECT_TOPICS_FROM'				=> 'Выбрать темы из',
+	'SELECT_TOPIC'						=> 'Выбрать тему',
+	'SELECT_USER'						=> 'Выбрать пользователя',
+	'SORT_ACTION'						=> 'Лог действий',
+	'SORT_DATE'							=> 'Дата',
+	'SORT_IP'							=> 'IP-адрес',
+	'SORT_WARNINGS'						=> 'Предупреждения',
+	'SPLIT_AFTER'						=> 'Отделить сообщения после выбранного',
+	'SPLIT_FORUM'						=> 'Форум для новой темы',
+	'SPLIT_POSTS'						=> 'Отделить выбранные сообщения',
+	'SPLIT_SUBJECT'						=> 'Заголовок новой темы',
+	'SPLIT_TOPIC_ALL'					=> 'Отделить тему после выбранных сообщений',
+	'SPLIT_TOPIC_ALL_CONFIRM'			=> 'Вы уверены, что хотите разделить эту тему?',
+	'SPLIT_TOPIC_BEYOND'				=> 'Разделить тему до выбранного сообщения',
+	'SPLIT_TOPIC_BEYOND_CONFIRM'		=> 'Вы уверены, что хотите разделить эту тему до выбранного сообщения?',
+	'SPLIT_TOPIC_EXPLAIN'				=> 'Используя нижеприведенную форму, вы можете разделить тему на две, или путем выбора отдельных сообщений, или путем отделения после выбранного сообщения',
 
 	'THIS_POST_IP'				=> 'IP-адрес сообщения',
 	'TOPICS_APPROVED_SUCCESS'	=> 'Выбранные темы были одобрены',

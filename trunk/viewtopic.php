@@ -4,7 +4,7 @@
 * viewtopic [Russian]
 *
 * @package language
-* @version $Id: viewtopic.php,v 1.14 2006/09/24 00:28:32 shs Exp $
+* @version $Id: viewtopic.php,v 1.15 2006/12/22 22:51:33 shs Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *

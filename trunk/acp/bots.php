@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* acp_bots [English]
+* acp_bots [Russian]
 *
 * @package language
 * @version $Id: bots.php,v 1.8 2007/01/21 18:33:45 acydburn Exp $
@@ -32,30 +32,30 @@ if (empty($lang) || !is_array($lang))
 
 // Bot settings
 $lang = array_merge($lang, array(
-	'BOTS'				=> 'Manage bots',
+	'BOTS'				=> 'Управление поисковыми ботами',
 	'BOTS_EXPLAIN'		=> 'Bots or crawlers are automated agents most commonly used by search engines to update their databases. Since they rarely make proper use of sessions they can distort visitor counts, increase load and sometimes fail to index sites correctly. Here you can define a special type of user to overcome these problems.',
-	'BOT_ACTIVATE'		=> 'Activate',
+	'BOT_ACTIVATE'		=> 'Активировать',
 	'BOT_ACTIVE'		=> 'Bot active',
-	'BOT_ADD'			=> 'Add bot',
-	'BOT_ADDED'			=> 'New bot successfully added.',
+	'BOT_ADD'			=> 'Добавить бота',
+	'BOT_ADDED'			=> 'Новый бот успешно добавлен.',
 	'BOT_AGENT'			=> 'Agent match',
 	'BOT_AGENT_EXPLAIN'	=> 'A string matching the bots browser agent, partial matches are allowed.',
-	'BOT_DEACTIVATE'	=> 'Deactivate',
-	'BOT_DELETED'		=> 'Bot deleted successfully.',
-	'BOT_EDIT'			=> 'Edit bots',
+	'BOT_DEACTIVATE'	=> 'Деактивировать',
+	'BOT_DELETED'		=> 'Бот успешно удалён.',
+	'BOT_EDIT'			=> 'Редактирование бота',
 	'BOT_EDIT_EXPLAIN'	=> 'Here you can add or edit an existing bot entry. You may define an agent string and/or one or more IP addresses (or range of addresses) to match. Be careful when defining matching agent strings or addresses. You may also specify a style and language that the bot will view the board using. This may allow you to reduce bandwidth use by setting a simple style for bots. Remember to set appropriate permissions for the special Bot usergroup.',
-	'BOT_LANG'			=> 'Bot language',
+	'BOT_LANG'			=> 'Язык бота',
 	'BOT_LANG_EXPLAIN'	=> 'The language presented to the bot as it browses.',
-	'BOT_LAST_VISIT'	=> 'Last visit',
-	'BOT_IP'			=> 'Bot IP address',
+	'BOT_LAST_VISIT'	=> 'Последнее посещение',
+	'BOT_IP'			=> 'IP-адрес бота',
 	'BOT_IP_EXPLAIN'	=> 'Partial matches are allowed, separate addresses with a comma.',
-	'BOT_NAME'			=> 'Bot name',
+	'BOT_NAME'			=> 'Имя бота',
 	'BOT_NAME_EXPLAIN'	=> 'Used only for your own information.',
-	'BOT_NEVER'			=> 'Never',
-	'BOT_STYLE'			=> 'Bot style',
+	'BOT_NEVER'			=> 'Не был',
+	'BOT_STYLE'			=> 'Стиль для бота',
 	'BOT_STYLE_EXPLAIN'	=> 'The style used for the board by the bot.',
 	'BOT_UPDATED'		=> 'Existing bot updated successfully.',
-	'BOT_VIS'			=> 'Bot visible',
+	'BOT_VIS'			=> 'Бот видим',
 	'BOT_VIS_EXPLAIN'	=> 'Allow bot to be seen by all users in online lists.',
 
 	'ERR_BOT_AGENT_MATCHES_UA'	=> 'The bot agent you supplied is similar to the one you are currently using. Please adjust the agent for this bot.',
