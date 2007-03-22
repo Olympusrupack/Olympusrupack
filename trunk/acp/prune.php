@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* acp_prune [English]
+* acp_prune [Russain]
 *
 * @package language
 * @version $Id: prune.php,v 1.8 2006/11/20 17:37:54 dhn2 Exp $
@@ -32,47 +32,46 @@ if (empty($lang) || !is_array($lang))
 
 // User pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Here you can delete (or deactivate) users from your board. This can be done in a variety of ways; by post count, last activity, etc. Each of these criteria can be combined, i.e. you can prune users last active before 2002-01-01 with fewer than 10 posts. Alternatively you can enter a list of users directly into the text box, any criteria entered will be ignored. Take care with this facility! Once a user is deleted there is no way back.',
+	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Здесь вы можете удалить (или деактивировать) пользователей вашей конференции. Для этого существуют различные критерии: по числу сообщений, по времени последнего посещения и т. д. Все их можно совмещать друг с другом, например, убрать пользователей, посетивших конференцию последний раз не позднее 01.01.2002 с числом сообщений менее 10. В качестве альтернативы вы можете непосредственно ввести список пользователей в текстовое окно, при этом все остальные критерии отбора будут проигнорированы. Будьте осторожны с этой функцией! Удалённых пользователей нельзя восстановить.',
 
-	'DEACTIVATE_DELETE'			=> 'Deactivate or delete',
-	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Choose whether to deactivate users or delete them entirely, note there is no undo!',
-	'DELETE_USERS'				=> 'Delete',
-	'DELETE_USER_POSTS'			=> 'Delete pruned user posts',
-	'DELETE_USER_POSTS_EXPLAIN' => 'Removes posts made by deleted users, has no effect if users are deactivated.',
+	'DEACTIVATE_DELETE'			=> 'Деактивировать или удалить',
+	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Выберите действие над пользователями. Учтите, что отменить его будет невозможно!',
+	'DELETE_USERS'				=> 'Удалить',
+	'DELETE_USER_POSTS'			=> 'Удалить также их сообщения',
+	'DELETE_USER_POSTS_EXPLAIN' => 'Удаляет пользователей вместе с их сообщениями. Не работает, если выбрана деактивация пользователей.',
 
-	'JOINED_EXPLAIN'			=> 'Enter a date in <kbd>YYYY-MM-DD</kbd> format.',
+	'JOINED_EXPLAIN'			=> 'Введите дату в формате <kbd>ГГГГ-ММ-ДД</kbd>.',
 
-	'LAST_ACTIVE_EXPLAIN'		=> 'Enter a date in <kbd>YYYY-MM-DD</kbd> format.',
+	'LAST_ACTIVE_EXPLAIN'		=> 'Введите дату в формате <kbd>ГГГГ-ММ-ДД</kbd>.',
 
-	'SELECT_USERS_EXPLAIN'		=> 'Enter specific usernames here, they will be used in preference to the criteria above.',
+	'SELECT_USERS_EXPLAIN'		=> 'Введите здесь конкретные имена пользователей, если не хотите использовать критерии поиска выше.',
 
-	'USER_DEACTIVATE_SUCCESS'	=> 'The selected users have been deactivated successfully.',
-	'USER_DELETE_SUCCESS'		=> 'The selected users have been deleted successfully.',
+	'USER_DEACTIVATE_SUCCESS'	=> 'Отобранные пользователи успешно деактивированы.',
+	'USER_DELETE_SUCCESS'		=> 'Отобранные пользователи успешно удалены.',
 ));
 
 // Forum Pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_FORUMS_EXPLAIN'	=> 'This will delete any topic which has not been posted to or viewed within the number of days you select. If you do not enter a number then all topics will be deleted. By default, it will not remove topics in which polls are still running nor will it remove stickies and announcements.',
+	'ACP_PRUNE_FORUMS_EXPLAIN'	=> 'Будут удалены все темы, в которые не писали и которые не просматривали указанное количество дней. Если вы не введёте число дней, то будут удалены все темы. По умолчанию темы, в которых продолжаются опросы, а также прилепленные темы и объявления не будут удалены.',
+	'FORUM_PRUNE'		=> 'Чистка форумов',
 
-	'FORUM_PRUNE'		=> 'Forum prune',
+	'NO_PRUNE'			=> 'Чистка форумов не произведена',
 
-	'NO_PRUNE'			=> 'No forums pruned',
+	'SELECTED_FORUM'	=> 'Выбранный форум',
+	'SELECTED_FORUMS'	=> 'Выбранные форумы',
 
-	'SELECTED_FORUM'	=> 'Selected forum',
-	'SELECTED_FORUMS'	=> 'Selected forums',
+	'POSTS_PRUNED'					=> 'Сообщений удалено',
+	'PRUNE_ANNOUNCEMENTS'			=> 'Удалять объявления',
+	'PRUNE_FINISHED_POLLS'			=> 'Удалять оконченные опросы',
+	'PRUNE_FINISHED_POLLS_EXPLAIN'	=> 'Удалять темы, в которых опросы завершены.',
+	'PRUNE_NOT_POSTED'				=> 'Дней с последнего сообщения',
+	'PRUNE_NOT_VIEWED'				=> 'Дней с последнего просмотра',
+	'PRUNE_OLD_POLLS'				=> 'Удалять старые опросы',
+	'PRUNE_OLD_POLLS_EXPLAIN'		=> 'Удалять темы, в опросах которых не было голосов за указанное выше количество дней.',
+	'PRUNE_STICKY'					=> 'Удалять прилепленные темы',
+	'PRUNE_SUCCESS'					=> 'Форумы успешно вычищены',
 
-	'POSTS_PRUNED'					=> 'Posts pruned',
-	'PRUNE_ANNOUNCEMENTS'			=> 'Prune announcements',
-	'PRUNE_FINISHED_POLLS'			=> 'Prune closed polls',
-	'PRUNE_FINISHED_POLLS_EXPLAIN'	=> 'Removes topics with polls which have ended.',
-	'PRUNE_NOT_POSTED'				=> 'Days since last posted',
-	'PRUNE_NOT_VIEWED'				=> 'Days since last viewed',
-	'PRUNE_OLD_POLLS'				=> 'Prune old polls',
-	'PRUNE_OLD_POLLS_EXPLAIN'		=> 'Removes topics with polls not voted in for post age days.',
-	'PRUNE_STICKY'					=> 'Prune stickies',
-	'PRUNE_SUCCESS'					=> 'Pruning of forums was successful',
-
-	'TOPICS_PRUNED'		=> 'Topics pruned',
+	'TOPICS_PRUNED'		=> 'Тем удалено',
 ));
 
 ?>
