@@ -118,7 +118,7 @@ $lang = array_merge($lang, array(
 	'ENABLE_PM_ICONS'			=> 'Разрешить использование значков тем в личных сообщениях',
 	'FULL_FOLDER_ACTION'		=> 'Действие по умолчанию для переполненной папки',
 	'FULL_FOLDER_ACTION_EXPLAIN'=> 'Default action to take if a user’s folder is full assuming the user’s folder action, if set at all, is not applicable. The only exception is for the “Sent messages” folder where the default action is always to delete old messages.',
-	'HOLD_NEW_MESSAGES'			=> 'Hold new messages',
+	'HOLD_NEW_MESSAGES'			=> 'Отложить новые сообщения',
 	'PM_EDIT_TIME'				=> 'Ограничить время редактирования',
 	'PM_EDIT_TIME_EXPLAIN'		=> 'Ограничивает время, в течение которого доступно редактирование отправленного, но ещё не полученного адресатом личного сообщения. Установите 0 для снятия ограничений.',
 ));
