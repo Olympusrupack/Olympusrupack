@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* acp common [English]
+* acp common [Russian]
 *
 * @package language
 * @version $Id: common.php,v 1.83 2007/01/24 11:29:56 acydburn Exp $
@@ -190,206 +190,206 @@ $lang = array_merge($lang, array(
 	
 	'ACP_WORDS'					=> 'Word censoring',
 
-	'ACTION'				=> 'Action',
-	'ACTIONS'				=> 'Actions',
-	'ACTIVATE'				=> 'Activate',
-	'ADD'					=> 'Add',
-	'ADMIN'					=> 'Administration',
-	'ADMIN_INDEX'			=> 'Admin index',
-	'ADMIN_PANEL'			=> 'Administration Control Panel',
+	'ACTION'				=> 'Действие',
+	'ACTIONS'				=> 'Действия',
+	'ACTIVATE'				=> 'Активировать',
+	'ADD'					=> 'Добавить',
+	'ADMIN'					=> 'Администрирование',
+	'ADMIN_INDEX'			=> 'Администраторский раздел',
+	'ADMIN_PANEL'			=> 'Администраторский раздел',
 
-	'BACK'					=> 'Back',
+	'BACK'					=> 'Назад',
 
-	'COLOUR_SWATCH'			=> 'Web-safe colour swatch',
-	'CONFIG_UPDATED'		=> 'Configuration updated successfully.',
+	'COLOUR_SWATCH'			=> 'Безопасная палитра',
+	'CONFIG_UPDATED'		=> 'Конфигурация успешно обновлена.',
 
-	'DEACTIVATE'				=> 'Deactivate',
-	'DIMENSIONS'				=> 'Dimensions',
-	'DIRECTORY_DOES_NOT_EXIST'	=> 'The entered path "%s" does not exist.',
-	'DIRECTORY_NOT_DIR'			=> 'The entered path "%s" is not a directory.',
-	'DIRECTORY_NOT_WRITEABLE'	=> 'The entered path "%s" is not writeable.',
-	'DISABLE'					=> 'Disable',
-	'DOWNLOAD'					=> 'Download',
-	'DOWNLOAD_AS'				=> 'Download as',
-	'DOWNLOAD_STORE'			=> 'Download or store file',
-	'DOWNLOAD_STORE_EXPLAIN'	=> 'You may directly download the file or save it in your <samp>store/</samp> folder.',
+	'DEACTIVATE'				=> 'Деактивировать',
+	'DIMENSIONS'				=> 'Размеры',
+	'DIRECTORY_DOES_NOT_EXIST'	=> 'Заданный путь «%s» не существует.',
+	'DIRECTORY_NOT_DIR'			=> 'Заданный путь «%s» не является папкой.',
+	'DIRECTORY_NOT_WRITEABLE'	=> 'По заданному пути «%s» невозможно произвести запись.',
+	'DISABLE'					=> 'Отключить',
+	'DOWNLOAD'					=> 'Скачать',
+	'DOWNLOAD_AS'				=> 'Скачать как',
+	'DOWNLOAD_STORE'			=> 'Скачать или сохранить файл',
+	'DOWNLOAD_STORE_EXPLAIN'	=> 'Вы можете напрямую скачать файл или сохранить его в папке <samp>store/</samp>.',
 
-	'EDIT'					=> 'Edit',
-	'ENABLE'				=> 'Enable',
-	'EXPORT_DOWNLOAD'		=> 'Download',
-	'EXPORT_STORE'			=> 'Store',
+	'EDIT'					=> 'Редактировать',
+	'ENABLE'				=> 'Включить',
+	'EXPORT_DOWNLOAD'		=> 'Скачать',
+	'EXPORT_STORE'			=> 'Сохранить',
 
-	'GENERAL_OPTIONS'		=> 'General options',
-	'GENERAL_SETTINGS'		=> 'General settings',
-	'GLOBAL_MASK'			=> 'Global permission mask',
+	'GENERAL_OPTIONS'		=> 'Общие настройки',
+	'GENERAL_SETTINGS'		=> 'Общие установки',
+	'GLOBAL_MASK'			=> 'Общие права доступа',
 
-	'INSTALL'				=> 'Install',
-	'IP'					=> 'User IP',
-	'IP_HOSTNAME'			=> 'IP addresses or hostnames',
+	'INSTALL'				=> 'Установить',
+	'IP'					=> 'IP-адрес пользователя',
+	'IP_HOSTNAME'			=> 'IP-адреса или хосты',
 
-	'LOGGED_IN_AS'			=> 'You are logged in as:',
-	'LOGIN_ADMIN'			=> 'To administer the board you must be an authenticated user.',
-	'LOGIN_ADMIN_CONFIRM'	=> 'To administer the board you must re-authenticate yourself.',
-	'LOGIN_ADMIN_SUCCESS'	=> 'You have successfully authenticated and will now be redirected to the Administration Control Panel',
-	'LOOK_UP_FORUM'			=> 'Select a forum',
+	'LOGGED_IN_AS'			=> 'Вы вошли как:',
+	'LOGIN_ADMIN'			=> 'Для администрирования конференции вы должны войти на неё.',
+	'LOGIN_ADMIN_CONFIRM'	=> 'Для администрирования конференции вы должны повторно ввести имя и пароль.',
+	'LOGIN_ADMIN_SUCCESS'	=> 'Вы успешно вошти и сейчас будете перенаправлены в администраторский раздел',
+	'LOOK_UP_FORUM'			=> 'Выбрать форум',
 
-	'MANAGE'				=> 'Manage',
-	'MOVE_DOWN'				=> 'Move down',
-	'MOVE_UP'				=> 'Move up',
+	'MANAGE'				=> 'Управление',
+	'MOVE_DOWN'				=> 'Вниз',
+	'MOVE_UP'				=> 'Вверх',
 
-	'NOTIFY'				=> 'Notification',
-	'NO_ADMIN'				=> 'You are not authorised to administrate this board.',
-	'NO_EMAILS_DEFINED'		=> 'No valid email addresses found',
+	'NOTIFY'				=> 'Уведомления',
+	'NO_ADMIN'				=> 'Вы не имеете права администрирования этой конференции.',
+	'NO_EMAILS_DEFINED'		=> 'Не найдено правильных email-адреов',
 
-	'OFF'					=> 'Off',
-	'ON'					=> 'On',
+	'OFF'					=> 'Выкл',
+	'ON'					=> 'Вкл',
 
-	'PARSE_BBCODE'						=> 'Parse BBCode',
-	'PARSE_SMILIES'						=> 'Parse smilies',
-	'PARSE_URLS'						=> 'Parse links',
-	'PERMISSIONS_TRANSFERRED'			=> 'Permissions transferred',
-	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'You are currently having the permissions from %1$s. You are able to browse the forum with the users permissions but not access the administration control panel since admin permissions were not transferred. You are able to <a href="%2$s"><strong>revert to your permission set</strong></a> at any time.',
+	'PARSE_BBCODE'						=> 'Включить BBCode',
+	'PARSE_SMILIES'						=> 'Включить смайлики',
+	'PARSE_URLS'						=> 'Включить ссылки',
+	'PERMISSIONS_TRANSFERRED'			=> 'Права доступа переданы',
+	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'В настоящий момент вы имеете права доступа пользователя %1$s. Вы можете просматривать конференцию с этими правами, но не будете иметь доступа к администраторскому разделу, поскольку права администратора не были переданы. Вы можете <a href="%2$s"><strong>вернуть свои права</strong></a> в любое время.',
 	'PIXEL'							=> 'px',	
-	'PROCEED_TO_ACP'					=> '%sProceed to the ACP%s',
+	'PROCEED_TO_ACP'					=> '%sПерейти в администраторский раздел%s',
 
-	'REMIND'							=> 'Remind',
-	'REORDER'							=> 'Reorder',
-	'RESYNC'							=> 'Resynchronise',
-	'RETURN_TO'							=> 'Return to…',
+	'REMIND'							=> 'Напомнить',
+	'REORDER'							=> 'Упорядочить',
+	'RESYNC'							=> 'Синхронизировать',
+	'RETURN_TO'							=> 'Вернуться к…',
 
-	'SELECT_ANONYMOUS'		=> 'Select anonymous user',
-	'SELECT_OPTION'			=> 'Select option',
+	'SELECT_ANONYMOUS'		=> 'Выбрать анонимного пользователя',
+	'SELECT_OPTION'			=> 'Выбрать',
 
-	'UCP'					=> 'User Control Panel',
-	'USERNAMES_EXPLAIN'		=> 'Place each username on a separate line',
-	'USER_CONTROL_PANEL'	=> 'User Control Panel',
+	'UCP'					=> 'Личный раздел',
+	'USERNAMES_EXPLAIN'		=> 'Каждое имя пользователя указывается с новой строки',
+	'USER_CONTROL_PANEL'	=> 'Личный раздел',
 
-	'WARNING'				=> 'Warning',
+	'WARNING'				=> 'Предупреждение',
 ));
 
 // PHP info
 $lang = array_merge($lang, array(
-	'ACP_PHP_INFO_EXPLAIN'	=> 'This page lists information on the version of PHP installed on this server. It includes details of loaded modules, available variables and default settings. This information may be useful when diagnosing problems. Please be aware that some hosting companies will limit what information is displayed here for security reasons. You are advised to not give out any details on this page except when asked by <a href="http://www.phpbb.com/about/">official team members</a> on the support forums.',
+	'ACP_PHP_INFO_EXPLAIN'	=> 'Эта страница содержит информацию об установленной на этом сервере версии PHP. Она включает подробные сведения о загруженных модулях, доступных переменных и настройках по умолчанию. Эта информация может быть полезной при диагностике возникших проблем. Учтите, что некоторые хостинг-провайдеры ограничивают объём этой информации по соображениям безопасности. Рекомендуется не раскрывать любые сведения, содержащиеся на этой странице без соответствующего запроса <a href="http://www.phpbb.com/about/">членов команды</a> официальной поддержки.',
 
-	'NO_PHPINFO_AVAILABLE'	=> 'The PHP informations are unable to be determined. Phpinfo() has been disabled for security reasons.',
+	'NO_PHPINFO_AVAILABLE'	=> 'Не удалось получить информацию о PHP. Функция phpinfo() была отключена по соображениям безопасности.',
 ));
 
 // Logs
 $lang = array_merge($lang, array(
-	'ACP_ADMIN_LOGS_EXPLAIN'	=> 'This lists all the actions carried out by board administrators. You can sort by username, date, IP or action. If you have appropriate permissions you can also clear individual operations or the log as a whole.',
-	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'This lists the actions carried out by the board itself. These log provides you with information you are able to use for solving specific problems, for example non-delivery of emails. You can sort by username, date, IP or action. If you have appropriate permissions you can also clear individual operations or the log as a whole.',
-	'ACP_MOD_LOGS_EXPLAIN'		=> 'This lists the actions carried out by board moderators, select a forum from the drop down list. You can sort by username, date, IP or action. If you have appropriate permissions you can also clear individual operations or the log as a whole.',
-	'ACP_USERS_LOGS_EXPLAIN'	=> 'This lists all actions carried out by users or on users.',
-	'ALL_ENTRIES'				=> 'All entries',
+	'ACP_ADMIN_LOGS_EXPLAIN'	=> 'Здесь содержится список действий, произведённых администраторами конференции. Вы можете сортировать список по имени пользователя, дате, IP-адресу или действию. Если вы имеете соответствующие права доступа, вы можете также очистить отдельные записи или весь журнал целиком.',
+	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Здесь содержится список действий, произведённых самой конференцией. Этот журнал даёт вам информацию, которую можно использовать для решения специфических проблем, например с доставкой email-сообщений. Вы можете сортировать список по имени пользователя, дате, IP-адресу или действию. Если вы имеете соответствующие права доступа, вы можете также очистить отдельные записи или весь журнал целиком.',
+	'ACP_MOD_LOGS_EXPLAIN'		=> 'Здесь содержится список действий, произведённых модераторами конференции, выбор форума осуществляется из выпадающего списка ниже. Вы можете сортировать список по имени пользователя, дате, IP-адресу или действию. Если вы имеете соответствующие права доступа, вы можете также очистить отдельные записи или весь журнал целиком.',
+	'ACP_USERS_LOGS_EXPLAIN'	=> 'Здесь содержится список всех действий, произведённых пользователями или над пользователями.',
+	'ALL_ENTRIES'				=> 'Все записи',
 
-	'DISPLAY_LOG'	=> 'Display entries from previous',
+	'DISPLAY_LOG'	=> 'Показать записи за последние',
 
-	'NO_ENTRIES'	=> 'No log entries for this period',
+	'NO_ENTRIES'	=> 'Отсутствуют записи за указанный период',
 
-	'SORT_IP'		=> 'IP address',
-	'SORT_DATE'		=> 'Date',
-	'SORT_ACTION'	=> 'Log action',
+	'SORT_IP'		=> 'IP-адрес',
+	'SORT_DATE'		=> 'Дата',
+	'SORT_ACTION'	=> 'Действие',
 ));
 
 // Index page
 $lang = array_merge($lang, array(
-	'ADMIN_INTRO'				=> 'Thank you for choosing phpBB as your forum solution. This screen will give you a quick overview of all the various statistics of your board. The links on the left hand side of this screen allow you to control every aspect of your forum experience. Each page will have instructions on how to use the tools.',
-	'ADMIN_LOG'					=> 'Logged administrator actions',
-	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'This gives an overview of the last five actions carried out by board administrators. A full copy of the log can be viewed from the appropriate menu item or following the link below.',
-	'AVATAR_DIR_SIZE'			=> 'Avatar directory size',
+	'ADMIN_INTRO'				=> 'Спасибо за выбор phpBB в качестве решения для создания конференции. На этой странице вы найдёте краткий обзор её всевозможной статистики. Ссылки в левой части экрана позволяют управлять каждым аспектом работы вашей конференции. Каждая страница содержит инструкции по использованию её инструментов.',
+	'ADMIN_LOG'					=> 'Действия администратора',
+	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'Здесь содержится список последних пяти действий, произведённых администраторами конференции. Полную копию журнала можно просмотреть через соответствующий пункт меню или по ссылке ниже.',
+	'AVATAR_DIR_SIZE'			=> 'Размер папки с аватарами',
 
-	'BOARD_STARTED'		=> 'Board started',
+	'BOARD_STARTED'		=> 'Дата запуска конференции',
 
-	'DATABASE_SERVER_INFO'	=> 'Database server',
-	'DATABASE_SIZE'			=> 'Database size',
+	'DATABASE_SERVER_INFO'	=> 'Сервер базы данных',
+	'DATABASE_SIZE'			=> 'Размер базы данных',
 
-	'FILES_PER_DAY'		=> 'Attachments per day',
-	'FORUM_STATS'		=> 'Forum statistics',
+	'FILES_PER_DAY'		=> 'Вложений в день',
+	'FORUM_STATS'		=> 'Статистика конференции',
 
-	'GZIP_COMPRESSION'	=> 'GZip compression',
+	'GZIP_COMPRESSION'	=> 'Сжатие GZip',
 
-	'NOT_AVAILABLE'		=> 'Not available',
-	'NUMBER_FILES'		=> 'Number of attachments',
-	'NUMBER_POSTS'		=> 'Number of posts',
-	'NUMBER_TOPICS'		=> 'Number of topics',
-	'NUMBER_USERS'		=> 'Number of users',
-	'NUMBER_ORPHAN'		=> 'Orphan attachments',
+	'NOT_AVAILABLE'		=> 'Недоступно',
+	'NUMBER_FILES'		=> 'Вложений',
+	'NUMBER_POSTS'		=> 'Сообщений',
+	'NUMBER_TOPICS'		=> 'Тем',
+	'NUMBER_USERS'		=> 'Пользователей',
+	'NUMBER_ORPHAN'		=> 'Не прикреплённых вложений',
 
-	'POSTS_PER_DAY'		=> 'Posts per day',
+	'POSTS_PER_DAY'		=> 'Сообщений в день',
 
-	'RESET_DATE'			=> 'Reset date',
-	'RESET_ONLINE'			=> 'Reset online',
-	'RESYNC_POSTCOUNTS'		=> 'Resynchronise post counts',
-	'RESYNC_POST_MARKING'	=> 'Resynchronise dotted topics',
-	'RESYNC_STATS'			=> 'Resynchronise statistics',
+	'RESET_DATE'			=> 'Сбросить дату',
+	'RESET_ONLINE'			=> 'Сбросить онлайн статистику',
+	'RESYNC_POSTCOUNTS'		=> 'Синхронизировать количество сообщений',
+	'RESYNC_POST_MARKING'	=> 'Синхронизировать свои темы',
+	'RESYNC_STATS'			=> 'Синхронизировать статистику',
 
-	'STATISTIC'			=> 'Statistic',
+	'STATISTIC'			=> 'Статистика',
 
-	'TOPICS_PER_DAY'	=> 'Topics per day',
+	'TOPICS_PER_DAY'	=> 'Тем в день',
 
-	'UPLOAD_DIR_SIZE'	=> 'Size of posted attachments',
-	'USERS_PER_DAY'		=> 'Users per day',
+	'UPLOAD_DIR_SIZE'	=> 'Размер прикреплённых вложений',
+	'USERS_PER_DAY'		=> 'Пользователей в день',
 
-	'VALUE'					=> 'Value',
-	'VIEW_ADMIN_LOG'		=> 'View administrator log',
-	'VIEW_INACTIVE_USERS'	=> 'View inactive users',
+	'VALUE'					=> 'Значение',
+	'VIEW_ADMIN_LOG'		=> 'Журнал администратора',
+	'VIEW_INACTIVE_USERS'	=> 'Неактивные пользователи',
 
-	'WELCOME_PHPBB'			=> 'Welcome to phpBB',
+	'WELCOME_PHPBB'			=> 'Добро пожаловать в phpBB',
 ));
 
 // Inactive Users
 $lang = array_merge($lang, array(
-	'INACTIVE_DATE'					=> 'Inactive date',
-	'INACTIVE_REASON'				=> 'Reason',
-	'INACTIVE_REASON_MANUAL'		=> 'Account deactivated by administrator',
-	'INACTIVE_REASON_PROFILE'		=> 'Profile details changed',
-	'INACTIVE_REASON_REGISTER'		=> 'Newly registered account',
-	'INACTIVE_REASON_REMIND'		=> 'Forced user account reactivation',
-	'INACTIVE_REASON_UNKNOWN'		=> 'Unknown',
-	'INACTIVE_USERS'				=> 'Inactive users',
-	'INACTIVE_USERS_EXPLAIN'		=> 'This is a list of users who have registered but whose accounts are inactive. You can activate, delete or remind (by sending an email) these users if you wish.',
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'This is a list of the last 10 registered users who have inactive accounts. A full list is available from the appropriate menu item or by following the link below from where you can activate, delete or remind (by sending an email) these users if you wish.',
+	'INACTIVE_DATE'					=> 'Дата',
+	'INACTIVE_REASON'				=> 'Причина',
+	'INACTIVE_REASON_MANUAL'		=> 'Учётная запись деактивирована администратором',
+	'INACTIVE_REASON_PROFILE'		=> 'Изменён профиль',
+	'INACTIVE_REASON_REGISTER'		=> 'Новая учётная запись',
+	'INACTIVE_REASON_REMIND'		=> 'Принудительная повторная активация',
+	'INACTIVE_REASON_UNKNOWN'		=> 'Неизвестно',
+	'INACTIVE_USERS'				=> 'Неактивные пользователи',
+	'INACTIVE_USERS_EXPLAIN'		=> 'Здесь содержится список зарегистрированных пользователей, учётные записи которых неактивны. Вы можете активировать, удалить этих пользователей или отправить им напоминание (email-сообщением).',
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Здесь содержится список последних 10 зарегистрированных пользователей, учётные записи которых неактивны. В полном списке, доступном через соответствующий пункт меню или по ссылке ниже, вы можете активировать, удалить этих пользователей или отправить им напоминание (email-сообщением).',
 
-	'NO_INACTIVE_USERS'	=> 'No inactive users',
+	'NO_INACTIVE_USERS'	=> 'Нет неактивных пользователей',
 
-	'SORT_INACTIVE'		=> 'Inactive date',
-	'SORT_LAST_VISIT'	=> 'Last visit',
-	'SORT_REASON'		=> 'Reason',
-	'SORT_REG_DATE'		=> 'Registration date',
+	'SORT_INACTIVE'		=> 'Дата',
+	'SORT_LAST_VISIT'	=> 'Последнее посещение',
+	'SORT_REASON'		=> 'Причина',
+	'SORT_REG_DATE'		=> 'Дата регистрации',
 
-	'USER_IS_INACTIVE'		=> 'User is inactive',
+	'USER_IS_INACTIVE'		=> 'Пользователь неактивен',
 ));
 
 // Log Entries
 $lang = array_merge($lang, array(
-	'LOG_ACL_ADD_USER_GLOBAL_U_'		=> '<strong>Added or edited users user permissions</strong><br />» %s',
-	'LOG_ACL_ADD_GROUP_GLOBAL_U_'		=> '<strong>Added or edited groups user permissions</strong><br />» %s',
-	'LOG_ACL_ADD_USER_GLOBAL_M_'		=> '<strong>Added or edited users global moderator permissions</strong><br />» %s',
-	'LOG_ACL_ADD_GROUP_GLOBAL_M_'		=> '<strong>Added or edited groups global moderator permissions</strong><br />» %s',
-	'LOG_ACL_ADD_USER_GLOBAL_A_'		=> '<strong>Added or edited users administrator permissions</strong><br />» %s',
-	'LOG_ACL_ADD_GROUP_GLOBAL_A_'		=> '<strong>Added or edited groups administrator permissions</strong><br />» %s',
+	'LOG_ACL_ADD_USER_GLOBAL_U_'		=> '<strong>Добавлены или изменены пользовательские права пользователей</strong><br />» %s',
+	'LOG_ACL_ADD_GROUP_GLOBAL_U_'		=> '<strong>Добавлены или изменены пользовательские права групп</strong><br />» %s',
+	'LOG_ACL_ADD_USER_GLOBAL_M_'		=> '<strong>Добавленв или изменены общие модераторские права пользователей</strong><br />» %s',
+	'LOG_ACL_ADD_GROUP_GLOBAL_M_'		=> '<strong>Добавлены или изменены общие модераторские права групп</strong><br />» %s',
+	'LOG_ACL_ADD_USER_GLOBAL_A_'		=> '<strong>Добавлены или изменены администраторские права пользователей</strong><br />» %s',
+	'LOG_ACL_ADD_GROUP_GLOBAL_A_'		=> '<strong>Добавлены или изменены администраторские права групп</strong><br />» %s',
 
-	'LOG_ACL_ADD_ADMIN_GLOBAL_A_'		=> '<strong>Added or edited Administrators</strong><br />» %s',
-	'LOG_ACL_ADD_MOD_GLOBAL_M_'			=> '<strong>Added or edited Global Moderators</strong><br />» %s',
+	'LOG_ACL_ADD_ADMIN_GLOBAL_A_'		=> '<strong>Добавлены или изменены администраторы</strong><br />» %s',
+	'LOG_ACL_ADD_MOD_GLOBAL_M_'			=> '<strong>Добавлены или изменены общие модераторы</strong><br />» %s',
 
-	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>Added or edited users forum access</strong> from %1$s<br />» %2$s',
-	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>Added or edited users forum moderator access</strong> from %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '<strong>Added or edited groups forum access</strong> from %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>Added or edited groups forum moderator access</strong> from %1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>Добавлен или изменён доступ пользователей к форуму</strong> from %1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>Добавлен или изменён доступ модератора к форуму</strong> from %1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '<strong>Добавлен или изменён доступ групп к форуму</strong> from %1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>Добавлен или изменён модераторский доступ групп к форуму</strong> from %1$s<br />» %2$s',
 
-	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>Added or edited Moderators</strong> from %1$s<br />» %2$s',
-	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>Added or edited forum permissions</strong> from %1$s<br />» %2$s',
+	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>Добвалены или изменены модераторы</strong> from %1$s<br />» %2$s',
+	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>Добавлен или изменён доступ к форуму</strong> from %1$s<br />» %2$s',
 
-	'LOG_ACL_DEL_ADMIN_GLOBAL_A_'		=> '<strong>Removed Administrators</strong><br />» %s',
-	'LOG_ACL_DEL_MOD_GLOBAL_M_'			=> '<strong>Removed Global Moderators</strong><br />» %s',
-	'LOG_ACL_DEL_MOD_LOCAL_M_'			=> '<strong>Removed Moderators</strong> from %1$s<br />» %2$s',
-	'LOG_ACL_DEL_FORUM_LOCAL_F_'		=> '<strong>Removed User/Group forum permissions</strong> from %1$s<br />» %2$s',
+	'LOG_ACL_DEL_ADMIN_GLOBAL_A_'		=> '<strong>Удалены администраторы</strong><br />» %s',
+	'LOG_ACL_DEL_MOD_GLOBAL_M_'			=> '<strong>Удалены общие модераторы</strong><br />» %s',
+	'LOG_ACL_DEL_MOD_LOCAL_M_'			=> '<strong>Удалены модераторы</strong> from %1$s<br />» %2$s',
+	'LOG_ACL_DEL_FORUM_LOCAL_F_'		=> '<strong>Удалён доступ пользователя/группы к форуму</strong> from %1$s<br />» %2$s',
 
-	'LOG_ACL_TRANSFER_PERMISSIONS'		=> '<strong>Permissions transferred from</strong><br />» %s',
-	'LOG_ACL_RESTORE_PERMISSIONS'		=> '<strong>Own permissions restored after using permissions from</strong><br />» %s',
+	'LOG_ACL_TRANSFER_PERMISSIONS'		=> '<strong>Перенесены права доступа пользователя</strong><br />» %s',
+	'LOG_ACL_RESTORE_PERMISSIONS'		=> '<strong>Свои права доступа возвращены после использования прав доступа пользователя</strong><br />» %s',
 	
-	'LOG_ADMIN_AUTH_FAIL'		=> '<strong>Failed administration login attempt</strong>',
-	'LOG_ADMIN_AUTH_SUCCESS'	=> '<strong>Successful administration login</strong>',
+	'LOG_ADMIN_AUTH_FAIL'		=> '<strong>Неудачная попытка входа в качестве администратора</strong>',
+	'LOG_ADMIN_AUTH_SUCCESS'	=> '<strong>Успешный вход в качестве администратора</strong>',
 
 	'LOG_ATTACH_EXT_ADD'		=> '<strong>Added or edited attachment extension</strong><br />» %s',
 	'LOG_ATTACH_EXT_DEL'		=> '<strong>Removed attachment extension</strong><br />» %s',
