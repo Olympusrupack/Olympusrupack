@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* acp_language [English]
+* acp_language [Russian]
 *
 * @package language
 * @version $Id: language.php,v 1.13 2007/01/24 12:33:36 acydburn Exp $
@@ -31,67 +31,67 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_FILES'						=> 'Admin language files',
-	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Here you are able to install/remove language packs',
+	'ACP_FILES'						=> 'Управление языковыми файлами',
+	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Здесь вы можете установливать/удалять языковые пакеты',
 
-	'EMAIL_FILES'			=> 'Email templates',
+	'EMAIL_FILES'			=> 'Шаблоны email-сообщений',
 
-	'FILE_CONTENTS'				=> 'File contents',
-	'FILE_FROM_STORAGE'			=> 'File from storage folder',
+	'FILE_CONTENTS'				=> 'Содержание файла',
+	'FILE_FROM_STORAGE'			=> 'Файл из папки хранения',
 
-	'HELP_FILES'				=> 'Help files',
+	'HELP_FILES'				=> 'Файлы помощи',
 
-	'INSTALLED_LANGUAGE_PACKS'	=> 'Installed language packs',
-	'INVALID_LANGUAGE_PACK'		=> 'The selected language pack seems to be not valid. Please verify the language pack and upload it again if necessary.',
-	'INVALID_UPLOAD_METHOD'		=> 'The selected upload method is not valid, please choose a different method.',
+	'INSTALLED_LANGUAGE_PACKS'	=> 'Установленные языковые пакеты',
+	'INVALID_LANGUAGE_PACK'		=> 'Выбранный языковой пакет, скорее всего, неверен. Проверьте языковой пакет и загрузите его на сервер повторно, если необходимо.',
+	'INVALID_UPLOAD_METHOD'		=> 'Выбранный метод загрузки на сервер неверен, выберите другой метод.',
 
-	'LANGUAGE_DETAILS_UPDATED'			=> 'Language details successfully updated.',
-	'LANGUAGE_ENTRIES'					=> 'Language entries',
-	'LANGUAGE_ENTRIES_EXPLAIN'			=> 'Here you are able to change existing language pack entries or not already translated ones.<br /><strong>Note:</strong> Once you changed a language file, the changes will be stored within a separate folder for you to download. The changes will not be seen by your users until you replace the original language files at your webspace (by uploading them).',
-	'LANGUAGE_FILES'					=> 'Language files',
-	'LANGUAGE_KEY'						=> 'Language key',
-	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'This language pack is already installed.',
-	'LANGUAGE_PACK_DELETED'				=> 'The language pack <strong>%s</strong> has been removed successfully. All users using this language have been reset to the boards default language.',
-	'LANGUAGE_PACK_DETAILS'				=> 'Language pack details',
-	'LANGUAGE_PACK_INSTALLED'			=> 'The language pack <strong>%s</strong> has been successfully installed.',
+	'LANGUAGE_DETAILS_UPDATED'			=> 'Языковая информация успешно обновлена.',
+	'LANGUAGE_ENTRIES'					=> 'Языковые данные',
+	'LANGUAGE_ENTRIES_EXPLAIN'			=> 'Здесь вы можете изменять существующие или пока непереведённые языковые пакеты.<br /><strong>Примечание:</strong> Если вы изменили языковой пакет, изменения будут сохранены в отдельной папке для последующего скачивания. Изменения не будут видны вашим пользователям до тех пор, пока вы не замените исходные языковые файлы на сервере (загрузив новые).',
+	'LANGUAGE_FILES'					=> 'Языковые файлы',
+	'LANGUAGE_KEY'						=> 'Ключ языка',
+	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'Этот языковой пакет уже установлен.',
+	'LANGUAGE_PACK_DELETED'				=> 'Языковой пакет <strong>%s</strong> был успешно удалён. Все пользователи, использующие его, были переведены на язык конференции по умолчанию.',
+	'LANGUAGE_PACK_DETAILS'				=> 'Информация о языковом пакете',
+	'LANGUAGE_PACK_INSTALLED'			=> 'Языковой пакет <strong>%s</strong> был успешно установлен.',
 	'LANGUAGE_PACK_ISO'					=> 'ISO',
-	'LANGUAGE_PACK_LOCALNAME'			=> 'Local name',
-	'LANGUAGE_PACK_NAME'				=> 'Name',
-	'LANGUAGE_PACK_NOT_EXIST'			=> 'The selected language pack does not exist.',
-	'LANGUAGE_PACK_USED_BY'				=> 'Used by (including robots)',
-	'LANGUAGE_VARIABLE'					=> 'Language variable',
-	'LANG_AUTHOR'						=> 'Language pack author',
-	'LANG_ENGLISH_NAME'					=> 'English name',
-	'LANG_ISO_CODE'						=> 'ISO code',
-	'LANG_LOCAL_NAME'					=> 'Local name',
+	'LANGUAGE_PACK_LOCALNAME'			=> 'Локальное имя',
+	'LANGUAGE_PACK_NAME'				=> 'Имя',
+	'LANGUAGE_PACK_NOT_EXIST'			=> 'Выбранный языковой пакет не существует.',
+	'LANGUAGE_PACK_USED_BY'				=> 'Используют (включая роботов)',
+	'LANGUAGE_VARIABLE'					=> 'Языковая переменная',
+	'LANG_AUTHOR'						=> 'Автор языкового пакета',
+	'LANG_ENGLISH_NAME'					=> 'Имя на английском',
+	'LANG_ISO_CODE'						=> 'Код ISO',
+	'LANG_LOCAL_NAME'					=> 'Локальное имя',
 
-	'MISSING_LANGUAGE_FILE'		=> 'Missing language file: <strong style="color:red">%s</strong>',
-	'MISSING_LANG_VARIABLES'	=> 'Missing language variables',
-	'MODS_FILES'				=> 'MODs language files',
+	'MISSING_LANGUAGE_FILE'		=> 'Отсутствует языковой файл: <strong style="color:red">%s</strong>',
+	'MISSING_LANG_VARIABLES'	=> 'Отсутствуют языковые переменные',
+	'MODS_FILES'				=> 'Языковые файлы модов',
 
-	'NO_FILE_SELECTED'				=> 'You haven’t specified a language file.',
-	'NO_LANG_ID'					=> 'You haven’t specified a language pack.',
-	'NO_REMOVE_DEFAULT_LANG'		=> 'You are not able to remove the default language pack.<br />If you want to remove this language pack, change your boards default language first.',
-	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'No uninstalled language packs',
+	'NO_FILE_SELECTED'				=> 'Вы не указали языковой файл.',
+	'NO_LANG_ID'					=> 'Вы не указали языковой пакет.',
+	'NO_REMOVE_DEFAULT_LANG'		=> 'Вы не можете удалить языковой пакет по умолчанию.<br />Если вы хотите удалить этот языковой пакет, сначала измените язык конференции по умолчанию.',
+	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Все языковые пакеты установлены',
 
-	'REMOVE_FROM_STORAGE_FOLDER'		=> 'Remove from storage folder',
+	'REMOVE_FROM_STORAGE_FOLDER'		=> 'Удалить из папки хранения',
 
-	'SELECT_DOWNLOAD_FORMAT'	=> 'Select download format',
-	'SUBMIT_AND_DOWNLOAD'		=> 'Submit and download file',
-	'SUBMIT_AND_UPLOAD'			=> 'Submit and upload file',
+	'SELECT_DOWNLOAD_FORMAT'	=> 'Выбрать формат скачивания',
+	'SUBMIT_AND_DOWNLOAD'		=> 'Отправить и скачать файл',
+	'SUBMIT_AND_UPLOAD'			=> 'Отправить и загрузить файл',
 
-	'THOSE_MISSING_LANG_FILES'			=> 'The following language files are missing from the %s language folder',
-	'THOSE_MISSING_LANG_VARIABLES'		=> 'The following language variables are missing from the <strong>%s</strong> language pack',
+	'THOSE_MISSING_LANG_FILES'			=> 'Следующие языковые файлы отсутствуют в папке языка %s',
+	'THOSE_MISSING_LANG_VARIABLES'		=> 'Следующие языковые переменные отсутствуют в языковом пакете <strong>%s</strong>',
 
-	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Uninstalled language packs',
+	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Не установленные языковые пакеты',
 
-	'UNABLE_TO_WRITE_FILE'		=> 'The file could not be written to %s.',
-	'UPLOAD_COMPLETED'			=> 'The upload was completed successfully.',
-	'UPLOAD_FAILED'				=> 'The upload failed for unknown reasons. You may need to replace the relevant file manually.',
-	'UPLOAD_METHOD'				=> 'Upload method',
-	'UPLOAD_SETTINGS'			=> 'Upload settings',
+	'UNABLE_TO_WRITE_FILE'		=> 'Не удалось записать файл в %s.',
+	'UPLOAD_COMPLETED'			=> 'Загрузка на сервер успешно завершена.',
+	'UPLOAD_FAILED'				=> 'Загрузка на сервер не удалась по неизвестным причинам. Может потребоваться заменить соответствующий файл вручную.',
+	'UPLOAD_METHOD'				=> 'Метод загрузки на сервер',
+	'UPLOAD_SETTINGS'			=> 'Настройки загрузки на сервер',
 
-	'WRONG_LANGUAGE_FILE'		=> 'Selected language file is invalid.',
+	'WRONG_LANGUAGE_FILE'		=> 'Выбранный языковой файл неверен.',
 ));
 
 ?>
