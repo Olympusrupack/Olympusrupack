@@ -33,34 +33,34 @@ if (empty($lang) || !is_array($lang))
 // BBCodes 
 // Note to translators: you can translate everything but what's between { and }
 $lang = array_merge($lang, array(
-	'ACP_BBCODES_EXPLAIN'		=> 'BBCode is a special implementation of HTML offering greater control over what and how something is displayed. From this page you can add, remove and edit custom BBCodes',
-	'ADD_BBCODE'				=> 'Add a new BBCode',
+	'ACP_BBCODES_EXPLAIN'		=> 'BBCode это особая реализация HTML, предоставляющая больший контроль над тем, что и как отображается на форуме. На данной странице вы можете добавлять, удалять и редактировать собственные BBCode',
+	'ADD_BBCODE'				=> 'Добавить BBCode',
 
-	'BBCODE_ADDED'				=> 'BBCode added successfully.',
-	'BBCODE_EDITED'				=> 'BBCode edited successfully.',
-	'BBCODE_NOT_EXIST'			=> 'The BBCode you selected does not exist.',
-	'BBCODE_HELPLINE'			=> 'Helpline',
-	'BBCODE_HELPLINE_EXPLAIN'	=> 'This field contains the mouseover text of the BBCode',
-	'BBCODE_HELPLINE_TEXT'		=> 'Helpline text',
-	'BBCODE_INVALID_TAG_NAME'	=> 'The BBCode tag name that you selected already exists.',
-	'BBCODE_OPEN_ENDED_TAG'		=> 'Your custom BBCode must contain both an opening and a closing tag.',
-	'BBCODE_TAG'				=> 'Tag',
-	'BBCODE_TAG_TOO_LONG'		=> 'The tag name you selected is too long.',
-	'BBCODE_TAG_DEF_TOO_LONG'	=> 'The tag definition that you have entered is too long, please shorten your tag definition.',
-	'BBCODE_USAGE'				=> 'BBCode usage',
+	'BBCODE_ADDED'				=> 'BBCode успешно добавлен.',
+	'BBCODE_EDITED'				=> 'BBCode успешно отредактирован.',
+	'BBCODE_NOT_EXIST'			=> 'Выбранный BBCode не существует.',
+	'BBCODE_HELPLINE'			=> 'Подсказка',
+	'BBCODE_HELPLINE_EXPLAIN'	=> 'Данное поле содержит текст, который появляется при наведении на BBCode',
+	'BBCODE_HELPLINE_TEXT'		=> 'Текст подсказки',
+	'BBCODE_INVALID_TAG_NAME'	=> 'Выбранное имя тега BBCode уже существует.',
+	'BBCODE_OPEN_ENDED_TAG'		=> 'Ваш собственный BBCode должен содержать открывающий и закрывающий теги.',
+	'BBCODE_TAG'				=> 'Тег',
+	'BBCODE_TAG_TOO_LONG'		=> 'Выбранное имя тега слишком длинное.',
+	'BBCODE_TAG_DEF_TOO_LONG'	=> 'Введенное определение тега слишком длинное, пожалуйста уменьшите его.',
+	'BBCODE_USAGE'				=> 'Использование BBCode',
 	'BBCODE_USAGE_EXAMPLE'		=> '[hilight={COLOR}]{TEXT}[/hilight]<br /><br />[font={TEXT1}]{TEXT2}[/font]',
-	'BBCODE_USAGE_EXPLAIN'		=> 'Here you define how to use the bbcode. Replace any variable input by the corresponding token (%ssee below%s)',
+	'BBCODE_USAGE_EXPLAIN'		=> 'Здесь вы определяете, как использовать BBCode. Любая вводимая переменная может быть заменена на соотвествующий символ (%sсмотрите ниже%s)', // ???
 
-	'EXAMPLE'						=> 'Example:',
-	'EXAMPLES'						=> 'Examples:',
+	'EXAMPLE'						=> 'Пример:',
+	'EXAMPLES'						=> 'Примеры:',
 
-	'HTML_REPLACEMENT'				=> 'HTML replacement',
+	'HTML_REPLACEMENT'				=> 'Замена HTML',
 	'HTML_REPLACEMENT_EXAMPLE'		=> '&lt;span style="background-color:{COLOR};"&gt;{TEXT}&lt;/span&gt;<br /><br />&lt;span style="font-family:{TEXT1};"&gt;{TEXT2}&lt;/span&gt;',
-	'HTML_REPLACEMENT_EXPLAIN'		=> 'Here you define the default HTML replacement (each template can have its own HTML replacement). Do not forget to put back tokens you used above!',
+	'HTML_REPLACEMENT_EXPLAIN'		=> 'Здесь вы определяете, замену HTML по умолчанию (каждый шаблон может иметь свои собственные замены HTML). Не забудьте вернуть символы, использованные ваше!', // ???
 
-	'TOKEN'					=> 'Token',
-	'TOKENS'				=> 'Tokens',
-	'TOKENS_EXPLAIN'		=> 'Tokens are placeholders for user input. The input will be validated only if it matches the corresponding definition. If needed, you can number them by adding a number as the last character between the braces, e.g. {USERNAME1}, {USERNAME2}.<br /><br />In addition to these tokens you can use any of lang string present in your language/ directory like this: {L_<em>&lt;stringname&gt;</em>} where <em>&lt;stringname&gt;</em> is the name of the translated string you want to add. For example, {L_WROTE} will be displayed as "wrote" or its translation according to user’s locale',
+	'TOKEN'					=> 'Символ',
+	'TOKENS'				=> 'Символы',
+	'TOKENS_EXPLAIN'		=> 'Символы являются placeholders for user input. The input will be validated only if it matches the corresponding definition. If needed, you can number them by adding a number as the last character between the braces, e.g. {USERNAME1}, {USERNAME2}.<br /><br />In addition to these tokens you can use any of lang string present in your language/ directory like this: {L_<em>&lt;stringname&gt;</em>} where <em>&lt;stringname&gt;</em> is the name of the translated string you want to add. For example, {L_WROTE} will be displayed as "wrote" or its translation according to user’s locale',
 	'TOKEN_DEFINITION'		=> 'What can it be?',
 	'TOO_MANY_BBCODES'		=> 'You cannot create any more BBCodes. Please remove one or more BBCodes then try again.',
 
