@@ -66,7 +66,7 @@ $lang = array_merge($lang, array(
 		'content'		=> 'Содержание',
 		'forums'		=> 'Форумы',
 		'misc'			=> 'Разное',
-		'permissions'	=> 'Разрешения',
+		'permissions'	=> 'Права доступа',
 		'pm'			=> 'Личные сообщения',
 		'polls'			=> 'Опросы',
 		'post'			=> 'Размещение сообщений',
@@ -79,10 +79,10 @@ $lang = array_merge($lang, array(
 	),
 
 	'permission_type'	=> array(
-		'u_'			=> 'Пользовательские разрешения',
-		'a_'			=> 'Администраторские разрешения',
-		'm_'			=> 'Модераторские разрешения',
-		'f_'			=> 'Разрешения форума',
+		'u_'			=> 'Права доступа пользователя',
+		'a_'			=> 'Права доступа администратора',
+		'm_'			=> 'Права доступа модератора',
+		'f_'			=> 'Права доступа для форума',
 	),
 ));
 
@@ -206,15 +206,15 @@ $lang = array_merge($lang, array(
 	'acl_a_names'		=> array('lang' => 'Может управлять запретом имен', 'cat' => 'user_group'),
 	'acl_a_ban'			=> array('lang' => 'Может управлять блокировкой', 'cat' => 'user_group'),
 
-	'acl_a_viewauth'	=> array('lang' => 'Может просматривать разрешения', 'cat' => 'permissions'),
-	'acl_a_authgroups'	=> array('lang' => 'Может изменять разрешения для конкретной группы', 'cat' => 'permissions'),
-	'acl_a_authusers'	=> array('lang' => 'Может изменять разрешения для конкретного пользователя', 'cat' => 'permissions'),
-	'acl_a_fauth'		=> array('lang' => 'Может изменять разрешения в форумах', 'cat' => 'permissions'),
-	'acl_a_mauth'		=> array('lang' => 'Может изменять разрешения для модераторов', 'cat' => 'permissions'),
-	'acl_a_aauth'		=> array('lang' => 'Может изменять разрешения для администраторов', 'cat' => 'permissions'),
-	'acl_a_uauth'		=> array('lang' => 'Может изменять разрешения для пользователей', 'cat' => 'permissions'),
+	'acl_a_viewauth'	=> array('lang' => 'Может просматривать права доступа', 'cat' => 'permissions'),
+	'acl_a_authgroups'	=> array('lang' => 'Может изменять права доступа для конкретной группы', 'cat' => 'permissions'),
+	'acl_a_authusers'	=> array('lang' => 'Может изменять права доступа для конкретного пользователя', 'cat' => 'permissions'),
+	'acl_a_fauth'		=> array('lang' => 'Может изменять права доступа в форумах', 'cat' => 'permissions'),
+	'acl_a_mauth'		=> array('lang' => 'Может изменять права доступа для модераторов', 'cat' => 'permissions'),
+	'acl_a_aauth'		=> array('lang' => 'Может изменять права доступа для администраторов', 'cat' => 'permissions'),
+	'acl_a_uauth'		=> array('lang' => 'Может изменять права доступа для пользователей', 'cat' => 'permissions'),
 	'acl_a_roles'		=> array('lang' => 'Может управлять ролями', 'cat' => 'permissions'),
-	'acl_a_switchperm'	=> array('lang' => 'Может изменять другие разрешения', 'cat' => 'permissions'),
+	'acl_a_switchperm'	=> array('lang' => 'Может изменять другие права доступа', 'cat' => 'permissions'),
 
 	'acl_a_styles'		=> array('lang' => 'Может управлять стилями', 'cat' => 'misc'),
 	'acl_a_viewlogs'	=> array('lang' => 'Может просматривать логи', 'cat' => 'misc'),
