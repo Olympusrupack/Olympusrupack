@@ -32,7 +32,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_ADMINISTRATORS'		=> 'Администраторы',
-	'ACP_ADMIN_LOGS'			=> 'Администраторский лог',
+	'ACP_ADMIN_LOGS'			=> 'Лог администратора',
 	'ACP_ADMIN_ROLES'			=> 'Администраторские роли',
 	'ACP_ATTACHMENTS'			=> 'Вложения',
 	'ACP_ATTACHMENT_SETTINGS'	=> 'Настройки вложений',
@@ -68,7 +68,7 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_USERGROUP'			=> 'Пользователи и Группы',
 	'ACP_CAT_USERS'				=> 'Пользователи',
 	'ACP_CLIENT_COMMUNICATION'	=> 'Средства связи',
-	'ACP_COOKIE_SETTINGS'		=> 'Настройки сookie',
+	'ACP_COOKIE_SETTINGS'		=> 'Настройки куков (cookies)',
 	'ACP_CRITICAL_LOGS'			=> 'Лог ошибок',
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Дополнительные поля в профиле',
 	
@@ -119,8 +119,8 @@ $lang = array_merge($lang, array(
 	'ACP_MESSAGES'				=> 'Сообщения',
 	'ACP_MESSAGE_SETTINGS'		=> 'Личные сообщения',
 	'ACP_MODULE_MANAGEMENT'		=> 'Управление модулями',
-	'ACP_MOD_LOGS'				=> 'Модераторский лог',
-	'ACP_MOD_ROLES'				=> 'Модераторские роли',
+	'ACP_MOD_LOGS'				=> 'Лог модератора',
+	'ACP_MOD_ROLES'				=> 'Роли администратора',
 	
 	'ACP_ORPHAN_ATTACHMENTS'	=> 'Невложенные файлы',
 	
@@ -162,7 +162,7 @@ $lang = array_merge($lang, array(
 	
 	'ACP_UPDATE'					=> 'Обновление конференции',
 	'ACP_USERS_FORUM_PERMISSIONS'	=> 'Форумные права пользователей',
-	'ACP_USERS_LOGS'				=> 'Пользовательский лог',
+	'ACP_USERS_LOGS'				=> 'Лог пользователя',
 	'ACP_USERS_PERMISSIONS'			=> 'Права пользователей',
 	'ACP_USER_ATTACH'				=> 'Вложения',
 	'ACP_USER_AVATAR'				=> 'Аватара',
