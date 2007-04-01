@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* acp_permissions [English]
+* acp_permissions [Russian]
 *
 * @package language
 * @version $Id: permissions.php,v 1.26 2007/01/24 00:58:45 shs Exp $
@@ -32,53 +32,53 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_PERMISSIONS_EXPLAIN'	=> '
-		<p>Permissions are highly granular and grouped into four major sections, which are:</p>
+		<p>Права доступа сильно детализированы и сгруппированы в следующие четыре основных раздела:</p>
 
-		<h2>Global Permissions</h2>
-		<p>These are used to control access on a global level and apply to the entire bulletin board. They are further divided into Users’ Permissions, Groups’ Permissions, Administrators and Global Moderators.</p>
+		<h2>Глобальные права доступа</h2>
+		<p>Они используются для контроля доступа на глобальном уровне и применяются в целом к конференции. Далее они разделены на Права пользователей, Права групп, Администраторы и Супермодераторы.</p>
 
-		<h2>Forum Based Permissions</h2>
-		<p>These are used to control access on a per forum basis. They are further divided into Forum Permissions, Forum Moderators, Users’ Forum Permissions and Groups’ Forum Permissions.</p>
+		<h2>Локальные права доступа</h2>
+		<p>Они используются для контроля доступа на уровне форумов. Далее они разделены на Доступ к форумам, Модераторы форумов, Форумные права пользователей, Форумные права групп.</p>
 
-		<h2>Permission Roles</h2>
-		<p>These are used to create different sets of permissions for the different permission types later being able to be assigned on a role-based basis. The default roles should cover the administration of bulletin boards large and small, though within each of the four divisions, you can add/edit/delete roles as you see fit.</p>
+		<h2>Роли</h2>
+		<p>Они используются для создания типичного набора прав различного доступа, чтобы в дальнейшем можно было назначать права, основанные на ролевом доступе. Роли по умолчанию должны целиком перекрываться правами администратора конференции, хотя в пределах каждого из четырех разделов вы можете добавлять/редактировать/удалять роли так, как считаете целесообразным.</p>
 
-		<h2>Permission Mask</h2>
-		<p>These are used to view the effective permissions assigned to Users, Moderators (Local and Global), Administrators or Forums.</p>
+		<h2>Маски прав доступа</h2>
+		<p>Они используются для просмотра действующих прав доступа, назначенных для Пользователей, Модераторов (локальных и супермодераторов), Администраторов и Форумов (локальные права).</p>
 	
 		<br />
 
-		<p>For further information on setting up and managing permissions on your phpBB3 forum, please see <a href="http://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">Chapter 1.5 of our Quick Start Guide</a>.</p>
+		<p>Для более подробной информации по установкам и управлению правами доступа на вашей конференции phpBB3 смотрите <a href="http://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">Chapter 1.5 of our Quick Start Guide</a>.</p>
 	',
 
-	'ACL_NEVER'				=> 'Never',
-	'ACL_SET'				=> 'Setting permissions',
-	'ACL_SET_EXPLAIN'		=> 'Permissions are based on a simple <samp>YES</samp>/<samp>NO</samp> system. Setting an option to <samp>NEVER</samp> for a user or usergroup overrides any other value assigned to it. If you do not wish to assign a value for an option for this user or group select <samp>NO</samp>. If values are assigned for this option elsewhere they will be used in preference, else <samp>NEVER</samp> is assumed. All objects marked (with the checkbox in front of them) will copy the permission set you defined.',
-	'ACL_SETTING'			=> 'Setting',
+	'ACL_NEVER'				=> 'Никогда',
+	'ACL_SET'				=> 'Установки прав доступа',
+	'ACL_SET_EXPLAIN'		=> 'Права доступа основаны на простой <samp>Да</samp>/<samp>Нет</samp> системе. Установление значения  <samp>Никогда</samp> для пользователя или группы означает игнорирование любых иных значений установленных по данной опции. Если вы не хотите устанавливать право по опции для данного пользователя или группы выберите <samp>Нет</samp>. Если значения по опции установленны где-нибудь еще, они могут иметь более высокий приоритет, если не установлено <samp>Никогда</samp>. Все отмеченные чекбоксы (перед вами) отображают установленные вами права доступа.',
+	'ACL_SETTING'			=> 'Установки',
 
-	'ACL_TYPE_A_'			=> 'Administrative permissions',
-	'ACL_TYPE_F_'			=> 'Forum permissions',
-	'ACL_TYPE_M_'			=> 'Moderative permissions',
-	'ACL_TYPE_U_'			=> 'User permissions',
+	'ACL_TYPE_A_'			=> 'Права доступа администратора',
+	'ACL_TYPE_F_'			=> 'Доступ к форумам',
+	'ACL_TYPE_M_'			=> 'Права доступа модератора',
+	'ACL_TYPE_U_'			=> 'Права доступа пользователя',
 
-	'ACL_TYPE_GLOBAL_A_'	=> 'Administrative permissions',
-	'ACL_TYPE_GLOBAL_U_'	=> 'User permissions',
-	'ACL_TYPE_GLOBAL_M_'	=> 'Global Moderator permissions',
-	'ACL_TYPE_LOCAL_M_'		=> 'Forum Moderator permissions',
-	'ACL_TYPE_LOCAL_F_'		=> 'Forum permissions',
+	'ACL_TYPE_GLOBAL_A_'	=> 'Администратор',
+	'ACL_TYPE_GLOBAL_U_'	=> 'Права доступа пользователя',
+	'ACL_TYPE_GLOBAL_M_'	=> 'Супермодератор',
+	'ACL_TYPE_LOCAL_M_'		=> 'Модератор форума',
+	'ACL_TYPE_LOCAL_F_'		=> 'Форумные права доступа',
 	
-	'ACL_NO'				=> 'No',
-	'ACL_VIEW'				=> 'Viewing permissions',
-	'ACL_VIEW_EXPLAIN'		=> 'Here you can see the effective permissions the user/group is having. A red square indicates that the user/group does not have the permission, a green square indicates that the user/group does have the permission.',
-	'ACL_YES'				=> 'Yes',
+	'ACL_NO'				=> 'Нет',
+	'ACL_VIEW'				=> 'Просмотр прав доступа',
+	'ACL_VIEW_EXPLAIN'		=> 'Здесь вы можете видеть действующие права доступа для пользователя/группы. Красный цвет обозначает отсуствие права у пользователя/группы, зеленый цвет обозначает наличие права у пользователя/группы.',
+	'ACL_YES'				=> 'Да',
 
-	'ACP_ADMINISTRATORS_EXPLAIN'				=> 'Here you can assign administrator rights to users or groups. All users with admin permissions can view the administration panel.',
-	'ACP_FORUM_MODERATORS_EXPLAIN'				=> 'Here you can assign users and groups as forum moderators. To assign users access to forums, to define global moderative rights or administrators please use the appropriate page.',
-	'ACP_FORUM_PERMISSIONS_EXPLAIN'				=> 'Here you can alter which users and groups can access which forums. To assign moderators or define administrators please use the appropriate page.',
-	'ACP_GLOBAL_MODERATORS_EXPLAIN'				=> 'Here you can assign global moderator rights to users or groups. These moderators are like ordinary moderators except they have access to every forum on your board.',
-	'ACP_GROUPS_FORUM_PERMISSIONS_EXPLAIN'		=> 'Here you can assign forum permissions to groups.',
-	'ACP_GROUPS_PERMISSIONS_EXPLAIN'			=> 'Here you can assign global permissions to groups - user permissions, global moderator permissions and administrator permissions. User permissions include capabilities such as the use of avatars, sending private messages, et cetera; global moderator permissions such as approving posts, manage topics, manage bans, et ecetera and lastly administrator permissions such as altering permissions, define custom BBCodes, manage forums, et cetera. Individual users permissions should only be changed in rare occasions, the preferred method is putting users in groups and assigning the group’s permissions.',
-	'ACP_ADMIN_ROLES_EXPLAIN'					=> 'Here you are able to manage the roles for administrative permissions. Roles are effective permissions, if you change a role the items having this role assigned will change it’s permissions too.',
+	'ACP_ADMINISTRATORS_EXPLAIN'				=> 'Здесь вы можете назначить права администратора пользователям или группам. Все пользователи с правами администратора могут просматривать Администраторский раздел.',
+	'ACP_FORUM_MODERATORS_EXPLAIN'				=> 'Здесь вы можете назначать пользователей или группы модераторами форумов. Для назначения прав доступа к форумам, определения прав супермодератора и администратора используйте соответствующий раздел.',
+	'ACP_FORUM_PERMISSIONS_EXPLAIN'				=> 'Здесь вы можете изменять для каждого пользователя или группы доступ к каждому форуму. Для назначения модераторов или определения прав администратора используйте соответствующий раздел.',
+	'ACP_GLOBAL_MODERATORS_EXPLAIN'				=> 'Здесь вы можете можете назначать права супермодератора пользователям или группам. Супермодераторы подобны обычным модераторам, но кроме того они имеют доступ ко всем форумам конференции.',
+	'ACP_GROUPS_FORUM_PERMISSIONS_EXPLAIN'		=> 'Здесь вы можете назначать форумные права групп.',
+	'ACP_GROUPS_PERMISSIONS_EXPLAIN'			=> 'Здесь вы можете определять глобальные права доступа для групп - Права пользователей, права супермодераторов, права администраторов. Прав пользователей включают такие возможности, как использование аватары, отправка личных сообщений и так далее; права супермодератора типа одобрения сообщений, управления темами, управление блокировкой и так далее, и, наконец, права администратора такие, как изменение прав доступа, определение новых BBCodes, управление форумами и так далее. Индивидуально права доступа пользователей следует изменять в крайних случаях, преимущественный метод заключается в помещении пользователей в группы и назначении прав группам.',
+	'ACP_ADMIN_ROLES_EXPLAIN'					=> 'Здесь вы можете управлять ролями с правами администратора. Roles are effective permissions, if you change a role the items having this role assigned will change it’s permissions too.',
 	'ACP_FORUM_ROLES_EXPLAIN'					=> 'Here you are able to manage the roles for forum permissions. Roles are effective permissions, if you change a role the items having this role assigned will change it’s permissions too.',
 	'ACP_MOD_ROLES_EXPLAIN'						=> 'Here you are able to manage the roles for moderative permissions. Roles are effective permissions, if you change a role the items having this role assigned will change it’s permissions too.',
 	'ACP_USER_ROLES_EXPLAIN'					=> 'Here you are able to manage the roles for user permissions. Roles are effective permissions, if you change a role the items having this role assigned will change it’s permissions too.',
