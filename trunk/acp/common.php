@@ -106,7 +106,7 @@ $lang = array_merge($lang, array(
 	
 	'ACP_LANGUAGE'				=> 'Языки',
 	'ACP_LANGUAGE_PACKS'		=> 'Языковые файлы',
-	'ACP_LOAD_SETTINGS'			=> 'Ограничения нагрузки',
+	'ACP_LOAD_SETTINGS'			=> 'Ограничения нагрузки на сервер',
 	'ACP_LOGGING'				=> 'Логи',
 	
 	'ACP_MAIN'					=> 'Главная страница администраторского раздела',
@@ -409,7 +409,7 @@ $lang = array_merge($lang, array(
 	'LOG_UNBAN_IP'			=> '<strong>Разблокирован IP-адрес</strong><br />» %s',
 	'LOG_UNBAN_EMAIL'		=> '<strong>Разблокирован email-адрес</strong><br />» %s',
 
-	'LOG_BBCODE_ADD'		=> '<strong>Добвален новый BBCode</strong><br />» %s',
+	'LOG_BBCODE_ADD'		=> '<strong>Добавлен новый BBCode</strong><br />» %s',
 	'LOG_BBCODE_EDIT'		=> '<strong>Изменён BBCode</strong><br />» %s',
 	'LOG_BBCODE_DELETE'		=> '<strong>Удалён BBCode</strong><br />» %s',
 
@@ -429,7 +429,7 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_COOKIE'			=> '<strong>Изменены настройки куков (cookie)</strong>',
 	'LOG_CONFIG_EMAIL'			=> '<strong>Изменены настройки email</strong>',
 	'LOG_CONFIG_FEATURES'		=> '<strong>Изменены возможности конференции</strong>',
-	'LOG_CONFIG_LOAD'			=> '<strong>Изменены настройки нагрузки</strong>',
+	'LOG_CONFIG_LOAD'			=> '<strong>Изменены настройки нагрузки на сервер</strong>',
 	'LOG_CONFIG_MESSAGE'		=> '<strong>Изменены настройки личных сообщений</strong>',
 	'LOG_CONFIG_POST'			=> '<strong>Изменены настройки сообщений</strong>',
 	'LOG_CONFIG_REGISTRATION'	=> '<strong>Изменены настройки регистрации пользователей</strong>',
@@ -489,7 +489,7 @@ $lang = array_merge($lang, array(
 	'LOG_GROUP_CREATED'		=> '<strong>Создана группа пользователей</strong><br />» %s',
 	'LOG_GROUP_DEFAULTS'	=> '<strong>Назначены группа по умолчанию для членов</strong><br />» %s',
 	'LOG_GROUP_DELETE'		=> '<strong>Удалена группа пользователей</strong><br />» %s',
-	'LOG_GROUP_DEMOTED'		=> '<strong>Сняты лидеры с группе пользователей</strong> %1$s<br />» %2$s',
+	'LOG_GROUP_DEMOTED'		=> '<strong>Сняты лидеры в группе пользователей</strong> %1$s<br />» %2$s',
 	'LOG_GROUP_PROMOTED'	=> '<strong>Назначены лидеры в группе пользователей</strong> %1$s<br />» %2$s',
 	'LOG_GROUP_REMOVE'		=> '<strong>Удалены члены из группы пользователей</strong> %1$s<br />» %2$s',
 	'LOG_GROUP_UPDATED'		=> '<strong>Обновлена информация о группе пользователей</strong><br />» %s',
@@ -605,7 +605,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_BAN_IP'		=> '<strong>Заблокирован IP-адрес через систему управления пользователями</strong> по причине "<em>%1$s</em>"<br />» %2$s',
 	'LOG_USER_BAN_EMAIL'	=> '<strong>Заблокирован email-адрес через систему управления пользователями</strong> по причине "<em>%1$s</em>"<br />» %2$s',
 	'LOG_USER_DELETED'		=> '<strong>Удалён пользователь</strong><br />» %s',
-	'LOG_USER_DEL_ATTACH'	=> '<strong>Удалены все вложени пользователя</strong><br />» %s',
+	'LOG_USER_DEL_ATTACH'	=> '<strong>Удалены все вложения пользователя</strong><br />» %s',
 	'LOG_USER_DEL_AVATAR'	=> '<strong>Удалена аватара пользователя</strong><br />» %s',
 	'LOG_USER_DEL_POSTS'	=> '<strong>Удалены все сообщения пользователя</strong><br />» %s',
 	'LOG_USER_DEL_SIG'		=> '<strong>Удалена подпись пользователя</strong><br />» %s',
