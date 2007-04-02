@@ -409,7 +409,7 @@ $lang = array_merge($lang, array(
 	'UCP_PM_POPUP'				=> 'Личные сообщения',
 	'UCP_PM_POPUP_TITLE'		=> 'Всплывающее окно о новом личном сообщении',
 	'UCP_PM_UNREAD'				=> 'Непрочитанные сообщения',
-	'UCP_PM_VIEW'				=> 'Посмотреть сообщения',
+	'UCP_PM_VIEW'				=> 'Просмотр сообщений',
 
 	'UCP_PROFILE'				=> 'Профиль',
 	'UCP_PROFILE_AVATAR'		=> 'Аватара',
