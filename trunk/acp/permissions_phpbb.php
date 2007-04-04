@@ -98,14 +98,14 @@ $lang = array_merge($lang, array(
 	'acl_u_attach'		=> array('lang' => 'Может прикреплять вложения', 'cat' => 'post'),
 	'acl_u_download'	=> array('lang' => 'Может скачивать файлы', 'cat' => 'post'),
 	'acl_u_savedrafts'	=> array('lang' => 'Может сохранять черновики', 'cat' => 'post'),
-	'acl_u_chgcensors'	=> array('lang' => 'Может отключать цензора', 'cat' => 'post'),
+	'acl_u_chgcensors'	=> array('lang' => 'Может отключать автоцензора', 'cat' => 'post'),
 	'acl_u_sig'			=> array('lang' => 'Может использовать подпись', 'cat' => 'post'),
 
 	'acl_u_sendpm'		=> array('lang' => 'Может посылать ЛС', 'cat' => 'pm'),
 	'acl_u_masspm'		=> array('lang' => 'Может рассылать массовые ЛС', 'cat' => 'pm'),
 	'acl_u_readpm'		=> array('lang' => 'Может читать ЛС', 'cat' => 'pm'),
 	'acl_u_pm_edit'		=> array('lang' => 'Может редактировать собственные ЛС', 'cat' => 'pm'),
-	'acl_u_pm_delete'	=> array('lang' => 'Может перемещать ЛС в своих папках', 'cat' => 'pm'),
+	'acl_u_pm_delete'	=> array('lang' => 'Может удалять ЛС из своих папок', 'cat' => 'pm'),
 	'acl_u_pm_forward'	=> array('lang' => 'Может пересылать ЛС', 'cat' => 'pm'),
 	'acl_u_pm_emailpm'	=> array('lang' => 'Может отправлять ЛС по email', 'cat' => 'pm'),
 	'acl_u_pm_printpm'	=> array('lang' => 'Может распечатывать ЛС', 'cat' => 'pm'),
@@ -120,7 +120,7 @@ $lang = array_merge($lang, array(
 	'acl_u_sendim'		=> array('lang' => 'Может использовать систему мгновенных сообщений', 'cat' => 'misc'),
 	'acl_u_ignoreflood'	=> array('lang' => 'Может игнорировать флуд-контроль', 'cat' => 'misc'),
 	'acl_u_hideonline'	=> array('lang' => 'Может прятать статус присутствия', 'cat' => 'misc'),
-	'acl_u_viewonline'	=> array('lang' => 'Может видеть присутствие всех', 'cat' => 'misc'),
+	'acl_u_viewonline'	=> array('lang' => 'Может видеть статус присутствия', 'cat' => 'misc'),
 	'acl_u_search'		=> array('lang' => 'Может использовать поиск', 'cat' => 'misc'),
 ));
 
@@ -130,13 +130,13 @@ $lang = array_merge($lang, array(
 	'acl_f_read'		=> array('lang' => 'Может читать форум', 'cat' => 'post'),
 	'acl_f_post'		=> array('lang' => 'Может создавать темы', 'cat' => 'post'),
 	'acl_f_reply'		=> array('lang' => 'Может отвечать в темах', 'cat' => 'post'),
-	'acl_f_icons'		=> array('lang' => 'Может использовать иконки сообщений', 'cat' => 'post'),
+	'acl_f_icons'		=> array('lang' => 'Может использовать значки сообщений', 'cat' => 'post'),
 	'acl_f_announce'	=> array('lang' => 'Может создавать объявления', 'cat' => 'post'),
 	'acl_f_sticky'		=> array('lang' => 'Может прилеплять темы', 'cat' => 'post'),
 
 	'acl_f_poll'		=> array('lang' => 'Может создавать опросы', 'cat' => 'polls'),
 	'acl_f_vote'		=> array('lang' => 'Может голосовать в опросах', 'cat' => 'polls'),
-	'acl_f_votechg'		=> array('lang' => 'Может менять вариант голосования', 'cat' => 'polls'),
+	'acl_f_votechg'		=> array('lang' => 'Может переголосовать', 'cat' => 'polls'),
 
 	'acl_f_attach'		=> array('lang' => 'Может прикреплять вложения', 'cat' => 'content'),
 	'acl_f_download'	=> array('lang' => 'Может скачивать файлы', 'cat' => 'content'),
@@ -151,12 +151,12 @@ $lang = array_merge($lang, array(
 	'acl_f_user_lock'	=> array('lang' => 'Может закрывать свои темы', 'cat' => 'actions'),
 	'acl_f_bump'		=> array('lang' => 'Может поднимать темы', 'cat' => 'actions'),
 	'acl_f_report'		=> array('lang' => 'Может размещать жалобы', 'cat' => 'actions'),
-	'acl_f_subscribe'	=> array('lang' => 'Может подписаться на форум', 'cat' => 'actions'),
+	'acl_f_subscribe'	=> array('lang' => 'Может подписываться на форумы', 'cat' => 'actions'),
 	'acl_f_print'		=> array('lang' => 'Может распечатывать темы', 'cat' => 'actions'),
 	'acl_f_email'		=> array('lang' => 'Может сообщать (другу) по email о теме', 'cat' => 'actions'),
 
 	'acl_f_search'		=> array('lang' => 'Может использовать поиск в форуме', 'cat' => 'misc'),
-	'acl_f_ignoreflood' => array('lang' => 'Может игнорировать флод-контроль', 'cat' => 'misc'),
+	'acl_f_ignoreflood' => array('lang' => 'Может игнорировать флуд-контроль', 'cat' => 'misc'),
 	'acl_f_postcount'	=> array('lang' => 'Счетчик сообщений включен<br /><em>Учтите, что данная установка эффективна только при создании новых сообщений.</em>', 'cat' => 'misc'),
 	'acl_f_noapprove'	=> array('lang' => 'Может размещать сообщения без одобрения', 'cat' => 'misc'),
 ));
@@ -191,8 +191,8 @@ $lang = array_merge($lang, array(
 	'acl_a_forumdel'	=> array('lang' => 'Может удалять форумы', 'cat' => 'forums'),
 	'acl_a_prune'		=> array('lang' => 'Может очищать форумы', 'cat' => 'forums'),
 
-	'acl_a_icons'		=> array('lang' => 'Может изменять иконки и смайлы', 'cat' => 'posting'),
-	'acl_a_words'		=> array('lang' => 'Может изменять список цензуры', 'cat' => 'posting'),
+	'acl_a_icons'		=> array('lang' => 'Может изменять значки и смайлы', 'cat' => 'posting'),
+	'acl_a_words'		=> array('lang' => 'Может настраивать автоцензор', 'cat' => 'posting'),
 	'acl_a_bbcode'		=> array('lang' => 'Может определять BBCode', 'cat' => 'posting'),
 	'acl_a_attach'		=> array('lang' => 'Может изменять настройки вложений', 'cat' => 'posting'),
 
@@ -221,8 +221,8 @@ $lang = array_merge($lang, array(
 	'acl_a_clearlogs'	=> array('lang' => 'Может очищать логи', 'cat' => 'misc'),
 	'acl_a_modules'		=> array('lang' => 'Может управлять модулями', 'cat' => 'misc'),
 	'acl_a_language'	=> array('lang' => 'Может управлять языковыми пакетами', 'cat' => 'misc'),
-	'acl_a_email'		=> array('lang' => 'Может рассылать массовые email', 'cat' => 'misc'),
-	'acl_a_bots'		=> array('lang' => 'Может управлять Ботами', 'cat' => 'misc'),
+	'acl_a_email'		=> array('lang' => 'Может осуществлять массовую рассылку email', 'cat' => 'misc'),
+	'acl_a_bots'		=> array('lang' => 'Может управлять ботами', 'cat' => 'misc'),
 	'acl_a_reasons'		=> array('lang' => 'Может управлять списком жалоб/причин', 'cat' => 'misc'),
 	'acl_a_backup'		=> array('lang' => 'Может сохранять/восстанавливать базу данных', 'cat' => 'misc'),
 	'acl_a_search'		=> array('lang' => 'Может управлять поисковыми индексами/установками поиска', 'cat' => 'misc'),
