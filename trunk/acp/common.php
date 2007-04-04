@@ -175,10 +175,10 @@ $lang = array_merge($lang, array(
 	'ACP_USER_PROFILE'				=> 'Профиль',
 	'ACP_USER_RANK'					=> 'Звание',
 	'ACP_USER_ROLES'				=> 'Пользовательские роли',
-	'ACP_USER_SECURITY'				=> 'Защита пользователей',
+	'ACP_USER_SECURITY'				=> 'Блокировка пользователей',
 	'ACP_USER_SIG'					=> 'Подпись',
 
-	'ACP_VC_SETTINGS'					=> 'Настройки визуального подтверждения',
+	'ACP_VC_SETTINGS'					=> 'Визуальное подтверждение',
 	'ACP_VC_CAPTCHA_DISPLAY'			=> 'Предпросмотр визуального подтверждения',
 	'ACP_VERSION_CHECK'					=> 'Проверка обновлений',
 	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'Показать права администратора',
