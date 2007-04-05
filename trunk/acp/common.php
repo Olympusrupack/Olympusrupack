@@ -120,7 +120,7 @@ $lang = array_merge($lang, array(
 	'ACP_MESSAGE_SETTINGS'		=> 'Личные сообщения',
 	'ACP_MODULE_MANAGEMENT'		=> 'Управление модулями',
 	'ACP_MOD_LOGS'				=> 'Лог модератора',
-	'ACP_MOD_ROLES'				=> 'Роли администратора',
+	'ACP_MOD_ROLES'				=> 'Модераторские роли',
 	
 	'ACP_ORPHAN_ATTACHMENTS'	=> 'Невложенные файлы',
 	
