@@ -30,6 +30,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
+// Common
 $lang = array_merge($lang, array(
 	'ACP_ADMINISTRATORS'		=> 'Администраторы',
 	'ACP_ADMIN_LOGS'			=> 'Лог администратора',
@@ -181,10 +182,10 @@ $lang = array_merge($lang, array(
 	'ACP_VC_SETTINGS'					=> 'Визуальное подтверждение',
 	'ACP_VC_CAPTCHA_DISPLAY'			=> 'Предпросмотр визуального подтверждения',
 	'ACP_VERSION_CHECK'					=> 'Проверка обновлений',
-	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'Показать права администратора',
-	'ACP_VIEW_FORUM_MOD_PERMISSIONS'	=> 'Показать права модератора',
+	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'Показать права администраторов',
+	'ACP_VIEW_FORUM_MOD_PERMISSIONS'	=> 'Показать права модераторов',
 	'ACP_VIEW_FORUM_PERMISSIONS'		=> 'Показать локальные права',
-	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS'	=> 'Показать права супермодератора',
+	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS'	=> 'Показать права супермодераторов',
 	'ACP_VIEW_USER_PERMISSIONS'			=> 'Показать права пользователей',
 	
 	'ACP_WORDS'					=> 'Автоцензор',
