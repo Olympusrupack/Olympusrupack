@@ -71,11 +71,11 @@ $lang = array_merge($lang, array(
 		'polls'			=> 'Опросы',
 		'post'			=> 'Размещение сообщений',
 		'post_actions'	=> 'Действия с сообщениями',
-		'posting'		=> 'Размещение сообщений',
+		'posting'		=> 'Сообщения',
 		'profile'		=> 'Профиль',
 		'settings'		=> 'Установки',
 		'topic_actions'	=> 'Действия с темами',
-		'user_group'	=> 'Пользователи &amp; Группы',
+		'user_group'	=> 'Пользователи',
 	),
 
 	'permission_type'	=> array(
