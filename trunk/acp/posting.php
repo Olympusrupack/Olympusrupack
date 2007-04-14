@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* posting [English]
+* posting [Russian]
 *
 * @package language
 * @version $Id: posting.php,v 1.29 2007/01/27 18:33:26 shs Exp $
@@ -33,212 +33,212 @@ if (empty($lang) || !is_array($lang))
 // BBCodes 
 // Note to translators: you can translate everything but what's between { and }
 $lang = array_merge($lang, array(
-	'ACP_BBCODES_EXPLAIN'		=> 'BBCode это особая реализация HTML, предоставляющая больший контроль над тем, что и как отображается на форуме. На данной странице вы можете добавлять, удалять и редактировать собственные BBCode',
+	'ACP_BBCODES_EXPLAIN'		=> 'BBCode - это особая реализация HTML, предоставляющая больший контроль над тем, что и как отображается на форуме. На данной странице вы можете добавлять, удалять и редактировать собственные BBCode',
 	'ADD_BBCODE'				=> 'Добавить BBCode',
 
 	'BBCODE_ADDED'				=> 'BBCode успешно добавлен.',
 	'BBCODE_EDITED'				=> 'BBCode успешно отредактирован.',
 	'BBCODE_NOT_EXIST'			=> 'Выбранный BBCode не существует.',
 	'BBCODE_HELPLINE'			=> 'Подсказка',
-	'BBCODE_HELPLINE_EXPLAIN'	=> 'Данное поле содержит текст, который появляется при наведении на BBCode',
+	'BBCODE_HELPLINE_EXPLAIN'	=> 'Данное поле содержит текст, который появляется при наведении курсора на BBCode',
 	'BBCODE_HELPLINE_TEXT'		=> 'Текст подсказки',
 	'BBCODE_INVALID_TAG_NAME'	=> 'Выбранное имя тега BBCode уже существует.',
 	'BBCODE_OPEN_ENDED_TAG'		=> 'Ваш собственный BBCode должен содержать открывающий и закрывающий теги.',
 	'BBCODE_TAG'				=> 'Тег',
 	'BBCODE_TAG_TOO_LONG'		=> 'Выбранное имя тега слишком длинное.',
-	'BBCODE_TAG_DEF_TOO_LONG'	=> 'Введенное определение тега слишком длинное, пожалуйста уменьшите его.',
+	'BBCODE_TAG_DEF_TOO_LONG'	=> 'Введенное определение тега слишком длинное, пожалуйста, уменьшите его.',
 	'BBCODE_USAGE'				=> 'Использование BBCode',
 	'BBCODE_USAGE_EXAMPLE'		=> '[hilight={COLOR}]{TEXT}[/hilight]<br /><br />[font={TEXT1}]{TEXT2}[/font]',
-	'BBCODE_USAGE_EXPLAIN'		=> 'Здесь вы определяете, как использовать BBCode. Любая вводимая переменная может быть заменена на соотвествующий символ (%sсмотрите ниже%s)', // ???
+	'BBCODE_USAGE_EXPLAIN'		=> 'Здесь определяется, как использовать BBCode. Любая вводимая переменная может быть заменена на соотвествующую лексему (%sсмотрите ниже%s)', // ???
 
 	'EXAMPLE'						=> 'Пример:',
 	'EXAMPLES'						=> 'Примеры:',
 
-	'HTML_REPLACEMENT'				=> 'Замена HTML',
+	'HTML_REPLACEMENT'				=> 'HTML-замена',
 	'HTML_REPLACEMENT_EXAMPLE'		=> '&lt;span style="background-color:{COLOR};"&gt;{TEXT}&lt;/span&gt;<br /><br />&lt;span style="font-family:{TEXT1};"&gt;{TEXT2}&lt;/span&gt;',
-	'HTML_REPLACEMENT_EXPLAIN'		=> 'Здесь вы определяете, замену HTML по умолчанию (каждый шаблон может иметь свои собственные замены HTML). Не забудьте вернуть символы, использованные ваше!', // ???
+	'HTML_REPLACEMENT_EXPLAIN'		=> 'Здесь задаётся HTML-код, по умолчанию (каждый шаблон может иметь свои собственные замены HTML). Не забудьте вернуть символы, использованные выше!', // ???
 
 	'TOKEN'					=> 'Символ',
 	'TOKENS'				=> 'Символы',
 	'TOKENS_EXPLAIN'		=> 'Символы являются placeholders for user input. The input will be validated only if it matches the corresponding definition. If needed, you can number them by adding a number as the last character between the braces, e.g. {USERNAME1}, {USERNAME2}.<br /><br />In addition to these tokens you can use any of lang string present in your language/ directory like this: {L_<em>&lt;stringname&gt;</em>} where <em>&lt;stringname&gt;</em> is the name of the translated string you want to add. For example, {L_WROTE} will be displayed as "wrote" or its translation according to user’s locale',
-	'TOKEN_DEFINITION'		=> 'What can it be?',
-	'TOO_MANY_BBCODES'		=> 'You cannot create any more BBCodes. Please remove one or more BBCodes then try again.',
+	'TOKEN_DEFINITION'		=> 'Описание',
+	'TOO_MANY_BBCODES'		=> 'Вы больше не можете создать BBCode. Удалите  один или более BBCode и попробуйте снова.',
 
 	'tokens'	=>	array(
-		'TEXT'			=> 'Any text, including foreign characters, numbers, etc…',
-		'NUMBER'		=> 'Any series of digits',
-		'EMAIL'			=> 'A valid email address',
-		'URL'			=> 'A valid URL using any protocol (http, ftp, etc… cannot be used for javascript exploits). If none is given, "http://" is prepended to the string',
-		'LOCAL_URL'		=> 'A local URL. The URL must be relative to the topic page and cannot contain a server name or protocol',
-		'COLOR'			=> 'A HTML color, can be either in the numeric form <samp>#FF1234</samp> or a <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS colour keyword</a> such as <samp>fuchsia</samp> or <samp>InactiveBorder</samp>'
+		'TEXT'			=> 'Любой текст, включая иностранные символы, числа и т.п.',
+		'NUMBER'		=> 'Любая последовательность цифр',
+		'EMAIL'			=> 'Правильный email-адрес',
+		'URL'			=> 'Правильная ссылка (URL) с использованием любого протокола (http, ftp и т.п. не могут быть использованы в javascript-эксплойтах). Если не задано, "http://" будет автоматически добавлено к строке',
+		'LOCAL_URL'		=> 'Локальная ссылка (URL). Ссылка должна относиться к странице темы и не может содержать имя сервера или протокола',
+		'COLOR'			=> 'HTML-цвет, может быть задан в форме числа <samp>#FF1234</samp> или <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">цветового ключа CSS</a>, например <samp>fuchsia</samp> или <samp>InactiveBorder</samp>'
 	)
 ));
 
 // Smilies and topic icons
 $lang = array_merge($lang, array(
-	'ACP_ICONS_EXPLAIN'		=> 'From this page you can add, remove and edit the icons users may add to their topics or posts. These icons are generally displayed next to topic titles on the forum listing, or the post subjects in topic listings. You can also install and create new packages of icons.',
-	'ACP_SMILIES_EXPLAIN'	=> 'Smilies or emoticons are typically small, sometimes animated images used to convey an emotion or feeling. From this page you can add, remove and edit the emoticons users can use in their posts and private messages. You can also install and create new packages of smilies.',
-	'ADD_SMILIES'			=> 'Add multiple smilies',
-	'ADD_ICONS'				=> 'Add multiple icons',
-	'AFTER_ICONS'			=> 'After %s',
-	'AFTER_SMILIES'			=> 'After %s',
+	'ACP_ICONS_EXPLAIN'		=> 'На этой странице вы можете добавлять, удалять или редактировать значки, которые могут добавляться пользователями к своим темам или сообщениям. Эти значки обычно отображаются рядом с названием темы при просмотре форума, или рядом с заголовком сообщения при просмотре темы. Вы можете также устанавливать или создавать новые пакеты значков.',
+	'ACP_SMILIES_EXPLAIN'	=> 'Смайлики, или эмотиконы - обычно маленькие, иногда анимированные картинки, используемые для передачи эмоции или чувства. На этой странице вы можете добавлять, удалять или редактировать эмотиконы, которые могут добавляться пользователями к своим сообщениям и ЛС. Вы можете также устанавливать или создавать новые пакеты смайликов.',
+	'ADD_SMILIES'			=> 'Добавить несколько смайликов',
+	'ADD_ICONS'				=> 'Добавить несколько значков',
+	'AFTER_ICONS'			=> 'После %s',
+	'AFTER_SMILIES'			=> 'После %s',
 
-	'CODE'						=> 'Code',
-	'CURRENT_ICONS'				=> 'Current icons',
-	'CURRENT_ICONS_EXPLAIN'		=> 'Choose what to do with the currently installed icons',
-	'CURRENT_SMILIES'			=> 'Current smilies',
-	'CURRENT_SMILIES_EXPLAIN'	=> 'Choose what to do with the currently installed smilies',
+	'CODE'						=> 'Код',
+	'CURRENT_ICONS'				=> 'Установленные значки',
+	'CURRENT_ICONS_EXPLAIN'		=> 'Выберите действие, которое нужно применить к уже установленным значкам',
+	'CURRENT_SMILIES'			=> 'Установленные смайлики',
+	'CURRENT_SMILIES_EXPLAIN'	=> 'Выберите действие, которое нужно применить к уже установленным смайликам',
 
-	'DISPLAY_ON_POSTING'	=> 'Display on posting',
+	'DISPLAY_ON_POSTING'	=> 'Показывать при отправке сообщений',
 
-	'EDIT_ICONS'				=> 'Edit icons',
-	'EDIT_SMILIES'				=> 'Edit smilies',
-	'EMOTION'					=> 'Emotion',
-	'EXPORT_ICONS'				=> 'Export and download icons.pak',
-	'EXPORT_ICONS_EXPLAIN'		=> '%sOn clicking this link, the configuration for your installed icons will be packaged into <samp>icons.pak</samp> which once downloaded can be used to create a <samp>.zip</samp> or <samp>.tgz</samp> file containing all of your icons plus this <samp>icons.pak</samp> configuration file%s.',
-	'EXPORT_SMILIES'			=> 'Export and download smilies.pak',
-	'EXPORT_SMILIES_EXPLAIN'	=> '%sOn clicking this link, the configuration for your installed smilies will be packaged into <samp>smilies.pak</samp> which once downloaded can be used to create a <samp>.zip</samp> or <samp>.tgz</samp> file containing all of your smilies plus this <samp>smilies.pak</samp> configuration file%s.',
+	'EDIT_ICONS'				=> 'Редактировать значки',
+	'EDIT_SMILIES'				=> 'Редактировать смайлики',
+	'EMOTION'					=> 'Эмотикон',
+	'EXPORT_ICONS'				=> 'Экспортировать и скачать icons.pak',
+	'EXPORT_ICONS_EXPLAIN'		=> '%sПо щелчку на этой ссылке конфигурация установленных значков будет сохранена в файле <samp>icons.pak</samp>, который после скачивания может быть упакован в <samp>.zip</samp> или <samp>.tgz</samp> файл, содержащий все ваши значки вместе с данным конфигурационным файлом <samp>icons.pak</samp>%s.',
+	'EXPORT_SMILIES'			=> 'Экспортировать и скачать smilies.pak',
+	'EXPORT_SMILIES_EXPLAIN'	=> '%sПо щелчку на этой ссылке конфигурация установленных смайликов будет сохранена в файле <samp>smilies.pak</samp>, который после скачивания может быть упакован в <samp>.zip</samp> или <samp>.tgz</samp> файл, содержащий все ваши смайлики вместе с данным конфигурационным файлом <samp>smilies.pak</samp>%s.',
 
-	'FIRST'			=> 'First',
+	'FIRST'			=> 'Первый',
 
-	'ICONS_ADD'				=> 'Add a new icon',
-	'ICONS_ADDED'			=> 'The icon has been added successfully.',
-	'ICONS_CONFIG'			=> 'Icon configuration',
-	'ICONS_DELETED'			=> 'The icon has been removed successfully.',
-	'ICONS_EDIT'			=> 'Edit icon',
-	'ICONS_EDITED'			=> 'The icon has been updated successfully.',
-	'ICONS_HEIGHT'			=> 'Icon height',
-	'ICONS_IMAGE'			=> 'Icon image',
-	'ICONS_IMPORTED'		=> 'The icons pack has been installed successfully.',
-	'ICONS_IMPORT_SUCCESS'	=> 'The icons pack was imported successfully.',
-	'ICONS_LOCATION'		=> 'Icon location',
-	'ICONS_NOT_DISPLAYED'	=> 'The following icons are not displayed on the posting page',
-	'ICONS_ORDER'			=> 'Icon order',
-	'ICONS_URL'				=> 'Icon image file',
-	'ICONS_WIDTH'			=> 'Icon width',
-	'IMPORT_ICONS'			=> 'Install icons pak',
-	'IMPORT_SMILIES'		=> 'Install smilies pak',
+	'ICONS_ADD'				=> 'Добавить значок',
+	'ICONS_ADDED'			=> 'Значок был успешно добавлен.',
+	'ICONS_CONFIG'			=> 'Настройки значков',
+	'ICONS_DELETED'			=> 'Значок был успешно удалён.',
+	'ICONS_EDIT'			=> 'Редактировать значок',
+	'ICONS_EDITED'			=> 'Значок был успешно обновлён.',
+	'ICONS_HEIGHT'			=> 'Высота значка',
+	'ICONS_IMAGE'			=> 'Картинка значка',
+	'ICONS_IMPORTED'		=> 'Пакет значков был успешно установлен.',
+	'ICONS_IMPORT_SUCCESS'	=> 'Пакет значков был успешно импортирован.',
+	'ICONS_LOCATION'		=> 'Путь к значку',
+	'ICONS_NOT_DISPLAYED'	=> 'Следующие значки не будут отображаться на странице размещения сообщения',
+	'ICONS_ORDER'			=> 'Порядок значков',
+	'ICONS_URL'				=> 'Файл картинки значка',
+	'ICONS_WIDTH'			=> 'Ширина значка',
+	'IMPORT_ICONS'			=> 'Установить пакет значков',
+	'IMPORT_SMILIES'		=> 'Установить пакет смайликов',
 
-	'KEEP_ALL'			=> 'Keep all',
+	'KEEP_ALL'			=> 'Сохранить всё',
 
-	'MASS_ADD_SMILIES'	=> 'Add multiple smilies',
+	'MASS_ADD_SMILIES'	=> 'Добавить много смайликов',
 
-	'NO_ICONS_EXPORT'	=> 'You have no icons with which to create a package.',
-	'NO_ICONS_PAK'		=> 'No icon packages found.',
-	'NO_SMILIES_EXPORT'	=> 'You have no smilies with which to create a package.',
-	'NO_SMILIES_PAK'	=> 'No smiley packages found.',
+	'NO_ICONS_EXPORT'	=> 'Отсутствуют значки для создания пакета.',
+	'NO_ICONS_PAK'		=> 'Пакеты значков не обнаружены.',
+	'NO_SMILIES_EXPORT'	=> 'Отсутствуют смайлики для создания пакета.',
+	'NO_SMILIES_PAK'	=> 'Пакеты смайликов не обнаружены.',
 
-	'PAK_FILE_NOT_READABLE'		=> 'Could not read <samp>.pak</samp> file.',
+	'PAK_FILE_NOT_READABLE'		=> 'Ошибка чтения <samp>.pak</samp> файла.',
 
-	'REPLACE_MATCHES'	=> 'Replace matches',
+	'REPLACE_MATCHES'	=> 'Replace matches', //??
 
-	'SELECT_PACKAGE'			=> 'Select a package file',
-	'SMILIES_ADD'				=> 'Add a new smiley',
-	'SMILIES_ADDED'				=> 'The smiley has been added successfully.',
-	'SMILIES_CODE'				=> 'Smiley code',
-	'SMILIES_CONFIG'			=> 'Smiley configuration',
-	'SMILIES_DELETED'			=> 'The smiley has been removed successfully.',
-	'SMILIES_EDIT'				=> 'Edit smiley',
-	'SMILIES_EDITED'			=> 'The smiley has been updated successfully.',
-	'SMILIES_EMOTION'			=> 'Emotion',
-	'SMILIES_HEIGHT'			=> 'Smiley height',
-	'SMILIES_IMAGE'				=> 'Smiley image',
-	'SMILIES_IMPORTED'			=> 'The smilies pack has been installed successfully.',
-	'SMILIES_IMPORT_SUCCESS'	=> 'The smilies pack was imported successfully.',
-	'SMILIES_LOCATION'			=> 'Smiley location',
-	'SMILIES_NOT_DISPLAYED'		=> 'The following smilies are not displayed on the posting page',
-	'SMILIES_ORDER'				=> 'Smiley order',
-	'SMILIES_URL'				=> 'Smiley image file',
-	'SMILIES_WIDTH'				=> 'Smiley width',
+	'SELECT_PACKAGE'			=> 'Выбрать файл пакета',
+	'SMILIES_ADD'				=> 'Добавить смайлик',
+	'SMILIES_ADDED'				=> 'Смайлик был успешно добавлен.',
+	'SMILIES_CODE'				=> 'Код смайлика',
+	'SMILIES_CONFIG'			=> 'Настройки смайлика',
+	'SMILIES_DELETED'			=> 'Смайлик был успешно удалён.',
+	'SMILIES_EDIT'				=> 'Редактировать смайлик',
+	'SMILIES_EDITED'			=> 'Смайлик был успешно обновлён.',
+	'SMILIES_EMOTION'			=> 'Эмоция',
+	'SMILIES_HEIGHT'			=> 'Высота смайлика',
+	'SMILIES_IMAGE'				=> 'Картинка смайлика',
+	'SMILIES_IMPORTED'			=> 'Пакет смайликов был успешно установлен.',
+	'SMILIES_IMPORT_SUCCESS'	=> 'Пакет смайликов был успешно импортирован.',
+	'SMILIES_LOCATION'			=> 'Путь к смайлику',
+	'SMILIES_NOT_DISPLAYED'		=> 'Следующие смайлики не будут отображаться на странице размещения сообщения',
+	'SMILIES_ORDER'				=> 'Порядок смайликов',
+	'SMILIES_URL'				=> 'Файл картинки смайлика',
+	'SMILIES_WIDTH'				=> 'Ширина смайлика',
 
-	'WRONG_PAK_TYPE'	=> 'The specified package does not contain the appropriate data.',
+	'WRONG_PAK_TYPE'	=> 'Указанный пакет не содержит подходящих данных.',
 ));
 
 // Word censors
 $lang = array_merge($lang, array(
-	'ACP_WORDS_EXPLAIN'		=> 'From this control panel you can add, edit, and remove words that will be automatically censored on your forums. In addition people will not be allowed to register with usernames containing these words. Wildcards (*) are accepted in the word field, eg. *test* will match detestable, test* would match testing, *test would match detest.',
-	'ADD_WORD'				=> 'Add new word',
+	'ACP_WORDS_EXPLAIN'		=> 'С помощью этой панели управления вы можете добавлять, редактировать и удалять слова, которые будут автоматически подвергаться цензуре на конефренции. Кроме того, пользователи не смогут зарегистрироваться с именами, содержащими эти слова. Звёздочки (*) могут быть использованы в поле воода, например шаблону *test* будет соответствовать в том числе detestable, шаблону test* - testing, шаблону *test -  detest.',
+	'ADD_WORD'				=> 'Добавить слово',
 
-	'EDIT_WORD'		=> 'Edit word censor',
-	'ENTER_WORD'	=> 'You must enter a word and its replacement.',
+	'EDIT_WORD'		=> 'Редактировать слово',
+	'ENTER_WORD'	=> 'Вы должны задать слово и его замену.',
 
-	'NO_WORD'	=> 'No word selected for editing.',
+	'NO_WORD'	=> 'Не выбрано слово для редактирования.',
 
-	'REPLACEMENT'	=> 'Replacement',
+	'REPLACEMENT'	=> 'Замена',
 
-	'UPDATE_WORD'	=> 'Update word censor',
+	'UPDATE_WORD'	=> 'Обновить слово',
 
-	'WORD'				=> 'Word',
-	'WORD_ADDED'		=> 'The word censor has been successfully added.',
-	'WORD_REMOVED'		=> 'The selected word censor has been successfully removed.',
-	'WORD_UPDATED'		=> 'The selected word censor has been successfully updated.',
+	'WORD'				=> 'Слово',
+	'WORD_ADDED'		=> 'Слово было успешно добавлено.',
+	'WORD_REMOVED'		=> 'Выбранное слово было успешно удалено.',
+	'WORD_UPDATED'		=> 'Выбранное слово было успешно обновлено.',
 ));
 
 // Ranks
 $lang = array_merge($lang, array(
-	'ACP_RANKS_EXPLAIN'		=> 'Using this form you can add, edit, view and delete ranks. You can also create custom ranks which can be applied to a user via the user management facility.',
-	'ADD_RANK'				=> 'Add new rank',
+	'ACP_RANKS_EXPLAIN'		=> 'С помощью этой формы вы можете добавлять, редактировать, просматривать и удалять звания. Вы можете также сами создавать звания, которые могут быть присвоены пользователю через раздел управления пользователями.',
+	'ADD_RANK'				=> 'Добавить звание',
 
-	'MUST_SELECT_RANK'		=> 'You must select a rank.',
+	'MUST_SELECT_RANK'		=> 'Вы должны выбрать звание.',
 	
-	'NO_ASSIGNED_RANK'		=> 'No special rank assigned.',
-	'NO_RANK_TITLE'			=> 'You haven’t specified a title for the rank.',
-	'NO_UPDATE_RANKS'		=> 'The rank was successfully deleted. However user accounts using this rank were not updated. You will need to manually reset the rank on these accounts.',
+	'NO_ASSIGNED_RANK'		=> 'Не присвоено специального звания.',
+	'NO_RANK_TITLE'			=> 'Не задан заголовок звания.',
+	'NO_UPDATE_RANKS'		=> 'Звание успешно удалено. Однако, учётные записи пользователей, которым оно присвоено, не обновлены. Вам необходимо вручную сбросить звания в этих учётных записях.',
 
-	'RANK_ADDED'			=> 'The rank was successfully added.',
-	'RANK_IMAGE'			=> 'Rank image',
-	'RANK_IMAGE_EXPLAIN'	=> 'Use this to define a small image associated with the rank. The path is relative to the root phpBB directory.',
-	'RANK_MINIMUM'			=> 'Minimum posts',
-	'RANK_REMOVED'			=> 'The rank was successfully deleted.',
-	'RANK_SPECIAL'			=> 'Set as special rank',
-	'RANK_TITLE'			=> 'Rank title',
-	'RANK_UPDATED'			=> 'The rank was successfully updated.',
+	'RANK_ADDED'			=> 'Звание было успешно добавлено.',
+	'RANK_IMAGE'			=> 'Картинка звания',
+	'RANK_IMAGE_EXPLAIN'	=> 'Здесь просваивается маленькое изображение, связанное с данным званием. Путь задаётся относительно корневой папки  phpBB.',
+	'RANK_MINIMUM'			=> 'Минимум сообщений',
+	'RANK_REMOVED'			=> 'Звание было успешно удалено.',
+	'RANK_SPECIAL'			=> 'Установить как специальное звание',
+	'RANK_TITLE'			=> 'Заголовок звания',
+	'RANK_UPDATED'			=> 'Звание было успешно обновлено.',
 ));
 
 // Disallow Usernames
 $lang = array_merge($lang, array(
-	'ACP_DISALLOW_EXPLAIN'	=> 'Here you can control usernames which will not be allowed to be used. Disallowed usernames are allowed to contain a wildcard character of *.  Please note that you will not be allowed to specify any username that has already been registered, you must first delete that name then disallow it',
-	'ADD_DISALLOW_EXPLAIN'	=> 'You can disallow a username using the wildcard character * to match any character',
-	'ADD_DISALLOW_TITLE'	=> 'Add a disallowed username',
+	'ACP_DISALLOW_EXPLAIN'	=> 'Здесь вы можете управлять именами пользователей, запрещёнными для использования. Запрещённые имена могут содержать символ звёздочки *. Учтите, что вы не можете запретить имя, которое уже было зарегистрировано, для этого вы должны сначала удалить его',
+	'ADD_DISALLOW_EXPLAIN'	=> 'Вы можете запретить имя, используя символ звёздочки *, которому будет соответствовать любой символ',
+	'ADD_DISALLOW_TITLE'	=> 'Добавить запрещённое имя',
 
-	'DELETE_DISALLOW_EXPLAIN'	=> 'You can remove a disallowed username by selecting the username from this list and clicking submit',
-	'DELETE_DISALLOW_TITLE'		=> 'Remove a disallowed username',
-	'DISALLOWED_ALREADY'		=> 'The name you entered could not be disallowed. It either already exists in the list, exists in the word censor list, or a matching username is present.',
-	'DISALLOWED_DELETED'		=> 'The disallowed username has been successfully removed.',
-	'DISALLOW_SUCCESSFUL'		=> 'The disallowed username has been successfully added.',
+	'DELETE_DISALLOW_EXPLAIN'	=> 'Вы можете удалить имя из числа запрещённых, выбрав его из этого списка и нажав Отправить',
+	'DELETE_DISALLOW_TITLE'		=> 'Удалить имя из списка запрещённых',
+	'DISALLOWED_ALREADY'		=> 'Заданное вами имя не может быть запрещено. Оно уже запрещено, находится в спивке слов автоцензора или зарегистрировано на пользователя.',
+	'DISALLOWED_DELETED'		=> 'Имя было успешно удалено из списка запрещённых.',
+	'DISALLOW_SUCCESSFUL'		=> 'Имя было успешно запрещено.',
 
-	'NO_DISALLOWED'				=> 'No disallowed usernames',
-	'NO_USERNAME_SPECIFIED'		=> 'You haven’t selected or entered a username to operate with.',
+	'NO_DISALLOWED'				=> 'Нет запрещённых имён',
+	'NO_USERNAME_SPECIFIED'		=> 'Не выбрано или не задано имя.',
 ));
 
 // Reasons
 $lang = array_merge($lang, array(
-	'ACP_REASONS_EXPLAIN'	=> 'Here you can manage the reasons used in reports and denial messages when disapproving posts. There is one default reason (marked with a *) you are not able to remove, this reason is normally used for custom messages if no reason fits.',
-	'ADD_NEW_REASON'		=> 'Add new reason',
-	'AVAILABLE_TITLES'		=> 'Available localized reason titles',
+	'ACP_REASONS_EXPLAIN'	=> 'Здесь вы можете управлять причинами, используемыми в жалобах и уведомлениях об отклонении сообщений пользователей. Причину по умолчанию (помеченную звёздочкой *) нельзя удалить, она обычно используется в случаях, когда никакие другие причины не являются подходящими.',
+	'ADD_NEW_REASON'		=> 'Добавить причину',
+	'AVAILABLE_TITLES'		=> 'Доступные причины на других языках',
 	
-	'IS_NOT_TRANSLATED'			=> 'Reason has <strong>not</strong> been localised.',
-	'IS_NOT_TRANSLATED_EXPLAIN'	=> 'Reason has <strong>not</strong> been localised. If you want to provide the localized form, specify the correct key from the language files report reasons section.',
-	'IS_TRANSLATED'				=> 'Reason has been localised.',
-	'IS_TRANSLATED_EXPLAIN'		=> 'Reason has been localised. If the title you enter here is specified within the language files report reasons section, the localized form of the title and description will be used.',
+	'IS_NOT_TRANSLATED'			=> 'Причина <strong>не была</strong> переведена.',
+	'IS_NOT_TRANSLATED_EXPLAIN'	=> 'Причина <strong>не была</strong> переведена на другой язык. Если вы хотите перевести её, укажите правильный индекс из раздела «Причины жалоб» языковых файлов.',
+	'IS_TRANSLATED'				=> 'Причина была переведена.',
+	'IS_TRANSLATED_EXPLAIN'		=> 'Причина была переведена на другой язык. Если она задана в разделе «Причины жалоб» языковых файлов, то будет использована переведённая форма заголовка и описания причины.',
 	
-	'NO_REASON'					=> 'Reason could not be found.',
-	'NO_REASON_INFO'			=> 'You have to specify a title and a description for this reason.',
-	'NO_REMOVE_DEFAULT_REASON'	=> 'You are not able to remove the default reason "Other".',
+	'NO_REASON'					=> 'Не удалось найти причину.',
+	'NO_REASON_INFO'			=> 'Вы должны задать заголовок и описание для этой причины.',
+	'NO_REMOVE_DEFAULT_REASON'	=> 'Нельзя удалить прияину по умолчанию «Другая».',
 
-	'REASON_ADD'				=> 'Add report/denial reason',
-	'REASON_ADDED'				=> 'Report/denial reason successfully added.',
-	'REASON_ALREADY_EXIST'		=> 'A reason with this title already exist, please enter another title for this reason.',
-	'REASON_DESCRIPTION'		=> 'Reason description',
-	'REASON_DESC_TRANSLATED'	=> 'Displayed reason description',
-	'REASON_EDIT'				=> 'Edit report/denial reason',
-	'REASON_EDIT_EXPLAIN'		=> 'Here you are able to add or edit a reason. If the reason is translated the localized version is used instead of the description entered here.',
-	'REASON_REMOVED'			=> 'Report/denial reason successfully removed.',
-	'REASON_TITLE'				=> 'Reason title',
-	'REASON_TITLE_TRANSLATED'	=> 'Displayed reason title',
-	'REASON_UPDATED'			=> 'Report/denial reason successfully updated.',
+	'REASON_ADD'				=> 'Добавить причину жалобы/запрета',
+	'REASON_ADDED'				=> 'Причина жалобы/запрета успешно добавлена.',
+	'REASON_ALREADY_EXIST'		=> 'Причина с таким заголовком уже существует, пожалуйста, задайте другой заголовок.',
+	'REASON_DESCRIPTION'		=> 'Описание причины',
+	'REASON_DESC_TRANSLATED'	=> 'Отображаемое описание причины',
+	'REASON_EDIT'				=> 'Редактировать причину жалобы/запрета',
+	'REASON_EDIT_EXPLAIN'		=> 'Здесь вы можете добавть или отредактировать причину. Если данная причина переведена на другой язык, будет использована переведённая версия вместо заданного здесь описания.',
+	'REASON_REMOVED'			=> 'Причина жалобы/запрета успешно удалена.',
+	'REASON_TITLE'				=> 'Заголовок причины',
+	'REASON_TITLE_TRANSLATED'	=> 'Отображаемый заголовок причины',
+	'REASON_UPDATED'			=> 'Причина жалобы/запрета успешно обновлена.',
 
-	'USED_IN_REPORTS'		=> 'Used in reports',
+	'USED_IN_REPORTS'		=> 'Используется в жалобах',
 ));
 
 ?>
