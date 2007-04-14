@@ -33,7 +33,7 @@ if (empty($lang) || !is_array($lang))
 // BBCodes 
 // Note to translators: you can translate everything but what's between { and }
 $lang = array_merge($lang, array(
-	'ACP_BBCODES_EXPLAIN'		=> 'BBCode - это особая реализация HTML, предоставляющая больший контроль над тем, что и как отображается на форуме. На данной странице вы можете добавлять, удалять и редактировать собственные BBCode',
+	'ACP_BBCODES_EXPLAIN'		=> 'BBCode - это особая реализация HTML, предоставляющая больший контроль над тем, что и как отображается на форуме. На данной странице вы можете добавлять, удалять и редактировать собственные BBCode.',
 	'ADD_BBCODE'				=> 'Добавить BBCode',
 
 	'BBCODE_ADDED'				=> 'BBCode успешно добавлен.',
@@ -43,29 +43,29 @@ $lang = array_merge($lang, array(
 	'BBCODE_HELPLINE_EXPLAIN'	=> 'Данное поле содержит текст, который появляется при наведении курсора на BBCode',
 	'BBCODE_HELPLINE_TEXT'		=> 'Текст подсказки',
 	'BBCODE_INVALID_TAG_NAME'	=> 'Выбранное имя тега BBCode уже существует.',
-	'BBCODE_OPEN_ENDED_TAG'		=> 'Ваш собственный BBCode должен содержать открывающий и закрывающий теги.',
+	'BBCODE_OPEN_ENDED_TAG'		=> 'Ваш BBCode должен содержать открывающий и закрывающий теги.',
 	'BBCODE_TAG'				=> 'Тег',
 	'BBCODE_TAG_TOO_LONG'		=> 'Выбранное имя тега слишком длинное.',
 	'BBCODE_TAG_DEF_TOO_LONG'	=> 'Введенное определение тега слишком длинное, пожалуйста, уменьшите его.',
 	'BBCODE_USAGE'				=> 'Использование BBCode',
 	'BBCODE_USAGE_EXAMPLE'		=> '[hilight={COLOR}]{TEXT}[/hilight]<br /><br />[font={TEXT1}]{TEXT2}[/font]',
-	'BBCODE_USAGE_EXPLAIN'		=> 'Здесь определяется, как использовать BBCode. Любая вводимая переменная может быть заменена на соотвествующую лексему (%sсмотрите ниже%s)', // ???
+	'BBCODE_USAGE_EXPLAIN'		=> 'Здесь определяется, как использовать BBCode. Любая вводимая переменная может быть заменена на соотвествующую лексему (%sсмотрите ниже%s)',
 
 	'EXAMPLE'						=> 'Пример:',
 	'EXAMPLES'						=> 'Примеры:',
 
 	'HTML_REPLACEMENT'				=> 'HTML-замена',
 	'HTML_REPLACEMENT_EXAMPLE'		=> '&lt;span style="background-color:{COLOR};"&gt;{TEXT}&lt;/span&gt;<br /><br />&lt;span style="font-family:{TEXT1};"&gt;{TEXT2}&lt;/span&gt;',
-	'HTML_REPLACEMENT_EXPLAIN'		=> 'Здесь задаётся HTML-код, по умолчанию (каждый шаблон может иметь свои собственные замены HTML). Не забудьте вернуть символы, использованные выше!', // ???
+	'HTML_REPLACEMENT_EXPLAIN'		=> 'Здесь задаётся HTML-код, по умолчанию (каждый шаблон может иметь свои собственные HTML-замены). Не забудьте добавить лексемы, использованные выше!',
 
-	'TOKEN'					=> 'Символ',
-	'TOKENS'				=> 'Символы',
-	'TOKENS_EXPLAIN'		=> 'Символы являются placeholders for user input. The input will be validated only if it matches the corresponding definition. If needed, you can number them by adding a number as the last character between the braces, e.g. {USERNAME1}, {USERNAME2}.<br /><br />In addition to these tokens you can use any of lang string present in your language/ directory like this: {L_<em>&lt;stringname&gt;</em>} where <em>&lt;stringname&gt;</em> is the name of the translated string you want to add. For example, {L_WROTE} will be displayed as "wrote" or its translation according to user’s locale',
+	'TOKEN'					=> 'Лексема',
+	'TOKENS'				=> 'Лексемы',
+	'TOKENS_EXPLAIN'		=> 'Лексемы являются метками-заполнителями для вводимого пользователем содержимого. Правильность введённого содержимого будет подтверждена лишь в случае, если оно отвечает соответствующему определению. Если необходимо, вы можете нумеровать их путём добавления номера в конце лексемы внутри фигурных скобок, непример {USERNAME1}, {USERNAME2}.<br /><br />Кроме лексем, вы можете использовать любую из языковых переменных, присутствующих в вашей языковой папке (language/), например: {L_<em>&lt;stringname&gt;</em>}, где <em>&lt;stringname&gt;</em> - это имя переведённой строки, которую вы хотите добавить. Например, {L_WROTE} будет отображено как "wrote" или его перевод в соответствии с языком пользователя',
 	'TOKEN_DEFINITION'		=> 'Описание',
 	'TOO_MANY_BBCODES'		=> 'Вы больше не можете создать BBCode. Удалите  один или более BBCode и попробуйте снова.',
 
 	'tokens'	=>	array(
-		'TEXT'			=> 'Любой текст, включая иностранные символы, числа и т.п.',
+		'TEXT'			=> 'Любой текст, включая символы любого языка, числа и т.п.',
 		'NUMBER'		=> 'Любая последовательность цифр',
 		'EMAIL'			=> 'Правильный email-адрес',
 		'URL'			=> 'Правильная ссылка (URL) с использованием любого протокола (http, ftp и т.п. не могут быть использованы в javascript-эксплойтах). Если не задано, "http://" будет автоматически добавлено к строке',
@@ -130,7 +130,7 @@ $lang = array_merge($lang, array(
 
 	'PAK_FILE_NOT_READABLE'		=> 'Ошибка чтения <samp>.pak</samp> файла.',
 
-	'REPLACE_MATCHES'	=> 'Replace matches', //??
+	'REPLACE_MATCHES'	=> 'Заменить парные',
 
 	'SELECT_PACKAGE'			=> 'Выбрать файл пакета',
 	'SMILIES_ADD'				=> 'Добавить смайлик',
