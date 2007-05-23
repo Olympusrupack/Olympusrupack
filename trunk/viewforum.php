@@ -4,7 +4,7 @@
 * viewforum [Russian]
 *
 * @package language
-* @version $Id: viewforum.php,v 1.15 2006/12/01 16:12:15 shs Exp $
+* @version $Id: viewforum.php,v 1.17 2007/05/10 15:31:21 acydburn Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -42,7 +42,6 @@ $lang = array_merge($lang, array(
 	'LOGIN_NOTIFY_FORUM'	=> 'Вы получили уведомление о новом сообщении в этом форуме, пожалуйста, авторизируйтесь для его просмотра.',
 
 	'MARK_TOPICS_READ'		=> 'Отметить все темы как прочтённые',
-	'MOVED_TOPIC'			=> 'Перемещённая',
 
 	'NEW_POSTS_HOT'			=> 'Новые сообщения [ Популярная тема ]',
 	'NEW_POSTS_LOCKED'		=> 'Новые сообщения [ Тема закрыта ]',
@@ -52,7 +51,7 @@ $lang = array_merge($lang, array(
 
 	'POST_FORUM_LOCKED'		=> 'Форум закрыт',
 
-	'TOPICS_MARKED'			=> 'Все темы в этом форуме были отмечены как прочтённые',
+	'TOPICS_MARKED'			=> 'Все темы в этом форуме были отмечены как прочтённые.',
 
 	'VIEW_FORUM'			=> 'Просмотр форума',
 	'VIEW_FORUM_TOPIC'		=> '1 тема',

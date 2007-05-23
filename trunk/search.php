@@ -4,7 +4,7 @@
 * search [Russian]
 *
 * @package language
-* @version $Id: search.php,v 1.19 2007/01/21 18:33:45 acydburn Exp $
+* @version $Id: search.php,v 1.22 2007/05/10 15:31:21 acydburn Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'GLOBAL'				=> 'Важная',
 
 	'IGNORED_TERMS'			=> 'проигнорированы',
-	'IGNORED_TERMS_EXPLAIN'	=> 'Следующие слова в поисковом запросе были проигнорированы: <strong>%s</strong>',
+	'IGNORED_TERMS_EXPLAIN'	=> 'Следующие слова в поисковом запросе были проигнорированы: <strong>%s</strong>.',
 
 	'JUMP_TO_POST'			=> 'Перейти к сообщению',
 
@@ -61,13 +61,14 @@ $lang = array_merge($lang, array(
 	'RESULT_DAYS'			=> 'Искать сообщения за',
 	'RESULT_SORT'			=> 'Поле сортировки',
 	'RETURN_FIRST'			=> 'Показывать первые',
-
+	'RETURN_TO_SEARCH_ADV'	=> 'Вернуться к расширенному поиску',
+	
 	'SEARCHED_FOR'				=> 'Поисковый запрос',
 	'SEARCHED_TOPIC'			=> 'Поиск в теме',
 	'SEARCH_ALL_TERMS'			=> 'Искать все слова',
 	'SEARCH_ANY_TERMS'			=> 'Искать любое слово/поиск с языком запросов',
 	'SEARCH_AUTHOR'				=> 'Поиск по автору',
-	'SEARCH_AUTHOR_EXPLAIN'		=> 'Используйте * в качестве шаблона',
+	'SEARCH_AUTHOR_EXPLAIN'		=> 'Используйте * в качестве шаблона.',
 	'SEARCH_FIRST_POST'			=> 'Только в первом сообщении темы',
 	'SEARCH_FORUMS'				=> 'Искать в форумах',
 	'SEARCH_FORUMS_EXPLAIN'		=> 'Выберите форум или форумы, в которых будет произведен поиск. Для скорости можно выбрать форум-родитель, чтобы искать во всех подфорумах (необходимо включить поиск в подфорумах).',
