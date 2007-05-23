@@ -4,7 +4,7 @@
 * memberlist [Russian]
 *
 * @package language
-* @version $Id: memberlist.php,v 1.27 2006/12/06 14:44:40 dhn2 Exp $
+* @version $Id: memberlist.php,v 1.32 2007/05/16 14:44:56 acydburn Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -38,9 +38,11 @@ $lang = array_merge($lang, array(
 	'ADD_FRIEND'			=> 'Добавить в друзья',
 	'AFTER'					=> 'после',
 
+	'ALL'					=> 'Все',
+
 	'BEFORE'				=> 'до',
 
-	'CC_EMAIL'				=> 'Выслать мне копию этого сообщения',
+	'CC_EMAIL'				=> 'Выслать мне копию этого сообщения.',
 	'CONTACT_USER'			=> 'Контактная информация',
 
 	'DEST_LANG'				=> 'Язык',
@@ -69,7 +71,7 @@ $lang = array_merge($lang, array(
 	'IM_DOWNLOAD_APP'		=> 'Скачать приложение',
 	'IM_ICQ'				=> 'Учтите, что пользователь мог отключить приём мгновенных сообщений от неизвестных контактов.',
 	'IM_JABBER'				=> 'Учтите, что пользователь мог отключить приём мгновенных сообщений от неизвестных контактов.',
-	'IM_JABBER_SUBJECT'		=> 'Это автоматически сгенерированное сообщение, на него не надо отвечать! Сообщение от пользователя %1$s с %2$s',
+	'IM_JABBER_SUBJECT'		=> 'Это автоматически сгенерированное сообщение, на него не надо отвечать! Сообщение от пользователя %1$s с %2$s.',
 	'IM_MESSAGE'			=> 'Ваше сообщение',
 	'IM_MSNM'				=> 'Учтите, что для этого вам необходима установленная программа Windows Messenger.',
 	'IM_MSNM_BROWSER'		=> 'Ваш браузер не поддерживает эту функцию.',
@@ -110,8 +112,13 @@ $lang = array_merge($lang, array(
 	'SEARCH_USER_POSTS'		=> 'Найти сообщения пользователя',
 	'SELECT_MARKED'			=> 'Выбрать отмеченных',
 	'SELECT_SORT_METHOD'	=> 'Поле сортировки',
+	'SEND_AIM_MESSAGE'		=> 'Отправить AIM-сообщение',
+	'SEND_ICQ_MESSAGE'		=> 'Отправить ICQ-сообщение',
 	'SEND_IM'				=> 'Отправить мгновенное сообщение',
+	'SEND_JABBER_MESSAGE'	=> 'Отправить Jabber-сообщение',
 	'SEND_MESSAGE'			=> 'Отправить',
+	'SEND_MSNM_MESSAGE'		=> 'Отправить MSNM/WLM-сообщение',
+	'SEND_YIM_MESSAGE'		=> 'Отправить YIM-сообщение',
 	'SORT_EMAIL'			=> 'email',
 	'SORT_LAST_ACTIVE'		=> 'Последнее посещение',
 	'SORT_POST_COUNT'		=> 'Число сообщений',
