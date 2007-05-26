@@ -1,17 +1,17 @@
-Subject: Reactivate your account on "{SITENAME}" - {U_BOARD}
+Subject: Повторная активация учётной записи на конференции «{SITENAME}» - {U_BOARD}
 
-A board administrator forced your account to be reactivated. Your account is currently inactive.
-Please follow the steps listed here to reactivate your account.
+Администратор конференции требует повторной активации вашей учетной записи. Ваша учётная запись сейчас неактивна.
+Пожалуйста, следуйте приведённым ниже инструкциям для повторной активации учётной записи. 
 
-Please keep this e-mail for your records. Your account information is as follows:
+Пожалуйста, сохраните это сообщение. Параметры вашей учётной записи таковы:
 
 ----------------------------
-Username: {USERNAME}
+Имя пользователя: {USERNAME}
 ----------------------------
 
-Your password has been encrypted in our database. Should you forget your password you can request a new one which will be activated in the same way as this account.
+Не забывайте свой пароль: он хранится в нашей базе в зашифрованном виде, и мы не сможем вам его выслать. Если вы всё же забудете пароль, то сможете запросить новый, который придётся активировать таким же образом, как и вашу учётную запись.
 
-Please visit the following link to reactivate your account:
+Пожалуйста, перейдите по следующей ссылке для повторной активации вашей учётной записи:
 
 {U_ACTIVATE}
 
