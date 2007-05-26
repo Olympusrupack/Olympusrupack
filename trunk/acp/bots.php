@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * acp_bots [Russian]
 *
 * @package language
 * @version $Id: bots.php,v 1.8 2007/01/21 18:33:45 acydburn Exp $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) 2005 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 

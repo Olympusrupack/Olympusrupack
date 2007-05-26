@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * acp_forums [Russian]
 *
 * @package language
-* @version $Id: forums.php,v 1.23 2007/01/21 18:33:45 acydburn Exp $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @version $Id: forums.php,v 1.27 2007/05/10 15:31:21 acydburn Exp $
+* @copyright (c) 2005 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 
@@ -109,8 +109,9 @@ $lang = array_merge($lang, array(
 	'LIST_INDEX_EXPLAIN'	=> 'Отображает ссылку на данный форум в списке подфорумов родительского форума, если таковой существует.',
 	'LOCKED'				=> 'Закрыт',
 
-	'MOVE_POSTS_TO'		=> 'Переместить сообщения в',
-	'MOVE_SUBFORUMS_TO'	=> 'Переместить подфорумы в',
+	'MOVE_POSTS_NO_POSTABLE_FORUM'	=> 'The forum you selected for moving the posts to is not postable. Please select a postable forum.',
+	'MOVE_POSTS_TO'					=> 'Переместить сообщения в',
+	'MOVE_SUBFORUMS_TO'				=> 'Переместить подфорумы в',
 
 	'NO_DESTINATION_FORUM'			=> 'Не указан форум для перемещения содержимого',
 	'NO_FORUM_ACTION'				=> 'Не задано действие для содержимого форума',
@@ -119,12 +120,13 @@ $lang = array_merge($lang, array(
 	'NO_PERMISSION_FORUM_ADD'		=> 'Вы не имеете необходимых прав доступа для добавления форумов.',
 	'NO_PERMISSION_FORUM_DELETE'	=> 'Вы не имеете необходимых прав доступа для удаления форумов.',
 
+	'PARENT_IS_LINK_FORUM'		=> 'The parent you specified is a forum link. Link forums are not able to hold other forums, please specify a category or forum as the parent forum.',
 	'PARENT_NOT_EXIST'			=> 'Родительский форум не существует.',
 	'PRUNE_ANNOUNCEMENTS'		=> 'Очистить объявления',
 	'PRUNE_STICKY'				=> 'Очистить прилепленные темы',
 	'PRUNE_OLD_POLLS'			=> 'Очистить старые опросы',
 	'PRUNE_OLD_POLLS_EXPLAIN'	=> 'Удалять темы, в опросах которых не было голосов за указанное выше количество дней с последнего сообщения.',
-	
+
 	'REDIRECT_ACL'	=> 'Теперь вы можете %sустановить права доступа%s для этого форума.',
 
 	'SYNC_IN_PROGRESS'			=> 'Синхронизация форума',

@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * acp_database [Russian]
 *
 * @package language
-* @version $Id: database.php,v 1.13 2006/12/02 13:19:24 acydburn Exp $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @version $Id: database.php,v 1.20 2007/05/20 14:01:46 acydburn Exp $
+* @copyright (c) 2005 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 
@@ -44,12 +44,14 @@ $lang = array_merge($lang, array(
 	'DATABASE'			=> 'Управление БД',
 	'DATA_ONLY'			=> 'Только данные',
 	'DELETE_BACKUP'		=> 'Удалить резервную копию',
+	'DELETE_SELECTED_BACKUP'	=> 'Are you sure you want to delete the selected backup?',
 	'DESELECT_ALL'		=> 'Снять выделение',
 	'DOWNLOAD_BACKUP'	=> 'Скачать резервную копию',
 
 	'FILE_TYPE'			=> 'Тип файла',
 	'FULL_BACKUP'		=> 'Полное',
 
+	'RESTORE_FAILURE'		=> 'The backup file may be corrupt.',
 	'RESTORE_OPTIONS'		=> 'Настройки восстановления',
 	'RESTORE_SUCCESS'		=> 'База данных была успешно восстановлена.<br /><br />Конференция восстановлена по состоянию на момент создания резервной копии.',
 
@@ -62,6 +64,7 @@ $lang = array_merge($lang, array(
 	'STRUCTURE_ONLY'		=> 'Только структура',
 
 	'TABLE_SELECT'		=> 'Выбрать таблицы',
+	'TABLE_SELECT_ERROR'=> 'You must select at least one table.',
 ));
 
 ?>

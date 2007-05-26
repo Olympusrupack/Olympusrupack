@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * posting [Russian]
 *
 * @package language
-* @version $Id: posting.php,v 1.29 2007/01/27 18:33:26 shs Exp $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @version $Id: posting.php,v 1.36 2007/05/19 23:39:45 acydburn Exp $
+* @copyright (c) 2005 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 
@@ -30,7 +30,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-// BBCodes 
+// BBCodes
 // Note to translators: you can translate everything but what's between { and }
 $lang = array_merge($lang, array(
 	'ACP_BBCODES_EXPLAIN'		=> 'BBCode - это особая реализация HTML, предоставляющая больший контроль над тем, что и как отображается на форуме. На данной странице вы можете добавлять, удалять и редактировать собственные BBCode.',
@@ -43,6 +43,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_HELPLINE_EXPLAIN'	=> 'Данное поле содержит текст, который появляется при наведении курсора на BBCode',
 	'BBCODE_HELPLINE_TEXT'		=> 'Текст подсказки',
 	'BBCODE_INVALID_TAG_NAME'	=> 'Выбранное имя тега BBCode уже существует.',
+	'BBCODE_INVALID_TAG_NAME'	=> 'The BBCode tag name that you selected already exists.',
 	'BBCODE_OPEN_ENDED_TAG'		=> 'Ваш BBCode должен содержать открывающий и закрывающий теги.',
 	'BBCODE_TAG'				=> 'Тег',
 	'BBCODE_TAG_TOO_LONG'		=> 'Выбранное имя тега слишком длинное.',
@@ -79,6 +80,7 @@ $lang = array_merge($lang, array(
 	'ACP_ICONS_EXPLAIN'		=> 'На этой странице вы можете добавлять, удалять или редактировать значки, которые могут добавляться пользователями к своим темам или сообщениям. Эти значки обычно отображаются рядом с названием темы при просмотре форума, или рядом с заголовком сообщения при просмотре темы. Вы можете также устанавливать или создавать новые пакеты значков.',
 	'ACP_SMILIES_EXPLAIN'	=> 'Смайлики, или эмотиконы - обычно маленькие, иногда анимированные картинки, используемые для передачи эмоции или чувства. На этой странице вы можете добавлять, удалять или редактировать эмотиконы, которые могут добавляться пользователями к своим сообщениям и ЛС. Вы можете также устанавливать или создавать новые пакеты смайликов.',
 	'ADD_SMILIES'			=> 'Добавить несколько смайликов',
+	'ADD_SMILEY_CODE'		=> 'Add additional smiley code',
 	'ADD_ICONS'				=> 'Добавить несколько значков',
 	'AFTER_ICONS'			=> 'После %s',
 	'AFTER_SMILIES'			=> 'После %s',
@@ -123,8 +125,12 @@ $lang = array_merge($lang, array(
 
 	'MASS_ADD_SMILIES'	=> 'Добавить много смайликов',
 
+	'NO_ICONS_ADD'		=> 'There are no icons available for adding.',
+	'NO_ICONS_EDIT'		=> 'There are no icons available for modifying.',
 	'NO_ICONS_EXPORT'	=> 'Отсутствуют значки для создания пакета.',
 	'NO_ICONS_PAK'		=> 'Пакеты значков не обнаружены.',
+	'NO_SMILIES_ADD'	=> 'There are no smilies available for adding.',
+	'NO_SMILIES_EDIT'	=> 'There are no smilies available for modifying.',
 	'NO_SMILIES_EXPORT'	=> 'Отсутствуют смайлики для создания пакета.',
 	'NO_SMILIES_PAK'	=> 'Пакеты смайликов не обнаружены.',
 
@@ -180,7 +186,7 @@ $lang = array_merge($lang, array(
 	'ADD_RANK'				=> 'Добавить звание',
 
 	'MUST_SELECT_RANK'		=> 'Вы должны выбрать звание.',
-	
+
 	'NO_ASSIGNED_RANK'		=> 'Не присвоено специального звания.',
 	'NO_RANK_TITLE'			=> 'Не задан заголовок звания.',
 	'NO_UPDATE_RANKS'		=> 'Звание успешно удалено. Однако, учётные записи пользователей, которым оно присвоено, не обновлены. Вам необходимо вручную сбросить звания в этих учётных записях.',
@@ -216,12 +222,12 @@ $lang = array_merge($lang, array(
 	'ACP_REASONS_EXPLAIN'	=> 'Здесь вы можете управлять причинами, используемыми в жалобах и уведомлениях об отклонении сообщений пользователей. Причину по умолчанию (помеченную звёздочкой *) нельзя удалить, она обычно используется в случаях, когда никакие другие причины не являются подходящими.',
 	'ADD_NEW_REASON'		=> 'Добавить причину',
 	'AVAILABLE_TITLES'		=> 'Доступные причины на других языках',
-	
+
 	'IS_NOT_TRANSLATED'			=> 'Причина <strong>не была</strong> переведена.',
 	'IS_NOT_TRANSLATED_EXPLAIN'	=> 'Причина <strong>не была</strong> переведена на другой язык. Если вы хотите перевести её, укажите правильный индекс из раздела «Причины жалоб» языковых файлов.',
 	'IS_TRANSLATED'				=> 'Причина была переведена.',
 	'IS_TRANSLATED_EXPLAIN'		=> 'Причина была переведена на другой язык. Если она задана в разделе «Причины жалоб» языковых файлов, то будет использована переведённая форма заголовка и описания причины.',
-	
+
 	'NO_REASON'					=> 'Не удалось найти причину.',
 	'NO_REASON_INFO'			=> 'Вы должны задать заголовок и описание для этой причины.',
 	'NO_REMOVE_DEFAULT_REASON'	=> 'Нельзя удалить прияину по умолчанию «Другая».',

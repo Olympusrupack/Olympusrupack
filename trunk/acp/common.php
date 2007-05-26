@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * acp common [Russian]
 *
 * @package language
-* @version $Id: common.php,v 1.83 2007/01/24 11:29:56 acydburn Exp $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @version $Id: common.php,v 1.111 2007/05/20 14:32:23 naderman Exp $
+* @copyright (c) 2005 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 
@@ -46,15 +46,13 @@ $lang = array_merge($lang, array(
 	'ACP_BAN_EMAILS'			=> 'Чёрный список email',
 	'ACP_BAN_IPS'				=> 'Чёрный список IP',
 	'ACP_BAN_USERNAMES'			=> 'Чёрный список пользователей',
-	'ACP_BASIC_PERMISSIONS'		=> 'Базовые права доступа',
 	'ACP_BBCODES'				=> 'BBCode',
 	'ACP_BOARD_CONFIGURATION'	=> 'Конфигурация',
-	'ACP_BOARD_DEFAULTS'		=> 'Настройки по умолчанию',
 	'ACP_BOARD_FEATURES'		=> 'Функции конференции',
 	'ACP_BOARD_MANAGEMENT'		=> 'Управление конференцией',
 	'ACP_BOARD_SETTINGS'		=> 'Настройки конференции',
 	'ACP_BOTS'					=> 'Поисковые роботы',
-	
+
 	'ACP_CAPTCHA'				=> 'Визуальное подтверждение',
 
 	'ACP_CAT_DATABASE'			=> 'База данных',
@@ -72,14 +70,14 @@ $lang = array_merge($lang, array(
 	'ACP_COOKIE_SETTINGS'		=> 'Настройки куков (cookies)',
 	'ACP_CRITICAL_LOGS'			=> 'Лог ошибок',
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Дополнительные поля в профиле',
-	
+
 	'ACP_DATABASE'				=> 'База данных',
 	'ACP_DISALLOW'				=> 'Запрещённые имена',
 	'ACP_DISALLOW_USERNAMES'	=> 'Запрещённые имена',
-	
+
 	'ACP_EMAIL_SETTINGS'		=> 'Настройки email',
 	'ACP_EXTENSION_GROUPS'		=> 'Управление группами расширений',
-	
+
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Локальные права доступа',
 	'ACP_FORUM_LOGS'				=> 'Логи форума',
 	'ACP_FORUM_MANAGEMENT'			=> 'Форумы',
@@ -96,20 +94,20 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGE'				=> 'Управление группами',
 	'ACP_GROUPS_MANAGEMENT'			=> 'Группы',
 	'ACP_GROUPS_PERMISSIONS'		=> 'Права групп',
-	
+
 	'ACP_ICONS'					=> 'Значки тем',
 	'ACP_ICONS_SMILIES'			=> 'Значки тем/смайлики',
 	'ACP_IMAGESETS'				=> 'Наборы изображений',
 	'ACP_INACTIVE_USERS'		=> 'Неактивированные пользователи',
 	'ACP_INDEX'					=> 'Главная страница',
-	
+
 	'ACP_JABBER_SETTINGS'		=> 'Настройки Jabber',
-	
+
 	'ACP_LANGUAGE'				=> 'Языки',
 	'ACP_LANGUAGE_PACKS'		=> 'Языковые файлы',
 	'ACP_LOAD_SETTINGS'			=> 'Ограничения нагрузки на сервер',
 	'ACP_LOGGING'				=> 'Логи',
-	
+
 	'ACP_MAIN'					=> 'Главная страница администраторского раздела',
 	'ACP_MANAGE_EXTENSIONS'		=> 'Управление расширениями',
 	'ACP_MANAGE_FORUMS'			=> 'Управление форумами',
@@ -122,22 +120,21 @@ $lang = array_merge($lang, array(
 	'ACP_MODULE_MANAGEMENT'		=> 'Управление модулями',
 	'ACP_MOD_LOGS'				=> 'Лог модератора',
 	'ACP_MOD_ROLES'				=> 'Модераторские роли',
-	
+
 	'ACP_ORPHAN_ATTACHMENTS'	=> 'Невложенные файлы',
-	
+
 	'ACP_PERMISSIONS'			=> 'Права доступа',
 	'ACP_PERMISSION_MASKS'		=> 'Маски прав доступа',
 	'ACP_PERMISSION_ROLES'		=> 'Роли',
-	'ACP_PERMISSION_SETTINGS'	=> 'Настройки доступа',
 	'ACP_PERMISSION_TRACE'		=> 'Трассировка прав доступа',
 	'ACP_PHP_INFO'				=> 'Информация о версии PHP',
 	'ACP_POST_SETTINGS'			=> 'Сообщения',
 	'ACP_PRUNE_FORUMS'			=> 'Очистка форумов',
 	'ACP_PRUNE_USERS'			=> 'Удаление пользователей',
 	'ACP_PRUNING'				=> 'Очистка форумов/удаление пользователей',
-	
+
 	'ACP_QUICK_ACCESS'			=> 'Быстрый доступ',
-	
+
 	'ACP_RANKS'					=> 'Звания',
 	'ACP_REASONS'				=> 'Причины жалоб/отклонения сообщений',
 	'ACP_REGISTER_SETTINGS'		=> 'Регистрация пользователей',
@@ -153,14 +150,13 @@ $lang = array_merge($lang, array(
 	'ACP_SERVER_SETTINGS'		=> 'Настройки сервера',
 	'ACP_SIGNATURE_SETTINGS'	=> 'Подписи',
 	'ACP_SMILIES'				=> 'Смайлики',
-	'ACP_SPECIAL_PERMISSIONS'	=> 'Специальные права',
 	'ACP_STYLE_COMPONENTS'		=> 'Компоненты стиля',
 	'ACP_STYLE_MANAGEMENT'		=> 'Управление стилями',
 	'ACP_STYLES'				=> 'Стили',
-	
+
 	'ACP_TEMPLATES'				=> 'Шаблоны',
 	'ACP_THEMES'				=> 'Темы',
-	
+
 	'ACP_UPDATE'					=> 'Обновление конференции',
 	'ACP_USERS_FORUM_PERMISSIONS'	=> 'Форумные права пользователей',
 	'ACP_USERS_LOGS'				=> 'Лог пользователя',
@@ -187,7 +183,7 @@ $lang = array_merge($lang, array(
 	'ACP_VIEW_FORUM_PERMISSIONS'		=> 'Показать локальные права',
 	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS'	=> 'Показать права супермодераторов',
 	'ACP_VIEW_USER_PERMISSIONS'			=> 'Показать права пользователей',
-	
+
 	'ACP_WORDS'					=> 'Автоцензор',
 
 	'ACTION'				=> 'Действие',
@@ -204,10 +200,9 @@ $lang = array_merge($lang, array(
 	'CONFIG_UPDATED'		=> 'Конфигурация успешно обновлена.',
 
 	'DEACTIVATE'				=> 'Деактивировать',
-	'DIMENSIONS'				=> 'Размеры',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'Заданный путь «%s» не существует.',
 	'DIRECTORY_NOT_DIR'			=> 'Заданный путь «%s» не является папкой.',
-	'DIRECTORY_NOT_WRITEABLE'	=> 'По заданному пути «%s» невозможно произвести запись.',
+	'DIRECTORY_NOT_WRITABLE'	=> 'По заданному пути «%s» невозможно произвести запись.',
 	'DISABLE'					=> 'Отключить',
 	'DOWNLOAD'					=> 'Скачать',
 	'DOWNLOAD_AS'				=> 'Скачать как',
@@ -232,14 +227,17 @@ $lang = array_merge($lang, array(
 	'LOGIN_ADMIN_CONFIRM'	=> 'Для администрирования конференции вы должны повторно ввести имя и пароль.',
 	'LOGIN_ADMIN_SUCCESS'	=> 'Вы успешно вошли и сейчас будете перенаправлены в администраторский раздел',
 	'LOOK_UP_FORUM'			=> 'Выберите форум',
+	'LOOK_UP_FORUMS_EXPLAIN'=> 'You are able to select more than one forum.',
 
 	'MANAGE'				=> 'Управление',
+	'MENU_TOGGLE'			=> 'Hide or display the side menu',
 	'MOVE_DOWN'				=> 'Вниз',
 	'MOVE_UP'				=> 'Вверх',
 
 	'NOTIFY'				=> 'Уведомление',
 	'NO_ADMIN'				=> 'Вы не имеете права администрирования этой конференции.',
 	'NO_EMAILS_DEFINED'		=> 'Не найдено правильных email-адресов',
+	'NO_PASSWORD_SUPPLIED'	=> 'You need to enter your password to access the Administration Control Panel.',
 
 	'OFF'					=> 'Выкл',
 	'ON'					=> 'Вкл',
@@ -249,11 +247,10 @@ $lang = array_merge($lang, array(
 	'PARSE_URLS'						=> 'Разрешить ссылки',
 	'PERMISSIONS_TRANSFERRED'			=> 'Права доступа переданы',
 	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'В настоящий момент вы имеете права доступа пользователя %1$s. Вы можете просматривать конференцию с этими правами, но не будете иметь доступа к администраторскому разделу, поскольку права администратора не были переданы. Вы можете <a href="%2$s"><strong>вернуть свои права</strong></a> в любое время.',
-	'PIXEL'							=> 'пикс',	
+	'PIXEL'							=> 'пикс',
 	'PROCEED_TO_ACP'					=> '%sПерейти в администраторский раздел%s',
 
 	'REMIND'							=> 'Напомнить',
-	'REORDER'							=> 'Упорядочить',
 	'RESYNC'							=> 'Синхронизировать',
 	'RETURN_TO'							=> 'Вернуться к…',
 
@@ -317,13 +314,27 @@ $lang = array_merge($lang, array(
 
 	'POSTS_PER_DAY'		=> 'Сообщений в день',
 
-	'RESET_DATE'			=> 'Сбросить дату запуска конференции',
-	'RESET_ONLINE'			=> 'Сбросить рекорд посещаемости',
-	'RESYNC_POSTCOUNTS'		=> 'Синхронизировать количество сообщений',
-	'RESYNC_POST_MARKING'	=> 'Синхронизировать свои темы',
-	'RESYNC_STATS'			=> 'Синхронизировать статистику',
+	'PURGE_CACHE'			=> 'Purge the cache',
+	'PURGE_CACHE_CONFIRM'	=> 'Are you sure you wish to purge the cache?',
+	'PURGE_CACHE_EXPLAIN'	=> 'Purge all cache related items, this includes any cached template files or queries.',
 
-	'STATISTIC'			=> 'Статистика',
+	'RESET_DATE'					=> 'Сбросить дату запуска конференции',
+	'RESET_DATE_CONFIRM'			=> 'Are you sure you wish to reset the board’s start date?',
+	'RESET_ONLINE'					=> 'Сбросить рекорд посещаемости',
+	'RESET_ONLINE_CONFIRM'			=> 'Are you sure you wish to reset the most users ever online counter?',
+	'RESYNC_POSTCOUNTS'				=> 'Синхронизировать количество сообщений',
+	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Only existing posts will be taken into consideration. Pruned posts will not be counted.',
+	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Are you sure you wish to resynchronise post counts?',
+	'RESYNC_POST_MARKING'			=> 'Синхронизировать свои темы',
+	'RESYNC_POST_MARKING_CONFIRM'	=> 'Are you sure you wish to resynchronise dotted topics?',
+	'RESYNC_POST_MARKING_EXPLAIN'	=> 'First unmarks all topics and then correctly marks topics that have seen any activity during the past six months.',
+	'RESYNC_STATS'					=> 'Синхронизировать статистику',
+	'RESYNC_STATS_CONFIRM'			=> 'Are you sure you wish to resynchronise statistics?',
+	'RESYNC_STATS_EXPLAIN'			=> 'Recalculates the total number of posts, topics, users and files.',
+	'RUN'							=> 'Run now',
+
+	'STATISTIC'					=> 'Статистика',
+	'STATISTIC_RESYNC_OPTIONS'	=> 'Resynchronise or reset statistics',
 
 	'TOPICS_PER_DAY'	=> 'Тем в день',
 
@@ -387,7 +398,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_ACL_TRANSFER_PERMISSIONS'		=> '<strong>Перенесены права доступа пользователя</strong><br />» %s',
 	'LOG_ACL_RESTORE_PERMISSIONS'		=> '<strong>Возвращены свои права доступа после использования прав пользователя</strong><br />» %s',
-	
+
 	'LOG_ADMIN_AUTH_FAIL'		=> '<strong>Неудачная попытка входа в качестве администратора</strong>',
 	'LOG_ADMIN_AUTH_SUCCESS'	=> '<strong>Успешный вход в качестве администратора</strong>',
 
@@ -450,10 +461,17 @@ $lang = array_merge($lang, array(
 	'LOG_LOCK_POST'				=> '<strong>Заблокировано сообщение</strong><br />» %s',
 	'LOG_MERGE'					=> '<strong>Объединены сообщения</strong> в тему<br />» %s',
 	'LOG_MOVE'					=> '<strong>Перемещена тема</strong><br />» из %s',
+	'LOG_POST_APPROVED'			=> '<strong>Approved post</strong><br />» %s',
+	'LOG_POST_DISAPPROVED'		=> '<strong>Disapproved post “%1$s” with the following reason</strong><br />» %2$s',
+	'LOG_POST_EDITED'			=> '<strong>Edited post “%1$s” written by</strong><br />» %2$s',
+	'LOG_REPORT_CLOSED'			=> '<strong>Closed report</strong><br />» %s',
+	'LOG_REPORT_DELETED'		=> '<strong>Deleted report</strong><br />» %s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Перемещены разделённые сообщения</strong><br />» в %s',
 	'LOG_SPLIT_SOURCE'			=> '<strong>Разделены сообщения</strong><br />» из %s',
 
 	'LOG_TOPIC_DELETED'			=> '<strong>Удалена тема</strong><br />» %s',
+	'LOG_TOPIC_APPROVED'		=> '<strong>Approved topic</strong><br />» %s',
+	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Disapproved topic “%1$s” with the following reason</strong><br />%2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>Синхронизированы счётчики темы</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Изменён тип темы</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>Открыта тема</strong><br />» %s',
@@ -463,6 +481,7 @@ $lang = array_merge($lang, array(
 	'LOG_DISALLOW_DELETE'	=> '<strong>Разрешено имя</strong>',
 
 	'LOG_DB_BACKUP'			=> '<strong>Резервирование базы данных</strong>',
+	'LOG_DB_DELETE'			=> '<strong>Deleted database backup</strong>',
 	'LOG_DB_RESTORE'		=> '<strong>Восстановление базы данных</strong>',
 
 	'LOG_DOWNLOAD_EXCLUDE_IP'	=> '<strong>Исключён IP-адрес/хост из списка скачивания</strong><br />» %s',
@@ -471,7 +490,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_ERROR_JABBER'		=> '<strong>Ошибка Jabber</strong><br />» %s',
 	'LOG_ERROR_EMAIL'		=> '<strong>Ошибка email</strong><br />» %s',
-	
+
 	'LOG_FORUM_ADD'							=> '<strong>Создан форум</strong><br />» %s',
 	'LOG_FORUM_DEL_FORUM'					=> '<strong>Удалён форум</strong><br />» %s',
 	'LOG_FORUM_DEL_FORUMS'					=> '<strong>Удалён форум с подфорумами</strong><br />» %s',
@@ -498,13 +517,14 @@ $lang = array_merge($lang, array(
 	'LOG_USERS_APPROVED'	=> '<strong>Одобрены кандидаты в группу</strong> %1$s<br />» %2$s',
 	'LOG_USERS_ADDED'		=> '<strong>Добавлены пользователи в группу</strong> %1$s<br />» %2$s',
 
-	'LOG_IMAGESET_ADD_DB'		=> '<strong>Добавлен пакет изображений в базу данных</strong><br />» %s',
-	'LOG_IMAGESET_ADD_FS'		=> '<strong>Добавлен пакет изображений на сервер</strong><br />» %s',
-	'LOG_IMAGESET_DELETE'		=> '<strong>Удалён пакет изображений</strong><br />» %s',
-	'LOG_IMAGESET_EDIT_DETAILS'	=> '<strong>Изменена информация о пакете изображений</strong><br />» %s',
-	'LOG_IMAGESET_EDIT'			=> '<strong>Изменён пакет изображений</strong><br />» %s',
-	'LOG_IMAGESET_EXPORT'		=> '<strong>Экспортирован пакет изображений</strong><br />» %s',
-	'LOG_IMAGESET_REFRESHED'	=> '<strong>Обновлён пакет изображений</strong><br />» %s',
+	'LOG_IMAGESET_ADD_DB'			=> '<strong>Добавлен пакет изображений в базу данных</strong><br />» %s',
+	'LOG_IMAGESET_ADD_FS'			=> '<strong>Добавлен пакет изображений на сервер</strong><br />» %s',
+	'LOG_IMAGESET_DELETE'			=> '<strong>Удалён пакет изображений</strong><br />» %s',
+	'LOG_IMAGESET_EDIT_DETAILS'		=> '<strong>Изменена информация о пакете изображений</strong><br />» %s',
+	'LOG_IMAGESET_EDIT'				=> '<strong>Изменён пакет изображений</strong><br />» %s',
+	'LOG_IMAGESET_EXPORT'			=> '<strong>Экспортирован пакет изображений</strong><br />» %s',
+	'LOG_IMAGESET_LANG_REFRESHED'	=> '<strong>Refreshed “%2$s” localisation of imageset</strong><br />» %1$s',
+	'LOG_IMAGESET_REFRESHED'		=> '<strong>Refreshed imageset</strong><br />» %s',
 
 	'LOG_INACTIVE_ACTIVATE'	=> '<strong>Активированы неактивные пользователи</strong><br />» %s',
 	'LOG_INACTIVE_DELETE'	=> '<strong>Удалены неактивные пользователи</strong><br />» %s',
@@ -523,6 +543,7 @@ $lang = array_merge($lang, array(
 	'LOG_LANGUAGE_PACK_INSTALLED'	=> '<strong>Установлен языковой пакет</strong><br />» %s',
 	'LOG_LANGUAGE_PACK_UPDATED'		=> '<strong>Обновлена информация о языковом пакете</strong><br />» %s',
 	'LOG_LANGUAGE_FILE_REPLACED'	=> '<strong>Заменён языковой файл</strong><br />» %s',
+	'LOG_LANGUAGE_FILE_SUBMITTED'	=> '<strong>Submitted language file and placed in store folder</strong><br />» %s',
 
 	'LOG_MASS_EMAIL'		=> '<strong>Произведена массовая email-рассылка</strong><br />» %s',
 
@@ -561,6 +582,8 @@ $lang = array_merge($lang, array(
 	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>Удалены пользователи с их сообщениями</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>Удалены пользователи, их сообщения оставлены</strong><br />» %s',
 
+	'LOG_PURGE_CACHE'			=> '<strong>Purged cache</strong>',
+
 	'LOG_RANK_ADDED'		=> '<strong>Добавлено звание</strong><br />» %s',
 	'LOG_RANK_REMOVED'		=> '<strong>Удалено звание</strong><br />» %s',
 	'LOG_RANK_UPDATED'		=> '<strong>Обновлено звание</strong><br />» %s',
@@ -575,6 +598,8 @@ $lang = array_merge($lang, array(
 	'LOG_RESYNC_POST_MARKING'	=> '<strong>Синхронизированы свои темы</strong>',
 	'LOG_RESYNC_STATS'			=> '<strong>Синхронизирована статистика сообщений, тем и пользователей</strong>',
 
+	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>Created search index for</strong><br />» %s',
+	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Removed search index for</strong><br />» %s',
 	'LOG_STYLE_ADD'				=> '<strong>Добавлен стиль</strong><br />» %s',
 	'LOG_STYLE_DELETE'			=> '<strong>Удалён стиль</strong><br />» %s',
 	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>Изменён стиль</strong><br />» %s',
@@ -594,7 +619,7 @@ $lang = array_merge($lang, array(
 	'LOG_THEME_DELETE'			=> '<strong>Удалена тема</strong><br />» %s',
 	'LOG_THEME_EDIT_DETAILS'	=> '<strong>Изменена информация о теме</strong><br />» %s',
 	'LOG_THEME_EDIT'			=> '<strong>Изменена тема <em>%1$s</em></strong><br />» Изменён класс <em>%2$s</em>',
-	'LOG_THEME_EDIT_ADD'		=> '<strong>Изменена тема <em>%1$s</em></strong><br />» Добавлен класс <em>%2$s</em>',
+	'LOG_THEME_EDIT_FILE'		=> '<strong>Edited theme <em>%1$s</em></strong><br />» Modified file <em>%2$s</em>',
 	'LOG_THEME_EXPORT'			=> '<strong>Экспортирована тема</strong><br />» %s',
 	'LOG_THEME_REFRESHED'		=> '<strong>Обновлена тема</strong><br />» %s',
 

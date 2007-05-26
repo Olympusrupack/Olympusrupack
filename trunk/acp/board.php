@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * acp_board [Russian]
 *
 * @package language
-* @version $Id: board.php,v 1.57 2007/01/21 18:33:45 acydburn Exp $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @version $Id: board.php,v 1.80 2007/05/19 08:35:31 acydburn Exp $
+* @copyright (c) 2005 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 
@@ -33,7 +33,6 @@ if (empty($lang) || !is_array($lang))
 // Board Settings
 $lang = array_merge($lang, array(
 	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Здесь вы можете устанавливать основные настройки конференции, от имени сайта и регистрации пользователей до личных сообщений.',
-
 	'CUSTOM_DATEFORMAT'				=> 'Другой…',
 	'DEFAULT_DATE_FORMAT'			=> 'Формат даты',
 	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Совпадает с форматом даты функции <code>date</code> языка PHP.',
@@ -43,7 +42,6 @@ $lang = array_merge($lang, array(
 	'DISABLE_BOARD_EXPLAIN'			=> 'Конференция станет недоступна для пользователей. Вы также можете ввести короткое (до 255 сомволов) сообщение для посетителей.',
 	'OVERRIDE_STYLE'				=> 'Заменять стиль пользователя',
 	'OVERRIDE_STYLE_EXPLAIN'		=> 'Стиль, выбранный пользователем, будет заменён на стиль по умолчанию.',
-	'RELATIVE_DAYS'					=> 'Вчера/Сегодня/Завтра',
 	'SITE_DESC'						=> 'Описание сайта',
 	'SITE_NAME'						=> 'Имя сайта',
 	'SYSTEM_DST'					=> 'Сейчас действует летнее время',
@@ -219,14 +217,21 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_VC_SETTINGS_EXPLAIN'		=> 'Здесь вы можете задать настройки по умолчанию для визуального подтверждения регистрации и captcha.',
 
-	'CAPTCHA_GD'					=> 'GD CAPTCHA',
-	'CAPTCHA_GD_NOISE'				=> 'Шумы GD CAPTCHA',
-	'CAPTCHA_GD_EXPLAIN'			=> 'Использовать GD для создания продвинутой CAPTCHA',
-	'CAPTCHA_GD_NOISE_EXPLAIN'		=> 'Использовать шумы для усложнения GD CAPTCHA',
-	'VISUAL_CONFIRM_POST'			=> 'Включить визуальное подтверждение для гостей',
-	'VISUAL_CONFIRM_POST_EXPLAIN'	=> 'Гостям потребуется ввести случайный код, изображённый на картинке, для предотвращения массовой отправки сообщений.',
-	'VISUAL_CONFIRM_REG'			=> 'Включить визуальное подтверждение при регистрации',
-	'VISUAL_CONFIRM_REG_EXPLAIN'	=> 'Пользователям потребуется ввести случайный код, изображённый на картинке, для предотвращения массовых регистраций.',
+	'CAPTCHA_GD'							=> 'GD CAPTCHA',
+	'CAPTCHA_GD_FOREGROUND_NOISE'			=> 'GD CAPTCHA foreground noise',
+	'CAPTCHA_GD_EXPLAIN'					=> 'Use GD to make a more advanced CAPTCHA.',
+	'CAPTCHA_GD_FOREGROUND_NOISE_EXPLAIN'	=> 'Use foreground noise to make the GD based CAPTCHA harder.',
+	'CAPTCHA_GD_X_GRID'						=> 'GD CAPTCHA background noise x-axis',
+	'CAPTCHA_GD_X_GRID_EXPLAIN'				=> 'Use lower settings of this to make the GD based CAPTCHA harder. 0 will disable x-axis background noise.',
+	'CAPTCHA_GD_Y_GRID'						=> 'GD CAPTCHA background noise y-axis',
+	'CAPTCHA_GD_Y_GRID_EXPLAIN'				=> 'Use lower settings of this to make the GD based CAPTCHA harder. 0 will disable y-axis background noise.',
+
+	'CAPTCHA_PREVIEW_MSG'					=> 'Your changes to the visual confirmation setting were not saved. This is just a preview.',
+	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'The CAPTCHA as it will look like using the current settings. Use the preview button to refresh. Note that captchas are randomized and will differ from one view to the next.',
+	'VISUAL_CONFIRM_POST'					=> 'Enable visual confirmation for guest postings',
+	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'Requires anonymous users to enter a random code matching an image to help prevent mass postings.',
+	'VISUAL_CONFIRM_REG'					=> 'Enable visual confirmation for registrations',
+	'VISUAL_CONFIRM_REG_EXPLAIN'			=> 'Requires new users to enter a random code matching an image to help prevent mass registrations.',
 ));
 
 // Cookie Settings
@@ -258,8 +263,8 @@ $lang = array_merge($lang, array(
 	'LOAD_CPF_VIEWTOPIC'			=> 'Показывать дополнительные поля профиля при просмотре тем',
 	'LOAD_USER_ACTIVITY'			=> 'Показать активность пользователя',
 	'LOAD_USER_ACTIVITY_EXPLAIN'	=> 'Отображение темы/форума, в которых пользователь наиболее активен, в его профиле и личном разделе. Рекомендуется отключить эту функцию на конференциях с более чем одним миллионом сообщений.',
-	'RECOMPILE_TEMPLATES'			=> 'Перекомпилировать старые шаблоны',
-	'RECOMPILE_TEMPLATES_EXPLAIN'	=> 'Проверять обновление файлов шаблонов на сервере и перекомпилировать их.',
+	'RECOMPILE_STYLES'				=> 'Перекомпилировать старые шаблоны',
+	'RECOMPILE_STYLES_EXPLAIN'		=> 'Проверять обновление файлов шаблонов на сервере и перекомпилировать их.',
 	'YES_ANON_READ_MARKING'			=> 'Включить маркировку тем для гостей',
 	'YES_ANON_READ_MARKING_EXPLAIN'	=> 'Сохранять информацию о статусе «прочитано/не прочитано» для гостей. Если отключено, сообщения для гостей всегда помечены как прочитанные.',
 	'YES_BIRTHDAYS'					=> 'Включить список дней рождения',
@@ -307,6 +312,7 @@ $lang = array_merge($lang, array(
 	'ACP_SERVER_SETTINGS_EXPLAIN'	=> 'Здесь задаются настройки, связанные с сервером и доменом. Удостоверьтесь в точности указанных вами данных, ошибки приведут к рассылке email-сообщений, содержащих неверную информацию. Задавая имя домена, помните, что оно должно включать  http:// или префикс другого протокола. Изменяйте номер порта только в случае, если вам точно известно, что сервер использует другое значение, порт 80 подходит в большинстве случаев.',
 
 	'ENABLE_GZIP'				=> 'Включить сжатие GZip',
+	'ENABLE_GZIP_EXPLAIN'		=> 'Generated content will be compressed prior to sending it to the user. This can reduce network traffic but will also increase CPU usage on both server and client side.',
 	'FORCE_SERVER_VARS'			=> 'Принудительные настройки URL сервера',
 	'FORCE_SERVER_VARS_EXPLAIN'	=> 'Если выбрано, то указанные здесь настройки будут использованы вместо автоматически определённых значений',
 	'ICONS_PATH'				=> 'Путь к значкам сообщений',
@@ -334,10 +340,10 @@ $lang = array_merge($lang, array(
 	'ACP_SECURITY_SETTINGS_EXPLAIN'		=> 'Здесь вы можете задать установки, связанные с сессией и входом на конференцию',
 
 	'ALL'							=> 'Полная',
-	'ALLOW_AUTOLOGIN'				=> 'Разрешить автоматический вход на конференцию', 
-	'ALLOW_AUTOLOGIN_EXPLAIN'		=> 'Определяет, могут ли пользователи автоматически входить на конференцию при её посещении.', 
-	'AUTOLOGIN_LENGTH'				=> 'Время действия автоматического входа (дней)', 
-	'AUTOLOGIN_LENGTH_EXPLAIN'		=> 'Количество дней, в течение которого пользователь может автоматически входить на конференцию. Установите 0 для снятия ограничений.', 
+	'ALLOW_AUTOLOGIN'				=> 'Разрешить автоматический вход на конференцию',
+	'ALLOW_AUTOLOGIN_EXPLAIN'		=> 'Определяет, могут ли пользователи автоматически входить на конференцию при её посещении.',
+	'AUTOLOGIN_LENGTH'				=> 'Время действия автоматического входа (дней)',
+	'AUTOLOGIN_LENGTH_EXPLAIN'		=> 'Количество дней, в течение которого пользователь может автоматически входить на конференцию. Установите 0 для снятия ограничений.',
 	'BROWSER_VALID'					=> 'Проверка браузера',
 	'BROWSER_VALID_EXPLAIN'			=> 'Включает проверку браузера при каждой сессии для повышения безопасности.',
 	'CHECK_DNSBL'					=> 'Проверить IP-адрес по чёрному списку DNS (DNS Blackhole List)',

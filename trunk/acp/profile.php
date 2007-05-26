@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * acp_profile [Russian]
 *
 * @package language
-* @version $Id: profile.php,v 1.14 2007/01/17 18:40:29 acydburn Exp $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @version $Id: profile.php,v 1.21 2007/05/20 10:07:05 acydburn Exp $
+* @copyright (c) 2005 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 

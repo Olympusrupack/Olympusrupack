@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
-* acp_attachments [English]
+* acp_attachments [Russian]
 *
 * @package language
-* @version $Id: attachments.php,v 1.21 2007/01/21 18:33:45 acydburn Exp $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @version $Id: attachments.php,v 1.30 2007/05/17 14:58:40 acydburn Exp $
+* @copyright (c) 2005 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 
@@ -40,6 +40,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_UPLOAD_ERROR'				=> 'Ошибки при попытке прикрепления файла: %s',
 	'ALLOWED_FORUMS'					=> 'Разрешённые форумы',
 	'ALLOWED_FORUMS_EXPLAIN'			=> 'Разрешено добавлять вложения с назначенными расширениями в выбранных (или во всех при их выборе) форумах',
+	'ALLOWED_IN_PM_POST'				=> 'Allowed',
 	'ALLOW_ATTACHMENTS'					=> 'Разрешить расширения',
 	'ALLOW_ALL_FORUMS'					=> 'Разрешить все форумы',
 	'ALLOW_IN_PM'						=> 'Разрешено в личных сообщениях',
@@ -49,6 +50,7 @@ $lang = array_merge($lang, array(
 	'ASSIGNED_GROUP'					=> 'Назначенная группа расширений',
 	'ATTACH_EXTENSIONS_URL'				=> 'Расширения',
 	'ATTACH_EXT_GROUPS_URL'				=> 'Группы расширений',
+	'ATTACH_ID'							=> 'ID',
 	'ATTACH_MAX_FILESIZE'				=> 'Максимальный размер файла',
 	'ATTACH_MAX_FILESIZE_EXPLAIN'		=> 'Максимальный размер каждого файла, 0 означает неограниченный размер.',
 	'ATTACH_MAX_PM_FILESIZE'			=> 'Максимальный размер файлов в личных сообщениях',
@@ -76,7 +78,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_INLINED_EXPLAIN'		=> 'Нет означает, что изображения будут показаны в виде ссылок.',
 	'DISPLAY_ORDER'					=> 'Порядок отображения вложений',
 	'DISPLAY_ORDER_EXPLAIN'			=> 'Показывать вложения по дате добавления.',
-	
+
 	'EDIT_EXTENSION_GROUP'			=> 'Редактировать группу расширений',
 	'EXCLUDE_ENTERED_IP'			=> 'Включите для исключения заданного IP-адреса/хоста.',
 	'EXCLUDE_FROM_ALLOWED_IP'		=> 'Исключить IP-адрес из разрешённых IP-адресов/хостов',
@@ -109,6 +111,7 @@ $lang = array_merge($lang, array(
 	'MODE_PHYSICAL'					=> 'Physical',
 
 	'NOT_ALLOWED_IN_PM'			=> 'Запрещено в личных сообщениях',
+	'NOT_ALLOWED_IN_PM_POST'	=> 'Not allowed',
 	'NOT_ASSIGNED'				=> 'Не назначено',
 	'NO_EXT_GROUP'				=> 'Нет',
 	'NO_EXT_GROUP_NAME'			=> 'Не задано имя группы',

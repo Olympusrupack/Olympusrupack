@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * acp_permissions [Russian]
 *
 * @package language
-* @version $Id: permissions.php,v 1.26 2007/01/24 00:58:45 shs Exp $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @version $Id: permissions.php,v 1.34 2007/05/16 14:44:56 acydburn Exp $
+* @copyright (c) 2005 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 
@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 
 		<h2>Маски прав доступа</h2>
 		<p>Они используются для просмотра действующих прав доступа, назначенных для Пользователей, Модераторов (локальных и супермодераторов), Администраторов и Форумов (локальные права).</p>
-	
+
 		<br />
 
 		<p>Для более подробной информации по установкам и управлению правами доступа на вашей конференции phpBB3 смотрите <a href="http://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">Chapter 1.5 of our Quick Start Guide</a>.</p>
@@ -66,7 +66,7 @@ $lang = array_merge($lang, array(
 	'ACL_TYPE_GLOBAL_M_'	=> 'Права доступа модератора',
 	'ACL_TYPE_LOCAL_M_'		=> 'Модератор форума',
 	'ACL_TYPE_LOCAL_F_'		=> 'Форумные права доступа',
-	
+
 	'ACL_NO'				=> 'Нет',
 	'ACL_VIEW'				=> 'Просмотр прав доступа',
 	'ACL_VIEW_EXPLAIN'		=> 'Здесь вы можете видеть действующие права доступа для пользователя (группы). Красный цвет обозначает отсутствие права у пользователя/группы, зеленый цвет обозначает наличие права у пользователя (группы).',
@@ -118,7 +118,6 @@ $lang = array_merge($lang, array(
 
 	'GROUPS_NOT_ASSIGNED'		=> 'Нет групп с данной ролью',
 
-	'LOOK_UP_FORUMS_EXPLAIN'	=> 'Вы можете выбрать более одного форума',
 	'LOOK_UP_GROUP'				=> 'Выбор группы',
 	'LOOK_UP_USER'				=> 'Выбор пользователя',
 
@@ -191,7 +190,7 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_USER_NOAVATAR'		=> 'Имеет ограниченные возможности, не может использовать аватару.',
 	'ROLE_DESCRIPTION_USER_NOPM'			=> 'Имеет ограниченные возможности, не имеет доступа к личным сообщениям.',
 	'ROLE_DESCRIPTION_USER_STANDARD'		=> 'Имеет доступ к большинству, но не ко всем возможностям для пользователя. Например, не может изменять имя или игнорировать флуд-контроль.',
-	
+
 	'ROLE_DESCRIPTION_EXPLAIN'		=> 'Вы можете ввести краткое описание роли. Текст, который вы здесь введёте, будет отображен как описание роли в перечне ролей.',
 	'ROLE_DESCRIPTION_LONG'			=> 'Описание роли слишком длинное, ограничте до 4000 символов.',
 	'ROLE_DETAILS'					=> 'Детали роли',

@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
-* acp_search [English]
+* acp_search [Russian]
 *
 * @package language
-* @version $Id: search.php,v 1.12 2007/01/27 17:38:45 naderman Exp $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @version $Id: search.php,v 1.19 2007/04/28 21:16:31 naderman Exp $
+* @copyright (c) 2005 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 
@@ -49,11 +49,11 @@ $lang = array_merge($lang, array(
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_VERSION'	=> 'Механизм полнотекстового поиска MySQL может быть использован только с MySQL4 и старше.',
 	'FULLTEXT_MYSQL_NOT_MYISAM'				=> 'Полнотекстовые индексы MySQL могут быть использованы только с таблицами MyISAM.',
-	'FULLTEXT_MYSQL_SUBJECT_CARDINALITY'	=> 'Мощность полнотекстового индекса post_subject (оценка уникальных значений)',
-	'FULLTEXT_MYSQL_TEXT_CARDINALITY'		=> 'Мощность полнотекстового индекса post_text (оценка уникальных значений)',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'Общее количество индексированных сообщений',
-	'FULLTEXT_MYSQL_UNICODE'				=> 'Поддержка не-латинских символов UTF-8:',
-	'FULLTEXT_MYSQL_UNICODE_EXPLAIN'		=> 'Этому поисковому механизму необходимы Perl-совместимые регулярные выражения с поддержкой символов юникода (PCRE), доступные только в PHP 4.4, 5.1 и старше, если вы хотите производить поиск по не-латинским символам.',
+	'FULLTEXT_MYSQL_MBSTRING'				=> 'Support for non-latin UTF-8 characters using mbstring:',
+	'FULLTEXT_MYSQL_PCRE'					=> 'Support for non-latin UTF-8 characters using PCRE:',
+	'FULLTEXT_MYSQL_MBSTRING_EXPLAIN'		=> 'If PCRE does not have unicode character properties, the search backend will try to use mbstring\'s regular expression engine.',
+	'FULLTEXT_MYSQL_PCRE_EXPLAIN'			=> 'This search backend requires PCRE unicode character properties, only available in PHP 4.4, 5.1 and above, if you want to search for non-latin characters.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'Общие настройки поиска',
 	'GO_TO_SEARCH_INDEX'					=> 'перейти на страницу поискового индекса',
@@ -76,6 +76,8 @@ $lang = array_merge($lang, array(
 
 	'SEARCH_GUEST_INTERVAL'					=> 'Задержка флуда для гостей',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Время в секундах, которое должно пройти между двумя поисковыми запросами гостя. В случае исполнения поискового запроса гостя остальные гости должны дождаться истечения времени задержки флуда.',
+	'SEARCH_INDEX_CREATE_REDIRECT'			=> 'All posts up to post id %1$d have now been indexed, of which %2$d posts were within this step.<br />The current rate of indexing is approximately %3$.1f posts per second.<br />Indexing in progress…',
+	'SEARCH_INDEX_DELETE_REDIRECT'			=> 'All posts up to post id %1$d have been removed from the search index.<br />Deleting in progress…',
 	'SEARCH_INDEX_CREATED'					=> 'Все сообщения в базе данных конференции успешно проиндексированы.',
 	'SEARCH_INDEX_REMOVED'					=> 'Поисковый индекс для этого механизма успешно удалён.',
 	'SEARCH_INTERVAL'						=> 'Задержка флуда для пользователя',

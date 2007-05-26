@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * acp_prune [Russain]
 *
 * @package language
-* @version $Id: prune.php,v 1.8 2006/11/20 17:37:54 dhn2 Exp $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @version $Id: prune.php,v 1.13 2007/05/11 12:25:28 acydburn Exp $
+* @copyright (c) 2005 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 
@@ -44,15 +44,23 @@ $lang = array_merge($lang, array(
 
 	'LAST_ACTIVE_EXPLAIN'		=> 'Введите дату в формате <kbd>ГГГГ-ММ-ДД</kbd>.',
 
+	'PRUNE_USERS_LIST'				=> 'Users to be pruned',
+	'PRUNE_USERS_LIST_DELETE'		=> 'With the selected critera for pruning users the following accounts will be removed.',
+	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'With the selected critera for pruning users the following accounts will be deactivated.',
+
 	'SELECT_USERS_EXPLAIN'		=> 'Введите здесь конкретные имена пользователей, если не хотите использовать критерии поиска выше.',
 
 	'USER_DEACTIVATE_SUCCESS'	=> 'Отобранные пользователи успешно деактивированы.',
 	'USER_DELETE_SUCCESS'		=> 'Отобранные пользователи успешно удалены.',
+	'USER_PRUNE_FAILURE'		=> 'No users fit the selected criteria.',
+
+	'WRONG_ACTIVE_JOINED_DATE'	=> 'The date entered is wrong, it is expected in <kbd>YYYY-MM-DD</kbd> format.',
 ));
 
 // Forum Pruning
 $lang = array_merge($lang, array(
 	'ACP_PRUNE_FORUMS_EXPLAIN'	=> 'Будут удалены все темы, в которые не писали и которые не просматривали указанное количество дней. Если вы не введёте число дней, то будут удалены все темы. По умолчанию темы, в которых продолжаются опросы, а также прилепленные темы и объявления не будут удалены.',
+
 	'FORUM_PRUNE'		=> 'Чистка форумов',
 
 	'NO_PRUNE'			=> 'Чистка форумов не произведена',
@@ -64,6 +72,7 @@ $lang = array_merge($lang, array(
 	'PRUNE_ANNOUNCEMENTS'			=> 'Удалять объявления',
 	'PRUNE_FINISHED_POLLS'			=> 'Удалять оконченные опросы',
 	'PRUNE_FINISHED_POLLS_EXPLAIN'	=> 'Удалять темы, в которых опросы завершены.',
+	'PRUNE_FORUM_CONFIRM'			=> 'Are you sure you want to prune the selected forums with the settings specified? Once removed, there is no way to recover the pruned posts and topics.',
 	'PRUNE_NOT_POSTED'				=> 'Дней с последнего сообщения',
 	'PRUNE_NOT_VIEWED'				=> 'Дней с последнего просмотра',
 	'PRUNE_OLD_POLLS'				=> 'Удалять старые опросы',

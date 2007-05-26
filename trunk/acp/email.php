@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * acp_email [Russian]
 *
 * @package language
-* @version $Id: email.php,v 1.11 2007/01/26 16:09:16 acydburn Exp $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @version $Id: email.php,v 1.15 2007/05/12 12:32:28 davidmj Exp $
+* @copyright (c) 2005 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 
@@ -47,14 +47,14 @@ $lang = array_merge($lang, array(
 	'SEND_TO_GROUP'			=> 'Отправить группе',
 	'SEND_TO_USERS'			=> 'Отправить пользователям',
 	'SEND_TO_USERS_EXPLAIN'	=> 'Сообщение будет отправлено указанным пользователям вместо выбранной выше группы. Вводите каждое имя пользователя с новой строки.',
-	
+
 	'MAIL_HIGH_PRIORITY'	=> 'Высокий',
 	'MAIL_LOW_PRIORITY'		=> 'Низкий',
 	'MAIL_NORMAL_PRIORITY'	=> 'Обычный',
 	'MAIL_PRIORITY'			=> 'Приоритет рассылки',
 	'MASS_MESSAGE'			=> 'Ваше сообщение',
 	'MASS_MESSAGE_EXPLAIN'	=> 'Учтите, что вы можете использовать только обычный текст. Любая разметка будет удалена перед отправкой.',
-	
+
 	'NO_EMAIL_MESSAGE'		=> 'Вы должны ввести текст сообщения.',
 	'NO_EMAIL_SUBJECT'		=> 'Вы должны указать тему сообщения.',
 ));

@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * acp_language [Russian]
 *
 * @package language
-* @version $Id: language.php,v 1.13 2007/01/24 12:33:36 acydburn Exp $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @version $Id: language.php,v 1.15 2007/05/10 15:31:21 acydburn Exp $
+* @copyright (c) 2005 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 

@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * acp_styles [Russian]
 *
 * @package language
-* @version $Id: styles.php,v 1.26 2007/01/26 18:15:17 naderman Exp $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @version $Id: styles.php,v 1.35 2007/05/19 12:03:28 acydburn Exp $
+* @copyright (c) 2005 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 
@@ -65,11 +65,7 @@ $lang = array_merge($lang, array(
 	'CREATE_STYLE'					=> 'Создать стиль',
 	'CREATE_TEMPLATE'				=> 'Создать шаблон',
 	'CREATE_THEME'					=> 'Создать тему',
-	'CSS_CLASS_NAME'				=> 'Имя класса CSS',
-	'CSS_COLOUR_EXPLAIN'			=> 'Вы можете задать шестнадцатеричный формат цвета или выбрать его, используя безопасную палитру цветов.',
 	'CURRENT_IMAGE'					=> 'Текущее изображение',
-	'CUSTOM_CLASS'					=> 'Пользовательский класс',
-	'CUSTOM_CLASS_EXPLAIN'			=> 'Вы можете добавлять классы к этой теме по вашему желанию. Ниже необходимо задать имя класса, которое вы используете или будете использовать в своём шаблоне. Пожалуйста, не забывайте, что имена классов могут содержать только буквенно-цифровые символы, точки (.), двоеточия (:), дефисы (-), подчеркивания (_) и символ решётки (#). Новый класс будет добавлен к списку выбора классов выше.',
 
 	'DEACTIVATE_DEFAULT'		=> 'Вы не можете сделать неактивным стиль по умолчанию.',
 	'DELETE_FROM_FS'			=> 'Удалить с сервера',
@@ -112,11 +108,9 @@ $lang = array_merge($lang, array(
 
 	'HIDE_CSS'				=> 'Скрыть код CSS',
 
-	'IMAGE_CONFIGURATION'		=> 'Настройки изображения',
 	'IMAGE_WIDTH'				=> 'Ширина изображения',
 	'IMAGE_HEIGHT'				=> 'Высота изображения',
 	'IMAGE'						=> 'Изображение',
-	'IMAGE_LOCATION'			=> 'Местонахождение изображения',
 	'IMAGE_NAME'				=> 'Имя изображения',
 	'IMAGE_PARAMETER'			=> 'Параметр',
 	'IMAGE_VALUE'				=> 'Значение',
@@ -165,6 +159,8 @@ $lang = array_merge($lang, array(
 	'IMG_FORUM_UNREAD'			=> 'Форум с новыми сообщениями',
 	'IMG_FORUM_UNREAD_LOCKED'	=> 'Закрытый форум с новыми сообщениями',
 	'IMG_FORUM_UNREAD_SUBFORUM'	=> 'Подфорум с новыми сообщениями',
+	'IMG_SUBFORUM_READ'			=> 'Legend subforum',
+	'IMG_SUBFORUM_UNREAD'		=> 'Legend subforum new posts',
 
 	'IMG_TOPIC_MOVED'			=> 'Тема перемещена',
 
@@ -211,6 +207,8 @@ $lang = array_merge($lang, array(
 
 	'IMG_PM_READ'		=> 'Прочитанное личное сообщение',
 	'IMG_PM_UNREAD'		=> 'Непрочитанное личное сообщение',
+
+	'IMG_ICON_BACK_TOP'		=> 'Top',
 
 	'IMG_ICON_CONTACT_AIM'		=> 'AIM',
 	'IMG_ICON_CONTACT_EMAIL'	=> 'Отправить сообщение email',
@@ -280,11 +278,10 @@ $lang = array_merge($lang, array(
 	'LINE_SPACING'				=> 'Интервал между линиями',
 	'LOCALISED_IMAGES'			=> 'Изображения на других языках',
 
-	'EDITED_IMAGESET'			=> 'Отредактированные пакеты изображений',
-
 	'NO_CLASS'					=> 'Не удалось найти класс в таблице стилей.',
 	'NO_IMAGESET'				=> 'Не удалось найти пакет изображений на сервере.',
 	'NO_IMAGE'					=> 'Нет',
+	'NO_IMAGE_ERROR'			=> 'Cannot find image on filesystem.',
 	'NO_STYLE'					=> 'Не удалось найти стиль на сервере.',
 	'NO_TEMPLATE'				=> 'Не удалось найти шаблон на сервере.',
 	'NO_THEME'					=> 'Не удалось найти тему на сервере.',
@@ -319,16 +316,13 @@ $lang = array_merge($lang, array(
 
 	'SELECT_IMAGE'				=> 'Выбрать изображение',
 	'SELECT_TEMPLATE'			=> 'Выбрать файл шаблона',
-	'SELECT_CLASS'				=> 'Выбрать класс CSS',
+	'SELECT_THEME'				=> 'Select theme file',
 	'SELECTED_IMAGE'			=> 'Выбранное изображение',
 	'SELECTED_IMAGESET'			=> 'Выбранный пакет изображений',
 	'SELECTED_TEMPLATE'			=> 'Выбранный шаблон',
 	'SELECTED_TEMPLATE_FILE'	=> 'Выбранный файл шаблона',
 	'SELECTED_THEME'			=> 'Выбранная тема',
-	'SELECTED_CLASS'			=> 'Выбранный класс CSS',
-	'SHOW_CSS'					=> 'Показать код CSS',
-	'SHOW_CSS_NOTE'				=> 'Примечание',
-	'SHOW_CSS_EXPLAIN'			=> 'Вводите каждый элемент с новой строки, оканчивающейся точкой с запятой (;). Используйте расширенный формат для каждого элемента, например, вместо font: используйте font-family:, font-weight:, и т.п.',
+	'SELECTED_THEME_FILE'		=> 'Selected theme file',
 	'STORE_DATABASE'			=> 'База данных',
 	'STORE_FILESYSTEM'			=> 'Сервер',
 	'STYLE_ACTIVATE'			=> 'Активировать',
@@ -402,6 +396,7 @@ $lang = array_merge($lang, array(
 	'THEME_ERR_NOT_THEME'		=> 'Указанный архив не содержит темы.',
 	'THEME_ERR_REFRESH_FS'		=> 'Эта тема хранится на сервере и не требует обновления.',
 	'THEME_ERR_STYLE_NAME'		=> 'Вы должны задать имя для этой темы.',
+	'THEME_FILE'				=> 'Theme file',
 	'THEME_EXPORT'				=> 'Экспорт темы',
 	'THEME_EXPORT_EXPLAIN'		=> 'Здесь вы можете экспортировать тему в виде архива. Этот архив будет содержать все данные, необходимые для установки темы на другую конференцию. Вы можете выбрать, скачивать ли файл напрямую, или сохранить его в папке store, чтобы скачать его позднее через FTP.',
 	'THEME_EXPORTED'			=> 'Тема успешно экспортирована и сохранена в %s.',

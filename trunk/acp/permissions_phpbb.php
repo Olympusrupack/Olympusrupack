@@ -1,11 +1,11 @@
 <?php
-/** 
+/**
 * acp_permissions (phpBB Permission Set) [Russian]
 *
 * @package language
-* @version $Id: permissions_phpbb.php,v 1.21 2007/01/26 16:09:16 acydburn Exp $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @version $Id: permissions_phpbb.php,v 1.24 2007/05/03 14:28:51 acydburn Exp $
+* @copyright (c) 2005 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
 /**
@@ -30,9 +30,9 @@ if (empty($lang) || !is_array($lang))
 
 /**
 *	MODDERS PLEASE NOTE
-*	
+*
 *	You are able to put your permission sets into a separate file too by
-*	prefixing the new file with permissions_ and putting it into the acp 
+*	prefixing the new file with permissions_ and putting it into the acp
 *	language folder.
 *
 *	An example of how the file could look like:

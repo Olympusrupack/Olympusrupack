@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * acp_modules [Russian]
 *
 * @package language
-* @version $Id: modules.php,v 1.11 2007/01/26 16:09:16 acydburn Exp $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @version $Id: modules.php,v 1.12 2007/05/10 15:31:21 acydburn Exp $
+* @copyright (c) 2005 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 

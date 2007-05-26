@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * acp_groups [Russian]
 *
 * @package language
-* @version $Id: groups.php,v 1.15 2007/01/24 11:29:56 acydburn Exp $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @version $Id: groups.php,v 1.24 2007/05/17 14:58:40 acydburn Exp $
+* @copyright (c) 2005 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 
@@ -56,7 +56,6 @@ $lang = array_merge($lang, array(
 	'GROUP_DEMOTE'					=> 'Снять лидера группы',
 	'GROUP_DESC'					=> 'Описание группы',
 	'GROUP_DETAILS'					=> 'Информация о группе',
-	'GROUP_DST'						=> 'Летнее время группы',
 	'GROUP_EDIT_EXPLAIN'			=> 'Здесь вы можете редактировать существующую группу. Можно изменять её имя, описание и тип (открытая, закрытая и т.п.). Вы можете также установить некоторые дополнительные настройки группы, такие, как цвет, звание и т.п. Текущие настройки пользователей будут заменены в соответствии с произведёнными здесь изменениями. Учтите, что члены группы могут изменять свои аватары только если вы предоставили им для этого соответствующие права.',
 	'GROUP_ERR_USERS_EXIST'			=> 'Указанный пользователь уже является членом этой группы',
 	'GROUP_FOUNDER_MANAGE'			=> 'Управление только основателем',
@@ -76,11 +75,13 @@ $lang = array_merge($lang, array(
 	'GROUP_MODS_DEMOTED'			=> 'Лидеры группы успешно сняты.',
 	'GROUP_MODS_PROMOTED'			=> 'Члены группы успешно назначены.',
 	'GROUP_NAME'					=> 'Имя группы',
+	'GROUP_NAME_TAKEN'				=> 'The group name you entered is already in use, please select an alternative.',
 	'GROUP_OPEN'					=> 'Открытая',
 	'GROUP_PENDING'					=> 'Кандидаты',
 	'GROUP_PROMOTE'					=> 'Назначить лидером группы',
 	'GROUP_RANK'					=> 'Звание группы',
 	'GROUP_RECEIVE_PM'				=> 'Группа может получать личные сообщения',
+	'GROUP_RECEIVE_PM_EXPLAIN'		=> 'Please note that hidden groups are not able to be messaged, regardless of this setting.',
 	'GROUP_REQUEST'					=> 'Запрос',
 	'GROUP_SETTINGS'				=> 'Задать настройки пользователей',
 	'GROUP_SETTINGS_EXPLAIN'		=> 'Здесь вы можете принудительно изменить текущие настройки пользователей. Учтите, что эти настройки не сохраняются для самой группы. Они существуют для быстрого изменения настроек всех пользователей в этой группе.',

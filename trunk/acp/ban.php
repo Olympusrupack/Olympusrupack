@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * acp_ban [Russian]
 *
 * @package language
-* @version $Id: ban.php,v 1.10 2006/12/22 22:51:12 shs Exp $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @version $Id: ban.php,v 1.18 2007/05/17 14:58:40 acydburn Exp $
+* @copyright (c) 2005 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 
@@ -59,8 +59,10 @@ $lang = array_merge($lang, array(
 	'IP_UNBAN'					=> 'Вновь разрешить доступ с адресов IP или удалить адреса из белого списка',
 	'IP_UNBAN_EXPLAIN'			=> 'Вы можете вновь разрешить доступ с нескольких адресов IP (или удалить их из белого списка) за один раз, используя подходящую для вашего компьютера и браузера комбинацию клавиатуры и мыши. IP-адреса из белого списка выделены особо.',
 
+	'LENGTH_BAN_INVALID'		=> 'The date has to be formatted <kbd>YYYY-MM-DD</kbd>.',
+
 	'PERMANENT'		=> 'Бессрочно',
-	
+
 	'UNTIL'						=> 'До даты',
 	'USER_BAN'					=> 'Заблокировать доступ одному или нескольким пользователям',
 	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Исключить введённых пользователей из чёрного списка.',
@@ -68,6 +70,7 @@ $lang = array_merge($lang, array(
 	'USER_NO_BANNED'			=> 'Чёрный список пользователей пуст',
 	'USER_UNBAN'				=> 'Вновь разрешить доступ пользователям или удалить пользователей из белого списка',
 	'USER_UNBAN_EXPLAIN'		=> 'Вы можете вновь разрешить доступ нескольким пользователям (или удалить их из белого списка) за один раз, используя подходящую для вашего компьютера и браузера комбинацию клавиатуры и мыши. Пользователи из белого списка выделены особо.',
+
 ));
 
 ?>
