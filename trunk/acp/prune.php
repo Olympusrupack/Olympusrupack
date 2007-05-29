@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* acp_prune [Russain]
+* acp_prune [Russian]
 *
 * @package language
 * @version $Id: prune.php,v 1.13 2007/05/11 12:25:28 acydburn Exp $
@@ -52,9 +52,9 @@ $lang = array_merge($lang, array(
 
 	'USER_DEACTIVATE_SUCCESS'	=> 'Отобранные пользователи успешно деактивированы.',
 	'USER_DELETE_SUCCESS'		=> 'Отобранные пользователи успешно удалены.',
-	'USER_PRUNE_FAILURE'		=> 'No users fit the selected criteria.',
+	'USER_PRUNE_FAILURE'		=> 'Нет пользователей, подходящих под указанные критерии.',
 
-	'WRONG_ACTIVE_JOINED_DATE'	=> 'The date entered is wrong, it is expected in <kbd>YYYY-MM-DD</kbd> format.',
+	'WRONG_ACTIVE_JOINED_DATE'	=> 'Недопустимый формат даты. Дата должна быть в формате <kbd>ГГГГ-ММ-ДД</kbd>.',
 ));
 
 // Forum Pruning
@@ -63,16 +63,16 @@ $lang = array_merge($lang, array(
 
 	'FORUM_PRUNE'		=> 'Чистка форумов',
 
-	'NO_PRUNE'			=> 'Чистка форумов не произведена',
+	'NO_PRUNE'			=> 'Чистка форумов не произведена.',
 
-	'SELECTED_FORUM'	=> 'Выбранный форум',
-	'SELECTED_FORUMS'	=> 'Выбранные форумы',
+	'SELECTED_FORUM'	=> 'Выбран форум',
+	'SELECTED_FORUMS'	=> 'Выбраны форумы',
 
 	'POSTS_PRUNED'					=> 'Сообщений удалено',
 	'PRUNE_ANNOUNCEMENTS'			=> 'Удалять объявления',
 	'PRUNE_FINISHED_POLLS'			=> 'Удалять оконченные опросы',
 	'PRUNE_FINISHED_POLLS_EXPLAIN'	=> 'Удалять темы, в которых опросы завершены.',
-	'PRUNE_FORUM_CONFIRM'			=> 'Are you sure you want to prune the selected forums with the settings specified? Once removed, there is no way to recover the pruned posts and topics.',
+	'PRUNE_FORUM_CONFIRM'			=> 'Восстановить удалённые темы и сообщения невозможно. Вы действительно хотите очистить выбранные форумы с указанными параметрами?',
 	'PRUNE_NOT_POSTED'				=> 'Дней с последнего сообщения',
 	'PRUNE_NOT_VIEWED'				=> 'Дней с последнего просмотра',
 	'PRUNE_OLD_POLLS'				=> 'Удалять старые опросы',

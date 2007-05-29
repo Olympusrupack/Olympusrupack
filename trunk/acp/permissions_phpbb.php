@@ -63,7 +63,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'permission_cat'	=> array(
 		'actions'		=> 'Действия',
-		'content'		=> 'Содержание',
+		'content'		=> 'Содержимое',
 		'forums'		=> 'Форумы',
 		'misc'			=> 'Разное',
 		'permissions'	=> 'Права доступа',
@@ -157,7 +157,7 @@ $lang = array_merge($lang, array(
 
 	'acl_f_search'		=> array('lang' => 'Может использовать поиск в форуме', 'cat' => 'misc'),
 	'acl_f_ignoreflood' => array('lang' => 'Может игнорировать флуд-контроль', 'cat' => 'misc'),
-	'acl_f_postcount'	=> array('lang' => 'Счетчик сообщений включен<br /><em>Учтите, что данная установка эффективна только при создании новых сообщений.</em>', 'cat' => 'misc'),
+	'acl_f_postcount'	=> array('lang' => 'Счётчик сообщений включен<br /><em>Учтите, что данная установка эффективна только при создании новых сообщений.</em>', 'cat' => 'misc'),
 	'acl_f_noapprove'	=> array('lang' => 'Может размещать сообщения без одобрения', 'cat' => 'misc'),
 ));
 

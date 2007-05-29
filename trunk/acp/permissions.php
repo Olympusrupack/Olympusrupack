@@ -106,7 +106,7 @@ $lang = array_merge($lang, array(
 
 	'CREATE_ROLE'				=> 'Создать роль',
 	'CREATE_ROLE_FROM'			=> 'Использовать настройки от…',
-	'CUSTOM'					=> 'Другое…', //не ясен контекст
+	'CUSTOM'					=> 'Другое…',
 
 	'DEFAULT'					=> 'По умолчанию',
 	'DELETE_ROLE'				=> 'Удалить роль',
@@ -135,7 +135,7 @@ $lang = array_merge($lang, array(
 	'ONLY_FORUM_DEFINED'	=> 'Вы определили только форум. Выберите, по крайней мере, одного пользователя или группу.',
 
 	'PERMISSION_APPLIED_TO_ALL'		=> 'Права доступа и роль будут назначены для всех отмеченных объектов',
-	'PLUS_SUBFORUMS'				=> '+Подфорумы',
+	'PLUS_SUBFORUMS'				=> '+подфорумы',
 
 	'REMOVE_PERMISSIONS'			=> 'Удалить права доступа',
 	'REMOVE_ROLE'					=> 'Удалить роль',

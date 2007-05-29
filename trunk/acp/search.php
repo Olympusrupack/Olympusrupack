@@ -72,12 +72,12 @@ $lang = array_merge($lang, array(
 	'MIN_SEARCH_AUTHOR_CHARS'				=> 'Минимум символов имени автора',
 	'MIN_SEARCH_AUTHOR_CHARS_EXPLAIN'		=> 'Пользователи должны задать как минимум указанное количество символов имени при осуществлении поиска атора по маске. Если имя атора короче, чем указанное значение, можно осуществлять поиск по полному имени автора.',
 
-	'PROGRESS_BAR'							=> 'Индикатор процесса',
+	'PROGRESS_BAR'							=> 'Индикатор выполнения',
 
 	'SEARCH_GUEST_INTERVAL'					=> 'Задержка флуда для гостей',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Время в секундах, которое должно пройти между двумя поисковыми запросами гостя. В случае исполнения поискового запроса гостя остальные гости должны дождаться истечения времени задержки флуда.',
-	'SEARCH_INDEX_CREATE_REDIRECT'			=> 'All posts up to post id %1$d have now been indexed, of which %2$d posts were within this step.<br />The current rate of indexing is approximately %3$.1f posts per second.<br />Indexing in progress…',
-	'SEARCH_INDEX_DELETE_REDIRECT'			=> 'All posts up to post id %1$d have been removed from the search index.<br />Deleting in progress…',
+	'SEARCH_INDEX_CREATE_REDIRECT'			=> 'Все сообщения до сообщения под номером %1$d успешно проиндексированы, из которых в текущем шаге индексации проиндексировано %2$d сообщений.<br />Текущая скорость индексации - примерно %3$.1f сообщений в секунду.<br />Идёт индексация…',
+	'SEARCH_INDEX_DELETE_REDIRECT'			=> 'Все сообщения до сообщения под номером %1$d успешно удалены из поисковых индексов.<br />Идёт удаление поисковых индексов…',
 	'SEARCH_INDEX_CREATED'					=> 'Все сообщения в базе данных конференции успешно проиндексированы.',
 	'SEARCH_INDEX_REMOVED'					=> 'Поисковый индекс для этого механизма успешно удалён.',
 	'SEARCH_INTERVAL'						=> 'Задержка флуда для пользователя',

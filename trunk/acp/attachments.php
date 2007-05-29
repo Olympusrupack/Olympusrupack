@@ -40,7 +40,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_UPLOAD_ERROR'				=> 'Ошибки при попытке прикрепления файла: %s',
 	'ALLOWED_FORUMS'					=> 'Разрешённые форумы',
 	'ALLOWED_FORUMS_EXPLAIN'			=> 'Разрешено добавлять вложения с назначенными расширениями в выбранных (или во всех при их выборе) форумах',
-	'ALLOWED_IN_PM_POST'				=> 'Allowed',
+	'ALLOWED_IN_PM_POST'				=> 'Разрешена',
 	'ALLOW_ATTACHMENTS'					=> 'Разрешить расширения',
 	'ALLOW_ALL_FORUMS'					=> 'Разрешить все форумы',
 	'ALLOW_IN_PM'						=> 'Разрешено в личных сообщениях',
@@ -111,7 +111,7 @@ $lang = array_merge($lang, array(
 	'MODE_PHYSICAL'					=> 'Physical',
 
 	'NOT_ALLOWED_IN_PM'			=> 'Запрещено в личных сообщениях',
-	'NOT_ALLOWED_IN_PM_POST'	=> 'Not allowed',
+	'NOT_ALLOWED_IN_PM_POST'	=> 'Не разрешена',
 	'NOT_ASSIGNED'				=> 'Не назначено',
 	'NO_EXT_GROUP'				=> 'Нет',
 	'NO_EXT_GROUP_NAME'			=> 'Не задано имя группы',
@@ -122,7 +122,7 @@ $lang = array_merge($lang, array(
 	'NO_UPLOAD_DIR'				=> 'Указанная папка для закачки не существует.',
 	'NO_WRITE_UPLOAD'			=> 'В указанную папку для закачки невозможно осуществить запись. Измените права доступа, разрешив веб-серверу запись в неё.',
 
-	'ONLY_ALLOWED_IN_PM'	=> 'Разрешено только в личных сообщениях',
+	'ONLY_ALLOWED_IN_PM'	=> 'Разрешена только в личных сообщениях',
 	'ORDER_ALLOW_DENY'		=> 'Разрешить',
 	'ORDER_DENY_ALLOW'		=> 'Запретить',
 

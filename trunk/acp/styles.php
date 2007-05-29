@@ -149,8 +149,8 @@ $lang = array_merge($lang, array(
 	'IMG_POLL_LEFT'			=> 'Опрос слева',
 	'IMG_POLL_CENTER'		=> 'Опрос в центре',
 	'IMG_POLL_RIGHT'		=> 'Опрос справа',
-	'IMG_ICON_FRIEND'		=> 'Добавить как друга',
-	'IMG_ICON_FOE'			=> 'Добавить как недруга',
+	'IMG_ICON_FRIEND'		=> 'Добавить в список друзей',
+	'IMG_ICON_FOE'			=> 'Добавить в список недругов',
 
 	'IMG_FORUM_LINK'			=> 'Ссылка на форум',
 	'IMG_FORUM_READ'			=> 'Форум',
@@ -159,8 +159,8 @@ $lang = array_merge($lang, array(
 	'IMG_FORUM_UNREAD'			=> 'Форум с новыми сообщениями',
 	'IMG_FORUM_UNREAD_LOCKED'	=> 'Закрытый форум с новыми сообщениями',
 	'IMG_FORUM_UNREAD_SUBFORUM'	=> 'Подфорум с новыми сообщениями',
-	'IMG_SUBFORUM_READ'			=> 'Legend subforum',
-	'IMG_SUBFORUM_UNREAD'		=> 'Legend subforum new posts',
+	'IMG_SUBFORUM_READ'			=> 'Легенда подфорума',
+	'IMG_SUBFORUM_UNREAD'		=> 'Легенда подфорума с новыми сообщениями',
 
 	'IMG_TOPIC_MOVED'			=> 'Тема перемещена',
 
@@ -208,7 +208,7 @@ $lang = array_merge($lang, array(
 	'IMG_PM_READ'		=> 'Прочитанное личное сообщение',
 	'IMG_PM_UNREAD'		=> 'Непрочитанное личное сообщение',
 
-	'IMG_ICON_BACK_TOP'		=> 'Top',
+	'IMG_ICON_BACK_TOP'		=> 'Наверх',
 
 	'IMG_ICON_CONTACT_AIM'		=> 'AIM',
 	'IMG_ICON_CONTACT_EMAIL'	=> 'Отправить сообщение email',
@@ -217,15 +217,15 @@ $lang = array_merge($lang, array(
 	'IMG_ICON_CONTACT_MSNM'		=> 'MSNM',
 	'IMG_ICON_CONTACT_PM'		=> 'Отправить сообщение',
 	'IMG_ICON_CONTACT_YAHOO'	=> 'YIM',
-	'IMG_ICON_CONTACT_WWW'		=> 'Вебсайт',
+	'IMG_ICON_CONTACT_WWW'		=> 'Сайт пользователя',
 
 	'IMG_ICON_POST_DELETE'			=> 'Удалить сообщение',
 	'IMG_ICON_POST_EDIT'			=> 'Редактировать сообщение',
 	'IMG_ICON_POST_INFO'			=> 'Информация о сообщении',
 	'IMG_ICON_POST_QUOTE'			=> 'Цитировать сообщение',
 	'IMG_ICON_POST_REPORT'			=> 'Пожаловаться на сообщение',
-	'IMG_ICON_POST_TARGET'			=> 'Сообщение',
-	'IMG_ICON_POST_TARGET_UNREAD'	=> 'Новое сообщение',
+	'IMG_ICON_POST_TARGET'			=> 'Значок сообщения',
+	'IMG_ICON_POST_TARGET_UNREAD'	=> 'Значок нового сообщения',
 
 
 	'IMG_ICON_TOPIC_ATTACH'			=> 'Вложение',
@@ -236,16 +236,16 @@ $lang = array_merge($lang, array(
 
 	'IMG_ICON_USER_ONLINE'		=> 'Пользователь в сети',
 	'IMG_ICON_USER_OFFLINE'		=> 'Пользователь не в сети',
-	'IMG_ICON_USER_PROFILE'		=> 'Показать профиль',
+	'IMG_ICON_USER_PROFILE'		=> 'Показать профиль пользователя',
 	'IMG_ICON_USER_SEARCH'		=> 'Поиск сообщений',
 	'IMG_ICON_USER_WARN'		=> 'Вынести предупреждение пользователю',
 
 	'IMG_BUTTON_PM_FORWARD'		=> 'Переслать личное сообщение',
 	'IMG_BUTTON_PM_NEW'			=> 'Новое личное сообщение',
-	'IMG_BUTTON_PM_REPLY'		=> 'Ответить',
+	'IMG_BUTTON_PM_REPLY'		=> 'Ответить на личное сообщение',
 	'IMG_BUTTON_TOPIC_LOCKED'	=> 'Тема закрыта',
 	'IMG_BUTTON_TOPIC_NEW'		=> 'Новая тема',
-	'IMG_BUTTON_TOPIC_REPLY'	=> 'Ответить',
+	'IMG_BUTTON_TOPIC_REPLY'	=> 'Ответить на тему',
 
 	'IMG_USER_ICON1'		=> 'Пользовательское изображение 1',
 	'IMG_USER_ICON2'		=> 'Пользовательское изображение 2',
@@ -280,8 +280,8 @@ $lang = array_merge($lang, array(
 
 	'NO_CLASS'					=> 'Не удалось найти класс в таблице стилей.',
 	'NO_IMAGESET'				=> 'Не удалось найти пакет изображений на сервере.',
-	'NO_IMAGE'					=> 'Нет',
-	'NO_IMAGE_ERROR'			=> 'Cannot find image on filesystem.',
+	'NO_IMAGE'					=> 'Без рисунка',
+	'NO_IMAGE_ERROR'			=> 'Не удалось найти рисунок в файловой системе.',
 	'NO_STYLE'					=> 'Не удалось найти стиль на сервере.',
 	'NO_TEMPLATE'				=> 'Не удалось найти шаблон на сервере.',
 	'NO_THEME'					=> 'Не удалось найти тему на сервере.',
@@ -316,13 +316,13 @@ $lang = array_merge($lang, array(
 
 	'SELECT_IMAGE'				=> 'Выбрать изображение',
 	'SELECT_TEMPLATE'			=> 'Выбрать файл шаблона',
-	'SELECT_THEME'				=> 'Select theme file',
+	'SELECT_THEME'				=> 'Выберите файл темы',
 	'SELECTED_IMAGE'			=> 'Выбранное изображение',
 	'SELECTED_IMAGESET'			=> 'Выбранный пакет изображений',
 	'SELECTED_TEMPLATE'			=> 'Выбранный шаблон',
 	'SELECTED_TEMPLATE_FILE'	=> 'Выбранный файл шаблона',
 	'SELECTED_THEME'			=> 'Выбранная тема',
-	'SELECTED_THEME_FILE'		=> 'Selected theme file',
+	'SELECTED_THEME_FILE'		=> 'Выбран файл темы',
 	'STORE_DATABASE'			=> 'База данных',
 	'STORE_FILESYSTEM'			=> 'Сервер',
 	'STYLE_ACTIVATE'			=> 'Активировать',
@@ -396,7 +396,7 @@ $lang = array_merge($lang, array(
 	'THEME_ERR_NOT_THEME'		=> 'Указанный архив не содержит темы.',
 	'THEME_ERR_REFRESH_FS'		=> 'Эта тема хранится на сервере и не требует обновления.',
 	'THEME_ERR_STYLE_NAME'		=> 'Вы должны задать имя для этой темы.',
-	'THEME_FILE'				=> 'Theme file',
+	'THEME_FILE'				=> 'Файл темы',
 	'THEME_EXPORT'				=> 'Экспорт темы',
 	'THEME_EXPORT_EXPLAIN'		=> 'Здесь вы можете экспортировать тему в виде архива. Этот архив будет содержать все данные, необходимые для установки темы на другую конференцию. Вы можете выбрать, скачивать ли файл напрямую, или сохранить его в папке store, чтобы скачать его позднее через FTP.',
 	'THEME_EXPORTED'			=> 'Тема успешно экспортирована и сохранена в %s.',

@@ -44,14 +44,14 @@ $lang = array_merge($lang, array(
 	'DATABASE'			=> 'Управление БД',
 	'DATA_ONLY'			=> 'Только данные',
 	'DELETE_BACKUP'		=> 'Удалить резервную копию',
-	'DELETE_SELECTED_BACKUP'	=> 'Are you sure you want to delete the selected backup?',
+	'DELETE_SELECTED_BACKUP'	=> 'Вы действительно хотите удалить выбранную копию?',
 	'DESELECT_ALL'		=> 'Снять выделение',
 	'DOWNLOAD_BACKUP'	=> 'Скачать резервную копию',
 
 	'FILE_TYPE'			=> 'Тип файла',
 	'FULL_BACKUP'		=> 'Полное',
 
-	'RESTORE_FAILURE'		=> 'The backup file may be corrupt.',
+	'RESTORE_FAILURE'		=> 'Возможно, файл с резервной копией повреждён.',
 	'RESTORE_OPTIONS'		=> 'Настройки восстановления',
 	'RESTORE_SUCCESS'		=> 'База данных была успешно восстановлена.<br /><br />Конференция восстановлена по состоянию на момент создания резервной копии.',
 
@@ -64,7 +64,7 @@ $lang = array_merge($lang, array(
 	'STRUCTURE_ONLY'		=> 'Только структура',
 
 	'TABLE_SELECT'		=> 'Выбрать таблицы',
-	'TABLE_SELECT_ERROR'=> 'You must select at least one table.',
+	'TABLE_SELECT_ERROR'=> 'Необходимо выбрать хотя бы одну таблицу.',
 ));
 
 ?>
