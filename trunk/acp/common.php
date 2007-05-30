@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 	'ACP_BAN_EMAILS'			=> 'Чёрный список email',
 	'ACP_BAN_IPS'				=> 'Чёрный список IP',
 	'ACP_BAN_USERNAMES'			=> 'Чёрный список пользователей',
-	'ACP_BBCODES'				=> 'BBCode',
+	'ACP_BBCODES'				=> 'BBCodes',
 	'ACP_BOARD_CONFIGURATION'	=> 'Конфигурация',
 	'ACP_BOARD_FEATURES'		=> 'Функции конференции',
 	'ACP_BOARD_MANAGEMENT'		=> 'Управление конференцией',
@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'ACP_CAPTCHA'				=> 'Визуальное подтверждение',
 
 	'ACP_CAT_DATABASE'			=> 'База данных',
-	'ACP_CAT_DOT_MODS'			=> '.Моды',
+	'ACP_CAT_DOT_MODS'			=> 'Модули',
 	'ACP_CAT_FORUMS'			=> 'Форумы',
 	'ACP_CAT_GENERAL'			=> 'Общие',
 	'ACP_CAT_MAINTENANCE'		=> 'Обслуживание',
@@ -96,7 +96,7 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_PERMISSIONS'		=> 'Права групп',
 
 	'ACP_ICONS'					=> 'Значки тем',
-	'ACP_ICONS_SMILIES'			=> 'Значки тем/смайлики',
+	'ACP_ICONS_SMILIES'			=> 'Значки тем и смайлики',
 	'ACP_IMAGESETS'				=> 'Наборы изображений',
 	'ACP_INACTIVE_USERS'		=> 'Неактивированные пользователи',
 	'ACP_INDEX'					=> 'Главная страница',
@@ -176,7 +176,7 @@ $lang = array_merge($lang, array(
 	'ACP_USER_SIG'					=> 'Подпись',
 
 	'ACP_VC_SETTINGS'					=> 'Визуальное подтверждение',
-	'ACP_VC_CAPTCHA_DISPLAY'			=> 'Предпросмотр визуального подтверждения',
+	'ACP_VC_CAPTCHA_DISPLAY'			=> 'Просмотр визуального подтверждения',
 	'ACP_VERSION_CHECK'					=> 'Проверка обновлений',
 	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'Показать права администраторов',
 	'ACP_VIEW_FORUM_MOD_PERMISSIONS'	=> 'Показать права модераторов',
@@ -227,32 +227,32 @@ $lang = array_merge($lang, array(
 	'LOGIN_ADMIN_CONFIRM'	=> 'Для администрирования конференции вы должны повторно ввести имя и пароль.',
 	'LOGIN_ADMIN_SUCCESS'	=> 'Вы успешно вошли и сейчас будете перенаправлены в администраторский раздел',
 	'LOOK_UP_FORUM'			=> 'Выберите форум',
-	'LOOK_UP_FORUMS_EXPLAIN'=> 'You are able to select more than one forum.',
+	'LOOK_UP_FORUMS_EXPLAIN'=> 'Можно выбрать более одного форума.',
 
 	'MANAGE'				=> 'Управление',
-	'MENU_TOGGLE'			=> 'Hide or display the side menu',
+	'MENU_TOGGLE'			=> 'Показать или скрыть боковое меню',
 	'MOVE_DOWN'				=> 'Вниз',
 	'MOVE_UP'				=> 'Вверх',
 
 	'NOTIFY'				=> 'Уведомление',
 	'NO_ADMIN'				=> 'Вы не имеете права администрирования этой конференции.',
 	'NO_EMAILS_DEFINED'		=> 'Не найдено правильных email-адресов',
-	'NO_PASSWORD_SUPPLIED'	=> 'You need to enter your password to access the Administration Control Panel.',
+	'NO_PASSWORD_SUPPLIED'	=> 'Необходимо ввести пароль для получения доступа в администраторский раздел.',
 
-	'OFF'					=> 'Выкл',
-	'ON'					=> 'Вкл',
+	'OFF'					=> 'Отключено',
+	'ON'					=> 'Включено',
 
 	'PARSE_BBCODE'						=> 'Разрешить BBCode',
 	'PARSE_SMILIES'						=> 'Разрешить смайлики',
 	'PARSE_URLS'						=> 'Разрешить ссылки',
 	'PERMISSIONS_TRANSFERRED'			=> 'Права доступа переданы',
 	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'В настоящий момент вы имеете права доступа пользователя %1$s. Вы можете просматривать конференцию с этими правами, но не будете иметь доступа к администраторскому разделу, поскольку права администратора не были переданы. Вы можете <a href="%2$s"><strong>вернуть свои права</strong></a> в любое время.',
-	'PIXEL'							=> 'пикс',
+	'PIXEL'								=> 'px',
 	'PROCEED_TO_ACP'					=> '%sПерейти в администраторский раздел%s',
 
 	'REMIND'							=> 'Напомнить',
 	'RESYNC'							=> 'Синхронизировать',
-	'RETURN_TO'							=> 'Вернуться к…',
+	'RETURN_TO'							=> 'Вернуться в…',
 
 	'SELECT_ANONYMOUS'		=> 'Выбрать учётную запись Гостя',
 	'SELECT_OPTION'			=> 'Выбрать',
@@ -281,7 +281,7 @@ $lang = array_merge($lang, array(
 
 	'DISPLAY_LOG'	=> 'Показать записи за',
 
-	'NO_ENTRIES'	=> 'Отсутствуют записи за указанный период',
+	'NO_ENTRIES'	=> 'Нет записей в указанный период.',
 
 	'SORT_IP'		=> 'IP-адрес',
 	'SORT_DATE'		=> 'Дата',
@@ -314,31 +314,31 @@ $lang = array_merge($lang, array(
 
 	'POSTS_PER_DAY'		=> 'Сообщений в день',
 
-	'PURGE_CACHE'			=> 'Purge the cache',
-	'PURGE_CACHE_CONFIRM'	=> 'Are you sure you wish to purge the cache?',
-	'PURGE_CACHE_EXPLAIN'	=> 'Purge all cache related items, this includes any cached template files or queries.',
+	'PURGE_CACHE'			=> 'Очистить кэш',
+	'PURGE_CACHE_CONFIRM'	=> 'Вы действительно хотите очистить кэш?',
+	'PURGE_CACHE_EXPLAIN'	=> 'Очистка всех кэшированных элементов (кэшированные файлы шаблонов и запросов).',
 
-	'RESET_DATE'					=> 'Сбросить дату запуска конференции',
-	'RESET_DATE_CONFIRM'			=> 'Are you sure you wish to reset the board’s start date?',
-	'RESET_ONLINE'					=> 'Сбросить рекорд посещаемости',
-	'RESET_ONLINE_CONFIRM'			=> 'Are you sure you wish to reset the most users ever online counter?',
-	'RESYNC_POSTCOUNTS'				=> 'Синхронизировать количество сообщений',
-	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Only existing posts will be taken into consideration. Pruned posts will not be counted.',
-	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Are you sure you wish to resynchronise post counts?',
+	'RESET_DATE'					=> 'Сброс даты запуска конференции',
+	'RESET_DATE_CONFIRM'			=> 'Вы действительно хотите сбросить дату запуска конференции?',
+	'RESET_ONLINE'					=> 'Сброс наибольшего количества посетителей',
+	'RESET_ONLINE_CONFIRM'			=> 'Вы действительно хотите сбросить счётчик наибольшего количества посетителей на конференции?',
+	'RESYNC_POSTCOUNTS'				=> 'Синхронизировать счётчики сообщений',
+	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Будут учтены только существующие сообщения. Удалённые сообщения не будут подсчитаны.',
+	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Вы действительно хотите синхронизировать счётчики сообщений?',
 	'RESYNC_POST_MARKING'			=> 'Синхронизировать свои темы',
-	'RESYNC_POST_MARKING_CONFIRM'	=> 'Are you sure you wish to resynchronise dotted topics?',
-	'RESYNC_POST_MARKING_EXPLAIN'	=> 'First unmarks all topics and then correctly marks topics that have seen any activity during the past six months.',
+	'RESYNC_POST_MARKING_CONFIRM'	=> 'Вы действительно хотите синхронизировать свои темы?',
+	'RESYNC_POST_MARKING_EXPLAIN'	=> 'Снятие пометок со всех тем с последующей корректной маркировкой всех тем, к которым был доступ в последние шесть месяцев.',
 	'RESYNC_STATS'					=> 'Синхронизировать статистику',
-	'RESYNC_STATS_CONFIRM'			=> 'Are you sure you wish to resynchronise statistics?',
-	'RESYNC_STATS_EXPLAIN'			=> 'Recalculates the total number of posts, topics, users and files.',
-	'RUN'							=> 'Run now',
+	'RESYNC_STATS_CONFIRM'			=> 'Вы действительно хотите синхронизировать статистику?',
+	'RESYNC_STATS_EXPLAIN'			=> 'Пересчёт общего количества сообщений, тем, пользователей и файлов.',
+	'RUN'							=> 'Выполнить',
 
 	'STATISTIC'					=> 'Статистика',
-	'STATISTIC_RESYNC_OPTIONS'	=> 'Resynchronise or reset statistics',
+	'STATISTIC_RESYNC_OPTIONS'	=> 'Синхронизация или сброс статистики',
 
 	'TOPICS_PER_DAY'	=> 'Тем в день',
 
-	'UPLOAD_DIR_SIZE'	=> 'Размер прикреплённых вложений',
+	'UPLOAD_DIR_SIZE'	=> 'Размер всех вложений',
 	'USERS_PER_DAY'		=> 'Пользователей в день',
 
 	'VALUE'					=> 'Значение',
@@ -358,8 +358,8 @@ $lang = array_merge($lang, array(
 	'INACTIVE_REASON_REMIND'		=> 'Принудительная повторная активация',
 	'INACTIVE_REASON_UNKNOWN'		=> 'Неизвестно',
 	'INACTIVE_USERS'				=> 'Неактивные пользователи',
-	'INACTIVE_USERS_EXPLAIN'		=> 'Здесь содержится список зарегистрированных пользователей, учётные записи которых неактивны. Вы можете активировать, удалить этих пользователей или отправить им напоминание (email-сообщением).',
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Здесь содержится список последних 10 зарегистрированных пользователей, учётные записи которых неактивны. В полном списке, доступном через соответствующий пункт меню или по ссылке ниже, вы можете активировать, удалить этих пользователей или отправить им напоминание (email-сообщением).',
+	'INACTIVE_USERS_EXPLAIN'		=> 'Ниже находится список зарегистрированных пользователей, учётные записи которых неактивны. Вы можете активировать, удалить или отправить неактивным пользователям электронное сообщение с напоминанием об активации.',
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Ниже находится список десяти последних зарегистрированных пользователей, имеющих неактивные учётные записи. Полный список неактивных пользователей можно просмотреть, выбрав соответствующую ссылку в меню, или нажав ссылку ниже «Неактивные пользователи». На странице «Неактивные пользователи» вы можете активировать, удалить или отправить неактивным пользователям электронное сообщение с напоминанием об активации.',
 
 	'NO_INACTIVE_USERS'	=> 'Нет неактивных пользователей',
 
@@ -461,17 +461,17 @@ $lang = array_merge($lang, array(
 	'LOG_LOCK_POST'				=> '<strong>Заблокировано сообщение</strong><br />» %s',
 	'LOG_MERGE'					=> '<strong>Объединены сообщения</strong> в тему<br />» %s',
 	'LOG_MOVE'					=> '<strong>Перемещена тема</strong><br />» из %s',
-	'LOG_POST_APPROVED'			=> '<strong>Approved post</strong><br />» %s',
-	'LOG_POST_DISAPPROVED'		=> '<strong>Disapproved post “%1$s” with the following reason</strong><br />» %2$s',
-	'LOG_POST_EDITED'			=> '<strong>Edited post “%1$s” written by</strong><br />» %2$s',
-	'LOG_REPORT_CLOSED'			=> '<strong>Closed report</strong><br />» %s',
-	'LOG_REPORT_DELETED'		=> '<strong>Deleted report</strong><br />» %s',
+	'LOG_POST_APPROVED'			=> '<strong>Одобрение сообщения</strong><br />» %s',
+	'LOG_POST_DISAPPROVED'		=> '<strong>Отклонение сообщения «%1$s» по следующей причине</strong><br />» %2$s',
+	'LOG_POST_EDITED'			=> '<strong>Редактирование сообщения в теме «%1$s», написанного автором</strong><br />» %2$s',
+	'LOG_REPORT_CLOSED'			=> '<strong>Закрытие жалобы</strong><br />» %s',
+	'LOG_REPORT_DELETED'		=> '<strong>Удаление жалобы</strong><br />» %s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Перемещены разделённые сообщения</strong><br />» в %s',
 	'LOG_SPLIT_SOURCE'			=> '<strong>Разделены сообщения</strong><br />» из %s',
 
 	'LOG_TOPIC_DELETED'			=> '<strong>Удалена тема</strong><br />» %s',
-	'LOG_TOPIC_APPROVED'		=> '<strong>Approved topic</strong><br />» %s',
-	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Disapproved topic “%1$s” with the following reason</strong><br />%2$s',
+	'LOG_TOPIC_APPROVED'		=> '<strong>Одобрение темы</strong><br />» %s',
+	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Отклонение темы «%1$s» по следующий причине</strong><br />%2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>Синхронизированы счётчики темы</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Изменён тип темы</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>Открыта тема</strong><br />» %s',
@@ -480,8 +480,8 @@ $lang = array_merge($lang, array(
 	'LOG_DISALLOW_ADD'		=> '<strong>Запрещено имя</strong><br />» %s',
 	'LOG_DISALLOW_DELETE'	=> '<strong>Разрешено имя</strong>',
 
-	'LOG_DB_BACKUP'			=> '<strong>Резервирование базы данных</strong>',
-	'LOG_DB_DELETE'			=> '<strong>Deleted database backup</strong>',
+	'LOG_DB_BACKUP'			=> '<strong>Резервное копирование базы данных</strong>',
+	'LOG_DB_DELETE'			=> '<strong>Удаление резервной копии базы данных</strong>',
 	'LOG_DB_RESTORE'		=> '<strong>Восстановление базы данных</strong>',
 
 	'LOG_DOWNLOAD_EXCLUDE_IP'	=> '<strong>Исключён IP-адрес/хост из списка скачивания</strong><br />» %s',
@@ -489,7 +489,7 @@ $lang = array_merge($lang, array(
 	'LOG_DOWNLOAD_REMOVE_IP'	=> '<strong>Удалён IP-адрес/хост из списка скачивания</strong><br />» %s',
 
 	'LOG_ERROR_JABBER'		=> '<strong>Ошибка Jabber</strong><br />» %s',
-	'LOG_ERROR_EMAIL'		=> '<strong>Ошибка email</strong><br />» %s',
+	'LOG_ERROR_EMAIL'		=> '<strong>Ошибка почты</strong><br />» %s',
 
 	'LOG_FORUM_ADD'							=> '<strong>Создан форум</strong><br />» %s',
 	'LOG_FORUM_DEL_FORUM'					=> '<strong>Удалён форум</strong><br />» %s',
@@ -545,7 +545,7 @@ $lang = array_merge($lang, array(
 	'LOG_LANGUAGE_FILE_REPLACED'	=> '<strong>Заменён языковой файл</strong><br />» %s',
 	'LOG_LANGUAGE_FILE_SUBMITTED'	=> '<strong>Submitted language file and placed in store folder</strong><br />» %s',
 
-	'LOG_MASS_EMAIL'		=> '<strong>Произведена массовая email-рассылка</strong><br />» %s',
+	'LOG_MASS_EMAIL'		=> '<strong>Произведена массовая рассылка почты</strong><br />» %s',
 
 	'LOG_MCP_CHANGE_POSTER'	=> '<strong>Изменён автор темы "%1$s"</strong><br />» с %2$s на %3$s',
 
@@ -582,7 +582,7 @@ $lang = array_merge($lang, array(
 	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>Удалены пользователи с их сообщениями</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>Удалены пользователи, их сообщения оставлены</strong><br />» %s',
 
-	'LOG_PURGE_CACHE'			=> '<strong>Purged cache</strong>',
+	'LOG_PURGE_CACHE'			=> '<strong>Очистка кэша</strong>',
 
 	'LOG_RANK_ADDED'		=> '<strong>Добавлено звание</strong><br />» %s',
 	'LOG_RANK_REMOVED'		=> '<strong>Удалено звание</strong><br />» %s',
@@ -619,7 +619,7 @@ $lang = array_merge($lang, array(
 	'LOG_THEME_DELETE'			=> '<strong>Удалена тема</strong><br />» %s',
 	'LOG_THEME_EDIT_DETAILS'	=> '<strong>Изменена информация о теме</strong><br />» %s',
 	'LOG_THEME_EDIT'			=> '<strong>Изменена тема <em>%1$s</em></strong><br />» Изменён класс <em>%2$s</em>',
-	'LOG_THEME_EDIT_FILE'		=> '<strong>Edited theme <em>%1$s</em></strong><br />» Modified file <em>%2$s</em>',
+	'LOG_THEME_EDIT_FILE'		=> '<strong>Изменение темы оформления стиля <em>%1$s</em></strong><br />» Изменён файл <em>%2$s</em>',
 	'LOG_THEME_EXPORT'			=> '<strong>Экспортирована тема</strong><br />» %s',
 	'LOG_THEME_REFRESHED'		=> '<strong>Обновлена тема</strong><br />» %s',
 
