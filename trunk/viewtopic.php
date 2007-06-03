@@ -4,7 +4,7 @@
 * viewtopic [Russian]
 *
 * @package language
-* @version $Id: viewtopic.php,v 1.15 2006/12/22 22:51:33 shs Exp $
+* @version $Id: viewtopic.php,v 1.17 2007/05/10 15:31:21 acydburn Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -38,7 +38,7 @@ $lang = array_merge($lang, array(
 	'BOOKMARK_REMOVED'		=> 'Тема успешно удалена из закладок.',
 	'BOOKMARK_TOPIC'		=> 'В закладки',
 	'BOOKMARK_TOPIC_REMOVE'	=> 'Удалить из закладок',
-	'BUMPED_BY'				=> 'Последний раз поднималось %1$s %2$s',
+	'BUMPED_BY'				=> 'Последний раз поднималось %1$s %2$s.',
 	'BUMP_TOPIC'			=> 'Поднять тему',
 
 	'CODE'					=> 'Код',
@@ -46,8 +46,8 @@ $lang = array_merge($lang, array(
 	'DELETE_TOPIC'			=> 'Удалить тему',
 	'DOWNLOAD_NOTICE'		=> 'У вас нет доступа для просмотра вложений в этом сообщении.',
 
-	'EDITED_TIMES_TOTAL'	=> 'Последний раз редактировалось %1$s %2$s, всего редактировалось %3$d раз(а)',
-	'EDITED_TIME_TOTAL'		=> 'Последний раз редактировалось %1$s %2$s, всего редактировалось %3$d раз',
+	'EDITED_TIMES_TOTAL'	=> 'Последний раз редактировалось %1$s %2$s, всего редактировалось %3$d раз(а).',
+	'EDITED_TIME_TOTAL'		=> 'Последний раз редактировалось %1$s %2$s, всего редактировалось %3$d раз.',
 	'EMAIL_TOPIC'			=> 'Сообщить другу',
 	'ERROR_NO_ATTACHMENT'	=> 'Выбранное вложение больше не существует.',
 
@@ -68,8 +68,8 @@ $lang = array_merge($lang, array(
 	'MOVE_TOPIC'				=> 'Переместить тему',
 
 	'NO_ATTACHMENT_SELECTED'=> 'Вы не выбрали вложение для скачивания или просмотра.',
-	'NO_NEWER_TOPICS'		=> 'В этом форуме нет более новых тем',
-	'NO_OLDER_TOPICS'		=> 'В этом форуме нет более старых тем',
+	'NO_NEWER_TOPICS'		=> 'В этом форуме нет более новых тем.',
+	'NO_OLDER_TOPICS'		=> 'В этом форуме нет более старых тем.',
 	'NO_UNREAD_POSTS'		=> 'В этой теме нет новых непрочитанных сообщений',
 	'NO_VOTE_OPTION'		=> 'Вы должны указать вариант ответа при голосовании.',
 	'NO_VOTES'				=> 'Ответы отсутствуют.',
