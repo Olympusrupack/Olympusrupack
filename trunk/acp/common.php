@@ -41,7 +41,7 @@ $lang = array_merge($lang, array(
 	'ACP_AUTOMATION'			=> 'Автоматизация',
 	'ACP_AVATAR_SETTINGS'		=> 'Аватары',
 
-	'ACP_BACKUP'				=> 'Создание резервной копии',
+	'ACP_BACKUP'				=> 'Резервное копирование',
 	'ACP_BAN'					=> 'Блокировка доступа',
 	'ACP_BAN_EMAILS'			=> 'Чёрный список email',
 	'ACP_BAN_IPS'				=> 'Чёрный список IP',
@@ -64,7 +64,7 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_POSTING'			=> 'Сообщения',
 	'ACP_CAT_STYLES'			=> 'Стили',
 	'ACP_CAT_SYSTEM'			=> 'Система',
-	'ACP_CAT_USERGROUP'			=> 'Пользователи и Группы',
+	'ACP_CAT_USERGROUP'			=> 'Пользователи и группы',
 	'ACP_CAT_USERS'				=> 'Пользователи',
 	'ACP_CLIENT_COMMUNICATION'	=> 'Средства связи',
 	'ACP_COOKIE_SETTINGS'		=> 'Настройки куков (cookies)',
@@ -105,7 +105,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_LANGUAGE'				=> 'Языки',
 	'ACP_LANGUAGE_PACKS'		=> 'Языковые файлы',
-	'ACP_LOAD_SETTINGS'			=> 'Ограничения нагрузки на сервер',
+	'ACP_LOAD_SETTINGS'			=> 'Нагрузка на сервер',
 	'ACP_LOGGING'				=> 'Логи',
 
 	'ACP_MAIN'					=> 'Главная страница администраторского раздела',
@@ -247,18 +247,18 @@ $lang = array_merge($lang, array(
 	'PARSE_URLS'						=> 'Разрешить ссылки',
 	'PERMISSIONS_TRANSFERRED'			=> 'Права доступа переданы',
 	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'В настоящий момент вы имеете права доступа пользователя %1$s. Вы можете просматривать конференцию с этими правами, но не будете иметь доступа к администраторскому разделу, поскольку права администратора не были переданы. Вы можете <a href="%2$s"><strong>вернуть свои права</strong></a> в любое время.',
-	'PIXEL'								=> 'px',
+	'PIXEL'								=> 'пикс.',
 	'PROCEED_TO_ACP'					=> '%sПерейти в администраторский раздел%s',
 
 	'REMIND'							=> 'Напомнить',
 	'RESYNC'							=> 'Синхронизировать',
 	'RETURN_TO'							=> 'Вернуться в…',
 
-	'SELECT_ANONYMOUS'		=> 'Выбрать учётную запись Гостя',
-	'SELECT_OPTION'			=> 'Выбрать',
+	'SELECT_ANONYMOUS'		=> 'Выбрать учётную запись гостя',
+	'SELECT_OPTION'			=> 'Выберите действие',
 
 	'UCP'					=> 'Личный раздел',
-	'USERNAMES_EXPLAIN'		=> 'Каждое имя пользователя указывается с новой строки',
+	'USERNAMES_EXPLAIN'		=> 'Вводите каждое имя на новой строке.',
 	'USER_CONTROL_PANEL'	=> 'Личный раздел',
 
 	'WARNING'				=> 'Предупреждение',
@@ -523,8 +523,8 @@ $lang = array_merge($lang, array(
 	'LOG_IMAGESET_EDIT_DETAILS'		=> '<strong>Изменена информация о пакете изображений</strong><br />» %s',
 	'LOG_IMAGESET_EDIT'				=> '<strong>Изменён пакет изображений</strong><br />» %s',
 	'LOG_IMAGESET_EXPORT'			=> '<strong>Экспортирован пакет изображений</strong><br />» %s',
-	'LOG_IMAGESET_LANG_REFRESHED'	=> '<strong>Refreshed “%2$s” localisation of imageset</strong><br />» %1$s',
-	'LOG_IMAGESET_REFRESHED'		=> '<strong>Refreshed imageset</strong><br />» %s',
+	'LOG_IMAGESET_LANG_REFRESHED'	=> '<strong>Обновлена локализация набора рисунков «%2$s»</strong><br />» %1$s',
+	'LOG_IMAGESET_REFRESHED'		=> '<strong>Обновлён набор рисунков</strong><br />» %s',
 
 	'LOG_INACTIVE_ACTIVATE'	=> '<strong>Активированы неактивные пользователи</strong><br />» %s',
 	'LOG_INACTIVE_DELETE'	=> '<strong>Удалены неактивные пользователи</strong><br />» %s',
@@ -543,7 +543,7 @@ $lang = array_merge($lang, array(
 	'LOG_LANGUAGE_PACK_INSTALLED'	=> '<strong>Установлен языковой пакет</strong><br />» %s',
 	'LOG_LANGUAGE_PACK_UPDATED'		=> '<strong>Обновлена информация о языковом пакете</strong><br />» %s',
 	'LOG_LANGUAGE_FILE_REPLACED'	=> '<strong>Заменён языковой файл</strong><br />» %s',
-	'LOG_LANGUAGE_FILE_SUBMITTED'	=> '<strong>Submitted language file and placed in store folder</strong><br />» %s',
+	'LOG_LANGUAGE_FILE_SUBMITTED'	=> '<strong>Отправлен языковых файл и помещён в папку store</strong><br />» %s',
 
 	'LOG_MASS_EMAIL'		=> '<strong>Произведена массовая рассылка почты</strong><br />» %s',
 
@@ -598,8 +598,8 @@ $lang = array_merge($lang, array(
 	'LOG_RESYNC_POST_MARKING'	=> '<strong>Синхронизированы свои темы</strong>',
 	'LOG_RESYNC_STATS'			=> '<strong>Синхронизирована статистика сообщений, тем и пользователей</strong>',
 
-	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>Created search index for</strong><br />» %s',
-	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Removed search index for</strong><br />» %s',
+	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>Созданы поисковые индексы для</strong><br />» %s',
+	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Удалены поисковые индексы для</strong><br />» %s',
 	'LOG_STYLE_ADD'				=> '<strong>Добавлен стиль</strong><br />» %s',
 	'LOG_STYLE_DELETE'			=> '<strong>Удалён стиль</strong><br />» %s',
 	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>Изменён стиль</strong><br />» %s',
