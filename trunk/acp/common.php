@@ -69,7 +69,7 @@ $lang = array_merge($lang, array(
 	'ACP_CLIENT_COMMUNICATION'	=> 'Средства связи',
 	'ACP_COOKIE_SETTINGS'		=> 'Настройки cookies',
 	'ACP_CRITICAL_LOGS'			=> 'Лог ошибок',
-	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Дополнительные поля',
+	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Дополнительные поля в профиле',
 
 	'ACP_DATABASE'				=> 'База данных',
 	'ACP_DISALLOW'				=> 'Запрещённые имена',
@@ -219,7 +219,7 @@ $lang = array_merge($lang, array(
 	'GLOBAL_MASK'			=> 'Глобальная маска доступа',
 
 	'INSTALL'				=> 'Установить',
-	'IP'					=> 'IP пользователя',
+	'IP'					=> 'IP-адрес пользователя',
 	'IP_HOSTNAME'			=> 'IP-адреса или хосты',
 
 	'LOGGED_IN_AS'			=> 'Вы вошли как:',
