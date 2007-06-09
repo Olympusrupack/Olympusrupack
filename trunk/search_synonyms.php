@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* search_synonyms [English]
+* search_synonyms [Russian]
 *
 * @package language
 * @version $Id: search_synonyms.php,v 1.1 2006/05/28 19:06:21 naderman Exp $

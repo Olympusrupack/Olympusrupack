@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* search_ignore_words [English]
+* search_ignore_words [Russian]
 *
 * @package language
 * @version $Id: search_ignore_words.php,v 1.2 2006/10/08 11:21:39 acydburn Exp $
