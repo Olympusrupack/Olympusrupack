@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 	'ACP_BOARD_FEATURES'		=> 'Функции конференции',
 	'ACP_BOARD_MANAGEMENT'		=> 'Управление конференцией',
 	'ACP_BOARD_SETTINGS'		=> 'Настройки конференции',
-	'ACP_BOTS'					=> 'Поисковые роботы',
+	'ACP_BOTS'					=> 'Поисковые боты',
 
 	'ACP_CAPTCHA'				=> 'Визуальное подтверждение',
 
@@ -196,7 +196,7 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Назад',
 
-	'COLOUR_SWATCH'			=> 'Безопасная палитра',
+	'COLOUR_SWATCH'			=> 'Цветовая палитра',
 	'CONFIG_UPDATED'		=> 'Конфигурация успешно обновлена.',
 
 	'DEACTIVATE'				=> 'Отключить',
@@ -223,8 +223,8 @@ $lang = array_merge($lang, array(
 	'IP_HOSTNAME'			=> 'IP-адреса или хосты',
 
 	'LOGGED_IN_AS'			=> 'Вы вошли как:',
-	'LOGIN_ADMIN'			=> 'Для администрирования конференции вы должны войти на неё.',
-	'LOGIN_ADMIN_CONFIRM'	=> 'Для входа в администраторский раздел необходимо подтвердить свою подлинность.',
+	'LOGIN_ADMIN'			=> 'Для управления конференцией необходимо войти на неё под своим именем.',
+	'LOGIN_ADMIN_CONFIRM'	=> 'Для управления конференцией необходимо повторно ввести своё имя и пароль.',
 	'LOGIN_ADMIN_SUCCESS'	=> 'Проверка подлинности прошла успешно. Сейчас вы будете перенаправлены в администраторский раздел.',
 	'LOOK_UP_FORUM'			=> 'Выберите форум',
 	'LOOK_UP_FORUMS_EXPLAIN'=> 'Можно выбрать более одного форума.',
@@ -408,7 +408,7 @@ $lang = array_merge($lang, array(
 	'LOG_ATTACH_EXTGROUP_ADD'	=> '<strong>Добавлена группа расширений</strong><br />» %s',
 	'LOG_ATTACH_EXTGROUP_EDIT'	=> '<strong>Изменена группа расширений</strong><br />» %s',
 	'LOG_ATTACH_EXTGROUP_DEL'	=> '<strong>Удалена группа расширений</strong><br />» %s',
-	'LOG_ATTACH_FILEUPLOAD'		=> '<strong>Невложенный файл прикреплён к сообщению</strong><br />» ID %1$d - %2$s',
+	'LOG_ATTACH_FILEUPLOAD'		=> '<strong>Невложенный файл прикреплён к сообщению</strong><br />» ID %1$d — %2$s',
 	'LOG_ATTACH_ORPHAN_DEL'		=> '<strong>Невложенные файлы удалены</strong><br />» %s',
 
 	'LOG_BAN_EXCLUDE_USER'	=> '<strong>Исключён пользователь из списка заблокированных</strong> по причине "<em>%1$s</em>"<br />» %2$s ',
