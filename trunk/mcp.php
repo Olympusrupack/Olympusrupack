@@ -4,7 +4,7 @@
 * mcp [Russian]
 *
 * @package language
-* @version $Id: mcp.php,v 1.76 2007/05/10 15:31:21 acydburn Exp $
+* @version $Id: mcp.php,v 1.80 2007/06/09 11:10:24 acydburn Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -218,11 +218,11 @@ $lang = array_merge($lang, array(
 	'NO_POST_SELECTED'				=> 'Вы должны выбрать хотя бы одно сообщение для того, чтобы произвести это действие.',
 	'NO_REASON_DISAPPROVAL'			=> 'Пожалуйста, укажите подходящую причину отклонения.',
 	'NO_REPORT'						=> 'Жалоба не найдена',
-	'NO_REPORTS'					=> 'Нет жалоб',
+	'NO_REPORTS'					=> 'Жалоб не найдено',
 	'NO_REPORT_SELECTED'			=> 'Вы должны выбрать хотя бы одну жалобу для выполнения этого действия.',
 	'NO_TOPIC_ICON'					=> 'Нет',
 	'NO_TOPIC_SELECTED'				=> 'Вы должны выбрать хотя бы одну тему для того, чтобы произвести это действие.',
-	'NO_TOPICS_QUEUE'				=> 'Нет тем',
+	'NO_TOPICS_QUEUE'				=> 'Нет тем, нуждающихся в проверке модератора.',
 
 	'ONLY_TOPIC'			=> 'Только тема «%s»',
 	'OTHER_USERS'			=> 'Другие пользователи, отправлявшие сообщения с этого IP-адреса',
@@ -326,7 +326,7 @@ $lang = array_merge($lang, array(
 	'UNAPPROVED_POST_TOTAL'			=> 'Сообщений, ожидающих одобрения: <strong>1</strong>.',
 	'UNLOCK'						=> 'Открыть',
 	'UNLOCK_POST'					=> 'Разблокировать сообщение',
-	'UNLOCK_POST_EXPLAIN'			=> 'Разрешить редактирование.',
+	'UNLOCK_POST_EXPLAIN'			=> 'Разрешить редактирование',
 	'UNLOCK_POST_POST'				=> 'Разблокировать сообщение',
 	'UNLOCK_POST_POST_CONFIRM'		=> 'Вы уверены, что хотите разрешить редактирование этого сообщения?',
 	'UNLOCK_POST_POSTS'				=> 'Разблокировать выбранные сообщения',
