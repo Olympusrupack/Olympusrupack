@@ -4,7 +4,7 @@
 * ucp [Russian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.121 2007/05/19 16:40:56 acydburn Exp $
+* @version $Id: ucp.php,v 1.124 2007/06/14 15:03:52 kellanved Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -210,6 +210,7 @@ $lang = array_merge($lang, array(
 	'GLOBAL_ANNOUNCEMENT'		=> 'Важная',
 
 	'HIDE_ONLINE'				=> 'Скрывать моё пребывание на конференции',
+	'HIDE_ONLINE_EXPLAIN'		=> 'После установки параметра в «Нет» ваше пребывание перестанет быть скрытым только со следующего посещения конференции.',
 	'HOLD_NEW_MESSAGES'			=> 'Не принимать новые сообщения (новые сообщения будут отложены до появления достаточного количества свободного места)',
 	'HOLD_NEW_MESSAGES_SHORT'	=> 'Новые сообщения будут отложены',
 
