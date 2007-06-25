@@ -3,7 +3,7 @@
 * acp_permissions (phpBB Permission Set) [Russian]
 *
 * @package language
-* @version $Id: permissions_phpbb.php,v 1.24 2007/05/03 14:28:51 acydburn Exp $
+* @version $Id: permissions_phpbb.php,v 1.26 2007/06/09 11:10:23 acydburn Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
@@ -130,7 +130,7 @@ $lang = array_merge($lang, array(
 	'acl_f_read'		=> array('lang' => 'Может читать форум', 'cat' => 'post'),
 	'acl_f_post'		=> array('lang' => 'Может создавать темы', 'cat' => 'post'),
 	'acl_f_reply'		=> array('lang' => 'Может отвечать в темах', 'cat' => 'post'),
-	'acl_f_icons'		=> array('lang' => 'Может использовать значки сообщений', 'cat' => 'post'),
+	'acl_f_icons'		=> array('lang' => 'Может использовать значки тем/сообщений', 'cat' => 'post'),
 	'acl_f_announce'	=> array('lang' => 'Может создавать объявления', 'cat' => 'post'),
 	'acl_f_sticky'		=> array('lang' => 'Может прилеплять темы', 'cat' => 'post'),
 
@@ -191,7 +191,7 @@ $lang = array_merge($lang, array(
 	'acl_a_forumdel'	=> array('lang' => 'Может удалять форумы', 'cat' => 'forums'),
 	'acl_a_prune'		=> array('lang' => 'Может очищать форумы', 'cat' => 'forums'),
 
-	'acl_a_icons'		=> array('lang' => 'Может изменять значки и смайлы', 'cat' => 'posting'),
+	'acl_a_icons'		=> array('lang' => 'Может изменять значки тем/сообщений и смайлы', 'cat' => 'posting'),
 	'acl_a_words'		=> array('lang' => 'Может настраивать автоцензор', 'cat' => 'posting'),
 	'acl_a_bbcode'		=> array('lang' => 'Может определять BBCode', 'cat' => 'posting'),
 	'acl_a_attach'		=> array('lang' => 'Может изменять настройки вложений', 'cat' => 'posting'),

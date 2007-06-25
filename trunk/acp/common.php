@@ -4,7 +4,7 @@
 * acp common [Russian]
 *
 * @package language
-* @version $Id: common.php,v 1.111 2007/05/20 14:32:23 naderman Exp $
+* @version $Id: common.php,v 1.115 2007/06/11 12:39:50 kellanved Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *

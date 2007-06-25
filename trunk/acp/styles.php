@@ -4,7 +4,7 @@
 * acp_styles [Russian]
 *
 * @package language
-* @version $Id: styles.php,v 1.35 2007/05/19 12:03:28 acydburn Exp $
+* @version $Id: styles.php,v 1.38 2007/06/11 12:39:50 kellanved Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -44,6 +44,7 @@ $lang = array_merge($lang, array(
 	'ADD_THEME'				=> 'Создать тему',
 	'ADD_THEME_EXPLAIN'		=> 'Здесь вы можете создать новую тему. В зависимости от конфигурации сервера и прав доступа к файлам, вам могут быть доступны дополнительные возможности. например, создание темы на основе уже существующей. Вам также могут быть доступны загрузка или импорт (из папки store) архива темы. При закачке или импортировании архива имя темы можно взять из имени файла архива (для этого оставьте пустым поле с именем темы).',
 	'ARCHIVE_FORMAT'		=> 'Тип архива',
+	'AUTOMATIC_EXPLAIN'		=> 'Оставьте пустым, чтобы попробовать определить автоматически.',
 
 	'BACKGROUND'			=> 'Фон',
 	'BACKGROUND_COLOUR'		=> 'Цвет фона',

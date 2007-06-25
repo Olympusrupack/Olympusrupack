@@ -4,7 +4,7 @@
 * posting [Russian]
 *
 * @package language
-* @version $Id: posting.php,v 1.36 2007/05/19 23:39:45 acydburn Exp $
+* @version $Id: posting.php,v 1.38 2007/06/09 11:10:23 acydburn Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -43,6 +43,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_HELPLINE_EXPLAIN'	=> 'Данное поле содержит текст, который появится при наведении указателя мыши на кнопку с BBCode.',
 	'BBCODE_HELPLINE_TEXT'		=> 'Текст подсказки',
 	'BBCODE_INVALID_TAG_NAME'	=> 'Выбранное имя тега BBCode уже существует.',
+	'BBCODE_INVALID'			=> 'Форма созданного вами тега BBCode неверна.',
 	'BBCODE_OPEN_ENDED_TAG'		=> 'Настраиваемый BBCode должен содержать открывающий и закрывающий теги.',
 	'BBCODE_TAG'				=> 'Тег',
 	'BBCODE_TAG_TOO_LONG'		=> 'Введённое имя тега слишком длинное.',

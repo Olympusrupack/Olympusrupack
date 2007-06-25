@@ -4,7 +4,7 @@
 * acp_groups [Russian]
 *
 * @package language
-* @version $Id: groups.php,v 1.24 2007/05/17 14:58:40 acydburn Exp $
+* @version $Id: groups.php,v 1.26 2007/06/09 11:10:23 acydburn Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -41,6 +41,7 @@ $lang = array_merge($lang, array(
 
 	'GROUPS_NO_MEMBERS'				=> 'В этой группе нет пользователей',
 	'GROUPS_NO_MODS'				=> 'Лидеры группы не назначены',
+
 	'GROUP_APPROVE'					=> 'Принять кандидата в группу',
 	'GROUP_APPROVED'				=> 'Участники группы',
 	'GROUP_AVATAR'					=> 'Аватара группы',
@@ -48,6 +49,8 @@ $lang = array_merge($lang, array(
 	'GROUP_CLOSED'					=> 'Закрытая',
 	'GROUP_COLOR'					=> 'Цвет группы',
 	'GROUP_COLOR_EXPLAIN'			=> 'Цвет имён пользователей — участников группы. Оставьте поле пустым для использования цвета по умолчанию.',
+	'GROUP_CONFIRM_ADD_USER'		=> 'Вы уверены, что желаете добавить пользователя %1$s в группу?',
+	'GROUP_CONFIRM_ADD_USERS'		=> 'Вы уверены, что желаете добавить пользователей %1$s в группу?',
 	'GROUP_CREATED'					=> 'Группа успешно создана.',
 	'GROUP_DEFAULT'					=> 'Сделать группой по умолчанию',
 	'GROUP_DEFS_UPDATED'			=> 'Для всех выбранных пользователей установлена группа по умолчанию.',
@@ -90,6 +93,7 @@ $lang = array_merge($lang, array(
 	'GROUP_TYPE'					=> 'Тип группы',
 	'GROUP_TYPE_EXPLAIN'			=> 'Эта группа настроек определяет, кто может вступать или просматривать эту группу.',
 	'GROUP_UPDATED'					=> 'Настройки группы успешно обновлены.',
+
 	'GROUP_USERS_ADDED'				=> 'Новые пользователи успешно добавлены в группу.',
 	'GROUP_USERS_EXIST'				=> 'Выбранные пользователи уже являются участниками группы.',
 	'GROUP_USERS_REMOVE'			=> 'Пользователи удалены из группы и для них успешно установлены новые группы по умолчанию.',

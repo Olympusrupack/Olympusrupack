@@ -4,7 +4,7 @@
 * acp_users [Russian]
 *
 * @package language
-* @version $Id: users.php,v 1.26 2007/05/14 15:05:32 acydburn Exp $
+* @version $Id: users.php,v 1.29 2007/06/18 15:12:14 kellanved Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_FORCE_REACT_YOURSELF'	=> 'Вы не можете требовать повторной активации собственной учётной записи.',
 	'CANNOT_REMOVE_ANONYMOUS'		=> 'Вы не можете удалить учётную запись гостя.',
 	'CANNOT_REMOVE_YOURSELF'		=> 'Вы не можете удалить собственную учётную запись.',
-	'CANNOT_SET_FOUNDER_BOT'		=> 'Вы не можете сделать игнорируемых пользователей основателями.',
+	'CANNOT_SET_FOUNDER_IGNORED'	=> 'Вы не можете сделать игнорируемых пользователей основателями.',
 	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'Вы должны активировать пользователей, чтобы сделать их основателями. Только активированным пользователям можно повысить статус.',
 	'CONFIRM_EMAIL_EXPLAIN'			=> 'Это поле необходимо заполнить только если вы изменили email-адрес пользователя.',
 
@@ -111,6 +111,7 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_NORMAL'				=> 'Обычные группы, в которые входит пользователь',
 	'USER_GROUP_PENDING'			=> 'Группы, в которых пользователь является кандидатом',
 	'USER_GROUP_SPECIAL'			=> 'Специальные группы, в которые входит пользователь',
+	'USER_NO_ATTACHMENTS'			=> 'Вложения отсутствуют.',
 	'USER_OVERVIEW_UPDATED'			=> 'Информация о пользователе обновлена.',
 	'USER_POSTS_DELETED'			=> 'Все сообщения данного пользователя успешно удалены.',
 	'USER_POSTS_MOVED'				=> 'Сообщения пользователя успешно перемещены в указанный форум.',
