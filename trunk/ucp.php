@@ -4,7 +4,7 @@
 * ucp [Russian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.124 2007/06/14 15:03:52 kellanved Exp $
+* @version $Id: ucp.php,v 1.126 2007/07/02 14:05:21 kellanved Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -82,7 +82,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENTS_DELETED'			=> 'Вложения успешно удалены.',
 	'ATTACHMENT_DELETED'			=> 'Вложение успешно удалено.',
 	'AVATAR_CATEGORY'				=> 'Категория',
-	'AVATAR_EXPLAIN'				=> 'Максимальные размеры: в пикселах %1$d×%2$d, размер файла %3$dКб.',
+	'AVATAR_EXPLAIN'				=> 'Максимальные размеры в пикселах; ширина: %1$d, высота: %2$d, размер файла: %3$dКб.',
 	'AVATAR_FEATURES_DISABLED'		=> 'Аватары в настоящее время отключены.',
 	'AVATAR_GALLERY'				=> 'Галерея аватар',
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Невозможно закачать аватару в %s.',
@@ -210,7 +210,7 @@ $lang = array_merge($lang, array(
 	'GLOBAL_ANNOUNCEMENT'		=> 'Важная',
 
 	'HIDE_ONLINE'				=> 'Скрывать моё пребывание на конференции',
-	'HIDE_ONLINE_EXPLAIN'		=> 'После установки параметра в «Нет» ваше пребывание перестанет быть скрытым только со следующего посещения конференции.',
+	'HIDE_ONLINE_EXPLAIN'		=> 'Изменение настройки вступит в силу только со следующего посещения конференции.',
 	'HOLD_NEW_MESSAGES'			=> 'Не принимать новые сообщения (новые сообщения будут отложены до появления достаточного количества свободного места)',
 	'HOLD_NEW_MESSAGES_SHORT'	=> 'Новые сообщения будут отложены',
 
@@ -441,7 +441,7 @@ $lang = array_merge($lang, array(
 	'UNWATCH_MARKED'				=> 'Отписаться от выделенного',
 	'UPLOAD_AVATAR_FILE'			=> 'Загрузить с вашего компьютера',
 	'UPLOAD_AVATAR_URL'				=> 'Загрузить с URL',
-	'UPLOAD_AVATAR_URL_EXPLAIN'		=> 'Введите URL по которому находится файл с изображением, он будет скопирован на этот сайт.',
+	'UPLOAD_AVATAR_URL_EXPLAIN'		=> 'Введите URL по которому находится файл с изображением. Оно будет скопировано на этот сайт.',
 	'USERNAME_ALPHA_ONLY_EXPLAIN'	=> 'Имя пользователя должно быть от %1$d до %2$d знаков и должно содержать только буквы.',
 	'USERNAME_ALPHA_SPACERS_EXPLAIN'=> 'Имя пользователя должно быть от %1$d до %2$d знаков и должно содержать только буквы, пробел или символы -+_[]',
 	'USERNAME_ASCII_EXPLAIN'		=> 'Имя пользователя должно быть от %1$d до %2$d знаков и должно содержать только символы ASCII, без специальных символов.',

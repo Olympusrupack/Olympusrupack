@@ -4,7 +4,7 @@
 * search [Russian]
 *
 * @package language
-* @version $Id: search.php,v 1.22 2007/05/10 15:31:21 acydburn Exp $
+* @version $Id: search.php,v 1.23 2007/07/02 10:09:05 kellanved Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -46,6 +46,8 @@ $lang = array_merge($lang, array(
 	'IGNORED_TERMS_EXPLAIN'	=> 'Следующие слова в поисковом запросе были проигнорированы: <strong>%s</strong>.',
 
 	'JUMP_TO_POST'			=> 'Перейти к сообщению',
+
+	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'Вы должны быть зарегистрированы и авторизованы в системе для просмотра своих сообщений.',
 
 	'NO_KEYWORDS'			=> 'Для поиска вы должны ввести, как минимум, одно слово. Длина каждого слова должна быть не менее %d и не более %d символов, исключая символ шаблона *.',
 	'NO_RECENT_SEARCHES'	=> 'За последнее время поисковых запросов не было.',

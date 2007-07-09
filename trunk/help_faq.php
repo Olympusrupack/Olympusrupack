@@ -4,7 +4,7 @@
 * help_faq [Russian]
 *
 * @package language
-* @version $Id: help_faq.php,v 1.37 2007/05/19 17:09:45 davidmj Exp $
+* @version $Id: help_faq.php,v 1.40 2007/07/01 16:09:50 acydburn Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *

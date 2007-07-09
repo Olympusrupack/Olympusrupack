@@ -4,7 +4,7 @@
 * memberlist [Russian]
 *
 * @package language
-* @version $Id: memberlist.php,v 1.32 2007/05/16 14:44:56 acydburn Exp $
+* @version $Id: memberlist.php,v 1.33 2007/07/06 10:55:08 acydburn Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -54,6 +54,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_TOPIC_EXPLAIN'	=> 'Сообщение будет отправлено в виде простого текста, не включайте в него HTML или BBCode. Обратите внимание, что информация о теме уже включена в сообщение. В качестве обратного адреса будет показываться ваш адрес email.',
 	'EMPTY_ADDRESS_EMAIL'	=> 'Вы должны указать правильный адрес email получателя.',
 	'EMPTY_MESSAGE_EMAIL'	=> 'Вы должны ввести текст сообщения для отправки.',
+	'EMPTY_MESSAGE_IM'		=> 'Вы должны ввести текст сообщения для отправки.',
 	'EMPTY_NAME_EMAIL'		=> 'Вы должны ввести настоящее имя получателя.',
 	'EMPTY_SUBJECT_EMAIL'	=> 'Вы должны указать тему сообщения.',
 	'EQUAL_TO'				=> 'равно',
