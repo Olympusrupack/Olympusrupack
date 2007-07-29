@@ -4,7 +4,7 @@
 * acp_search [Russian]
 *
 * @package language
-* @version $Id: search.php,v 1.19 2007/04/28 21:16:31 naderman Exp $
+* @version $Id: search.php,v 1.20 2007/07/15 12:09:54 kellanved Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *

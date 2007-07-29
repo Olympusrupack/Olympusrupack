@@ -4,7 +4,7 @@
 * search [Russian]
 *
 * @package language
-* @version $Id: search.php,v 1.23 2007/07/02 10:09:05 kellanved Exp $
+* @version $Id: search.php,v 1.24 2007/07/15 20:53:27 naderman Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_AUTHOR_EXPLAIN'		=> 'Используйте * в качестве шаблона.',
 	'SEARCH_FIRST_POST'			=> 'Только в первом сообщении темы',
 	'SEARCH_FORUMS'				=> 'Искать в форумах',
-	'SEARCH_FORUMS_EXPLAIN'		=> 'Выберите форум или форумы, в которых будет произведен поиск. Для скорости можно выбрать форум-родитель, чтобы искать во всех подфорумах (необходимо включить поиск в подфорумах).',
+	'SEARCH_FORUMS_EXPLAIN'		=> 'Выберите форум или форумы, в которых будет произведен поиск. Поиск в подфорумах производится автоматически, если вы не отключили соответствующую опцию ниже.',
 	'SEARCH_IN_RESULTS'			=> 'Поиск в найденном',
 	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Вы можете использовать <strong>+</strong>, чтобы определить слова, которые должны быть в результатах, и <strong>-</strong> для слов, которых в результатах быть не должно. Вы можете разделить слова символом <strong>|</strong> для поиска любого слова из списка. Используйте <strong>*</strong> в качестве шаблона для частичного совпадения.',
 	'SEARCH_MSG_ONLY'			=> 'Только в текстах сообщений',

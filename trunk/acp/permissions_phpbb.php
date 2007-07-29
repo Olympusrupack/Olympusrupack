@@ -3,7 +3,7 @@
 * acp_permissions (phpBB Permission Set) [Russian]
 *
 * @package language
-* @version $Id: permissions_phpbb.php,v 1.26 2007/06/09 11:10:23 acydburn Exp $
+* @version $Id: permissions_phpbb.php,v 1.28 2007/07/19 20:37:52 acydburn Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
@@ -78,17 +78,21 @@ $lang = array_merge($lang, array(
 		'user_group'	=> 'Пользователи',
 	),
 
+	// With defining 'global' here we are able to specify what is printed out if the permission is within the global scope.
 	'permission_type'	=> array(
 		'u_'			=> 'Права доступа пользователя',
 		'a_'			=> 'Права доступа администратора',
 		'm_'			=> 'Права доступа модератора',
 		'f_'			=> 'Права доступа для форума',
+		'global'		=> array(
+			'm_'			=> 'Глобальные права модератора',
+		),
 	),
 ));
 
 // User Permissions
 $lang = array_merge($lang, array(
-	'acl_u_viewprofile'	=> array('lang' => 'Может просматривать профили', 'cat' => 'profile'),
+	'acl_u_viewprofile'	=> array('lang' => 'Может просматривать профили, списки пользователей и кто сейчас на конференции', 'cat' => 'profile'),
 	'acl_u_chgname'		=> array('lang' => 'Может менять имя', 'cat' => 'profile'),
 	'acl_u_chgpasswd'	=> array('lang' => 'Может менять пароль', 'cat' => 'profile'),
 	'acl_u_chgemail'	=> array('lang' => 'Может менять email-адрес', 'cat' => 'profile'),
@@ -175,8 +179,8 @@ $lang = array_merge($lang, array(
 	'acl_m_merge'	=> array('lang' => 'Может склеивать темы', 'cat' => 'topic_actions'),
 
 	'acl_m_info'	=> array('lang' => 'Может просматривать информацию о сообщении', 'cat' => 'misc'),
-	'acl_m_warn'	=> array('lang' => 'Может объявлять предупреждения', 'cat' => 'misc'),
-	'acl_m_ban'		=> array('lang' => 'Может управлять блокировкой (только для супермодератора)', 'cat' => 'misc'), // This moderator setting is only global (and not local)
+	'acl_m_warn'	=> array('lang' => 'Может объявлять предупреждения<br /><em>Это право может быть назначено только глобально, а не на уровне форумов.</em>', 'cat' => 'misc'), // This moderator setting is only global (and not local)
+	'acl_m_ban'		=> array('lang' => 'Может управлять блокировкой<br /><em>Это право может быть назначено только глобально, а не на уровне форумов.</em>', 'cat' => 'misc'), // This moderator setting is only global (and not local)
 ));
 
 // Admin Permissions
@@ -196,7 +200,7 @@ $lang = array_merge($lang, array(
 	'acl_a_bbcode'		=> array('lang' => 'Может определять BBCode', 'cat' => 'posting'),
 	'acl_a_attach'		=> array('lang' => 'Может изменять настройки вложений', 'cat' => 'posting'),
 
-	'acl_a_user'		=> array('lang' => 'Может управлять пользователями', 'cat' => 'user_group'),
+	'acl_a_user'		=> array('lang' => 'Может управлять пользователями<br /><em>Право также включает просмотр типа браузера пользователей в списке находящихся на конференции.</em>', 'cat' => 'user_group'),
 	'acl_a_userdel'		=> array('lang' => 'Может удалять пользователей', 'cat' => 'user_group'),
 	'acl_a_group'		=> array('lang' => 'Может управлять группами', 'cat' => 'user_group'),
 	'acl_a_groupadd'	=> array('lang' => 'Может создавать группы', 'cat' => 'user_group'),

@@ -4,7 +4,7 @@
 * memberlist [Russian]
 *
 * @package language
-* @version $Id: memberlist.php,v 1.33 2007/07/06 10:55:08 acydburn Exp $
+* @version $Id: memberlist.php,v 1.34 2007/07/22 13:14:36 kellanved Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -78,6 +78,7 @@ $lang = array_merge($lang, array(
 	'IM_MSNM_BROWSER'		=> 'Ваш браузер не поддерживает эту функцию.',
 	'IM_MSNM_CONNECT'		=> 'Клиент MSNM не отвечает.\nДля продолжения необходимо установить связь с клиентом.',
 	'IM_NAME'				=> 'Ваше имя',
+	'IM_NO_DATA'			=> 'Для этого пользователя отсутствует контактная информация.',
 	'IM_NO_JABBER'			=> 'Извините, отправка напрямую сообщений пользователям Jabber не поддерживается сервером. Чтобы связаться с этим пользователем вам необходим установленный клиент Jabber.',
 	'IM_RECIPIENT'			=> 'Получатель',
 	'IM_SEND'				=> 'Отправить сообщение',

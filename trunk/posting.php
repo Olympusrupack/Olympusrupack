@@ -4,7 +4,7 @@
 * posting [Russian]
 *
 * @package language
-* @version $Id: posting.php,v 1.69 2007/07/02 14:05:21 kellanved Exp $
+* @version $Id: posting.php,v 1.71 2007/07/27 15:00:10 kellanved Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *

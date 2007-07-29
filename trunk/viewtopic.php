@@ -4,7 +4,7 @@
 * viewtopic [Russian]
 *
 * @package language
-* @version $Id: viewtopic.php,v 1.17 2007/05/10 15:31:21 acydburn Exp $
+* @version $Id: viewtopic.php,v 1.18 2007/07/22 13:14:36 kellanved Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -101,7 +101,6 @@ $lang = array_merge($lang, array(
 	'VISIT_WEBSITE'			=> 'WWW',
 	'VOTE_SUBMITTED'		=> 'Спасибо, ваш голос учтён.',
 
-	'WROTE'					=> 'писал(а)',
 ));
 
 ?>

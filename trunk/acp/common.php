@@ -4,7 +4,7 @@
 * acp common [Russian]
 *
 * @package language
-* @version $Id: common.php,v 1.115 2007/06/11 12:39:50 kellanved Exp $
+* @version $Id: common.php,v 1.118 2007/07/24 16:16:39 acydburn Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -296,7 +296,8 @@ $lang = array_merge($lang, array(
 	'AVATAR_DIR_SIZE'			=> 'Размер папки с аватарами',
 
 	'BOARD_STARTED'		=> 'Дата запуска конференции',
-
+	'BOARD_VERSION'		=> 'Версия конференции',
+	
 	'DATABASE_SERVER_INFO'	=> 'Сервер базы данных',
 	'DATABASE_SIZE'			=> 'Размер базы данных',
 
@@ -401,6 +402,8 @@ $lang = array_merge($lang, array(
 
 	'LOG_ADMIN_AUTH_FAIL'		=> '<strong>Неудачная попытка входа в качестве администратора</strong>',
 	'LOG_ADMIN_AUTH_SUCCESS'	=> '<strong>Успешный вход в качестве администратора</strong>',
+
+	'LOG_ATTACHMENTS_DELETED'	=> '<strong>Удалены вложения пользователя</strong><br />» %s',
 
 	'LOG_ATTACH_EXT_ADD'		=> '<strong>Добавлено или изменено расширение вложений</strong><br />» %s',
 	'LOG_ATTACH_EXT_DEL'		=> '<strong>Удалено расширение вложений</strong><br />» %s',
@@ -523,6 +526,7 @@ $lang = array_merge($lang, array(
 	'LOG_IMAGESET_EDIT_DETAILS'		=> '<strong>Изменена информация о пакете изображений</strong><br />» %s',
 	'LOG_IMAGESET_EDIT'				=> '<strong>Изменён пакет изображений</strong><br />» %s',
 	'LOG_IMAGESET_EXPORT'			=> '<strong>Экспортирован пакет изображений</strong><br />» %s',
+	'LOG_IMAGESET_LANG_MISSING'		=> '<strong>Отсутствует локализация «%2$s» для набора рисунков</strong><br />» «%1$s»',
 	'LOG_IMAGESET_LANG_REFRESHED'	=> '<strong>Обновлена локализация набора рисунков «%2$s»</strong><br />» %1$s',
 	'LOG_IMAGESET_REFRESHED'		=> '<strong>Обновлён набор рисунков</strong><br />» %s',
 
