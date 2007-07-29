@@ -509,7 +509,7 @@ $lang = array_merge($lang, array(
 		<p>Рекомендованный здесь способ обновления phpBB пригоден только для пакета автоматического обновления. Вы также можете произвести обновление, используя методы, указанные в документе INSTALL.html. Для автоматического обновления нужно выполнить следующие шаги:</p>
 
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Перейти на <a href="ttp://www.phpbb.com/downloads/" title="ttp://www.phpbb.com/downloads/">страницу файлов phpBB.com</a> и скачать архив с пакетом автоматического обновления ("Automatic Update Package").<br /><br /></li>
+			<li>Перейти на <a href="http://www.phpbb.com/downloads/" title="http://www.phpbb.com/downloads/">страницу файлов phpBB.com</a> и скачать архив с пакетом автоматического обновления ("Automatic Update Package").<br /><br /></li>
 			<li>Распаковать архив.<br /><br /></li>
 			<li>Закачать разархивированную папку install в корень phpBB (туда, где находится файл config.php).<br /><br /></li>
 		</ul>
