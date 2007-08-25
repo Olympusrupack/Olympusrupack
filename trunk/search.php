@@ -4,7 +4,7 @@
 * search [Russian]
 *
 * @package language
-* @version $Id: search.php,v 1.24 2007/07/15 20:53:27 naderman Exp $
+* @version $Id: search.php,v 1.25 2007/08/21 23:22:15 naderman Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'GLOBAL'				=> 'Важная',
 
 	'IGNORED_TERMS'			=> 'проигнорированы',
-	'IGNORED_TERMS_EXPLAIN'	=> 'Следующие слова в поисковом запросе были проигнорированы: <strong>%s</strong>.',
+	'IGNORED_TERMS_EXPLAIN'	=> 'Следующие слова в поисковом запросе были проигнорированы, так как являются слишком употребимыми: <strong>%s</strong>.',
 
 	'JUMP_TO_POST'			=> 'Перейти к сообщению',
 

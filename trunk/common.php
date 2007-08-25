@@ -4,7 +4,7 @@
 * common [Russian]
 *
 * @package language
-* @version $Id: common.php,v 1.186 2007/07/22 13:14:36 kellanved Exp $
+* @version $Id: common.php,v 1.189 2007/08/15 17:32:06 acydburn Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -526,6 +526,7 @@ $lang = array_merge($lang, array(
 
 	'TOO_LONG_AIM'					=> 'Имя в AIM слишком длинное.',
 	'TOO_LONG_CONFIRM_CODE'			=> 'Введённый код подтверждения слишком длинный.',
+	'TOO_LONG_DATEFORMAT'			=> 'Введённый формат даты слишком длинный.',
 	'TOO_LONG_ICQ'					=> 'Номер ICQ слишком длинный.',
 	'TOO_LONG_INTERESTS'			=> 'Слишком длинная строка интересов.',
 	'TOO_LONG_JABBER'				=> 'Имя учётной записи Jabber слишком длинное.',
@@ -545,6 +546,7 @@ $lang = array_merge($lang, array(
 
 	'TOO_SHORT_AIM'					=> 'Имя в AIM слишком короткое.',
 	'TOO_SHORT_CONFIRM_CODE'		=> 'Введённый код подтверждения слишком короткий.',
+	'TOO_SHORT_DATEFORMAT'			=> 'Введённый формат даты слишком короткий.',
 	'TOO_SHORT_ICQ'					=> 'Номер ICQ слишком короткий.',
 	'TOO_SHORT_INTERESTS'			=> 'Слишком короткая строка интересов.',
 	'TOO_SHORT_JABBER'				=> 'Имя учётной записи Jabber слишком короткое.',
@@ -591,8 +593,9 @@ $lang = array_merge($lang, array(
 	'UNREAD_MESSAGES'		=> 'Непрочитанные сообщения',
 	'UNREAD_PM'				=> 'Непрочитанных сообщений: <strong>%d</strong>',
 	'UNREAD_PMS'			=> 'Непрочитанных сообщений: <strong>%d</strong>',
-	'UNWATCHED_FORUMS'		=> 'Вы больше не подписаны на выбранные форумы.',
-	'UNWATCHED_TOPICS'		=> 'Вы больше не подписаны на выбранные темы.',
+	'UNWATCHED_FORUMS'			=> 'Вы больше не подписаны на выбранные форумы.',
+	'UNWATCHED_TOPICS'			=> 'Вы больше не подписаны на выбранные темы.',
+	'UNWATCHED_FORUMS_TOPICS'	=> 'Вы больше не подписаны на выбранное.',
 	'UPDATE'				=> 'Обновить',
 	'UPLOAD_IN_PROGRESS'	=> 'Производится закачка.',
 	'URL_REDIRECT'			=> 'Если ваш браузер не поддерживает автоматическое перенаправление, %sнажмите эту ссылку для перехода%s.',
@@ -622,8 +625,8 @@ $lang = array_merge($lang, array(
 	'VIEW_LATEST_POST'			=> 'Перейти к последнему сообщению',
 	'VIEW_NEWEST_POST'			=> 'Перейти к первому непрочитанному сообщению',
 	'VIEW_NOTES'				=> 'Заметки о пользователе',
-	'VIEW_ONLINE_TIME'			=> 'Эти данные основаны на активности пользователей за последнюю минуту',
-	'VIEW_ONLINE_TIMES'			=> 'Эти данные основаны на активности пользователей за последние %d минут',
+	'VIEW_ONLINE_TIME'			=> 'основано на активности пользователей за последнюю минуту',
+	'VIEW_ONLINE_TIMES'			=> 'основано на активности пользователей за последние %d минут',
 	'VIEW_TOPIC'				=> 'Просмотр темы',
 	'VIEW_TOPIC_ANNOUNCEMENT'	=> 'Объявление: ',
 	'VIEW_TOPIC_GLOBAL'			=> 'Общее объявление: ',

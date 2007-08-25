@@ -4,7 +4,7 @@
 * install [Russian]
 *
 * @package language
-* @version $Id: install.php,v 1.119 2007/07/24 15:17:47 acydburn Exp $
+* @version $Id: install.php,v 1.120 2007/08/24 17:18:43 acydburn Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -34,10 +34,10 @@ $lang = array_merge($lang, array(
 	'ADMIN_CONFIG'				=> 'Настройки администратора',
 	'ADMIN_PASSWORD'			=> 'Пароль администратора',
 	'ADMIN_PASSWORD_CONFIRM'	=> 'Подтвердите пароль администратора',
-	'ADMIN_PASSWORD_EXPLAIN'	=> '(Введите пароль длиной от 6 до 30 знаков.)',
+	'ADMIN_PASSWORD_EXPLAIN'	=> 'Введите пароль длиной от 6 до 30 знаков.',
 	'ADMIN_TEST'				=> 'Проверка настроек администратора',
 	'ADMIN_USERNAME'			=> 'Имя администратора',
-	'ADMIN_USERNAME_EXPLAIN'	=> '(Введите имя длиной от 3 до 20 знаков.)',
+	'ADMIN_USERNAME_EXPLAIN'	=> 'Введите имя длиной от 3 до 20 знаков.',
 	'APP_MAGICK'				=> 'Поддержка Imagemagick [ Вложения ]',
 	'AUTHOR_NOTES'				=> 'Заметки автора<br />» %s',
 	'AVAILABLE'					=> 'Доступно',
