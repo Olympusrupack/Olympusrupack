@@ -4,7 +4,7 @@
 * acp_users [Russian]
 *
 * @package language
-* @version $Id: users.php,v 1.29 2007/06/18 15:12:14 kellanved Exp $
+* @version $Id: users.php,v 1.30 2007/08/13 12:14:06 acydburn Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -99,7 +99,7 @@ $lang = array_merge($lang, array(
 	'USER_ADMIN_DEL_AVATAR'			=> 'Удалить аватару',
 	'USER_ADMIN_DEL_POSTS'			=> 'Удалить все сообщения',
 	'USER_ADMIN_DEL_SIG'			=> 'Удалить подпись',
-	'USER_ADMIN_EXPLAIN'			=> 'Здесь вы можете изменять информацию о пользователях и некоторые специальные настройки. Для изменения прав доступа пользователей используйте систему назначения прав доступа для пользователей и групп.',
+	'USER_ADMIN_EXPLAIN'			=> 'Здесь вы можете изменять информацию о пользователях и некоторые специальные настройки.',
 	'USER_ADMIN_FORCE'				=> 'Принудительная повторная активация',
 	'USER_ADMIN_MOVE_POSTS'			=> 'Переместить все сообщения',
 	'USER_ADMIN_SIG_REMOVED'		=> 'Подпись пользователя успешно удалена.',

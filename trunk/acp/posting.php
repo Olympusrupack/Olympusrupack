@@ -4,7 +4,7 @@
 * posting [Russian]
 *
 * @package language
-* @version $Id: posting.php,v 1.39 2007/07/19 20:37:52 acydburn Exp $
+* @version $Id: posting.php,v 1.44 2007/08/19 21:29:31 naderman Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -49,14 +49,14 @@ $lang = array_merge($lang, array(
 	'BBCODE_TAG_TOO_LONG'		=> 'Введённое имя тега слишком длинное.',
 	'BBCODE_TAG_DEF_TOO_LONG'	=> 'Введённое определение тега слишком длинное. Введите более короткое определение.',
 	'BBCODE_USAGE'				=> 'Использование BBCode',
-	'BBCODE_USAGE_EXAMPLE'		=> '[hilight={COLOR}]{TEXT}[/hilight]<br /><br />[font={TEXT1}]{TEXT2}[/font]',
+	'BBCODE_USAGE_EXAMPLE'		=> '[hilight={COLOR}]{TEXT}[/hilight]<br /><br />[font={SIMPLETEXT1}]{SIMPLETEXT2}[/font]',
 	'BBCODE_USAGE_EXPLAIN'		=> 'Здесь определяется использование BBCode. Любая вводимая переменная может быть заменена на соотвествующую лексему (%sпримеры ниже%s).',
 
 	'EXAMPLE'						=> 'Пример:',
 	'EXAMPLES'						=> 'Примеры:',
 
 	'HTML_REPLACEMENT'				=> 'Замена HTML',
-	'HTML_REPLACEMENT_EXAMPLE'		=> '&lt;span style="background-color: {COLOR};"&gt;{TEXT}&lt;/span&gt;<br /><br />&lt;span style="font-family: {TEXT1};"&gt;{TEXT2}&lt;/span&gt;',
+	'HTML_REPLACEMENT_EXAMPLE'		=> '&lt;span style="background-color: {COLOR};"&gt;{TEXT}&lt;/span&gt;<br /><br />&lt;span style="font-family: {SIMPLETEXT1};"&gt;{SIMPLETEXT2}&lt;/span&gt;',
 	'HTML_REPLACEMENT_EXPLAIN'		=> 'Здесь определяются замены HTML. Не забывайте добавить лексемы, использованные выше!',
 
 	'TOKEN'					=> 'Лексема',
@@ -66,7 +66,9 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_BBCODES'		=> 'Вы больше не можете создать BBCodes. Удалите или переместите некоторые BBCodes и попробуйте снова.',
 
 	'tokens'	=>	array(
-		'TEXT'			=> 'Любой текст, включая символы любого языка, числа и т.п.',
+		'TEXT'			=> 'Любой текст, включая символы любого языка, числа и т.п. Не следует прменять эту лексему в тегах HTML. Используйте вместо этого лексемы IDENTIFIER или SIMPLETEXT.',
+		'SIMPLETEXT'	=> 'Буквы латинского алфавита (A-Z), цифры, пробелы, запятые, точки, минус, плюс, дефис и подчёркивание',
+		'IDENTIFIER'	=> 'Буквы латинского алфавита (A-Z), цифры, дефис и подчёркивание',
 		'NUMBER'		=> 'Любая последовательность цифр',
 		'EMAIL'			=> 'Правильный адрес электронной почты',
 		'URL'			=> 'Правильный адрес URL с использованием любого протокола (http, ftp и т.п. не могут использоваться для деструктивных действий JavaScript). Если ничего не задано, то к строке будет автоматически добавлен префикс &quot;http://&quot;.',
@@ -92,6 +94,10 @@ $lang = array_merge($lang, array(
 	'CURRENT_SMILIES_EXPLAIN'	=> 'Выберите действие, которое нужно применить к уже установленным смайликам.',
 
 	'DISPLAY_ON_POSTING'		=> 'Показывать на странице ответа',
+	'DISPLAY_POSTING'			=> 'На странице ответа',
+	'DISPLAY_POSTING_NO'		=> 'Нет на странице ответа',
+
+
 
 	'EDIT_ICONS'				=> 'Изменить значки',
 	'EDIT_SMILIES'				=> 'Изменить смайлики',
@@ -104,11 +110,15 @@ $lang = array_merge($lang, array(
 	'FIRST'			=> 'Первый',
 
 	'ICONS_ADD'				=> 'Добавить значок',
-	'ICONS_ADDED'			=> 'Значок успешно добавлен.',
+	'ICON_NONE_ADDED'		=> 'Значки не были добавлены.',
+	'ICONS_ONE_ADDED'		=> 'Указанный значок успешно добавлен.',
+	'ICONS_ADDED'			=> 'Указанные значки успешно добавлены.',
 	'ICONS_CONFIG'			=> 'Настройки значков',
 	'ICONS_DELETED'			=> 'Значок успешно удалён.',
 	'ICONS_EDIT'			=> 'Изменить значок',
-	'ICONS_EDITED'			=> 'Значок успешно обновлён.',
+	'ICONS_ONE_EDITED'		=> 'Указанный значок успешно обновлён.',
+	'ICON_NONE_EDITED'		=> 'Значки не были обновлены.',
+	'ICONS_EDITED'			=> 'Указанные значки успешно обновлёны.',
 	'ICONS_HEIGHT'			=> 'Высота значка',
 	'ICONS_IMAGE'			=> 'Рисунок значка',
 	'ICONS_IMPORTED'		=> 'Пакет значков успешно установлен.',
@@ -140,12 +150,16 @@ $lang = array_merge($lang, array(
 
 	'SELECT_PACKAGE'			=> 'Выберите файл пакета',
 	'SMILIES_ADD'				=> 'Добавить смайлик',
-	'SMILIES_ADDED'				=> 'Смайлик успешно добавлен.',
+	'SMILIES_NONE_ADDED'		=> 'Смайлики не были добавлены.',
+	'SMILIES_ONE_ADDED'			=> 'Указанный смайлик успешно добавлен.',
+	'SMILIES_ADDED'				=> 'Указанные смайлики успешно добавлены.',
 	'SMILIES_CODE'				=> 'Код смайлика',
 	'SMILIES_CONFIG'			=> 'Настройки смайлика',
 	'SMILIES_DELETED'			=> 'Смайлик успешно удалён.',
 	'SMILIES_EDIT'				=> 'Изменить смайлик',
-	'SMILIES_EDITED'			=> 'Смайлик успешно обновлён.',
+	'SMILIES_NONE_EDITED'		=> 'Смайлики не были обновлены.',
+	'SMILIES_ONE_EDITED'		=> 'Указанный смайлик успешно обновлён.',
+	'SMILIES_EDITED'			=> 'Указанные смайлики успешно обновлёны.',
 	'SMILIES_EMOTION'			=> 'Эмоция',
 	'SMILIES_HEIGHT'			=> 'Высота смайлика',
 	'SMILIES_IMAGE'				=> 'Рисунок смайлика',

@@ -4,7 +4,7 @@
 * acp common [Russian]
 *
 * @package language
-* @version $Id: common.php,v 1.118 2007/07/24 16:16:39 acydburn Exp $
+* @version $Id: common.php,v 1.119 2007/08/13 12:14:06 acydburn Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -268,7 +268,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_PHP_INFO_EXPLAIN'	=> 'Эта страница отображает сведения о версии PHP, установленной на данном сервере. Она включает подробные сведения о загруженных модулях, доступных переменных и настройках по умолчанию. Эта информация может быть полезной при диагностировании различных неполадок. Некоторые хостинг-компании ограничивают отображение этой информации по соображениям безопасности. Не предоставляйте никаких сведений с этой страницы никому, кроме <a href="http://www.phpbb.com/about/team/">официальных членов группы поддержки</a>.',
 
-	'NO_PHPINFO_AVAILABLE'	=> 'Сведения о PHP не определены. Функция phpinfo() отключена по соображениям безопасности.',
+	'NO_PHPINFO_AVAILABLE'	=> 'Информация о конфигурации PHP недоступна. Функция phpinfo() отключена по соображениям безопасности.',
 ));
 
 // Logs

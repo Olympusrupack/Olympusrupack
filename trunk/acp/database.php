@@ -4,7 +4,7 @@
 * acp_database [Russian]
 *
 * @package language
-* @version $Id: database.php,v 1.22 2007/06/09 11:10:23 acydburn Exp $
+* @version $Id: database.php,v 1.24 2007/08/13 12:14:06 acydburn Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
