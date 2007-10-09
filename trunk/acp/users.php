@@ -13,6 +13,11 @@
 /**
 * DO NOT CHANGE
 */
+if (!defined('IN_PHPBB'))
+{
+   exit;
+}
+
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
@@ -108,9 +113,9 @@ $lang = array_merge($lang, array(
 	'USER_CUSTOM_PROFILE_FIELDS'	=> 'Дополнительные поля профиля',
 	'USER_DELETED'					=> 'Пользователь успешно удалён.',
 	'USER_GROUP_ADD'				=> 'Добавить пользователя в группу',
-	'USER_GROUP_NORMAL'				=> 'Обычные группы, в которые входит пользователь',
+	'USER_GROUP_NORMAL'				=> 'Созданные группы, в которые входит пользователь',
 	'USER_GROUP_PENDING'			=> 'Группы, в которых пользователь является кандидатом',
-	'USER_GROUP_SPECIAL'			=> 'Специальные группы, в которые входит пользователь',
+	'USER_GROUP_SPECIAL'			=> 'Предустановленные группы, в которые входит пользователь',
 	'USER_NO_ATTACHMENTS'			=> 'Вложения отсутствуют.',
 	'USER_OVERVIEW_UPDATED'			=> 'Информация о пользователе обновлена.',
 	'USER_POSTS_DELETED'			=> 'Все сообщения данного пользователя успешно удалены.',

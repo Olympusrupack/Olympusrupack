@@ -10,6 +10,11 @@
 *
 */
 
+if (!defined('IN_PHPBB'))
+{
+   exit;
+}
+
 $words = array(
 	'href',
 	'lol',

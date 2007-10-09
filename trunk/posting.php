@@ -13,6 +13,11 @@
 /**
 * DO NOT CHANGE
 */
+if (!defined('IN_PHPBB'))
+{
+   exit;
+}
+
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
@@ -44,7 +49,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_B_HELP'				=> 'Жирный текст: [b]text[/b]',
 	'BBCODE_C_HELP'				=> 'Код: [code]code[/code]',
 	'BBCODE_E_HELP'				=> 'Список: добавить элемент списка',
-	'BBCODE_F_HELP'				=> 'Размер шрифта: [size=x-small]small text[/size]',
+	'BBCODE_F_HELP'				=> 'Размер шрифта: [size=85]small text[/size]',
 	'BBCODE_IS_OFF'				=> '%sBBCode%s <em>ВЫКЛЮЧЕН</em>',
 	'BBCODE_IS_ON'				=> '%sBBCode%s <em>ВКЛЮЧЕН</em>',
 	'BBCODE_I_HELP'				=> 'Наклонный текст: [i]text[/i]',
@@ -207,6 +212,7 @@ $lang = array_merge($lang, array(
 	'USER_CANNOT_FORUM_POST'	=> 'Вы не можете размещать сообщения в этом форуме. Тип форума не поддерживает этого.',
 
 	'VIEW_MESSAGE'				=> '%sПросмотреть ваше сообщение%s',
+    'VIEW_PRIVATE_MESSAGE'      => '%sПросмотреть отправленные вами личные сообщения%s',
 
 	'WRONG_FILESIZE'			=> 'Слишком большой размер вложения. <br/>Максимальный разрешенный размер: %1d %2s.',
 	'WRONG_SIZE'				=> 'Размеры изображения должны быть не менее %1$d×%2$d и не более %3$d×%4$d. Размер отправленного изображения - %5$d×%6$d. Все размеры указаны в пикселах.',

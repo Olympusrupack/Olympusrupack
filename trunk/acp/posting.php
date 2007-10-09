@@ -13,6 +13,11 @@
 /**
 * DO NOT CHANGE
 */
+if (!defined('IN_PHPBB'))
+{
+   exit;
+}
+
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
@@ -244,7 +249,7 @@ $lang = array_merge($lang, array(
 
 	'NO_REASON'					=> 'Причина не найдена.',
 	'NO_REASON_INFO'			=> 'Необходимо ввести заголовок и описание этой причины.',
-	'NO_REMOVE_DEFAULT_REASON'	=> 'Нельзя удалить причину «Другое».',
+	'NO_REMOVE_DEFAULT_REASON'	=> 'Нельзя удалить причину по умолчанию «Другое».',
 
 	'REASON_ADD'				=> 'Добавление причины жалобы или отказа',
 	'REASON_ADDED'				=> 'Причина жалобы или отказа успешно добавлена.',

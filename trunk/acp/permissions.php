@@ -13,6 +13,11 @@
 /**
 * DO NOT CHANGE
 */
+if (!defined('IN_PHPBB'))
+{
+   exit;
+}
+
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
@@ -257,7 +262,7 @@ $lang = array_merge($lang, array(
 	'TRACE_TOTAL'							=> 'Итог',
 
 	'USERS_NOT_ASSIGNED'			=> 'Нет пользователей с этой ролью',
-	'USER_IS_MEMBER_OF_DEFAULT'		=> 'состоит в следующих группах по умолчанию',
+	'USER_IS_MEMBER_OF_DEFAULT'		=> 'состоит в следующих предустановленных группах',
 	'USER_IS_MEMBER_OF_CUSTOM'		=> 'состоит в следующих созданных группах',
 
 	'VIEW_ASSIGNED_ITEMS'	=> 'Просмотр назначенных элементов',
@@ -266,6 +271,7 @@ $lang = array_merge($lang, array(
 	'VIEW_PERMISSIONS'		=> 'Посмотреть права',
 
 	'WRONG_PERMISSION_TYPE'	=> 'Выбран неправильный тип.',
+    'WRONG_PERMISSION_SETTING_FORMAT'   => 'Права установлены в неверном формате, их обработка невозможна.',
 ));
 
 ?>

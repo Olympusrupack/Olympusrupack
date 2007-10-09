@@ -1,4 +1,4 @@
-Subject: Добро пожаловать на конференцию «{SITENAME}» — {U_BOARD}
+Subject: Добро пожаловать на конференцию «{SITENAME}»
 
 {WELCOME_MSG}
 

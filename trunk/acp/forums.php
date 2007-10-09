@@ -13,6 +13,11 @@
 /**
 * DO NOT CHANGE
 */
+if (!defined('IN_PHPBB'))
+{
+   exit;
+}
+
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
@@ -86,6 +91,9 @@ $lang = array_merge($lang, array(
 	'FORUM_PASSWORD_CONFIRM'			=> 'Подтверждение пароля к форуму',
 	'FORUM_PASSWORD_CONFIRM_EXPLAIN'	=> 'Необходимо только в случае, если задан пароль к форуму.',
 	'FORUM_PASSWORD_EXPLAIN'			=> 'Устанавливает пароль для этого форума, предпочтительно использование системы прав доступа.',
+    'FORUM_PASSWORD_UNSET'            	=> 'Удалить пароль форума',
+    'FORUM_PASSWORD_UNSET_EXPLAIN'      => 'Отметьте, если хотите удалить пароль форума.',
+    'FORUM_PASSWORD_OLD'            	=> 'Данный пароль форума использует устаревшее шифрование и должен быть изменён.',
 	'FORUM_PASSWORD_MISMATCH'			=> 'Введённые пароли не совпадают.',
 	'FORUM_PRUNE_SETTINGS'				=> 'Настройки очистки форума',
 	'FORUM_RESYNCED'					=> 'Форум «%s» успешно синхронизирован',
