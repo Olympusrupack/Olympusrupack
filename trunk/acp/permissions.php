@@ -271,7 +271,7 @@ $lang = array_merge($lang, array(
 	'VIEW_PERMISSIONS'		=> 'Посмотреть права',
 
 	'WRONG_PERMISSION_TYPE'	=> 'Выбран неправильный тип.',
-    'WRONG_PERMISSION_SETTING_FORMAT'   => 'Права установлены в неверном формате, их обработка невозможна.',
+	'WRONG_PERMISSION_SETTING_FORMAT'	=> 'Права установлены в неверном формате, их обработка невозможна.',
 ));
 
 ?>
