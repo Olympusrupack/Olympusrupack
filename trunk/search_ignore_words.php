@@ -1,18 +1,18 @@
 <?php
-/** 
+/**
 *
 * search_ignore_words [Russian]
 *
 * @package language
-* @version $Id: search_ignore_words.php,v 1.2 2006/10/08 11:21:39 acydburn Exp $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @version $Id: search_ignore_words.php,v 1.3 2007/10/04 15:07:24 acydburn Exp $
+* @copyright (c) 2005 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 $words = array(
@@ -73,7 +73,7 @@ $words = array(
 	'всё',
 	'всё-таки',
 	'всегда',
-	'всего',	
+	'всего',
 	'всеми',
 	'всех',
 	'всякая',
@@ -439,7 +439,7 @@ $words = array(
 	'ушёл',
 	'ушла',
 	'ушли',
-	'ушло',	
+	'ушло',
 	'ходил',
 	'ходила',
 	'ходили',
