@@ -4,7 +4,7 @@
 * posting [Russian]
 *
 * @package language
-* @version $Id: posting.php,v 1.44 2007/08/19 21:29:31 naderman Exp $
+* @version $Id: posting.php,v 1.47 2007/10/04 15:07:24 acydburn Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -15,7 +15,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -71,14 +71,14 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_BBCODES'		=> 'Вы больше не можете создать BBCodes. Удалите или переместите некоторые BBCodes и попробуйте снова.',
 
 	'tokens'	=>	array(
-		'TEXT'			=> 'Любой текст, включая символы любого языка, числа и т.п. Не следует прменять эту лексему в тегах HTML. Используйте вместо этого лексемы IDENTIFIER или SIMPLETEXT.',
+		'TEXT'			=> 'Любой текст, включая символы любого языка, числа и т.п. Не следует применять эту лексему в тегах HTML. Вместо этого используйте лексемы IDENTIFIER или SIMPLETEXT.',
 		'SIMPLETEXT'	=> 'Буквы латинского алфавита (A-Z), цифры, пробелы, запятые, точки, минус, плюс, дефис и подчёркивание',
 		'IDENTIFIER'	=> 'Буквы латинского алфавита (A-Z), цифры, дефис и подчёркивание',
 		'NUMBER'		=> 'Любая последовательность цифр',
 		'EMAIL'			=> 'Правильный адрес электронной почты',
-		'URL'			=> 'Правильный адрес URL с использованием любого протокола (http, ftp и т.п. не могут использоваться для деструктивных действий JavaScript). Если ничего не задано, то к строке будет автоматически добавлен префикс &quot;http://&quot;.',
+		'URL'			=> 'Правильный адрес URL с использованием любого протокола (http, ftp и т.п. не могут использоваться для деструктивных действий JavaScript). Если ничего не задано, то к строке будет автоматически добавлен префикс «http://».',
 		'LOCAL_URL'		=> 'Локальный адрес URL. URL должен быть относительным к странице темы и не должен содержать протокола или имени сервера.',
-		'COLOR'			=> 'Цвет HTML. Может быть задан в числовом формате <samp>#FF1234</samp> или <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">ключевым словом цвета CSS</a>. Например, <samp>fuchsia</samp> или <samp>InactiveBorder</samp>'
+		'COLOR'			=> 'Цвет HTML. Цвет может быть задан в числовом формате <samp>#FF1234</samp> или <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">ключевым словом цвета CSS</a>. Например, <samp>fuchsia</samp> или <samp>InactiveBorder</samp>'
 	)
 ));
 
@@ -96,7 +96,7 @@ $lang = array_merge($lang, array(
 	'CURRENT_ICONS'				=> 'Установленные значки',
 	'CURRENT_ICONS_EXPLAIN'		=> 'Выберите действие, которое нужно применить к уже установленным значкам.',
 	'CURRENT_SMILIES'			=> 'Установленные смайлики',
-	'CURRENT_SMILIES_EXPLAIN'	=> 'Выберите действие, которое нужно применить к уже установленным смайликам.',
+	'CURRENT_SMILIES_EXPLAIN'	=> 'Выберите действие, которое нужно применить к установленным смайликам.',
 
 	'DISPLAY_ON_POSTING'		=> 'Показывать на странице ответа',
 	'DISPLAY_POSTING'			=> 'На странице ответа',
@@ -107,9 +107,9 @@ $lang = array_merge($lang, array(
 	'EDIT_ICONS'				=> 'Изменить значки',
 	'EDIT_SMILIES'				=> 'Изменить смайлики',
 	'EMOTION'					=> 'Эмоция',
-	'EXPORT_ICONS'				=> 'Экспортировать и загрузить icons.pak',
+	'EXPORT_ICONS'				=> 'Экспортировать и загрузить файл icons.pak',
 	'EXPORT_ICONS_EXPLAIN'		=> '%sПосле щелчка по этой ссылке конфигурация установленных значков будет упакована в файл <samp>icons.pak</samp>, который после загрузки можно использовать для создания архивов <samp>.zip</samp> или <samp>.tgz</samp>, содержащих все ваши значки вместе с конфигурационным файлом <samp>icons.pak</samp>%s.',
-	'EXPORT_SMILIES'			=> 'Экспортировать и загрузить smilies.pak',
+	'EXPORT_SMILIES'			=> 'Экспортировать и загрузить файл smilies.pak',
 	'EXPORT_SMILIES_EXPLAIN'	=> '%sПосле щелчка по этой ссылке конфигурация установленных смайликов будет упакована в файл <samp>smilies.pak</samp>, который после загрузки можно использовать для создания архивов <samp>.zip</samp> или <samp>.tgz</samp>, содержащих все ваши смайлики вместе с конфигурационным файлом <samp>smilies.pak</samp>.',
 
 	'FIRST'			=> 'Первый',
@@ -142,11 +142,11 @@ $lang = array_merge($lang, array(
 
 	'NO_ICONS_ADD'		=> 'Нет значков, доступных для добавления.',
 	'NO_ICONS_EDIT'		=> 'Нет значков, доступных для изменения.',
-	'NO_ICONS_EXPORT'	=> 'Отсутствуют значки для создания пакета.',
+	'NO_ICONS_EXPORT'	=> 'Нет значков, доступных для создания пакета.',
 	'NO_ICONS_PAK'		=> 'Пакеты значков не найдены.',
 	'NO_SMILIES_ADD'	=> 'Нет смайликов, доступных для добавления.',
 	'NO_SMILIES_EDIT'	=> 'Нет смайликов, доступных для изменения.',
-	'NO_SMILIES_EXPORT'	=> 'Отсутствуют смайлики для создания пакета.',
+	'NO_SMILIES_EXPORT'	=> 'Нет смайликов, доступных для создания пакета.',
 	'NO_SMILIES_PAK'	=> 'Пакеты смайликов не найдены.',
 
 	'PAK_FILE_NOT_READABLE'		=> 'Ошибка чтения файла <samp>.pak</samp>',
@@ -159,12 +159,12 @@ $lang = array_merge($lang, array(
 	'SMILIES_ONE_ADDED'			=> 'Указанный смайлик успешно добавлен.',
 	'SMILIES_ADDED'				=> 'Указанные смайлики успешно добавлены.',
 	'SMILIES_CODE'				=> 'Код смайлика',
-	'SMILIES_CONFIG'			=> 'Настройки смайлика',
+	'SMILIES_CONFIG'			=> 'Настройки смайликов',
 	'SMILIES_DELETED'			=> 'Смайлик успешно удалён.',
 	'SMILIES_EDIT'				=> 'Изменить смайлик',
 	'SMILIES_NONE_EDITED'		=> 'Смайлики не были обновлены.',
 	'SMILIES_ONE_EDITED'		=> 'Указанный смайлик успешно обновлён.',
-	'SMILIES_EDITED'			=> 'Указанные смайлики успешно обновлёны.',
+	'SMILIES_EDITED'			=> 'Указанные смайлики успешно обновлены.',
 	'SMILIES_EMOTION'			=> 'Эмоция',
 	'SMILIES_HEIGHT'			=> 'Высота смайлика',
 	'SMILIES_IMAGE'				=> 'Рисунок смайлика',
@@ -249,7 +249,7 @@ $lang = array_merge($lang, array(
 
 	'NO_REASON'					=> 'Причина не найдена.',
 	'NO_REASON_INFO'			=> 'Необходимо ввести заголовок и описание этой причины.',
-	'NO_REMOVE_DEFAULT_REASON'	=> 'Нельзя удалить причину по умолчанию «Другое».',
+	'NO_REMOVE_DEFAULT_REASON'	=> 'Нельзя удалить причину «Другое».',
 
 	'REASON_ADD'				=> 'Добавление причины жалобы или отказа',
 	'REASON_ADDED'				=> 'Причина жалобы или отказа успешно добавлена.',
