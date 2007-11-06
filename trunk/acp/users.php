@@ -4,7 +4,7 @@
 * acp_users [Russian]
 *
 * @package language
-* @version $Id: users.php,v 1.30 2007/08/13 12:14:06 acydburn Exp $
+* @version $Id: users.php,v 1.32 2007/10/08 14:38:26 acydburn Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -15,7 +15,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -36,8 +36,8 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ADMIN_SIG_PREVIEW'		=> 'Просмотр подписи',
-	'AT_LEAST_ONE_FOUNDER'	=> 'Вы не можете понизить статус этого основателя до обычного пользователя. На конференции должен быть по крайней мере один основатель. Если вы хотите изменить статус основателя для этого пользователя, сначала сделайте основателем другого пользователя.',
+	'ADMIN_SIG_PREVIEW'		=> 'Предварительный просмотр подписи',
+	'AT_LEAST_ONE_FOUNDER'	=> 'Вы не можете понизить статус этого основателя до обычного пользователя. На конференции должен быть по крайней мере один основатель. Если вы хотите изменить статус основателя для этого пользователя, то сначала сделайте основателем другого пользователя.',
 
 	'BAN_ALREADY_ENTERED'	=> 'Ранее запрет уже был осуществлён. Чёрный список не обновлён.',
 	'BAN_SUCCESSFUL'		=> 'Пользователь успешно добавлен в чёрный список.',
@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 	'DELETE_USER'			=> 'Удалить пользователя',
 	'DELETE_USER_EXPLAIN'	=> 'Учтите, что удаление пользователя необратимо, он не может быть восстановлен',
 
-	'FORCE_REACTIVATION_SUCCESS'	=> 'Повторная активация успешно произведена.',
+	'FORCE_REACTIVATION_SUCCESS'	=> 'Принудительная повторная активация успешно произведена.',
 	'FOUNDER'						=> 'Основатель',
 	'FOUNDER_EXPLAIN'				=> 'Основатели имеют все права администратора и не могут быть ограничены в доступе (заблокированы), удалены или понижены в статусе',
 
