@@ -4,7 +4,7 @@
 * acp common [Russian]
 *
 * @package language
-* @version $Id: common.php,v 1.119 2007/08/13 12:14:06 acydburn Exp $
+* @version $Id: common.php,v 1.120 2007/10/04 15:07:24 acydburn Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -15,7 +15,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -205,7 +205,7 @@ $lang = array_merge($lang, array(
 	'CONFIG_UPDATED'		=> 'Конфигурация успешно обновлена.',
 
 	'DEACTIVATE'				=> 'Отключить',
-	'DIRECTORY_DOES_NOT_EXIST'	=> 'Указанный путь не существует «%s» не существует.',
+	'DIRECTORY_DOES_NOT_EXIST'	=> 'Указанный путь «%s» не существует.',
 	'DIRECTORY_NOT_DIR'			=> 'Указанный путь «%s» не является папкой.',
 	'DIRECTORY_NOT_WRITABLE'	=> 'Запись в папку «%s» запрещена.',
 	'DISABLE'					=> 'Отключить',
@@ -301,8 +301,8 @@ $lang = array_merge($lang, array(
 	'AVATAR_DIR_SIZE'			=> 'Размер папки с аватарами',
 
 	'BOARD_STARTED'		=> 'Дата запуска конференции',
-	'BOARD_VERSION'		=> 'Версия конференции',
-	
+	'BOARD_VERSION'		=> 'Версия phpBB',
+
 	'DATABASE_SERVER_INFO'	=> 'Сервер базы данных',
 	'DATABASE_SIZE'			=> 'Размер базы данных',
 

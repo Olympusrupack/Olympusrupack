@@ -4,7 +4,7 @@
 * acp_ban [Russian]
 *
 * @package language
-* @version $Id: ban.php,v 1.18 2007/05/17 14:58:40 acydburn Exp $
+* @version $Id: ban.php,v 1.19 2007/10/04 15:07:24 acydburn Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -15,7 +15,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -75,6 +75,7 @@ $lang = array_merge($lang, array(
 	'USER_NO_BANNED'			=> 'Чёрный список пользователей пуст',
 	'USER_UNBAN'				=> 'Вновь разрешить доступ пользователям или удалить пользователей из белого списка',
 	'USER_UNBAN_EXPLAIN'		=> 'За один раз можно разблокировать (или удалить из белого списка) несколько имён, выбрав их с помощью соответствующей комбинации мыши и клавиатуры вашего компьютера и браузера. Имена из белого списка выделены особым цветом.',
+
 
 ));
 
