@@ -96,11 +96,11 @@ $lang = array_merge($lang, array(
 	'AVATAR_STORAGE_PATH'			=> 'Путь к аватарам',
 	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Путь относительно корневой папки phpBB, например  <samp>images/avatars/upload</samp>',
 	'MAX_AVATAR_SIZE'				=> 'Максимальные размеры аватары',
-	'MAX_AVATAR_SIZE_EXPLAIN'		=> '(высота x ширина в пикселах)',
+	'MAX_AVATAR_SIZE_EXPLAIN'		=> '(ширина x высота в пикселах)',
 	'MAX_FILESIZE'					=> 'Максимальный размер файла аватары',
 	'MAX_FILESIZE_EXPLAIN'			=> 'Для загружаемых файлов аватар',
 	'MIN_AVATAR_SIZE'				=> 'Минимальные размеры аватары',
-	'MIN_AVATAR_SIZE_EXPLAIN'		=> '(высота x ширина в пикселах)',
+	'MIN_AVATAR_SIZE_EXPLAIN'		=> '(ширина x высота в пикселах)',
 ));
 
 // Message Settings

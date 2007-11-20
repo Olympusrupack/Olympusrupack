@@ -105,6 +105,7 @@ $lang = array_merge($lang, array(
 	'VIEW_UNREAD_POST'		=> 'Первое новое сообщение',
 	'VISIT_WEBSITE'			=> 'WWW',
 	'VOTE_SUBMITTED'		=> 'Спасибо, ваш голос учтён.',
+	'VOTE_CONVERTED'		=> 'Изменение голосов в сконвертированных опросах не поддерживается.',
 
 ));
 
