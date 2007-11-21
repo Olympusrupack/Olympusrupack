@@ -4,7 +4,7 @@
 * acp_styles [Russian]
 *
 * @package language
-* @version $Id: styles.php,v 1.39 2007/07/16 23:06:42 naderman Exp $
+* @version $Id: styles.php,v 1.40 2007/10/04 15:07:24 acydburn Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *

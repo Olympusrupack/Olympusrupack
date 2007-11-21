@@ -4,7 +4,7 @@
 * acp_bots [Russian]
 *
 * @package language
-* @version $Id: bots.php,v 1.11 2007/07/09 11:00:14 kellanved Exp $
+* @version $Id: bots.php,v 1.12 2007/10/04 15:07:24 acydburn Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *

@@ -4,7 +4,7 @@
 * acp_email [Russian]
 *
 * @package language
-* @version $Id: email.php,v 1.15 2007/05/12 12:32:28 davidmj Exp $
+* @version $Id: email.php,v 1.16 2007/10/04 15:07:24 acydburn Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *

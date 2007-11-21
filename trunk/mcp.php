@@ -4,7 +4,7 @@
 * mcp [Russian]
 *
 * @package language
-* @version $Id: mcp.php,v 1.81 2007/07/19 20:37:52 acydburn Exp $
+* @version $Id: mcp.php,v 1.83 2007/10/04 15:07:24 acydburn Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *

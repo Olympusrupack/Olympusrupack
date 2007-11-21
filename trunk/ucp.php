@@ -4,7 +4,7 @@
 * ucp [Russian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.134 2007/08/21 15:09:52 acydburn Exp $
+* @version $Id: ucp.php,v 1.136 2007/10/08 14:38:26 acydburn Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *

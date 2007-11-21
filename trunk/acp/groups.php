@@ -4,7 +4,7 @@
 * acp_groups [Russian]
 *
 * @package language
-* @version $Id: groups.php,v 1.28 2007/07/02 14:05:21 kellanved Exp $
+* @version $Id: groups.php,v 1.29 2007/10/04 15:07:24 acydburn Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *

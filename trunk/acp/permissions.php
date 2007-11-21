@@ -4,7 +4,7 @@
 * acp_permissions [Russian]
 *
 * @package language
-* @version $Id: permissions.php,v 1.35 2007/07/14 15:43:45 acydburn Exp $
+* @version $Id: permissions.php,v 1.38 2007/10/08 14:38:26 acydburn Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *

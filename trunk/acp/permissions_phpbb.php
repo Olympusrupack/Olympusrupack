@@ -3,7 +3,7 @@
 * acp_permissions (phpBB Permission Set) [Russian]
 *
 * @package language
-* @version $Id: permissions_phpbb.php,v 1.28 2007/07/19 20:37:52 acydburn Exp $
+* @version $Id: permissions_phpbb.php,v 1.29 2007/10/04 15:07:24 acydburn Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */

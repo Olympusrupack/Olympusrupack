@@ -4,7 +4,7 @@
 * acp_board [Russian]
 *
 * @package language
-* @version $Id: board.php,v 1.100 2007/10/09 15:42:39 kellanved Exp $
+* @version $Id: board.php,v 1.101 2007/11/03 20:29:39 acydburn Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *

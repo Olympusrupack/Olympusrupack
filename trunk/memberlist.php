@@ -4,7 +4,7 @@
 * memberlist [Russian]
 *
 * @package language
-* @version $Id: memberlist.php,v 1.34 2007/07/22 13:14:36 kellanved Exp $
+* @version $Id: memberlist.php,v 1.35 2007/10/04 15:07:24 acydburn Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *

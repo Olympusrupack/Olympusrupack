@@ -4,7 +4,7 @@
 * install [Russian]
 *
 * @package language
-* @version $Id: install.php,v 1.120 2007/08/24 17:18:43 acydburn Exp $
+* @version $Id: install.php,v 1.131 2007/11/18 11:48:18 acydburn Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *

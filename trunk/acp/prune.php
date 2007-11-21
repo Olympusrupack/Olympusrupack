@@ -4,7 +4,7 @@
 * acp_prune [Russian]
 *
 * @package language
-* @version $Id: prune.php,v 1.13 2007/05/11 12:25:28 acydburn Exp $
+* @version $Id: prune.php,v 1.14 2007/10/04 15:07:24 acydburn Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
