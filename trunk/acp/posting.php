@@ -4,7 +4,7 @@
 * posting [Russian]
 *
 * @package language
-* @version $Id: posting.php,v 1.47 2007/10/04 15:07:24 acydburn Exp $
+* @version $Id: posting.php,v 1.50 2007/11/28 20:09:01 kellanved Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -115,14 +115,14 @@ $lang = array_merge($lang, array(
 	'FIRST'			=> 'Первый',
 
 	'ICONS_ADD'				=> 'Добавить значок',
-	'ICON_NONE_ADDED'		=> 'Значки не были добавлены.',
+	'ICONS_NONE_ADDED'		=> 'Значки не были добавлены.',
 	'ICONS_ONE_ADDED'		=> 'Указанный значок успешно добавлен.',
 	'ICONS_ADDED'			=> 'Указанные значки успешно добавлены.',
 	'ICONS_CONFIG'			=> 'Настройки значков',
 	'ICONS_DELETED'			=> 'Значок успешно удалён.',
 	'ICONS_EDIT'			=> 'Изменить значок',
 	'ICONS_ONE_EDITED'		=> 'Указанный значок успешно обновлён.',
-	'ICON_NONE_EDITED'		=> 'Значки не были обновлены.',
+	'ICONS_NONE_EDITED'		=> 'Значки не были обновлены.',
 	'ICONS_EDITED'			=> 'Указанные значки успешно обновлёны.',
 	'ICONS_HEIGHT'			=> 'Высота значка',
 	'ICONS_IMAGE'			=> 'Рисунок значка',
