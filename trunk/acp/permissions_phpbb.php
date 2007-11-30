@@ -13,7 +13,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -97,7 +97,7 @@ $lang = array_merge($lang, array(
 
 // User Permissions
 $lang = array_merge($lang, array(
-	'acl_u_viewprofile'	=> array('lang' => 'Может просматривать профили, списки пользователей и кто сейчас на конференции', 'cat' => 'profile'),
+	'acl_u_viewprofile'	=> array('lang' => 'Может просматривать профили, список пользователей и страницу «Кто сейчас на конференции»', 'cat' => 'profile'),
 	'acl_u_chgname'		=> array('lang' => 'Может менять имя', 'cat' => 'profile'),
 	'acl_u_chgpasswd'	=> array('lang' => 'Может менять пароль', 'cat' => 'profile'),
 	'acl_u_chgemail'	=> array('lang' => 'Может менять email-адрес', 'cat' => 'profile'),
@@ -139,7 +139,7 @@ $lang = array_merge($lang, array(
 	'acl_f_read'		=> array('lang' => 'Может читать форум', 'cat' => 'post'),
 	'acl_f_post'		=> array('lang' => 'Может создавать темы', 'cat' => 'post'),
 	'acl_f_reply'		=> array('lang' => 'Может отвечать в темах', 'cat' => 'post'),
-	'acl_f_icons'		=> array('lang' => 'Может использовать значки тем/сообщений', 'cat' => 'post'),
+	'acl_f_icons'		=> array('lang' => 'Может использовать значки тем и сообщений', 'cat' => 'post'),
 	'acl_f_announce'	=> array('lang' => 'Может создавать объявления', 'cat' => 'post'),
 	'acl_f_sticky'		=> array('lang' => 'Может прилеплять темы', 'cat' => 'post'),
 
@@ -176,31 +176,31 @@ $lang = array_merge($lang, array(
 	'acl_m_delete'		=> array('lang' => 'Может удалять сообщения', 'cat' => 'post_actions'),
 	'acl_m_approve'		=> array('lang' => 'Может одобрять сообщения', 'cat' => 'post_actions'),
 	'acl_m_report'		=> array('lang' => 'Может закрывать и удалять жалобы', 'cat' => 'post_actions'),
-	'acl_m_chgposter'	=> array('lang' => 'Может менять автора сообщения', 'cat' => 'post_actions'),
+	'acl_m_chgposter'	=> array('lang' => 'Может менять автора сообщений', 'cat' => 'post_actions'),
 
 	'acl_m_move'	=> array('lang' => 'Может перемещать темы', 'cat' => 'topic_actions'),
 	'acl_m_lock'	=> array('lang' => 'Может закрывать темы', 'cat' => 'topic_actions'),
 	'acl_m_split'	=> array('lang' => 'Может разделять темы', 'cat' => 'topic_actions'),
-	'acl_m_merge'	=> array('lang' => 'Может склеивать темы', 'cat' => 'topic_actions'),
+	'acl_m_merge'	=> array('lang' => 'Может объединять темы', 'cat' => 'topic_actions'),
 
-	'acl_m_info'	=> array('lang' => 'Может просматривать информацию о сообщении', 'cat' => 'misc'),
+	'acl_m_info'	=> array('lang' => 'Может просматривать подробности о сообщениях', 'cat' => 'misc'),
 	'acl_m_warn'	=> array('lang' => 'Может объявлять предупреждения<br /><em>Это право может быть назначено только глобально, а не на уровне форумов.</em>', 'cat' => 'misc'), // This moderator setting is only global (and not local)
 	'acl_m_ban'		=> array('lang' => 'Может управлять блокировкой<br /><em>Это право может быть назначено только глобально, а не на уровне форумов.</em>', 'cat' => 'misc'), // This moderator setting is only global (and not local)
 ));
 
 // Admin Permissions
 $lang = array_merge($lang, array(
-	'acl_a_board'		=> array('lang' => 'Может изменять установки конференции/проверять обновления', 'cat' => 'settings'),
+	'acl_a_board'		=> array('lang' => 'Может изменять настройки конференции и проверять обновления', 'cat' => 'settings'),
 	'acl_a_server'		=> array('lang' => 'Может изменять параметры настройки сервера', 'cat' => 'settings'),
 	'acl_a_jabber'		=> array('lang' => 'Может изменять настройки Jabber', 'cat' => 'settings'),
-	'acl_a_phpinfo'		=> array('lang' => 'Может просматривать настройки PHP', 'cat' => 'settings'),
+	'acl_a_phpinfo'		=> array('lang' => 'Может просматривать сведения о php', 'cat' => 'settings'),
 
 	'acl_a_forum'		=> array('lang' => 'Может управлять форумами', 'cat' => 'forums'),
 	'acl_a_forumadd'	=> array('lang' => 'Может создавать форумы', 'cat' => 'forums'),
 	'acl_a_forumdel'	=> array('lang' => 'Может удалять форумы', 'cat' => 'forums'),
 	'acl_a_prune'		=> array('lang' => 'Может очищать форумы', 'cat' => 'forums'),
 
-	'acl_a_icons'		=> array('lang' => 'Может изменять значки тем/сообщений и смайлы', 'cat' => 'posting'),
+	'acl_a_icons'		=> array('lang' => 'Может изменять значки тем, сообщений и смайлики', 'cat' => 'posting'),
 	'acl_a_words'		=> array('lang' => 'Может настраивать автоцензор', 'cat' => 'posting'),
 	'acl_a_bbcode'		=> array('lang' => 'Может определять BBCode', 'cat' => 'posting'),
 	'acl_a_attach'		=> array('lang' => 'Может изменять настройки вложений', 'cat' => 'posting'),
@@ -212,7 +212,7 @@ $lang = array_merge($lang, array(
 	'acl_a_groupdel'	=> array('lang' => 'Может удалять группы', 'cat' => 'user_group'),
 	'acl_a_ranks'		=> array('lang' => 'Может управлять званиями', 'cat' => 'user_group'),
 	'acl_a_profile'		=> array('lang' => 'Может управлять дополнительными полями профиля', 'cat' => 'user_group'),
-	'acl_a_names'		=> array('lang' => 'Может управлять запретом имен', 'cat' => 'user_group'),
+	'acl_a_names'		=> array('lang' => 'Может управлять запрещёнными именами', 'cat' => 'user_group'),
 	'acl_a_ban'			=> array('lang' => 'Может управлять блокировкой', 'cat' => 'user_group'),
 
 	'acl_a_viewauth'	=> array('lang' => 'Может просматривать права доступа', 'cat' => 'permissions'),
@@ -230,7 +230,7 @@ $lang = array_merge($lang, array(
 	'acl_a_clearlogs'	=> array('lang' => 'Может очищать логи', 'cat' => 'misc'),
 	'acl_a_modules'		=> array('lang' => 'Может управлять модулями', 'cat' => 'misc'),
 	'acl_a_language'	=> array('lang' => 'Может управлять языковыми пакетами', 'cat' => 'misc'),
-	'acl_a_email'		=> array('lang' => 'Может осуществлять массовую рассылку email', 'cat' => 'misc'),
+	'acl_a_email'		=> array('lang' => 'Может осуществлять массовую рассылку почты', 'cat' => 'misc'),
 	'acl_a_bots'		=> array('lang' => 'Может управлять ботами', 'cat' => 'misc'),
 	'acl_a_reasons'		=> array('lang' => 'Может управлять списком жалоб/причин', 'cat' => 'misc'),
 	'acl_a_backup'		=> array('lang' => 'Может сохранять/восстанавливать базу данных', 'cat' => 'misc'),

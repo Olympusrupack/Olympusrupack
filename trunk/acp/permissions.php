@@ -15,7 +15,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -115,7 +115,7 @@ $lang = array_merge($lang, array(
 
 	'DEFAULT'					=> 'По умолчанию',
 	'DELETE_ROLE'				=> 'Удаление роли',
-	'DELETE_ROLE_CONFIRM'		=> 'Вы уверены, что хотите удалить эту роль? Объекты с данной ролью <strong>не</strong> потеряют определенные ею настройки прав доступа.',
+	'DELETE_ROLE_CONFIRM'		=> 'Вы действительно хотите удалить эту роль? Объекты с данной ролью <strong>не</strong> потеряют определенные ею настройки прав доступа.',
 	'DISPLAY_ROLE_ITEMS'		=> 'Просмотреть объекты с данной ролью',
 
 	'EDIT_PERMISSIONS'			=> 'Редактировать права',
@@ -144,7 +144,7 @@ $lang = array_merge($lang, array(
 
 	'REMOVE_PERMISSIONS'			=> 'Удалить права',
 	'REMOVE_ROLE'					=> 'Удалить роль',
-	'RESULTING_PERMISSION'			=> 'Результирущие права',
+	'RESULTING_PERMISSION'			=> 'Итоговые права',
 	'ROLE'							=> 'Роль',
 	'ROLE_ADD_SUCCESS'				=> 'Роль успешно добавлена.',
 	'ROLE_ASSIGNED_TO'				=> 'Кому назначена роль «%s»',
@@ -270,7 +270,7 @@ $lang = array_merge($lang, array(
 	'VIEW_GLOBAL_PERMS'		=> 'Посмотреть глобальные права',
 	'VIEW_PERMISSIONS'		=> 'Посмотреть права',
 
-	'WRONG_PERMISSION_TYPE'	=> 'Выбран неправильный тип.',
+	'WRONG_PERMISSION_TYPE'				=> 'Выбран неправильный тип.',
 	'WRONG_PERMISSION_SETTING_FORMAT'	=> 'Права установлены в неверном формате, их обработка невозможна.',
 ));
 
