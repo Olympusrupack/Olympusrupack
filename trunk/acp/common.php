@@ -102,7 +102,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_ICONS'					=> 'Значки тем',
 	'ACP_ICONS_SMILIES'			=> 'Значки тем и смайлики',
-	'ACP_IMAGESETS'				=> 'Наборы изображений',
+	'ACP_IMAGESETS'				=> 'Наборы рисунков',
 	'ACP_INACTIVE_USERS'		=> 'Неактивированные пользователи',
 	'ACP_INDEX'					=> 'Главная страница',
 
@@ -525,12 +525,12 @@ $lang = array_merge($lang, array(
 	'LOG_USERS_APPROVED'	=> '<strong>Одобрены кандидаты в группу</strong> %1$s<br />» %2$s',
 	'LOG_USERS_ADDED'		=> '<strong>Добавлены пользователи в группу</strong> %1$s<br />» %2$s',
 
-	'LOG_IMAGESET_ADD_DB'			=> '<strong>Добавлен пакет изображений в базу данных</strong><br />» %s',
-	'LOG_IMAGESET_ADD_FS'			=> '<strong>Добавлен пакет изображений на сервер</strong><br />» %s',
-	'LOG_IMAGESET_DELETE'			=> '<strong>Удалён пакет изображений</strong><br />» %s',
-	'LOG_IMAGESET_EDIT_DETAILS'		=> '<strong>Изменена информация о пакете изображений</strong><br />» %s',
-	'LOG_IMAGESET_EDIT'				=> '<strong>Изменён пакет изображений</strong><br />» %s',
-	'LOG_IMAGESET_EXPORT'			=> '<strong>Экспортирован пакет изображений</strong><br />» %s',
+	'LOG_IMAGESET_ADD_DB'			=> '<strong>Добавлен набор рисунков в базу данных</strong><br />» %s',
+	'LOG_IMAGESET_ADD_FS'			=> '<strong>Добавлен набор рисунков на сервер</strong><br />» %s',
+	'LOG_IMAGESET_DELETE'			=> '<strong>Удалён набор рисунков</strong><br />» %s',
+	'LOG_IMAGESET_EDIT_DETAILS'		=> '<strong>Изменена информация о наборе рисунков</strong><br />» %s',
+	'LOG_IMAGESET_EDIT'				=> '<strong>Изменён набор рисунков</strong><br />» %s',
+	'LOG_IMAGESET_EXPORT'			=> '<strong>Экспортирован набор рисунков</strong><br />» %s',
 	'LOG_IMAGESET_LANG_MISSING'		=> '<strong>Отсутствует локализация «%2$s» для набора рисунков</strong><br />» «%1$s»',
 	'LOG_IMAGESET_LANG_REFRESHED'	=> '<strong>Обновлена локализация набора рисунков «%2$s»</strong><br />» %1$s',
 	'LOG_IMAGESET_REFRESHED'		=> '<strong>Обновлён набор рисунков</strong><br />» %s',
