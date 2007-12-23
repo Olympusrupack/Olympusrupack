@@ -134,9 +134,9 @@ $lang = array_merge($lang, array(
 	'ACP_PERMISSION_TRACE'		=> 'Трассировка прав доступа',
 	'ACP_PHP_INFO'				=> 'Сведения о PHP',
 	'ACP_POST_SETTINGS'			=> 'Размещение сообщений',
-	'ACP_PRUNE_FORUMS'			=> 'Чистка форумов',
-	'ACP_PRUNE_USERS'			=> 'Удаление пользователей',
-	'ACP_PRUNING'				=> 'Чистка',
+	'ACP_PRUNE_FORUMS'			=> 'Очистка форумов',
+	'ACP_PRUNE_USERS'			=> 'Очистка списка пользователей',
+	'ACP_PRUNING'				=> 'Очистка',
 
 	'ACP_QUICK_ACCESS'			=> 'Быстрый доступ',
 

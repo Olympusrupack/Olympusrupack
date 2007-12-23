@@ -49,11 +49,11 @@ $lang = array_merge($lang, array(
 
 	'LAST_ACTIVE_EXPLAIN'		=> 'Введите дату в формате <kbd>ГГГГ-ММ-ДД</kbd>.',
 
-	'PRUNE_USERS_LIST'				=> 'Users to be pruned',
-	'PRUNE_USERS_LIST_DELETE'		=> 'With the selected critera for pruning users the following accounts will be removed.',
-	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'With the selected critera for pruning users the following accounts will be deactivated.',
+	'PRUNE_USERS_LIST'				=> 'Список очистки',
+	'PRUNE_USERS_LIST_DELETE'		=> 'По заданным критериям очистки будут удалены следующие учётные записи пользователей.',
+	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'По заданным критериям очистки будут деактивированы следующие учётные записи пользователей.',
 
-	'SELECT_USERS_EXPLAIN'		=> 'Введите здесь конкретные имена пользователей, если не хотите использовать критерии поиска выше.',
+	'SELECT_USERS_EXPLAIN'		=> 'Введите здесь конкретные имена пользователей, в этом случае заданные выше критерии не будут использованы.',
 
 	'USER_DEACTIVATE_SUCCESS'	=> 'Отобранные пользователи успешно деактивированы.',
 	'USER_DELETE_SUCCESS'		=> 'Отобранные пользователи успешно удалены.',
@@ -66,9 +66,9 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_PRUNE_FORUMS_EXPLAIN'	=> 'Будут удалены все темы, в которые не писали и которые не просматривали указанное количество дней. Если вы не введёте число дней, то будут удалены все темы. По умолчанию темы, в которых продолжаются опросы, а также прилепленные темы и объявления не будут удалены.',
 
-	'FORUM_PRUNE'		=> 'Чистка форумов',
+	'FORUM_PRUNE'		=> 'Очистка форумов',
 
-	'NO_PRUNE'			=> 'Чистка форумов не произведена.',
+	'NO_PRUNE'			=> 'Очистка форумов не произведена.',
 
 	'SELECTED_FORUM'	=> 'Выбран форум',
 	'SELECTED_FORUMS'	=> 'Выбраны форумы',
@@ -77,13 +77,13 @@ $lang = array_merge($lang, array(
 	'PRUNE_ANNOUNCEMENTS'			=> 'Удалять объявления',
 	'PRUNE_FINISHED_POLLS'			=> 'Удалять оконченные опросы',
 	'PRUNE_FINISHED_POLLS_EXPLAIN'	=> 'Удалять темы, в которых опросы завершены.',
-	'PRUNE_FORUM_CONFIRM'			=> 'Восстановить удалённые темы и сообщения невозможно. Вы действительно хотите очистить выбранные форумы с указанными параметрами?',
+	'PRUNE_FORUM_CONFIRM'			=> 'Восстановить удалённые темы и сообщения невозможно. Вы действительно хотите очистить выбранные форумы по заданным критериям?',
 	'PRUNE_NOT_POSTED'				=> 'Дней с последнего сообщения',
 	'PRUNE_NOT_VIEWED'				=> 'Дней с последнего просмотра',
 	'PRUNE_OLD_POLLS'				=> 'Удалять старые опросы',
 	'PRUNE_OLD_POLLS_EXPLAIN'		=> 'Удалять темы, в опросах которых не было голосов за указанное выше количество дней.',
 	'PRUNE_STICKY'					=> 'Удалять прилепленные темы',
-	'PRUNE_SUCCESS'					=> 'Форумы успешно вычищены',
+	'PRUNE_SUCCESS'					=> 'Очистка форумов успешно произведена',
 
 	'TOPICS_PRUNED'		=> 'Тем удалено',
 ));
