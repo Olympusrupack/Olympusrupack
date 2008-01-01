@@ -177,7 +177,7 @@ $lang = array_merge($lang, array(
 	'ACP_USER_PROFILE'				=> 'Профиль',
 	'ACP_USER_RANK'					=> 'Звание',
 	'ACP_USER_ROLES'				=> 'Пользовательские роли',
-	'ACP_USER_SECURITY'				=> 'Блокировка пользователей',
+	'ACP_USER_SECURITY'				=> 'Безопасность',
 	'ACP_USER_SIG'					=> 'Подпись',
 
 	'ACP_VC_SETTINGS'					=> 'Визуальное подтверждение',
