@@ -816,7 +816,7 @@ $lang = array_merge($lang, array(
 
 	// The default dateformat which will be used on new installs in this language
 	// Translators should change this if a the usual date format is different
-	'default_dateformat'	=>'|d M Y|, H:i'// Сегодня, 13:37 / 01 Янв 2007, 13:37
+	'default_dateformat'	=>'|d M Y|, H:i', // Сегодня, 13:37 / 01 Янв 2007, 13:37
 
 ));
 
