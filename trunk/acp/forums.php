@@ -117,9 +117,11 @@ $lang = array_merge($lang, array(
 	'LINK'					=> 'Ссылка',
 	'LIST_INDEX'			=> 'Показывать форум в списке подфорумов',
 	'LIST_INDEX_EXPLAIN'	=> 'Отображает ссылку на данный форум в списке подфорумов родительского форума, если таковой существует.',
+	'LIST_SUBFORUMS'		=> 'Показывать подфорумы в списке',
+	'LIST_SUBFORUMS_EXPLAIN'=> 'Отображает подфорумы этого форума на главной и других страницах как ссылку в списке, если для этих подфорумов включена функция «Показывать форум в списке подфорумов».',
 	'LOCKED'				=> 'Закрыт',
 
-	'MOVE_POSTS_NO_POSTABLE_FORUM'	=> 'The forum you selected for moving the posts to is not postable. Please select a postable forum.',
+	'MOVE_POSTS_NO_POSTABLE_FORUM'	=> 'Выбранный для перемещения сообщений форум закрыт. Выберите открытый форум.',
 	'MOVE_POSTS_TO'					=> 'Переместить сообщения в',
 	'MOVE_SUBFORUMS_TO'				=> 'Переместить подфорумы в',
 

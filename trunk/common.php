@@ -278,6 +278,7 @@ $lang = array_merge($lang, array(
 	'JUMP_TO_PAGE'			=> 'Перейти на страницу…',
 
 	'KB'					=> 'Кб',
+	'KIB'					=> 'KiB',
 
 	'LAST_POST'							=> 'Последнее сообщение',
 	'LAST_UPDATED'						=> 'Последнее изменение',
@@ -311,6 +312,7 @@ $lang = array_merge($lang, array(
 	'MARK_ALL'				=> 'Отметить все',
 	'MARK_FORUMS_READ'		=> 'Отметить все форумы как прочтённые',
 	'MB'					=> 'Mб',
+	'MIB'					=> 'MiB',
 	'MCP'					=> 'Модераторский раздел',
 	'MEMBERLIST'			=> 'Пользователи',
 	'MEMBERLIST_EXPLAIN'	=> 'Просмотр всего списка пользователей',

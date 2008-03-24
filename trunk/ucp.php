@@ -88,7 +88,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENTS_DELETED'			=> 'Вложения успешно удалены.',
 	'ATTACHMENT_DELETED'			=> 'Вложение успешно удалено.',
 	'AVATAR_CATEGORY'				=> 'Категория',
-	'AVATAR_EXPLAIN'				=> 'Максимальные размеры в пикселах; ширина: %1$d, высота: %2$d, размер файла: %3$dКб.',
+	'AVATAR_EXPLAIN'				=> 'Максимальные размеры в пикселах; ширина: %1$d, высота: %2$d, размер файла: %3$.2lf KiB.',
 	'AVATAR_FEATURES_DISABLED'		=> 'Аватары в настоящее время отключены.',
 	'AVATAR_GALLERY'				=> 'Галерея аватар',
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Невозможно закачать аватару в %s.',
@@ -223,6 +223,7 @@ $lang = array_merge($lang, array(
 
 	'IF_FOLDER_FULL'			=> 'Если папка заполнена',
 	'IMPORTANT_NEWS'			=> 'Важные объявления',
+	'INVALID_USER_BIRTHDAY'		=> 'Введённая дата дня рождения имеет неверный формат.',
 	'INVALID_CHARS_USERNAME'	=> 'Имя пользователя содержит запрещенные символы.',
 	'INVALID_CHARS_NEW_PASSWORD'=> 'Пароль не содержит требуемых символов.',
 	'ITEMS_REQUIRED'			=> 'Поля вашего профиля отмеченные * обязательны к заполнению.',

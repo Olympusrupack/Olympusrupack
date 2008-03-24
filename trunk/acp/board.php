@@ -134,7 +134,7 @@ $lang = array_merge($lang, array(
 	'ACP_POST_SETTINGS_EXPLAIN'			=> 'Здесь вы можете задать настройки по умолчанию для размещаемых сообщений.',
 	'ALLOW_POST_LINKS'					=> 'Разрешить ссылки в обычных/личных сообщениях',
 	'ALLOW_POST_LINKS_EXPLAIN'			=> 'В случае запрета тег BBCode <code>[URL]</code> и автоматическое преобразование текста в ссылки будут отключены.',
-	'ALLOW_POST_FLASH'					=> 'Разрешить тег BBCode <code>[FLASH]</code> в сообщениях. ',
+	'ALLOW_POST_FLASH'					=> 'Разрешить тег BBCode <code>[FLASH]</code> в сообщениях',
 	'ALLOW_POST_FLASH_EXPLAIN'			=> 'Если тег BBCode <code>[FLASH]</code> запрещён, он будет отключён в сообщениях. Определить пользователей, имеющих право использовать тег BBCode <code>[FLASH]</code>, можно с помощью системы управления правами доступа.',
 
 	'BUMP_INTERVAL'					=> 'Задержка поднятия темы',
@@ -323,7 +323,7 @@ $lang = array_merge($lang, array(
 	'LDAP_USER'						=> 'Пользователь LDAP [ <var>dn</var> ]',
 	'LDAP_USER_EXPLAIN'				=> 'Оставьте поле пустым для использования анонимного соединения. Если поле заполнено, phpBB использует указанное имя при соединении с сервером LDAP для поиска правильного пользователя. Например, <samp>uid=Username,ou=MyUnit,o=MyCompany,c=US</samp>. Требуется для серверов Active Directory.',
 	'LDAP_USER_FILTER'				=> 'Фильтр имени пользователя LDAP',
-	'LDAP_USER_FILTER_EXPLAIN'		=> 'В дальнейшем вы можете ограничить диапазон искомых объектов с помощью дополнительных фильтров. Например, результатом <samp>objectClass=posixGroup</samp> будет <samp>(&(uid=$username)(objectClass=posixGroup))</samp>',
+	'LDAP_USER_FILTER_EXPLAIN'		=> 'В дальнейшем вы можете ограничить диапазон искомых объектов с помощью дополнительных фильтров. Например, результатом <samp>objectClass=posixGroup</samp> будет <samp>(&amp;(uid=$username)(objectClass=posixGroup))</samp>',
 ));
 
 // Server Settings

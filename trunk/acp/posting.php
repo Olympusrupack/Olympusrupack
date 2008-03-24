@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_TAG_TOO_LONG'		=> 'Введённое имя тега слишком длинное.',
 	'BBCODE_TAG_DEF_TOO_LONG'	=> 'Введённое определение тега слишком длинное. Введите более короткое определение.',
 	'BBCODE_USAGE'				=> 'Использование BBCode',
-	'BBCODE_USAGE_EXAMPLE'		=> '[hilight={COLOR}]{TEXT}[/hilight]<br /><br />[font={SIMPLETEXT1}]{SIMPLETEXT2}[/font]',
+	'BBCODE_USAGE_EXAMPLE'		=> '[highlight={COLOR}]{TEXT}[/highlight]<br /><br />[font={SIMPLETEXT1}]{SIMPLETEXT2}[/font]',
 	'BBCODE_USAGE_EXPLAIN'		=> 'Здесь определяется использование BBCode. Любая вводимая переменная может быть заменена на соотвествующую лексему (%sпримеры ниже%s).',
 
 	'EXAMPLE'						=> 'Пример:',
@@ -146,6 +146,8 @@ $lang = array_merge($lang, array(
 	'NO_ICONS_PAK'		=> 'Пакеты значков не найдены.',
 	'NO_SMILIES_ADD'	=> 'Нет смайликов, доступных для добавления.',
 	'NO_SMILIES_EDIT'	=> 'Нет смайликов, доступных для изменения.',
+	'SMILIE_NO_CODE'	=> 'Смайлик «%s» не был добавлен, так как для него не задан код.',
+	'SMILIE_NO_EMOTION'	=> 'Смайлик «%s» не был добавлен, так как для него не задана эмоция.',
 	'NO_SMILIES_EXPORT'	=> 'Нет смайликов, доступных для создания пакета.',
 	'NO_SMILIES_PAK'	=> 'Пакеты смайликов не найдены.',
 
