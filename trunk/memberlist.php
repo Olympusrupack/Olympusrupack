@@ -132,6 +132,7 @@ $lang = array_merge($lang, array(
 
 	'USERNAME_BEGINS_WITH'	=> 'Имя пользователя начинается с',
 	'USER_ADMIN'			=> 'Администрировать',
+	'USER_BAN'				=> 'Блокировка',
 	'USER_FORUM'			=> 'Статистика пользователя',
 	'USER_ONLINE'			=> 'В сети',
 	'USER_PRESENCE'			=> 'Присутствие на конференции',

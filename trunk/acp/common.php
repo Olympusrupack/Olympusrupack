@@ -201,6 +201,9 @@ $lang = array_merge($lang, array(
 	'ADMIN_INDEX'			=> 'Главная',
 	'ADMIN_PANEL'			=> 'Администраторский раздел',
 
+	'ADM_LOGOUT'			=> 'Выход',
+	'ADM_LOGGED_OUT'		=> 'Вы успешно вышли из администраторского раздела',
+
 	'BACK'					=> 'Назад',
 
 	'COLOUR_SWATCH'			=> 'Цветовая палитра',
@@ -608,6 +611,7 @@ $lang = array_merge($lang, array(
 	'LOG_REASON_REMOVED'	=> '<strong>Удалена причина жалобы/отклонения</strong><br />» %s',
 	'LOG_REASON_UPDATED'	=> '<strong>Обновлена причина жалобы/отклонения</strong><br />» %s',
 
+	'LOG_REFERER_INVALID'		=> '<strong>Проверка рефёрера не удалась </strong><br />»Рефёрер: “<em>%1$s</em>”. Запрос был отклонён, сессия удалена.',
 	'LOG_RESET_DATE'			=> '<strong>Сброшена дата запуска конференции</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>Сброшен рекорд посещаемости</strong>',
 	'LOG_RESYNC_POSTCOUNTS'		=> '<strong>Синхронизированы счётчики сообщений пользователей</strong>',
