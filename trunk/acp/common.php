@@ -362,6 +362,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INACTIVE_USERS'	=> 'Неактивированные пользователи',
 
 	'WELCOME_PHPBB'			=> 'Добро пожаловать в phpBB',
+	'WRITABLE_CONFIG'		=> 'Ваш конфигурационный файл file (config.php) открыт для записи всем пользователям. Убедительно рекомендуется изменить право доступа на 640 oили, по крайней мере, на 644 (например: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
 ));
 
 // Inactive Users
@@ -474,11 +475,12 @@ $lang = array_merge($lang, array(
 	'LOG_BUMP_TOPIC'			=> '<strong>Поднята тема</strong><br />» %s',
 	'LOG_DELETE_POST'			=> '<strong>Удалено сообщение</strong><br />» %s',
 	'LOG_DELETE_TOPIC'			=> '<strong>Удалена тема</strong><br />» %s',
+	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Удалена ссылка на перенесённую тему</strong><br />» %s',
 	'LOG_FORK'					=> '<strong>Скопирована тема</strong><br />» из форума %s',
 	'LOG_LOCK'					=> '<strong>Закрыта тема</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>Заблокировано сообщение</strong><br />» %s',
 	'LOG_MERGE'					=> '<strong>Объединены сообщения</strong> в тему<br />» %s',
-	'LOG_MOVE'					=> '<strong>Перемещена тема</strong><br />» из %s',
+	'LOG_MOVE'					=> '<strong>Перемещена тема</strong><br />» из %1$s в %2$s',
 	'LOG_POST_APPROVED'			=> '<strong>Одобрение сообщения</strong><br />» %s',
 	'LOG_POST_DISAPPROVED'		=> '<strong>Отклонение сообщения «%1$s» по следующей причине</strong><br />» %2$s',
 	'LOG_POST_EDITED'			=> '<strong>Редактирование сообщения в теме «%1$s», написанного автором</strong><br />» %2$s',
@@ -487,7 +489,6 @@ $lang = array_merge($lang, array(
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Перемещены разделённые сообщения</strong><br />» в %s',
 	'LOG_SPLIT_SOURCE'			=> '<strong>Разделены сообщения</strong><br />» из %s',
 
-	'LOG_TOPIC_DELETED'			=> '<strong>Удалена тема</strong><br />» %s',
 	'LOG_TOPIC_APPROVED'		=> '<strong>Одобрение темы</strong><br />» %s',
 	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Отклонение темы «%1$s» по следующий причине</strong><br />%2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>Синхронизированы счётчики темы</strong><br />» %s',
@@ -687,4 +688,9 @@ $lang = array_merge($lang, array(
 	'LOG_WORD_EDIT'			=> '<strong>Изменён цензор слов</strong><br />» %s',
 ));
 
+// Two language keys with the same text were used in different locations
+// LOG_DELETE_TOPIC is the correct one, this line is here so that existing
+// log entries are not broken. Ensure it is included in your language file.
+$lang['LOG_TOPIC_DELETED'] = $lang['LOG_DELETE_TOPIC'];
+ 
 ?>
