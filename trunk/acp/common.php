@@ -201,7 +201,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_INDEX'			=> 'Главная',
 	'ADMIN_PANEL'			=> 'Администраторский раздел',
 
-	'ADM_LOGOUT'			=> 'Выход',
+	'ADM_LOGOUT'			=> 'Выход из ACP',
 	'ADM_LOGGED_OUT'		=> 'Вы успешно вышли из администраторского раздела',
 
 	'BACK'					=> 'Назад',
@@ -362,7 +362,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INACTIVE_USERS'	=> 'Неактивированные пользователи',
 
 	'WELCOME_PHPBB'			=> 'Добро пожаловать в phpBB',
-	'WRITABLE_CONFIG'		=> 'Ваш конфигурационный файл file (config.php) открыт для записи всем пользователям. Убедительно рекомендуется изменить право доступа на 640 oили, по крайней мере, на 644 (например: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
+	'WRITABLE_CONFIG'		=> 'Ваш конфигурационный файл (config.php) открыт для записи всем пользователям. Убедительно рекомендуется изменить право доступа на 640 или, по крайней мере, на 644 (например: <a href="http://ru.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
 ));
 
 // Inactive Users
