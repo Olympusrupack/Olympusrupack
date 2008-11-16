@@ -526,7 +526,7 @@ $lang = array_merge($lang, array(
 	'LOG_FORUM_SYNC'						=> '<strong>Синхронизирован форум</strong><br />» %s',
 
 	'LOG_GROUP_CREATED'		=> '<strong>Создана группа пользователей</strong><br />» %s',
-	'LOG_GROUP_DEFAULTS'	=> '<strong>Назначена группой по умолчанию для пользователей</strong><br />» %s',
+	'LOG_GROUP_DEFAULTS'	=> '<strong>Группа “%1$s” установлена по умолчанию для пользователей</strong><br />» %2$s',
 	'LOG_GROUP_DELETE'		=> '<strong>Удалена группа</strong><br />» %s',
 	'LOG_GROUP_DEMOTED'		=> '<strong>Сняты лидеры в группе</strong> %1$s<br />» %2$s',
 	'LOG_GROUP_PROMOTED'	=> '<strong>Назначены лидеры в группе</strong> %1$s<br />» %2$s',
