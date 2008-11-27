@@ -133,7 +133,7 @@ $lang = array_merge($lang, array(
 	'COOKIES_DELETED'		=> 'Все cookies, установленные форумами, успешно удалены.',
 	'CURRENT_TIME'			=> 'Текущее время: %s',
 
-	'DAY'					=> 'день',
+	'DAY'					=> 'День',
 	'DAYS'					=> 'дней',
 	'DELETE'				=> 'Удалить',
 	'DELETE_ALL'			=> 'Удалить все',
