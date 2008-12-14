@@ -1,4 +1,4 @@
-+<?php
+<?php
 /**
 *
 * acp_profile [Russian]
