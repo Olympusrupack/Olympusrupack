@@ -4,7 +4,7 @@
 * common [Russian]
 *
 * @package language
-* @version $Id: common.php,v 1.195 2007/11/06 14:55:07 acydburn Exp $
+* @version $Id: common.php 9162 2008-12-03 11:18:31Z acydburn $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -15,7 +15,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -324,7 +324,7 @@ $lang = array_merge($lang, array(
 	'MEMBERLIST'			=> 'Пользователи',
 	'MEMBERLIST_EXPLAIN'	=> 'Просмотр всего списка пользователей',
 	'MERGE'					=> 'Объединить',
-	'MERGE_POSTS'			=> 'Объединить сообщения',
+	'MERGE_POSTS'			=> 'Перенести сообщения',
 	'MERGE_TOPIC'			=> 'Объединить тему',
 	'MESSAGE'				=> 'Сообщение',
 	'MESSAGES'				=> 'Сообщения',

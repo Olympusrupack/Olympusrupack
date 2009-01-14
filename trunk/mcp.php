@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * mcp [Russian]
 *
 * @package language
-* @version $Id: mcp.php,v 1.83 2007/10/04 15:07:24 acydburn Exp $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @version $Id: mcp.php 8940 2008-09-26 11:25:04Z toonarmy $
+* @copyright (c) 2005 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 
@@ -15,7 +15,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -192,10 +192,10 @@ $lang = array_merge($lang, array(
 	'MCP_WARN_POST'			=> 'Предупреждение за конкретное сообщение',
 	'MCP_WARN_USER'			=> 'Вынести предупреждение',
 
-	'MERGE_POSTS'			=> 'Объединение сообщений',
-	'MERGE_POSTS_CONFIRM'	=> 'Вы уверены, что хотите объединить выбранные сообщения?',
+	'MERGE_POSTS'			=> 'Перенести сообщения',
+	'MERGE_POSTS_CONFIRM'	=> 'Вы действительно хотите перенести выбранные сообщения в другую тему?',
 	'MERGE_TOPIC_EXPLAIN'	=> 'Используя нижеприведенную форму, вы можете перенести выбранные сообщения в уже существующую тему. Сообщения будут показаны в теме согласно времени их добавления.<br />Пожалуйста, введите номер соответствующей темы или нажмите «Выбрать тему» для поиска.',
-	'MERGE_TOPIC_ID'		=> 'Номер темы для объединения сообщений',
+	'MERGE_TOPIC_ID'		=> 'Номер конечной темы',
 	'MERGE_TOPICS'			=> 'Объединение тем',
 	'MERGE_TOPICS_CONFIRM'	=> 'Вы уверены, что хотите объединить выбранные темы?',
 	'MODERATE_FORUM'		=> 'Модерировать форум',
