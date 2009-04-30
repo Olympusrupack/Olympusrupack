@@ -201,7 +201,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_INDEX'			=> 'Главная',
 	'ADMIN_PANEL'			=> 'Администраторский раздел',
 
-	'ADM_LOGOUT'			=> 'Выход из ACP',
+	'ADM_LOGOUT'			=> 'Выход&nbsp;из&nbsp;ACP',
 	'ADM_LOGGED_OUT'		=> 'Вы успешно вышли из администраторского раздела',
 
 	'BACK'					=> 'Назад',

@@ -269,6 +269,8 @@ $lang = array_merge($lang, array(
 	'MAKE_FOLDER_WRITABLE'		=> 'Убедитесь, что эта папка существует и у сервера есть права на запись в неё, затем повторите попытку:<br />»<strong>%s</strong>.',
 	'MAKE_FOLDERS_WRITABLE'		=> 'Убедитесь, что эти папки существуют и у сервера есть права на запись в них, затем повторите попытку:<br />»<strong>%s</strong>.',
 
+	'MYSQL_SCHEMA_UPDATE_REQUIRED'	=> 'Схема вашей базы данных MySQL устарела. phpBB обнаружено, что используется схема для MySQL 3.x/4.x, но сервер работает на MySQL %2s.<br /><strong>Перед началом общего обновления, вам необходимо произвести обновление схемы базы данных.</strong><br /><br />Обратитесь к <a href="http://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">статье базы знаний по вопросу обновления схемы базы данных MySQL</a>. При возникновении проблем, обращайтесь на <a href="http://www.phpbbguru.net/community/">форумы официальной русской поддержки phpBB</a>.',
+
 	'NAMING_CONFLICT'			=> 'Конфликт имён: оба имени %s и %s являются псевдонимами<br /><br />%s',
 	'NEXT_STEP'					=> 'Следующий шаг',
 	'NOT_FOUND'					=> 'Не найдено',
@@ -381,7 +383,7 @@ $lang = array_merge($lang, array(
 	'COMPLETE_LOGIN_TO_BOARD'		=> '<a href="../ucp.php?mode=login">Войдите на конференцию</a> и проверьте, что всё работает нормально. Не забудьте удалить, переименовать или переместить папку install!',
 	'CONTINUE_UPDATE_NOW'			=> 'Продолжайте процесс обновления',		// Shown within the database update script at the end if called from the updater
 	'CONTINUE_UPDATE'				=> 'Продолжайте обновление',				// Shown after file upload to indicate the update process is not yet finished
-	'CURRENT_FILE'					=> 'Начало текущего исходного файла',
+	'CURRENT_FILE'					=> 'Начало конфликта - код исходного файла до обновления',
 	'CURRENT_VERSION'				=> 'Текущая версия',
 
 	'DATABASE_TYPE'						=> 'Тип базы данных',
@@ -391,7 +393,7 @@ $lang = array_merge($lang, array(
 	'DESTINATION'						=> 'Файл-получатель',
 	'DIFF_INLINE'						=> 'Внутри текста',
 	'DIFF_RAW'							=> 'Raw unified diff',
-	'DIFF_SEP_EXPLAIN'					=> 'Конец текущего исходного файла/Начало нового файла',
+	'DIFF_SEP_EXPLAIN'					=> 'Код, используемый в обновленном/новом файле',
 	'DIFF_SIDE_BY_SIDE'					=> 'Параллельно',
 	'DIFF_UNIFIED'						=> 'Unified diff',
 	'DO_NOT_UPDATE'						=> 'Не обновлять этот файл',
@@ -399,6 +401,8 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD'							=> 'Скачать',
 	'DOWNLOAD_AS'						=> 'Скачать в формате',
 	'DOWNLOAD_UPDATE_METHOD_BUTTON'		=> 'Скачать архив с модифицированными файлами (рекомендуется)',
+	'DOWNLOAD_CONFLICTS'				=> 'Скачать конфликтные места для этого файла',
+	'DOWNLOAD_CONFLICTS_EXPLAIN'		=> 'Искать &lt;&lt;&lt; для выявления конфликтов',
 	'DOWNLOAD_UPDATE_METHOD'			=> 'Скачать архив с модифицированными файлами',
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Скачав архив, распакуйте его. В нём вы найдёте измененные файлы, которые нужно закачать в корень phpBB, при этом каждый файл должен оказаться в соответствующей ему папке. После этого снова проведите сравнение файлов, нажав отвечающую за это кнопку ниже.',
 
@@ -443,13 +447,13 @@ $lang = array_merge($lang, array(
 
 	'MERGE_NO_MERGE_NEW_OPTION'	=> 'Не объединять - использовать новый файл',
 	'MERGE_NO_MERGE_MOD_OPTION'	=> 'Не объединять - использовать имеющийся файл',
-	'MERGE_MOD_FILE_OPTION'		=> 'Объединить файлы и использовать модифицированные строки в конфликтных местах',
-	'MERGE_NEW_FILE_OPTION'		=> 'Объединить файлы и использовать строки нового файла в конфликтных местах',
+	'MERGE_MOD_FILE_OPTION'		=> 'Объединить изменения (не использовать новый код в конфликтном месте)',
+	'MERGE_NEW_FILE_OPTION'		=> 'Объединить изменения (не использовать измененный код в конфликтном месте)',
 	'MERGE_SELECT_ERROR'		=> 'Неверно выбраны способы объединения конфликтного файла с новой версией.',
 	'MERGING_FILES'				=> 'Объединение различий',
 	'MERGING_FILES_EXPLAIN'		=> 'Сейчас производится окончательное изменение файлов.<br /><br />Дождитесь окончания всех операций над изменёнными файлами.',
 
-	'NEW_FILE'						=> 'Конец нового файла',
+	'NEW_FILE'						=> 'Конец конфликтного места',
 	'NEW_USERNAME'					=> 'Новое имя',
 	'NO_AUTH_UPDATE'				=> 'У вас нет прав на выполнение обновления phpBB',
 	'NO_ERRORS'						=> 'Без ошибок',
