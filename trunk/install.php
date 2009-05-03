@@ -269,7 +269,7 @@ $lang = array_merge($lang, array(
 	'MAKE_FOLDER_WRITABLE'		=> 'Убедитесь, что эта папка существует и у сервера есть права на запись в неё, затем повторите попытку:<br />»<strong>%s</strong>.',
 	'MAKE_FOLDERS_WRITABLE'		=> 'Убедитесь, что эти папки существуют и у сервера есть права на запись в них, затем повторите попытку:<br />»<strong>%s</strong>.',
 
-	'MYSQL_SCHEMA_UPDATE_REQUIRED'	=> 'Схема вашей базы данных MySQL устарела. phpBB обнаружено, что используется схема для MySQL 3.x/4.x, но сервер работает на MySQL %2s.<br /><strong>Перед началом общего обновления, вам необходимо произвести обновление схемы базы данных.</strong><br /><br />Обратитесь к <a href="http://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">статье базы знаний по вопросу обновления схемы базы данных MySQL</a>. При возникновении проблем, обращайтесь на <a href="http://www.phpbbguru.net/community/">форумы официальной русской поддержки phpBB</a>.',
+	'MYSQL_SCHEMA_UPDATE_REQUIRED'	=> 'Схема вашей базы данных MySQL устарела. phpBB обнаружено, что используется схема для MySQL 3.x/4.x, но сервер работает на MySQL %2$s.<br /><strong>Перед началом общего обновления, вам необходимо произвести обновление схемы базы данных.</strong><br /><br />Обратитесь к <a href="http://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">статье базы знаний по вопросу обновления схемы базы данных MySQL</a>. При возникновении проблем, обращайтесь на <a href="http://www.phpbbguru.net/community/">форумы официальной русской поддержки phpBB</a>.',
 
 	'NAMING_CONFLICT'			=> 'Конфликт имён: оба имени %s и %s являются псевдонимами<br /><br />%s',
 	'NEXT_STEP'					=> 'Следующий шаг',
