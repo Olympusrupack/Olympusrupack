@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * viewtopic [Russian]
 *
 * @package language
-* @version $Id: viewtopic.php,v 1.20 2007/10/29 13:39:34 kellanved Exp $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @version $Id: viewtopic.php 9913 2009-08-02 11:35:42Z Kellanved $
+* @copyright (c) 2005 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 
@@ -15,7 +15,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -59,6 +59,7 @@ $lang = array_merge($lang, array(
 
 	'FILE_NOT_FOUND_404'	=> 'Файл <strong>%s</strong> не существует.',
 	'FORK_TOPIC'			=> 'Копировать тему',
+	'FULL_EDITOR'			=> 'Полный редактор',
 
 	'LINKAGE_FORBIDDEN'		=> 'Вы не авторизованы для просмотра или скачивания файлов.',
 	'LOGIN_NOTIFY_TOPIC'	=> 'Вы получили уведомление о новом сообщении в теме, пожалуйста, авторизируйтесь для его просмотра',
@@ -86,11 +87,13 @@ $lang = array_merge($lang, array(
 	'PRINT_TOPIC'			=> 'Для печати',
 
 	'QUICK_MOD'				=> 'Быстрые действия',
+	'QUICKREPLY'			=> 'Быстрый ответ',
 	'QUOTE'					=> 'Цитата',
 
 	'REPLY_TO_TOPIC'		=> 'Ответить на тему',
 	'RETURN_POST'			=> '%sВернуться к сообщению%s',
 
+	'SHOW_QR'				=> 'Быстрый ответ',
 	'SUBMIT_VOTE'			=> 'Проголосовать',
 
 	'TOTAL_VOTES'			=> 'Всего голосов',
