@@ -4,7 +4,7 @@
 * help_faq [Russian]
 *
 * @package language
-* @version $Id: help_faq.php,v 1.42 2007/10/04 15:07:24 acydburn Exp $
+* @version $Id: help_faq.php 9623 2009-06-18 18:12:28Z nickvergessen $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -14,7 +14,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -201,6 +201,11 @@ $help = array(
 	array(
 		0 => 'Что такое значки тем?',
 		1 => 'Значки тем — это выбранные авторами изображения, связанные с сообщениями и отражающие их содержание. Возможность использования значков тем зависит от разрешений, установленных администратором конференции.'
+	),
+	// This block will switch the FAQ-Questions to the second template column
+	array(
+		0 => '--',
+		1 => '--'
 	),
 	array(
 		0 => '--',
