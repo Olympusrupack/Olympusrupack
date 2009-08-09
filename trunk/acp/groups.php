@@ -4,7 +4,7 @@
 * acp_groups [Russian]
 *
 * @package language
-* @version $Id: groups.php,v 1.29 2007/10/04 15:07:24 acydburn Exp $
+* @version $Id: groups.php 9701 2009-06-28 12:13:11Z toonarmy $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -88,12 +88,15 @@ $lang = array_merge($lang, array(
 	'GROUP_PENDING'					=> 'Кандидаты на вступление в группу',
 	'GROUP_MAX_RECIPIENTS'			=> 'Максимальное разрешённое число получателей ЛС',
 	'GROUP_MAX_RECIPIENTS_EXPLAIN'	=> 'Максимальное разрешённое количество получателей личного сообщения. Если задано 0, Будет использовано соответствующее значение, указанное в настройках конференции.',
+	'GROUP_OPTIONS_SAVE'			=> 'Общие параметры группы',
 	'GROUP_PROMOTE'					=> 'Назначить лидером группы',
 	'GROUP_RANK'					=> 'Звание группы',
 	'GROUP_RECEIVE_PM'				=> 'Группа может получать личные сообщения',
 	'GROUP_RECEIVE_PM_EXPLAIN'		=> 'Примечание: скрытые группы не могут получать личные сообщения, независимо от этой опции.',
 	'GROUP_REQUEST'					=> 'По запросу',
 	'GROUP_SETTINGS_SAVE'			=> 'Настройки группы',
+	'GROUP_SKIP_AUTH'				=> 'Исключить лидера группы из прав',
+	'GROUP_SKIP_AUTH_EXPLAIN'		=> 'При включении опции лидер группы не будет наследовать прав этой группы.',
 	'GROUP_TYPE'					=> 'Тип группы',
 	'GROUP_TYPE_EXPLAIN'			=> 'Эта группа настроек определяет, кто может вступать или просматривать эту группу.',
 	'GROUP_UPDATED'					=> 'Настройки группы успешно обновлены.',
