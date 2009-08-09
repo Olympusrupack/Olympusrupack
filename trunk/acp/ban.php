@@ -4,7 +4,7 @@
 * acp_ban [Russian]
 *
 * @package language
-* @version $Id: ban.php,v 1.19 2007/10/04 15:07:24 acydburn Exp $
+* @version $Id: ban.php 9727 2009-07-07 13:33:53Z nickvergessen $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -48,6 +48,8 @@ $lang = array_merge($lang, array(
 	'BAN_REASON'			=> 'Причина блокировки доступа',
 	'BAN_GIVE_REASON'		=> 'Причина, показываемая пользователю',
 	'BAN_UPDATE_SUCCESSFUL'	=> 'Чёрный список успешно обновлён.',
+	'BANNED_UNTIL_DATE'		=> 'до %s', // Example: "until Mon 13.Jul.2009, 14:44"
+	'BANNED_UNTIL_DURATION'	=> '%1$s (до %2$s)', // Example: "7 days (until Tue 14.Jul.2009, 14:44)"
 
 	'EMAIL_BAN'					=> 'Заблокировать один или несколько адресов email',
 	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Исключить введённые адреса email из чёрного списка.',
@@ -75,8 +77,6 @@ $lang = array_merge($lang, array(
 	'USER_NO_BANNED'			=> 'Чёрный список пользователей пуст',
 	'USER_UNBAN'				=> 'Разблокировать доступ пользователям или удалить пользователей из белого списка',
 	'USER_UNBAN_EXPLAIN'		=> 'За один раз можно разблокировать (или удалить из белого списка) несколько имён, выбрав их с помощью соответствующей комбинации мыши и клавиатуры вашего компьютера и браузера. Имена из белого списка выделены особым цветом.',
-
-
 ));
 
 ?>
