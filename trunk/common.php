@@ -4,7 +4,7 @@
 * common [Russian]
 *
 * @package language
-* @version $Id: common.php 9162 2008-12-03 11:18:31Z acydburn $
+* @version $Id: common.php 9845 2009-07-24 11:13:32Z acydburn $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -250,6 +250,7 @@ $lang = array_merge($lang, array(
 	'G_REGISTERED'				=> 'Зарегистрированные пользователи',
 	'G_REGISTERED_COPPA'		=> 'Зарегистрированные пользователи (COPPA)',
 	'G_GLOBAL_MODERATORS'		=> 'Супермодераторы',
+	'G_NEWLY_REGISTERED'		=> 'Новые пользователи',
 
 	'HIDDEN_USERS_ONLINE'			=> 'скрытых пользователей: %d',
 	'HIDDEN_USERS_TOTAL'			=> 'скрытых: %d',
@@ -383,6 +384,8 @@ $lang = array_merge($lang, array(
 	'NO_ONLINE_USERS'			=> 'нет зарегистрированных пользователей',
 	'NO_POSTS'					=> 'Нет сообщений',
 	'NO_POSTS_TIME_FRAME'		=> 'В теме нет сообщений за выбранный период времени.',
+	'NO_FEED_ENABLED'			=> 'Каналы новостей недоступны на этой конференции.',
+	'NO_FEED'					=> 'Запрашиваемый канал новостей недоступен.',
 	'NO_SUBJECT'				=> 'Не указана тема',								// Used for posts having no subject defined but displayed within management pages.
 	'NO_SUCH_SEARCH_MODULE'		=> 'Указанный поисковый механизм отсутствует.',
 	'NO_SUPPORTED_AUTH_METHODS'	=> 'Метод аутентификации не поддерживается.',
@@ -398,8 +401,8 @@ $lang = array_merge($lang, array(
 
 	// Nullar/Singular/Plural language entry. The key numbers define the number range in which a certain grammatical expression is valid.
 	'NUM_POSTS_IN_QUEUE'	=> array(
-		0		=> 'Нет сообщений в очереди',      // 0
-		1		=> 'Сообщений в очереди: %d',      // 1+
+		0		=> 'Нет сообщений в очереди',	// 0
+		1		=> 'Сообщений в очереди: %d',	// 1+
 	),
 
 	'OCCUPATION'				=> 'Род занятий',
@@ -485,6 +488,8 @@ $lang = array_merge($lang, array(
 	'RETURN_PAGE'				=> '%sВернуться на предыдущую страницу%s',
 	'RETURN_TOPIC'				=> '%sВернуться в тему%s',
 	'RETURN_TO'					=> 'Вернуться в',
+	'FEED'						=> 'Канал',
+	'FEED_NEWS'					=> 'Новости',
 	'RULES_ATTACH_CAN'			=> 'Вы <strong>можете</strong> добавлять вложения',
 	'RULES_ATTACH_CANNOT'		=> 'Вы <strong>не можете</strong> добавлять вложения',
 	'RULES_DELETE_CAN'			=> 'Вы <strong>можете</strong> удалять свои сообщения',
@@ -521,8 +526,8 @@ $lang = array_merge($lang, array(
 	'SELECT_ALL_CODE'			=> 'Выделить всё',
 	'SELECT_DESTINATION_FORUM'	=> 'Выберите форум назначения',
 	'SELECT_FORUM'				=> 'Выберите форум',
-	'SEND_EMAIL'				=> 'Отправить email',            // Used for submit buttons
-	'SEND_EMAIL_USER'			=> 'Отправить письмо пользователю',				// Used as: {L_SEND_EMAIL_USER} {USERNAME} -> E-mail UserX
+	'SEND_EMAIL'				=> 'Отправить email',				// Used for submit buttons
+	'SEND_EMAIL_USER'			=> 'Отправить письмо пользователю',	// Used as: {L_SEND_EMAIL_USER} {USERNAME} -> E-mail UserX
 	'SEND_PRIVATE_MESSAGE'		=> 'Отправить личное сообщение',
 	'SETTINGS'					=> 'Настройки',
 	'SIGNATURE'					=> 'Подпись',
@@ -534,6 +539,7 @@ $lang = array_merge($lang, array(
 	'SORT_JOINED'				=> 'Дата регистрации',
 	'SORT_LOCATION'				=> 'Откуда',
 	'SORT_RANK'					=> 'Звание',
+	'SORT_POSTS'				=> 'Сообщения',
 	'SORT_TOPIC_TITLE'			=> 'Название темы',
 	'SORT_USERNAME'				=> 'Имя пользователя',
 	'SPLIT_TOPIC'				=> 'Разделить тему',
@@ -597,6 +603,7 @@ $lang = array_merge($lang, array(
 
 	'TOPIC'				=> 'Тема',
 	'TOPICS'			=> 'Темы',
+	'TOPICS_UNAPPROVED'	=> 'По крайне мере одна тема в этом форуме не была одобрена.',
 	'TOPIC_ICON'		=> 'Значок',
 	'TOPIC_LOCKED'		=> 'Эта тема закрыта, вы не можете редактировать и оставлять сообщения в ней.',
 	'TOPIC_LOCKED_SHORT'=> 'Закрыто',
@@ -642,6 +649,8 @@ $lang = array_merge($lang, array(
 	'USER_POSTS'			=> '%d сообщений',
 	'USERS'					=> 'Пользователи',
 	'USE_PERMISSIONS'		=> 'Проверить права пользователя',
+
+	'USER_NEW_PERMISSION_DISALLOWED'	=> 'Вам не разрешено использовать данную возможность. Возможно, вы недавно зарегистрировались на конференции, или вам необходимо проявиться большую активность на конференции, чтобы использовать эту возможность.',
 
 	'VARIANT_DATE_SEPARATOR'	=> ' / ',	// Used in date format dropdown, eg: "Today, 13:37 / 01 Jan 2007, 13:37" ... to join a relative date with calendar date
 	'VIEWED'					=> 'Просмотров:',
