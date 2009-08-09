@@ -4,7 +4,7 @@
 * acp_database [Russian]
 *
 * @package language
-* @version $Id: database.php,v 1.25 2007/10/04 15:07:24 acydburn Exp $
+* @version $Id: database.php 9765 2009-07-17 10:11:10Z bantu $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -54,6 +54,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_BACKUP'	=> 'Скачать резервную копию',
 
 	'FILE_TYPE'			=> 'Тип файла',
+	'FILE_WRITE_FAIL'	=> 'Не удалось сохранить файл в папке «store».',
 	'FULL_BACKUP'		=> 'Полная',
 
 	'RESTORE_FAILURE'		=> 'Возможно файл с резервной копией повреждён.',
