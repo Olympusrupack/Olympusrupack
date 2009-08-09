@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * ucp [Russian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.136 2007/10/08 14:38:26 acydburn Exp $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @version $Id: ucp.php 9919 2009-08-04 14:15:13Z acydburn $
+* @copyright (c) 2005 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 
@@ -15,7 +15,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -79,6 +79,7 @@ $lang = array_merge($lang, array(
 	'ADD_NEW_RULE'					=> 'Добавить новое правило',
 	'ADD_RULE'						=> 'Добавить правило',
 	'ADD_TO'						=> 'Добавить [Кому]',
+	'ADD_USERS_UCP_EXPLAIN'			=> 'Здесь вы можете добавлять новых пользователей в группу. Вы можете выбрать, станет ли эта группа группой по умолчанию для добавленных в неё пользователей. Вводите каждое имя пользователя на отдельной строке.',
 	'ADMIN_EMAIL'					=> 'Получать email-рассылки администрации',
 	'AGREE'							=> 'Я согласен с этими условиями',
 	'ALLOW_PM'						=> 'Разрешить пользователям посылать вам личные сообщения',
@@ -92,7 +93,9 @@ $lang = array_merge($lang, array(
 	'AVATAR_FEATURES_DISABLED'		=> 'Аватары в настоящее время отключены.',
 	'AVATAR_GALLERY'				=> 'Галерея аватар',
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Невозможно закачать аватару в %s.',
+	'AVATAR_NOT_ALLOWED'			=> 'Ваша аватара не может быть отображена, поскольку аватара запрещены.',
 	'AVATAR_PAGE'					=> 'Страница',
+	'AVATAR_TYPE_NOT_ALLOWED'		=> 'Ваша текущая аватара не может быть отображена, поскольку её тип запрещён.',
 
 	'BACK_TO_DRAFTS'			=> 'Вернуться к сохраненным черновикам',
 	'BACK_TO_LOGIN'				=> 'Вернуться на страницу входа',
@@ -197,6 +200,7 @@ $lang = array_merge($lang, array(
 	'FOES_UPDATED'				=> 'Список недругов был успешно обновлен.',
 	'FOLDER_ADDED'				=> 'Папка была успешно добавлена.',
 	'FOLDER_MESSAGE_STATUS'		=> '%1$d из %2$d сообщений',
+	'FOLDER_NAME_EMPTY'			=> 'Необходимо ввести имя для этой папки.',
 	'FOLDER_NAME_EXIST'			=> 'Папка <strong>%s</strong> уже существует.',
 	'FOLDER_OPTIONS'			=> 'Свойства папки',
 	'FOLDER_RENAMED'			=> 'Папка была успешно переименована.',
@@ -273,10 +277,12 @@ $lang = array_merge($lang, array(
 	'NOTIFY_METHOD_IM'				=> 'Только Jabber',
 	'NOTIFY_ON_PM'					=> 'Уведомлять меня о новых личных сообщениях',
 	'NOT_ADDED_FRIENDS_ANONYMOUS'	=> 'Вы не можете добавить гостя в список друзей.',
+	'NOT_ADDED_FRIENDS_BOTS'		=> 'Вы не можете добавить бота в список друзей.',
 	'NOT_ADDED_FRIENDS_FOES'		=> 'Вы не можете добавлять пользователей из списка недругов в список друзей.',
 	'NOT_ADDED_FRIENDS_SELF'		=> 'Вы не можете добавить самого себя в список друзей.',
 	'NOT_ADDED_FOES_MOD_ADMIN'		=> 'Вы не можете добавлять администраторов и модераторов в список недругов.',
 	'NOT_ADDED_FOES_ANONYMOUS'		=> 'Вы не можете добавить гостя в список недругов.',
+	'NOT_ADDED_FOES_BOTS'			=> 'Вы не можете добавить бота в список недругов.',
 	'NOT_ADDED_FOES_FRIENDS'		=> 'Вы не можете добавлять пользователей из списка друзей в список недругов.',
 	'NOT_ADDED_FOES_SELF'			=> 'Вы не можете добавить самого себя в список недругов.',
 	'NOT_AGREE'						=> 'Я не согласен с этими условиями',
@@ -330,7 +336,7 @@ $lang = array_merge($lang, array(
 	'PASSWORD_ACTIVATED'		=> 'Ваш новый пароль активирован.',
 	'PASSWORD_UPDATED'			=> 'Новый пароль успешно отправлен на ваш регистрационный адрес email.',
 	'PERMISSIONS_RESTORED'		=> 'Ваши права доступа восстановлены.',
-	'PERMISSIONS_TRANSFERRED'	=> 'Имитация прав доступа, установленных для <strong>%s</strong>, успешно проведена. Сейчас вы  можете просматривать конференцию с ограничениями, установленными для данного пользователя.<br />Пожалуйста, помните, что права администратора отключены. Вы можете прервать имитацию в любое время.',
+	'PERMISSIONS_TRANSFERRED'	=> 'Имитация прав доступа, установленных для <strong>%s</strong>, успешно проведена. Сейчас вы можете просматривать конференцию с ограничениями, установленными для данного пользователя.<br />Пожалуйста, помните, что права администратора отключены. Вы можете прервать имитацию в любое время.',
 	'PM_DISABLED'				=> 'Личные сообщения на этой конференции отключены.',
 	'PM_FROM'					=> 'От',
 	'PM_FROM_REMOVED_AUTHOR'	=> 'Это сообщение от уже незарегистрированного пользователя.',
@@ -346,7 +352,7 @@ $lang = array_merge($lang, array(
 	'POST_EDIT_PM'				=> 'Редактировать',
 	'POST_FORWARD_PM'			=> 'Переслать',
 	'POST_NEW_PM'				=> 'Создать сообщение',
-	'POST_PM_LOCKED'			=> 'Заблокировать',
+	'POST_PM_LOCKED'			=> 'Личное сообщение заблокировано.',
 	'POST_PM_POST'				=> 'Цитировать',
 	'POST_QUOTE_PM'				=> 'Цитировать сообщение',
 	'POST_REPLY_PM'				=> 'Ответить',
@@ -368,6 +374,8 @@ $lang = array_merge($lang, array(
 	'RENAME'							=> 'Переименовать',
 	'RENAME_FOLDER'						=> 'Переименовать папку',
 	'REPLIED_MESSAGE'					=> 'Отвеченные сообщения',
+	'REPLY_TO_ALL'						=> 'Ответ отправителю и всем получателям.',
+	'REPORT_PM'							=> 'Пожаловаться на личное сообщение',
 	'RESIGN_SELECTED'					=> 'Покинуть выбранную',
 	'RETURN_FOLDER'						=> '%1$sВернуться в предыдущую папку%2$s',
 	'RETURN_UCP'						=> '%sВернуться в личный раздел%s',
@@ -417,7 +425,7 @@ $lang = array_merge($lang, array(
 	'UCP_MAIN_FRONT'			=> 'Начало',
 	'UCP_MAIN_SUBSCRIBED'		=> 'Подписки',
 
-	'UCP_MSNM'					=> 'MSN Мessenger',
+	'UCP_MSNM'					=> 'WL/MSN Messenger',
 	'UCP_NO_ATTACHMENTS'		=> 'Вы не создали ни одного вложения.',
 
 	'UCP_PREFS'					=> 'Личные настройки',
