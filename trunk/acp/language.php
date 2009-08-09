@@ -4,7 +4,7 @@
 * acp_language [Russian]
 *
 * @package language
-* @version $Id: language.php,v 1.16 2007/10/04 15:07:24 acydburn Exp $
+* @version $Id: language.php 9649 2009-06-21 19:17:20Z bantu $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_FILES'						=> 'Администраторские файлы',
-	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Здесь вы можете устанавливать и удалять языковые пакеты.',
+	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Здесь вы можете устанавливать и удалять языковые пакеты. Языковой пакет, используемый на конференции по умолчанию, помечен звёздочкой (*).',
 
 	'EMAIL_FILES'			=> 'Шаблоны email-сообщений',
 
