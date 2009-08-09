@@ -4,7 +4,7 @@
 * posting [Russian]
 *
 * @package language
-* @version $Id: posting.php,v 1.50 2007/11/28 20:09:01 kellanved Exp $
+* @version $Id: posting.php 9902 2009-08-01 11:07:48Z acydburn $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -180,6 +180,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_URL'				=> 'Файл смайлика',
 	'SMILIES_WIDTH'				=> 'Ширина смайлика',
 
+	'TOO_MANY_SMILIES'			=> 'Достигнут предел в количестве %d смайликов.',
+
 	'WRONG_PAK_TYPE'	=> 'Указанный пакет не содержит подходящих данных.',
 ));
 
@@ -217,6 +219,7 @@ $lang = array_merge($lang, array(
 	'RANK_ADDED'			=> 'Звание успешно добавлено.',
 	'RANK_IMAGE'			=> 'Картинка к званию',
 	'RANK_IMAGE_EXPLAIN'	=> 'Здесь можно присвоить небольшой рисунок, связанный с данным званием. Путь к рисунку задаётся относительно корневой папки phpBB.',
+	'RANK_IMAGE_IN_USE'		=> '(используется)',
 	'RANK_MINIMUM'			=> 'Минимум сообщений',
 	'RANK_REMOVED'			=> 'Звание успешно удалено.',
 	'RANK_SPECIAL'			=> 'Специальное звание',
