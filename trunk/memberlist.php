@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * memberlist [Russian]
 *
 * @package language
-* @version $Id: memberlist.php,v 1.35 2007/10/04 15:07:24 acydburn Exp $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @version $Id: memberlist.php 9933 2009-08-06 09:12:21Z marshalrusty $
+* @copyright (c) 2005 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 
@@ -15,7 +15,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -90,7 +90,7 @@ $lang = array_merge($lang, array(
 	'IM_SEND_MESSAGE'		=> 'Отправить сообщение',
 	'IM_SENT_JABBER'		=> 'Ваше сообщение для %1$s было успешно отправлено.',
 	'IM_USER'				=> 'Отправить мгновенное сообщение',
-	
+
 	'LAST_ACTIVE'				=> 'Последнее посещение',
 	'LESS_THAN'					=> 'меньше',
 	'LIST_USER'					=> 'Пользователей: 1',
@@ -134,6 +134,10 @@ $lang = array_merge($lang, array(
 	'USER_ADMIN'			=> 'Администрировать',
 	'USER_BAN'				=> 'Блокировка',
 	'USER_FORUM'			=> 'Статистика пользователя',
+	'USER_LAST_REMINDED'	=> array(
+		0		=> 'Нет напоминаний, отправленных в это время',
+		1		=> 'Отправлено %1$d напоминание<br />» %2$s',
+	),
 	'USER_ONLINE'			=> 'В сети',
 	'USER_PRESENCE'			=> 'Присутствие на конференции',
 
