@@ -521,6 +521,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_SELF'				=> 'Ваши сообщения',
 	'SEARCH_TOPIC'				=> 'Поиск в теме…',
 	'SEARCH_UNANSWERED'			=> 'Сообщения без ответов',
+	'SEARCH_UNREAD'				=> 'Непрочитанные сообщения',
 	'SECONDS'					=> 'секунд',
 	'SELECT'					=> 'Выбор',
 	'SELECT_ALL_CODE'			=> 'Выделить всё',
