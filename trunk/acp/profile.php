@@ -4,7 +4,7 @@
 * acp_profile [Russian]
 *
 * @package language
-* @version $Id: profile.php,v 1.26 2007/10/04 15:07:24 acydburn Exp $
+* @version $Id: profile.php 9916 2009-08-03 15:46:56Z Kellanved $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -66,6 +66,8 @@ $lang = array_merge($lang, array(
 	'DISPLAY_AT_PROFILE_EXPLAIN'	=> 'Пользователь может изменить значение поля в личном разделе.',
 	'DISPLAY_AT_REGISTER'			=> 'В форме регистрации',
 	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'Если включено, поле можно заполнить при регистрации.',
+	'DISPLAY_ON_VT'					=> 'На страницах тем',
+	'DISPLAY_ON_VT_EXPLAIN'			=> 'При включении данной опции поле будет отображаться на страницах тем под аватарами пользователей.',
 	'DISPLAY_PROFILE_FIELD'			=> 'Отображать поле для всех',
 	'DISPLAY_PROFILE_FIELD_EXPLAIN'	=> 'Поле профиля будет показано там, где это разрешено в настройках нагрузки на сервер. Если установлено значение «Нет», данное поле будет скрыто при просмотре тем, профилей, списка пользователей.',
 	'DROPDOWN_ENTRIES_EXPLAIN'		=> 'Введите варианты ответа, по одному ответу на строку',
