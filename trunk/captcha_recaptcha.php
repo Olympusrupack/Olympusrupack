@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* recaptcha [English]
+* recaptcha [Russian]
 *
 * @package language
 * @version $Id: captcha_recaptcha.php 9933 2009-08-06 09:12:21Z marshalrusty $
@@ -36,17 +36,17 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'RECAPTCHA_LANG'				=> 'en',
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'In order to use reCaptcha, you must create an account on <a href="http://recaptcha.net">reCaptcha.net</a>.',
+	'RECAPTCHA_LANG'				=> 'ru',
+	'RECAPTCHA_NOT_AVAILABLE'		=> 'Для использования reCaptcha необходимо создать учётную запись на сайте <a href="http://recaptcha.net">reCaptcha.net</a>.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
-	'RECAPTCHA_INCORRECT'			=> 'The visual confirmation code you submitted was incorrect',
+	'RECAPTCHA_INCORRECT'			=> 'Неверный код визуального подтверждения',
 
-	'RECAPTCHA_PUBLIC'				=> 'Public reCaptcha key',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Your public reCaptcha key. Keys can be obtained on <a href="http://recaptcha.net">reCaptcha.net</a>.',
-	'RECAPTCHA_PRIVATE'				=> 'Private reCaptcha key',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Your private reCaptcha key. Keys can be obtained on <a href="http://recaptcha.net">reCaptcha.net</a>.',
+	'RECAPTCHA_PUBLIC'				=> 'Публичный ключ reCaptcha (Public Key)',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Ваш публичный ключ reCaptcha. Ключи можно получить на сайте <a href="http://recaptcha.net">reCaptcha.net</a>.',
+	'RECAPTCHA_PRIVATE'				=> 'Закрытый ключ reCaptcha (Private Key)',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Ваш закрытый ключ reCaptcha. Ключи можно получить на сайте <a href="http://recaptcha.net">reCaptcha.net</a>.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'In an effort to prevent automatic submissions, we require that you enter both of the words displayed below into the text field underneath.',
+	'RECAPTCHA_EXPLAIN'				=> 'В целях предотвращения автоматических регистраций введите оба отображённых слова в текстовое поле.',
 ));
 
 ?>

@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* recaptcha [English]
+* recaptcha [Russian]
 *
 * @package language
 * @version $Id: captcha_qa.php 9933 2009-08-06 09:12:21Z marshalrusty $
@@ -36,28 +36,28 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CAPTCHA_QA'				=> 'Q&amp;A CAPTCHA',
-	'CONFIRM_QUESTION_EXPLAIN'	=> 'The following question is a means of identifying and preventing automated submissions.',
-	'CONFIRM_QUESTION_WRONG'	=> 'You have provided an invalid answer to the confirmation question.',
+	'CAPTCHA_QA'				=> 'Текстовое подтверждение',
+	'CONFIRM_QUESTION_EXPLAIN'	=> 'Следующий вопрос является одним из средств выявления и предотвращения автоматических регистраций.',
+	'CONFIRM_QUESTION_WRONG'	=> 'Вы ввели неправильный ответ на вопрос.',
 
-	'QUESTION_ANSWERS'			=> 'Answers',
-	'ANSWERS_EXPLAIN'			=> 'Please enter valid answers to the question, one per line.',
-	'CONFIRM_QUESTION'			=> 'Question',
+	'QUESTION_ANSWERS'			=> 'Ответы',
+	'ANSWERS_EXPLAIN'			=> 'Введите правильные ответы на вопрос. Каждый ответ вводите на отдельной строке.',
+	'CONFIRM_QUESTION'			=> 'Вопрос',
 
-	'ANSWER'					=> 'Answer',
-	'EDIT_QUESTION'				=> 'Edit Question',
-	'QUESTIONS'					=> 'Questions',
-	'QUESTIONS_EXPLAIN'			=> 'During registration, users will be asked one of the questions specified here. To use this plugin, at least one question must be set in the default language. These questions should be easy for your target audience to answer, but beyond the ability of a bot capable of running a Google™ search. Using a large and regulary changed set of questions will yield the best results. Enable the strict setting if your question relies on punctuation or capitalisation.',
-	'QUESTION_DELETED'			=> 'Question deleted',
-	'QUESTION_LANG'				=> 'Language',
-	'QUESTION_LANG_EXPLAIN'		=> 'The language that this question and its answers are written in.',
-	'QUESTION_STRICT'			=> 'Strict check',
-	'QUESTION_STRICT_EXPLAIN'	=> 'If enabled, capitalisation and whitespace will also be enforced.',
+	'ANSWER'					=> 'Ответ',
+	'EDIT_QUESTION'				=> 'Редактирование вопроса',
+	'QUESTIONS'					=> 'Вопросы',
+	'QUESTIONS_EXPLAIN'			=> 'При регистрации пользователю будет предложен один из указанных здесь вопросов. Для использования данного модуля, по крайней мере, один вопрос должен быть установлен на языке по умолчанию. Эти вопросы должны быть просты для вашей потенциальной аудитории, но, в то же время, сложны для бота, способного начать поиск в Google. Использование обширного и часто изменяемого набора вопросов даст наилучшие результаты. Включите строгую проверку, если ваш вопрос зависит от знаков препинания или регистра символов.',
+	'QUESTION_DELETED'			=> 'Удалить вопрос',
+	'QUESTION_LANG'				=> 'Язык',
+	'QUESTION_LANG_EXPLAIN'		=> 'Язык, на котором написан этот вопрос и ответ на него.',
+	'QUESTION_STRICT'			=> 'Строгая проверка',
+	'QUESTION_STRICT_EXPLAIN'	=> 'При включении опции в ответах будут учитываться регистр символов и пробелы.',
 
-	'QUESTION_TEXT'				=> 'Question',
-	'QUESTION_TEXT_EXPLAIN'		=> 'The question that will be asked on registration.',
+	'QUESTION_TEXT'				=> 'Вопрос',
+	'QUESTION_TEXT_EXPLAIN'		=> 'Вопрос, который будет задан при регистрации.',
 
-	'QA_ERROR_MSG'				=> 'Please fill in all fields and enter at least one answer.',
+	'QA_ERROR_MSG'				=> 'Заполните все поля, и введите не менее одного ответа.',
 ));
 
 ?>

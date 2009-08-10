@@ -276,9 +276,9 @@ $lang = array_merge($lang, array(
 
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
-	'ACP_VC_SETTINGS_EXPLAIN'				=> 'Here you can select and configure CAPTCHA plugins, which implement various ways to reject registration attempts from so-called spambots.',
-	'AVAILABLE_CAPTCHAS'					=> 'Available plugins',
-	'CAPTCHA_UNAVAILABLE'					=> 'The CAPTCHA cannot be selected as its requirements are not met.',
+	'ACP_VC_SETTINGS_EXPLAIN'				=> 'Здесь вы можете выбрать и настроить модули CAPTCHA, которые реализуют различные способы предотвращения автоматизированных регистраций.',
+	'AVAILABLE_CAPTCHAS'					=> 'Доступные модули',
+	'CAPTCHA_UNAVAILABLE'					=> 'Данный модуль CAPTCHA не может быть выбран, поскольку требования для его использования не выполнены.',
 	'CAPTCHA_GD'							=> 'GD CAPTCHA',
 	'CAPTCHA_GD_3D'							=> 'GD 3D Captcha',
 	'CAPTCHA_GD_FOREGROUND_NOISE'			=> 'GD CAPTCHA с шумом на переднем плане',
@@ -297,23 +297,23 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_FONT_DEFAULT'					=> 'По умолчанию',
 	'CAPTCHA_FONT_NEW'						=> 'Новые формы',
 	'CAPTCHA_FONT_LOWER'					=> 'Использовать нижний регистр',
-	'CAPTCHA_NO_GD'							=> 'CAPTCHA without GD',
+	'CAPTCHA_NO_GD'							=> 'CAPTCHA без GD',
 	'CAPTCHA_PREVIEW_MSG'					=> 'Это просто предварительный просмотр. Изменения в настройках визуального подтверждения ещё не сохранены.',
-	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'The CAPTCHA as it would look like using the current selection.',
+	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'Здесь показывается, как будет выглядеть CAPTCHA при использовании текущих настроек.',
 
-	'CAPTCHA_SELECT'						=> 'Installed CAPTCHA plugins',
-	'CAPTCHA_SELECT_EXPLAIN'				=> 'The dropdown holds the CAPTCHA plugins recognized by the board. Gray entries are not available right now and might need configuration prior to use.',
-	'CAPTCHA_CONFIGURE'						=> 'Configure CAPTCHAs',
-	'CAPTCHA_CONFIGURE_EXPLAIN'				=> 'Change the settings for the selected CAPTCHA.',
-	'CONFIGURE'								=> 'Configure',
-	'CAPTCHA_NO_OPTIONS'					=> 'This CAPTCHA has no configuration options.',
+	'CAPTCHA_SELECT'						=> 'Установленные модули CAPTCHA',
+	'CAPTCHA_SELECT_EXPLAIN'				=> 'В этом списке содержатся модули CAPTCHA, распознанные вашей конференцией. Модули, выделенные серым цветом, перед использованием, возможно, нуждаются в предварительной настройке, и поэтому недоступны прямо сейчас.',
+	'CAPTCHA_CONFIGURE'						=> 'Настройка CAPTCHA',
+	'CAPTCHA_CONFIGURE_EXPLAIN'				=> 'Изменение настроек выбранного модуля CAPTCHA.',
+	'CONFIGURE'								=> 'Настройка',
+	'CAPTCHA_NO_OPTIONS'					=> 'Данный модуль CAPTCHA не имеет настроек.',
 
 	'VISUAL_CONFIRM_POST'					=> 'Визуальное подтверждение для гостей',
 	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'Для предотвращения массовой отправки сообщений анонимные пользователи при размещении сообщений должны будут ввести код подтверждения, показываемый им на картинке.',
 	'VISUAL_CONFIRM_REG'					=> 'Визуальное подтверждение при регистрации',
 	'VISUAL_CONFIRM_REG_EXPLAIN'			=> 'Для предотвращения автоматических регистраций новые пользователи при регистрации должны будут ввести код подтверждения, показываемый им на картинке.',
 	'VISUAL_CONFIRM_REFRESH'				=> 'Разрешить пользователям обновлять картинку визуального подтверждения',
-	'VISUAL_CONFIRM_REFRESH_EXPLAIN'		=> 'Allows users to request new confirmation codes, if they are unable to solve the VC during registration. Some plugins might not support this option.',
+	'VISUAL_CONFIRM_REFRESH_EXPLAIN'		=> 'Позволяет пользователям запрашивать новый код подтверждения, если они не смогли его прочесть во время регистрации. Некоторые модули могут не поддерживать эту функцию.',
 ));
 
 // Cookie Settings

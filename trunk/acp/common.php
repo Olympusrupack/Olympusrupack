@@ -189,7 +189,7 @@ $lang = array_merge($lang, array(
 	'ACP_USER_SIG'					=> 'Подпись',
 	'ACP_USER_WARNINGS'				=> 'Предупреждения',
 
-	'ACP_VC_SETTINGS'					=> 'CAPTCHA module settings',
+	'ACP_VC_SETTINGS'					=> 'Параметры CAPTCHA',
 	'ACP_VC_CAPTCHA_DISPLAY'			=> 'Просмотр визуального подтверждения',
 	'ACP_VERSION_CHECK'					=> 'Проверка обновлений',
 	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'Права администраторов',
