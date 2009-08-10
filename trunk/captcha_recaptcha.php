@@ -37,16 +37,16 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'RECAPTCHA_LANG'				=> 'ru',
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'Для использования reCaptcha необходимо создать учётную запись на сайте <a href="http://recaptcha.net">reCaptcha.net</a>.',
+	'RECAPTCHA_NOT_AVAILABLE'		=> 'Р”Р»СЏ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ reCaptcha РЅРµРѕР±С…РѕРґРёРјРѕ СЃРѕР·РґР°С‚СЊ СѓС‡С‘С‚РЅСѓСЋ Р·Р°РїРёСЃСЊ РЅР° СЃР°Р№С‚Рµ <a href="http://recaptcha.net">reCaptcha.net</a>.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
-	'RECAPTCHA_INCORRECT'			=> 'Неверный код визуального подтверждения',
+	'RECAPTCHA_INCORRECT'			=> 'РќРµРІРµСЂРЅС‹Р№ РєРѕРґ РІРёР·СѓР°Р»СЊРЅРѕРіРѕ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ',
 
-	'RECAPTCHA_PUBLIC'				=> 'Публичный ключ reCaptcha (Public Key)',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Ваш публичный ключ reCaptcha. Ключи можно получить на сайте <a href="http://recaptcha.net">reCaptcha.net</a>.',
-	'RECAPTCHA_PRIVATE'				=> 'Закрытый ключ reCaptcha (Private Key)',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Ваш закрытый ключ reCaptcha. Ключи можно получить на сайте <a href="http://recaptcha.net">reCaptcha.net</a>.',
+	'RECAPTCHA_PUBLIC'				=> 'РџСѓР±Р»РёС‡РЅС‹Р№ РєР»СЋС‡ reCaptcha (Public Key)',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Р’Р°С€ РїСѓР±Р»РёС‡РЅС‹Р№ РєР»СЋС‡ reCaptcha. РљР»СЋС‡Рё РјРѕР¶РЅРѕ РїРѕР»СѓС‡РёС‚СЊ РЅР° СЃР°Р№С‚Рµ <a href="http://recaptcha.net">reCaptcha.net</a>.',
+	'RECAPTCHA_PRIVATE'				=> 'Р—Р°РєСЂС‹С‚С‹Р№ РєР»СЋС‡ reCaptcha (Private Key)',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Р’Р°С€ Р·Р°РєСЂС‹С‚С‹Р№ РєР»СЋС‡ reCaptcha. РљР»СЋС‡Рё РјРѕР¶РЅРѕ РїРѕР»СѓС‡РёС‚СЊ РЅР° СЃР°Р№С‚Рµ <a href="http://recaptcha.net">reCaptcha.net</a>.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'В целях предотвращения автоматических регистраций введите оба отображённых слова в текстовое поле.',
+	'RECAPTCHA_EXPLAIN'				=> 'Р’ С†РµР»СЏС… РїСЂРµРґРѕС‚РІСЂР°С‰РµРЅРёСЏ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРёС… СЂРµРіРёСЃС‚СЂР°С†РёР№ РІРІРµРґРёС‚Рµ РѕР±Р° РѕС‚РѕР±СЂР°Р¶С‘РЅРЅС‹С… СЃР»РѕРІР° РІ С‚РµРєСЃС‚РѕРІРѕРµ РїРѕР»Рµ.',
 ));
 
 ?>
