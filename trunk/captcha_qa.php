@@ -1,10 +1,10 @@
 <?php
 /**
 *
-* recaptcha [Russian]
+* captcha_qa [Russian]
 *
 * @package language
-* @version $Id: captcha_qa.php 9933 2009-08-06 09:12:21Z marshalrusty $
+* @version $Id: captcha_qa.php 9966 2009-08-12 15:12:03Z Kellanved $
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'CAPTCHA_QA'				=> 'Текстовое подтверждение',
-	'CONFIRM_QUESTION_EXPLAIN'	=> 'Следующий вопрос является одним из средств выявления и предотвращения автоматических регистраций.',
+	'CONFIRM_QUESTION_EXPLAIN'	=> 'Этот вопрос является одним из средств выявления и предотвращения автоматических регистраций.',
 	'CONFIRM_QUESTION_WRONG'	=> 'Вы ввели неправильный ответ на вопрос.',
 
 	'QUESTION_ANSWERS'			=> 'Ответы',
