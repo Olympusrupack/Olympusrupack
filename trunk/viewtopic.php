@@ -4,7 +4,7 @@
 * viewtopic [Russian]
 *
 * @package language
-* @version $Id: viewtopic.php 9913 2009-08-02 11:35:42Z Kellanved $
+* @version $Id: viewtopic.php 9972 2009-08-14 08:42:46Z Kellanved $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -37,54 +37,55 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ATTACHMENT'						=> 'Вложение',
-	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'Функция вложений выключена.',
+	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'Функция вложений отключена.',
 
-	'BOOKMARK_ADDED'		=> 'Тема успешно помещена в закладки',
+	'BOOKMARK_ADDED'		=> 'Тема успешно добавлена в закладки.',
 	'BOOKMARK_ERR'			=> 'Попытка поместить тему в закладки не удалась. Попробуйте ещё раз.',
 	'BOOKMARK_REMOVED'		=> 'Тема успешно удалена из закладок.',
 	'BOOKMARK_TOPIC'		=> 'В закладки',
 	'BOOKMARK_TOPIC_REMOVE'	=> 'Удалить из закладок',
-	'BUMPED_BY'				=> 'Последний раз поднималось %1$s %2$s.',
+	'BUMPED_BY'				=> 'Тема поднималась пользователем %1$s %2$s.',
 	'BUMP_TOPIC'			=> 'Поднять тему',
 
 	'CODE'					=> 'Код',
+	'COLLAPSE_QR'			=> 'Скрыть быстрый ответ',
 
 	'DELETE_TOPIC'			=> 'Удалить тему',
-	'DOWNLOAD_NOTICE'		=> 'У вас нет доступа для просмотра вложений в этом сообщении.',
+	'DOWNLOAD_NOTICE'		=> 'У вас нет необходимых прав для просмотра вложений в этом сообщении.',
 
 	'EDITED_TIMES_TOTAL'	=> 'Последний раз редактировалось %1$s %2$s, всего редактировалось %3$d раз(а).',
 	'EDITED_TIME_TOTAL'		=> 'Последний раз редактировалось %1$s %2$s, всего редактировалось %3$d раз.',
 	'EMAIL_TOPIC'			=> 'Сообщить другу',
-	'ERROR_NO_ATTACHMENT'	=> 'Выбранное вложение больше не существует.',
+	'ERROR_NO_ATTACHMENT'	=> 'Выбранного вложения больше не существует.',
 
 	'FILE_NOT_FOUND_404'	=> 'Файл <strong>%s</strong> не существует.',
 	'FORK_TOPIC'			=> 'Копировать тему',
 	'FULL_EDITOR'			=> 'Полный редактор',
 
 	'LINKAGE_FORBIDDEN'		=> 'Вы не авторизованы для просмотра или скачивания файлов.',
-	'LOGIN_NOTIFY_TOPIC'	=> 'Вы получили уведомление о новом сообщении в теме, пожалуйста, авторизируйтесь для его просмотра',
-	'LOGIN_VIEWTOPIC'		=> 'Для просмотра темы вы должны быть зарегистрированным пользователем.',
+	'LOGIN_NOTIFY_TOPIC'	=> 'Вы получили уведомление о новом сообщении в теме. Авторизуйтесь для его просмотра.',
+	'LOGIN_VIEWTOPIC'		=> 'Необходимо авторизоваться для просмотра этой темы.',
 
 	'MAKE_ANNOUNCE'				=> 'Сделать объявлением',
 	'MAKE_GLOBAL'				=> 'Сделать важной',
 	'MAKE_NORMAL'				=> 'Сделать обычной',
 	'MAKE_STICKY'				=> 'Сделать прилепленной',
-	'MAX_OPTIONS_SELECT'		=> 'Вы можете выбрать до <strong>%d</strong> вариантов ответов.',
-	'MAX_OPTION_SELECT'			=> 'Вы можете выбрать <strong>1</strong> вариант ответа.',
-	'MISSING_INLINE_ATTACHMENT'	=> 'Вложение <strong>%s</strong> больше недоступно.',
+	'MAX_OPTIONS_SELECT'		=> 'Можно выбрать до <strong>%d</strong> вариантов ответа',
+	'MAX_OPTION_SELECT'			=> 'Можно выбрать только <strong>1</strong> вариант ответа',
+	'MISSING_INLINE_ATTACHMENT'	=> 'Вложение <strong>%s</strong> больше недоступно',
 	'MOVE_TOPIC'				=> 'Переместить тему',
 
 	'NO_ATTACHMENT_SELECTED'=> 'Вы не выбрали вложение для скачивания или просмотра.',
 	'NO_NEWER_TOPICS'		=> 'В этом форуме нет более новых тем.',
 	'NO_OLDER_TOPICS'		=> 'В этом форуме нет более старых тем.',
-	'NO_UNREAD_POSTS'		=> 'В этой теме нет новых непрочитанных сообщений',
-	'NO_VOTE_OPTION'		=> 'Вы должны указать вариант ответа при голосовании.',
-	'NO_VOTES'				=> 'Ответы отсутствуют.',
+	'NO_UNREAD_POSTS'		=> 'В этой теме нет новых непрочитанных сообщений.',
+	'NO_VOTE_OPTION'		=> 'Необходимо указать вариант ответа при голосовании.',
+	'NO_VOTES'				=> 'Голосов нет',
 
 	'POLL_ENDED_AT'			=> 'Опрос закончился %s',
 	'POLL_RUN_TILL'			=> 'Опрос проводится до %s',
 	'POLL_VOTED_OPTION'		=> 'Вы голосовали за этот вариант',
-	'PRINT_TOPIC'			=> 'Для печати',
+	'PRINT_TOPIC'			=> 'Версия для печати',
 
 	'QUICK_MOD'				=> 'Быстрые действия',
 	'QUICKREPLY'			=> 'Быстрый ответ',
