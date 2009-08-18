@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * search [Russian]
 *
 * @package language
-* @version $Id: search.php,v 1.26 2007/10/04 15:07:24 acydburn Exp $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @version $Id: search.php 10004 2009-08-17 13:25:04Z rxu $
+* @copyright (c) 2005 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 
@@ -15,7 +15,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -53,6 +53,7 @@ $lang = array_merge($lang, array(
 	'JUMP_TO_POST'			=> 'Перейти к сообщению',
 
 	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'Вы должны быть зарегистрированы и авторизованы в системе для просмотра своих сообщений.',
+	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'Вы должны быть зарегистрированы и авторизованы в системе для просмотра непрочитанных сообщений.',
 
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> 'Вы указали слишком много слов для поиска. Число таких слов не должно превышать %1$d.',
 
@@ -71,7 +72,7 @@ $lang = array_merge($lang, array(
 	'RESULT_SORT'			=> 'Поле сортировки',
 	'RETURN_FIRST'			=> 'Показывать первые',
 	'RETURN_TO_SEARCH_ADV'	=> 'Вернуться к расширенному поиску',
-	
+
 	'SEARCHED_FOR'				=> 'Поисковый запрос',
 	'SEARCHED_TOPIC'			=> 'Поиск в теме',
 	'SEARCH_ALL_TERMS'			=> 'Искать все слова',
