@@ -4,7 +4,7 @@
 * acp_common [Russian]
 *
 * @package language
-* @version $Id: common.php 9969 2009-08-13 14:51:47Z naderman $
+* @version $Id: common.php 10042 2009-08-22 02:56:05Z terrafrost $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -232,8 +232,6 @@ $lang = array_merge($lang, array(
 	'EXPORT_DOWNLOAD'		=> 'Скачать',
 	'EXPORT_STORE'			=> 'Сохранить',
 
-	'FILTER'				=> 'Фильтр',
-
 	'GENERAL_OPTIONS'		=> 'Общие параметры',
 	'GENERAL_SETTINGS'		=> 'Общие настройки',
 	'GLOBAL_MASK'			=> 'Глобальная маска доступа',
@@ -277,7 +275,6 @@ $lang = array_merge($lang, array(
 	'RETURN_TO'							=> 'Вернуться в…',
 
 	'SELECT_ANONYMOUS'		=> 'Выбрать учётную запись гостя',
-	'SELECT_LANG_KEY'		=> 'Выберите действие',
 	'SELECT_OPTION'			=> 'Выберите действие',
 
 	'SETTING_TOO_LOW'		=> 'Введённое значение параметра «%1$s» слишком маленькое. Минимальное допустимое значение — %2$d.',
@@ -310,8 +307,6 @@ $lang = array_merge($lang, array(
 	'ALL_ENTRIES'				=> 'Все записи',
 
 	'DISPLAY_LOG'	=> 'Показать записи за',
-
-	'LOGS_PLACEHOLDER'	=> '&lt;value&gt;',
 
 	'NO_ENTRIES'	=> 'Нет записей за указанный период.',
 
