@@ -4,7 +4,7 @@
 * install [Russian]
 *
 * @package language
-* @version $Id: install.php 9988 2009-08-15 00:53:22Z bantu $
+* @version $Id: install.php 10070 2009-08-31 08:58:44Z bantu $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -368,7 +368,7 @@ $lang = array_merge($lang, array(
 
 // Updater
 $lang = array_merge($lang, array(
-	'ALL_FILES_UP_TO_DATE'		=> 'Все файлы соответствуют самой последней версии phpBB. Теперь <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=questionnaire">войдите на конференцию</a> и проверьте, что всё работает нормально. Не забудьте удалить, переименовать или переместить папку «install»! Пожалуйста, отправьте нам обновлённую информацию о вашем сервере и конфигурации конференции с помощью страницы <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=questionnaire">отправки статической информации</a> в панели администрирования.',
+	'ALL_FILES_UP_TO_DATE'		=> 'Все файлы соответствуют самой последней версии phpBB. Теперь <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">войдите на конференцию</a> и проверьте, что всё работает нормально. Не забудьте удалить, переименовать или переместить папку «install»! Пожалуйста, отправьте нам обновлённую информацию о вашем сервере и конфигурации конференции с помощью страницы <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">отправки статической информации</a> в панели администрирования.',
 	'ARCHIVE_FILE'				=> 'Файл-источник в архиве',
 
 	'BACK'				=> 'Назад',
