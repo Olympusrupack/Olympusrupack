@@ -572,6 +572,7 @@ $lang = array_merge($lang, array(
 	'LOG_GROUP_UPDATED'		=> '<strong>Обновлена информация о группе</strong><br />» %s',
 	'LOG_MODS_ADDED'		=> '<strong>Добавлены новые лидеры в группу</strong> %1$s<br />» %2$s',
 	'LOG_USERS_ADDED'		=> '<strong>Добавлены пользователи в группу</strong> %1$s<br />» %2$s',
+	'LOG_USERS_APPROVED'	=> '<strong>Одобрены кандидаты в группу</strong> %1$s<br />» %2$s',
 	'LOG_USERS_PENDING'		=> '<strong>Пользователи запросили вступления в группу «%1$s» и ожидают одобрения</strong><br />» %2$s',
 
 	'LOG_IMAGE_GENERATION_ERROR'	=> '<strong>Ошибка при создании изображения</strong><br />» Ошибка в %1$s в строке %2$s: %3$s',
