@@ -4,7 +4,7 @@
 * acp_common [Russian]
 *
 * @package language
-* @version $Id: common.php 10042 2009-08-22 02:56:05Z terrafrost $
+* @version $Id: common.php 10134 2009-09-10 15:32:16Z marshalrusty $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -278,9 +278,9 @@ $lang = array_merge($lang, array(
 	'SELECT_OPTION'			=> 'Выберите действие',
 
 	'SETTING_TOO_LOW'		=> 'Введённое значение параметра «%1$s» слишком маленькое. Минимальное допустимое значение — %2$d.',
-	'SETTING_TOO_BIG'		=> 'Введённое значение параметра «%1$s» слишком большое. Максимальное допустимое значение — %2$d.',
+	'SETTING_TOO_BIG'		=> 'Введённое значение параметра «%1$s» слишком высокое. Максимальное допустимое значение — %2$d.',
 	'SETTING_TOO_LONG'		=> 'Введённое значение параметра «%1$s» слишком длинное. Максимальная допустимая длина — %2$d.',
-	'SETTING_TOO_SHORT'		=> 'Введённое значение параметра «%1$s» недостаточно длинное. Минимальная допустимая длина — %2$d.',
+	'SETTING_TOO_SHORT'		=> 'Введённое значение параметра «%1$s» слишком короткое. Минимальная допустимая длина — %2$d.',
 
 	'SHOW_ALL_OPERATIONS'	=> 'Показать все действия',
 
@@ -572,6 +572,7 @@ $lang = array_merge($lang, array(
 	'LOG_GROUP_UPDATED'		=> '<strong>Обновлена информация о группе</strong><br />» %s',
 	'LOG_MODS_ADDED'		=> '<strong>Добавлены новые лидеры в группу</strong> %1$s<br />» %2$s',
 	'LOG_USERS_ADDED'		=> '<strong>Добавлены пользователи в группу</strong> %1$s<br />» %2$s',
+	'LOG_USERS_APPROVED'	=> '<strong>Одобрены кандидаты в группу</strong> %1$s<br />» %2$s',
 	'LOG_USERS_PENDING'		=> '<strong>Пользователи запросили вступления в группу «%1$s» и ожидают одобрения</strong><br />» %2$s',
 
 	'LOG_IMAGE_GENERATION_ERROR'	=> '<strong>Ошибка при создании изображения</strong><br />» Ошибка в %1$s в строке %2$s: %3$s',
