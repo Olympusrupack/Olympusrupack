@@ -4,7 +4,7 @@
 * install [Russian]
 *
 * @package language
-* @version $Id: install.php 10070 2009-08-31 08:58:44Z bantu $
+* @version $Id: install.php 10152 2009-09-16 13:02:13Z acydburn $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -451,8 +451,8 @@ $lang = array_merge($lang, array(
 
 	'MERGE_NO_MERGE_NEW_OPTION'	=> 'Не объединять — использовать новый файл',
 	'MERGE_NO_MERGE_MOD_OPTION'	=> 'Не объединять — использовать имеющийся файл',
-	'MERGE_MOD_FILE_OPTION'		=> 'Объединить изменения (не использовать новый код в конфликтном месте)',
-	'MERGE_NEW_FILE_OPTION'		=> 'Объединить изменения (не использовать изменённый код в конфликтном месте)',
+	'MERGE_MOD_FILE_OPTION'		=> 'Объединить изменения (удалить новый код в конфликтном месте)',
+	'MERGE_NEW_FILE_OPTION'		=> 'Объединить изменения (удалить изменённый код в конфликтном месте)',
 	'MERGE_SELECT_ERROR'		=> 'Неверно выбраны способы объединения конфликтного файла с новой версией.',
 	'MERGING_FILES'				=> 'Объединение различий',
 	'MERGING_FILES_EXPLAIN'		=> 'Сейчас производится окончательное изменение файлов.<br /><br />Дождитесь окончания всех операций по изменению файлов.',
