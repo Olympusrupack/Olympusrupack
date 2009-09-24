@@ -157,7 +157,7 @@ $lang = array_merge($lang, array(
 	'ACP_SEARCH_SETTINGS'		=> 'Поиск',
 
 	'ACP_SECURITY_SETTINGS'		=> 'Безопасность',
-	'ACP_SEND_STATISTICS'		=> 'Статические данные',
+	'ACP_SEND_STATISTICS'		=> 'Статистические данные',
 	'ACP_SERVER_CONFIGURATION'	=> 'Конфигурация сервера',
 	'ACP_SERVER_SETTINGS'		=> 'Настройки сервера',
 	'ACP_SIGNATURE_SETTINGS'	=> 'Подписи',
@@ -415,7 +415,7 @@ $lang = array_merge($lang, array(
 	'DONT_SEND_STATISTICS'		=> 'Переход на главную страницу панели администрирования',
 	'GO_ACP_MAIN'				=> 'Переход на главную страницу панели администрирования',
 	'HIDE_STATISTICS'			=> 'Скрыть подробности',
-	'SEND_STATISTICS'			=> 'Отправка статической информации',
+	'SEND_STATISTICS'			=> 'Отправка статистической информации',
 	'SHOW_STATISTICS'			=> 'Показать подробности',
 	'THANKS_SEND_STATISTICS'	=> 'Благодарим за предоставленную вами информацию!',
 ));
