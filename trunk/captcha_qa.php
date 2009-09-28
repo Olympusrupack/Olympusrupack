@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'CAPTCHA_QA'				=> 'Текстовое подтверждение',
-	'CONFIRM_QUESTION_EXPLAIN'	=> 'Этот вопрос предназначем для выявления и предотвращения автоматических регистраций.',
+	'CONFIRM_QUESTION_EXPLAIN'	=> 'Этот вопрос предназначен для выявления и предотвращения автоматических регистраций.',
 	'CONFIRM_QUESTION_WRONG'	=> 'Вы ввели неправильный ответ на вопрос.',
 
 	'QUESTION_ANSWERS'			=> 'Ответы',
