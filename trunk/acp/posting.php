@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_TAG_DEF_TOO_LONG'	=> 'Введённое определение тега слишком длинное. Введите более короткое определение.',
 	'BBCODE_USAGE'				=> 'Использование BBCode',
 	'BBCODE_USAGE_EXAMPLE'		=> '[highlight={COLOR}]{TEXT}[/highlight]<br /><br />[font={SIMPLETEXT1}]{SIMPLETEXT2}[/font]',
-	'BBCODE_USAGE_EXPLAIN'		=> 'Здесь определяется использование BBCode. Любая вводимая переменная может быть заменена на соотвествующую лексему (%sпримеры ниже%s).',
+	'BBCODE_USAGE_EXPLAIN'		=> 'Здесь определяется использование BBCode. Любая вводимая переменная может быть заменена на соответствующую лексему (%sпримеры ниже%s).',
 
 	'EXAMPLE'						=> 'Пример:',
 	'EXAMPLES'						=> 'Примеры:',
