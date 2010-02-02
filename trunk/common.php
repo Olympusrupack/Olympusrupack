@@ -416,6 +416,7 @@ $lang = array_merge($lang, array(
 
 	'PAGE_OF'				=> 'Страница <strong>%1$d</strong> из <strong>%2$d</strong>',
 	'PASSWORD'				=> 'Пароль',
+ 	'PIXEL'					=> 'пикс.',
 	'PLAY_QUICKTIME_FILE'	=> 'Воспроизвести файл QuickTime',
 	'PM'					=> 'Личное сообщение',
 	'POSTING_MESSAGE'		=> 'Размещение сообщения в форуме «%s»',
@@ -490,6 +491,8 @@ $lang = array_merge($lang, array(
 	'RETURN_TO'					=> 'Вернуться в',
 	'FEED'						=> 'Канал',
 	'FEED_NEWS'					=> 'Новости',
+ 	'FEED_TOPICS_ACTIVE'		=> 'Активные темы',
+ 	'FEED_TOPICS_NEW'			=> 'Новые темы',
 	'RULES_ATTACH_CAN'			=> 'Вы <strong>можете</strong> добавлять вложения',
 	'RULES_ATTACH_CANNOT'		=> 'Вы <strong>не можете</strong> добавлять вложения',
 	'RULES_DELETE_CAN'			=> 'Вы <strong>можете</strong> удалять свои сообщения',

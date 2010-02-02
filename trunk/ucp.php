@@ -460,6 +460,7 @@ $lang = array_merge($lang, array(
 	'UCP_ZEBRA'						=> 'Друзья и недруги',
 	'UCP_ZEBRA_FOES'				=> 'Список недругов',
 	'UCP_ZEBRA_FRIENDS'				=> 'Список друзей',
+ 	'UNDISCLOSED_RECIPIENT'			=> 'Неизвестный получатель',
 	'UNKNOWN_FOLDER'				=> 'Неизвестная папка',
 	'UNWATCH_MARKED'				=> 'Отписаться от выделенного',
 	'UPLOAD_AVATAR_FILE'			=> 'Загрузить с вашего компьютера',
