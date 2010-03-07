@@ -166,7 +166,7 @@ $lang = array_merge($lang, array(
 	'ACP_STYLE_MANAGEMENT'		=> 'Управление стилями',
 	'ACP_STYLES'				=> 'Стили',
 
-	'ACP_SUBMIT_CHANGES'		=> 'Утвердить изменения',
+	'ACP_SUBMIT_CHANGES'		=> 'Сохранить изменения',
 
 	'ACP_TEMPLATES'				=> 'Шаблоны',
 	'ACP_THEMES'				=> 'Темы',
