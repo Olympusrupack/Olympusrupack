@@ -453,7 +453,7 @@ $lang = array_merge($lang, array(
 	'PROFILE'				=> 'Личный раздел',
 
 	'READING_FORUM'				=> 'Просмотр форума «%s»',
-	'READING_GLOBAL_ANNOUNCE'	=> 'Чтение общего объявления',
+	'READING_GLOBAL_ANNOUNCE'	=> 'Чтение важного объявления',
 	'READING_LINK'				=> 'Переход по ссылке форума «%s»',
 	'READING_TOPIC'				=> 'Просмотр темы в форуме «%s»',
 	'READ_PROFILE'				=> 'Профиль',
