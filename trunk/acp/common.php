@@ -190,7 +190,7 @@ $lang = array_merge($lang, array(
 	'ACP_USER_SIG'					=> 'Подпись',
 	'ACP_USER_WARNINGS'				=> 'Предупреждения',
 
-	'ACP_VC_SETTINGS'					=> 'Параметры визуального подтверждения (CAPTCHA)',
+	'ACP_VC_SETTINGS'					=> 'Средства против спам-ботов',
 	'ACP_VC_CAPTCHA_DISPLAY'			=> 'Просмотр визуального подтверждения',
 	'ACP_VERSION_CHECK'					=> 'Проверка обновлений',
 	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'Права администраторов',
@@ -503,7 +503,7 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_SERVER'			=> '<strong>Изменены настройки сервера</strong>',
 	'LOG_CONFIG_SETTINGS'		=> '<strong>Изменены настройки конференции</strong>',
 	'LOG_CONFIG_SIGNATURE'		=> '<strong>Изменены настройки подписей</strong>',
-	'LOG_CONFIG_VISUAL'			=> '<strong>Изменены настройки защиты от ботов</strong>',
+	'LOG_CONFIG_VISUAL'			=> '<strong>Изменены настройки средств против спам-ботов</strong>',
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Одобрена тема</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Поднята тема</strong><br />» %s',

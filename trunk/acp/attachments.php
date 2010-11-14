@@ -97,6 +97,16 @@ $lang = array_merge($lang, array(
 	'EXTENSION_GROUP_DELETED'		=> 'Группа расширений успешно удалена.',
 	'EXTENSION_GROUP_EXIST'			=> 'Группа расширений %s уже существует.',
 
+	'EXT_GROUP_ARCHIVES'			=> 'Архивы',
+	'EXT_GROUP_DOCUMENTS'			=> 'Документы',
+	'EXT_GROUP_DOWNLOADABLE_FILES'	=> 'Скачиваемые файлы',
+	'EXT_GROUP_FLASH_FILES'			=> 'Файлы Flash',
+	'EXT_GROUP_IMAGES'				=> 'Изображения',
+	'EXT_GROUP_PLAIN_TEXT'			=> 'Текстовые файлы',
+	'EXT_GROUP_QUICKTIME_MEDIA'		=> 'Файлы Quicktime Media',
+	'EXT_GROUP_REAL_MEDIA'			=> 'Файлы Real Media',
+	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Файлы Windows Media',
+
 	'GO_TO_EXTENSIONS'		=> 'Перейти на страницу управления расширениями',
 	'GROUP_NAME'			=> 'Имя группы',
 

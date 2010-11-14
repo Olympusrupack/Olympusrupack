@@ -128,7 +128,7 @@ $lang = array_merge($lang, array(
 	'DB_ERR_QUERY_FIRST_TABLE'	=> 'Ошибка при выполнении <var>query_first</var>, %s («%s»).',
 	'DB_ERR_SELECT'				=> 'Ошибка при обработке запроса <code>SELECT</code>.',
 	'DB_HOST'					=> 'Имя сервера БД или DSN',
-	'DB_HOST_EXPLAIN'			=> 'DSN — это имя источника данных и требуется только при установке с использованием ODBC.',
+	'DB_HOST_EXPLAIN'			=> 'DSN — это имя источника данных и требуется только при установке с использованием ODBC.  В PostgreSQL используйте имя localhost для соединения с локальным сервером через сокет домена UNIX или адрес 127.0.0.1 для соединения через TCP.',
 	'DB_NAME'					=> 'Название базы данных',
 	'DB_PASSWORD'				=> 'Пароль к БД',
 	'DB_PORT'					=> 'Порт сервера БД',
@@ -147,6 +147,7 @@ $lang = array_merge($lang, array(
 	'DLL_MBSTRING'				=> 'Поддержка многобайтных символов',
 	'DLL_MSSQL'					=> 'MSSQL Server 2000+',
 	'DLL_MSSQL_ODBC'			=> 'MSSQL Server 2000+ через ODBC',
+	'DLL_MSSQLNATIVE'			=> 'MSSQL Server 2005+ [ Native ]',
 	'DLL_MYSQL'					=> 'MySQL',
 	'DLL_MYSQLI'				=> 'MySQL с расширением MySQLi',
 	'DLL_ORACLE'				=> 'Oracle',
@@ -214,6 +215,7 @@ $lang = array_merge($lang, array(
 		<li>SQLite 2.8.2 и выше</li>
 		<li>Firebird 2.1 и выше</li>
 		<li>MS SQL Server 2000 и выше (напрямую или через ODBC)</li>
+		<li>MS SQL Server 2005 и выше (native)</li>
 		<li>Oracle</li>
 	</ul>
 
@@ -557,6 +559,7 @@ $lang = array_merge($lang, array(
 	'UPDATING_DATA'					=> 'Обновление данных',
 	'UPDATING_TO_LATEST_STABLE'		=> 'Обновление базы данных до последней стабильной версии',
 	'UPDATED_VERSION'				=> 'Обновлённая версия',
+	'UPGRADE_INSTRUCTIONS'			=> 'Доступна новая версия: <strong>%1$s</strong>. Прочтите <a href="%2$s" title="%2$s"><strong>объявление о выходе новой версии</strong></a>, чтобы получить информацию о нововведениях и способах обновления.',
 	'UPLOAD_METHOD'					=> 'Способ закачки',
 
 	'UPDATE_DB_SUCCESS'				=> 'База данных успешно обновлена.',
@@ -583,16 +586,6 @@ $lang = array_merge($lang, array(
 	'CONFIG_SITENAME'				=> 'ваш_домен.ru',
 
 	'DEFAULT_INSTALL_POST'			=> 'Это пример сообщения на вашей конференции phpBB3. Всё работает правильно. Вы можете удалить это сообщение и продолжить настройку вашей конференции. В процессе установки вашей первой категории и первому форуму были заданы подходящие права доступа для предустановленных групп администраторов, супермодераторов, гостей, зарегистрированных пользователей и зарегистрированных в соответствии с COPPA пользователей. Если вы решите удалить вашу первую категорию и первый форум, не забудьте установить права доступа для всех новых категорий и форумов, которые вы создаёте. Рекомендуем переименовать вашу первую категорию и первый форум и копировать права доступа с них вновь создаваемым категориям и форумам. Удачи!',
-
-	'EXT_GROUP_ARCHIVES'			=> 'Архивы',
-	'EXT_GROUP_DOCUMENTS'			=> 'Документы',
-	'EXT_GROUP_DOWNLOADABLE_FILES'	=> 'Скачиваемые файлы',
-	'EXT_GROUP_FLASH_FILES'			=> 'Файлы Flash',
-	'EXT_GROUP_IMAGES'				=> 'Изображения',
-	'EXT_GROUP_PLAIN_TEXT'			=> 'Текстовые файлы',
-	'EXT_GROUP_QUICKTIME_MEDIA'		=> 'Файлы Quicktime',
-	'EXT_GROUP_REAL_MEDIA'			=> 'Файлы RealMedia',
-	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Файлы Windows Media',
 
 	'FORUMS_FIRST_CATEGORY'			=> 'Ваша первая категория',
 	'FORUMS_TEST_FORUM_DESC'		=> 'Описание вашего первого форума.',
