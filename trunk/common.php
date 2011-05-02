@@ -411,9 +411,9 @@ $lang = array_merge($lang, array(
 	'OFFLINE'					=> 'Не в сети',
 	'ONLINE'					=> 'В сети',
 	'ONLINE_BUDDIES'			=> 'Друзья',
-	'ONLINE_USERS_TOTAL'		=> 'Сейчас посетителей на конференции: <strong>%d</strong>, из них ',
-	'ONLINE_USERS_ZERO_TOTAL'	=> 'Сейчас посетителей на конференции: <strong>0</strong>, из них ',
-	'ONLINE_USER_TOTAL'			=> 'Сейчас посетителей на конференции: <strong>%d</strong>, из них ',
+	'ONLINE_USERS_TOTAL'		=> 'Всего посетителей: <strong>%d</strong>, из них ',
+	'ONLINE_USERS_ZERO_TOTAL'	=> 'Всего посетителей: <strong>0</strong>, из них ',
+	'ONLINE_USER_TOTAL'			=> 'Всего посетителей: <strong>%d</strong>, из них ',
 	'OPTIONS'					=> 'Настройки',
 
 	'PAGE_OF'				=> 'Страница <strong>%1$d</strong> из <strong>%2$d</strong>',
