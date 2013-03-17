@@ -160,6 +160,7 @@ $lang = array_merge($lang, array(
 	'EDIT_POST'							=> 'Редактировать сообщение',
 	'EMAIL'								=> 'Email', // Short form for EMAIL_ADDRESS
 	'EMAIL_ADDRESS'						=> 'Адрес email',
+	'EMAIL_INVALID_EMAIL'				=> 'Введённый адрес email неверен.',
 	'EMAIL_SMTP_ERROR_RESPONSE'			=> 'Ошибка при отправке email в <strong>строке %1$s</strong>. Ответ сервера: %2$s.',
 	'EMPTY_SUBJECT'						=> 'При создании новой темы необходимо указать заголовок.',
 	'EMPTY_MESSAGE_SUBJECT'				=> 'Вы должны указать тему нового сообщения.',
@@ -567,9 +568,11 @@ $lang = array_merge($lang, array(
 	'SUBJECT'					=> 'Заголовок',
 	'SUBMIT'					=> 'Отправить',
 
+	'TB'				=> 'ТБ',
 	'TERMS_USE'			=> 'Общие правила',
 	'TEST_CONNECTION'	=> 'Проверить подключение',
 	'THE_TEAM'			=> 'Наша команда',
+	'TIB'				=> 'ТБ',
 	'TIME'				=> 'Время',
 
 	'TOO_LARGE'					=> 'Введённое значение слишком велико.',
