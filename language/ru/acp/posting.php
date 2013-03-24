@@ -4,9 +4,8 @@
 * posting [Russian]
 *
 * @package language
-* @version $Id: posting.php 9902 2009-08-01 11:07:48Z acydburn $
 * @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -46,6 +45,7 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_ADDED'				=> 'BBCode успешно добавлен.',
 	'BBCODE_EDITED'				=> 'BBCode успешно изменён.',
+	'BBCODE_DELETED'			=> 'BBCode успешно удалён.',
 	'BBCODE_NOT_EXIST'			=> 'Выбранный BBCode не существует.',
 	'BBCODE_HELPLINE'			=> 'Подсказка',
 	'BBCODE_HELPLINE_EXPLAIN'	=> 'Данное поле содержит текст, который появится при наведении указателя мыши на кнопку с BBCode.',
@@ -119,15 +119,19 @@ $lang = array_merge($lang, array(
 	'FIRST'			=> 'Первый',
 
 	'ICONS_ADD'				=> 'Добавить значок',
-	'ICONS_NONE_ADDED'		=> 'Значки не были добавлены.',
-	'ICONS_ONE_ADDED'		=> 'Указанный значок успешно добавлен.',
-	'ICONS_ADDED'			=> 'Указанные значки успешно добавлены.',
+	'ICONS_ADDED'			=> array(
+		0	=> 'Значки не были добавлены.',
+		1	=> 'Указанный значок успешно добавлен.',
+		2	=> 'Указанные значки успешно добавлены.',
+	),
 	'ICONS_CONFIG'			=> 'Настройки значков',
 	'ICONS_DELETED'			=> 'Значок успешно удалён.',
 	'ICONS_EDIT'			=> 'Изменить значок',
-	'ICONS_ONE_EDITED'		=> 'Указанный значок успешно обновлён.',
-	'ICONS_NONE_EDITED'		=> 'Значки не были обновлены.',
-	'ICONS_EDITED'			=> 'Указанные значки успешно обновлены.',
+	'ICONS_EDITED'			=> array(
+		0	=> 'Значки не были обновлены.',
+		1	=> 'Указанный значок успешно обновлён.',
+		2	=> 'Указанные значки успешно обновлены.',
+	),
 	'ICONS_HEIGHT'			=> 'Высота значка',
 	'ICONS_IMAGE'			=> 'Рисунок значка',
 	'ICONS_IMPORTED'		=> 'Пакет значков успешно установлен.',
@@ -159,9 +163,11 @@ $lang = array_merge($lang, array(
 
 	'SELECT_PACKAGE'			=> 'Выберите файл пакета',
 	'SMILIES_ADD'				=> 'Добавить смайлик',
-	'SMILIES_NONE_ADDED'		=> 'Смайлики не были добавлены.',
-	'SMILIES_ONE_ADDED'			=> 'Указанный смайлик успешно добавлен.',
-	'SMILIES_ADDED'				=> 'Указанные смайлики успешно добавлены.',
+	'SMILIES_ADDED'				=> array(
+		0	=> 'Смайлики не были добавлены.',
+		1	=> 'Указанный смайлик успешно добавлен.',
+		2	=> 'Указанные смайлики успешно добавлены.',
+	),
 	'SMILIES_CODE'				=> 'Код смайлика',
 	'SMILIES_CONFIG'			=> 'Настройки смайликов',
 	'SMILIES_DELETED'			=> 'Смайлик успешно удалён.',
@@ -169,9 +175,11 @@ $lang = array_merge($lang, array(
 	'SMILIE_NO_CODE'			=> 'Смайлик «%s» не был добавлен, так как для него не задан код.',
 	'SMILIE_NO_EMOTION'			=> 'Смайлик «%s» не был добавлен, так как для него не задана эмоция.',
 	'SMILIE_NO_FILE'			=> 'Смайлик «%s» не был добавлен, так как для него отсутствует файл.',
-	'SMILIES_NONE_EDITED'		=> 'Смайлики не были обновлены.',
-	'SMILIES_ONE_EDITED'		=> 'Указанный смайлик успешно обновлён.',
-	'SMILIES_EDITED'			=> 'Указанные смайлики успешно обновлены.',
+	'SMILIES_EDITED'			=> array(
+		0	=> 'Смайлики не были обновлены.',
+		1	=> 'Указанный смайлик успешно обновлён.',
+		2	=> 'Указанные смайлики успешно обновлены.',
+	),
 	'SMILIES_EMOTION'			=> 'Эмоция',
 	'SMILIES_HEIGHT'			=> 'Высота смайлика',
 	'SMILIES_IMAGE'				=> 'Рисунок смайлика',
@@ -183,8 +191,10 @@ $lang = array_merge($lang, array(
 	'SMILIES_URL'				=> 'Файл смайлика',
 	'SMILIES_WIDTH'				=> 'Ширина смайлика',
 
-	'TOO_MANY_SMILIES'			=> 'Достигнут предел в количестве %d смайликов.',
-
+	'TOO_MANY_SMILIES'			=> array(
+		1	=> 'Достигнут предел в количестве %d смайлик.',
+		2	=> 'Достигнут предел в количестве %d смайликов.',
+	),
 	'WRONG_PAK_TYPE'	=> 'Указанный пакет не содержит подходящих данных.',
 ));
 
@@ -275,5 +285,3 @@ $lang = array_merge($lang, array(
 
 	'USED_IN_REPORTS'		=> 'Используется в жалобах',
 ));
-
-?>

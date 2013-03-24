@@ -4,9 +4,8 @@
 * memberlist [Russian]
 *
 * @package language
-* @version $Id: memberlist.php 9933 2009-08-06 09:12:21Z marshalrusty $
 * @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -79,9 +78,9 @@ $lang = array_merge($lang, array(
 	'IM_JABBER'				=> 'Учтите, что пользователь мог отключить приём мгновенных сообщений от неизвестных контактов.',
 	'IM_JABBER_SUBJECT'		=> 'Это автоматически сгенерированное сообщение, на него не надо отвечать! Сообщение от пользователя %1$s с %2$s.',
 	'IM_MESSAGE'			=> 'Ваше сообщение',
-	'IM_MSNM'				=> 'Учтите, что для этого вам необходима установленная программа Windows Messenger.',
+	'IM_MSNM'				=> 'Учтите, что для этого вам необходима установленная программа Windows Live Messenger.',
 	'IM_MSNM_BROWSER'		=> 'Ваш браузер не поддерживает эту функцию.',
-	'IM_MSNM_CONNECT'		=> 'Клиент MSNM не отвечает.\nДля продолжения необходимо установить связь с клиентом.',
+	'IM_MSNM_CONNECT'		=> 'Клиент WLM не отвечает.\nДля продолжения необходимо установить связь с клиентом.',
 	'IM_NAME'				=> 'Ваше имя',
 	'IM_NO_DATA'			=> 'Для этого пользователя отсутствует контактная информация.',
 	'IM_NO_JABBER'			=> 'Извините, отправка напрямую сообщений пользователям Jabber не поддерживается конференцией. Чтобы связаться с этим пользователем, вам необходимо воспользоваться клиентом Jabber.',
@@ -93,8 +92,10 @@ $lang = array_merge($lang, array(
 
 	'LAST_ACTIVE'				=> 'Последнее посещение',
 	'LESS_THAN'					=> 'меньше',
-	'LIST_USER'					=> 'Пользователей: 1',
-	'LIST_USERS'				=> 'Пользователей: %d',
+	'LIST_USERS'				=> array(
+		1	=> 'Пользователей: %d',
+		2	=> 'Пользователей: %d',
+	),
 	'LOGIN_EXPLAIN_LEADERS'		=> 'Для просмотра списка нашей команды вы должны быть авторизованы.',
 	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'Для просмотра списка пользователей вы должны быть авторизованы.',
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Для поиска пользователей вы должны быть авторизованы.',
@@ -122,7 +123,7 @@ $lang = array_merge($lang, array(
 	'SEND_IM'				=> 'Отправить мгновенное сообщение',
 	'SEND_JABBER_MESSAGE'	=> 'Отправить Jabber-сообщение',
 	'SEND_MESSAGE'			=> 'Отправить',
-	'SEND_MSNM_MESSAGE'		=> 'Отправить MSNM/WLM-сообщение',
+	'SEND_MSNM_MESSAGE'		=> 'Отправить WLM-сообщение',
 	'SEND_YIM_MESSAGE'		=> 'Отправить YIM-сообщение',
 	'SORT_EMAIL'			=> 'email',
 	'SORT_LAST_ACTIVE'		=> 'Последнее посещение',
@@ -135,6 +136,7 @@ $lang = array_merge($lang, array(
 	'USER_LAST_REMINDED'	=> array(
 		0		=> 'Нет напоминаний, отправленных в это время',
 		1		=> 'Отправлено %1$d напоминание<br />» %2$s',
+		2		=> 'Отправлено %1$d напоминание<br />» %2$s',
 	),
 	'USER_ONLINE'			=> 'В сети',
 	'USER_PRESENCE'			=> 'Присутствие на конференции',
@@ -144,5 +146,3 @@ $lang = array_merge($lang, array(
 
 	'WWW'					=> 'Сайт',
 ));
-
-?>

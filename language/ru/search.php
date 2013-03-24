@@ -4,9 +4,8 @@
 * search [Russian]
 *
 * @package language
-* @version $Id: search.php 10004 2009-08-17 13:25:04Z rxu $
 * @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -41,9 +40,14 @@ $lang = array_merge($lang, array(
 
 	'DISPLAY_RESULTS'		=> 'Показывать результаты как',
 
-	'FOUND_SEARCH_MATCH'		=> 'Результатов поиска: %d',
-	'FOUND_SEARCH_MATCHES'		=> 'Результатов поиска: %d',
-	'FOUND_MORE_SEARCH_MATCHES'	=> 'Результатов поиска более %d',
+	'FOUND_SEARCH_MATCHES'		=> array(
+		1	=> 'Результатов поиска: %d',
+		2	=> 'Результатов поиска: %d',
+	),
+	'FOUND_MORE_SEARCH_MATCHES'	=> array(
+		1	=> 'Результатов поиска: более %d',
+		2	=> 'Результатов поиска: более %d',
+	),
 
 	'GLOBAL'				=> 'Важная',
 
@@ -58,7 +62,7 @@ $lang = array_merge($lang, array(
 
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> 'Вы указали слишком много слов для поиска. Число таких слов не должно превышать %1$d.',
 
-	'NO_KEYWORDS'			=> 'Для поиска вы должны ввести как минимум одно слово. Длина каждого слова должна быть не менее %d и не более %d символов, исключая символ шаблона *.',
+	'NO_KEYWORDS'			=> 'Для поиска вы должны ввести как минимум одно слово. Длина каждого слова должна быть не менее %s и не более %s, исключая символ звёздочки *.',
 	'NO_RECENT_SEARCHES'	=> 'За последнее время поисковых запросов не было.',
 	'NO_SEARCH'				=> 'Извините, но вам запрещено пользоваться поиском.',
 	'NO_SEARCH_RESULTS'		=> 'Подходящих тем или сообщений не найдено.',
@@ -68,6 +72,7 @@ $lang = array_merge($lang, array(
 	'WORDS_IN_NO_POST'		=> 'Подходящих сообщений не найдено, поскольку слова <strong>%s</strong> нигде не встречаются.',
 
 	'POST_CHARACTERS'		=> 'символов сообщений',
+	'PHRASE_SEARCH_DISABLED'	=> 'Поиск по точному совпадению на данной конференции не поддерживается.',
 
 	'RECENT_SEARCHES'		=> 'Последние поисковые запросы',
 	'RESULT_DAYS'			=> 'Искать сообщения за',
@@ -100,8 +105,11 @@ $lang = array_merge($lang, array(
 	'SORT_FORUM'				=> 'Форум',
 	'SORT_POST_SUBJECT'			=> 'Заголовок сообщения',
 	'SORT_TIME'					=> 'Время размещения',
+	'SPHINX_SEARCH_FAILED'		=> 'Ошибка поиска: %s',
+	'SPHINX_SEARCH_FAILED_LOG'	=> 'К сожалению, поиск не может быть выполнен. Дополнительная информация содержится в логе ошибок.',
 
-	'TOO_FEW_AUTHOR_CHARS'	=> 'Вы должны ввести не менее %d символов имени автора.',
+	'TOO_FEW_AUTHOR_CHARS'	=> array(
+		1	=> 'Вы должны указать не менее %d символов имени автора.',
+		2	=> 'Вы должны указать не менее %d символов имени автора.',
+	),
 ));
-
-?>

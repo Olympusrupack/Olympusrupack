@@ -4,9 +4,8 @@
 * acp_profile [Russian]
 *
 * @package language
-* @version $Id: profile.php 9916 2009-08-03 15:46:56Z Kellanved $
 * @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -66,6 +65,8 @@ $lang = array_merge($lang, array(
 	'DISPLAY_AT_PROFILE_EXPLAIN'	=> 'Пользователь может изменить значение поля в личном разделе.',
 	'DISPLAY_AT_REGISTER'			=> 'В форме регистрации',
 	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'Если включено, поле можно заполнить при регистрации.',
+	'DISPLAY_ON_PM'					=> 'Отображать при просмотре личных сообщений',
+	'DISPLAY_ON_PM_EXPLAIN'			=> 'Если включено, данное поле будет отображено в минипрофиле при просмотре личных сообщений.',
 	'DISPLAY_ON_VT'					=> 'На страницах тем',
 	'DISPLAY_ON_VT_EXPLAIN'			=> 'При включении данной опции поле будет отображаться на страницах тем под аватарами пользователей.',
 	'DISPLAY_PROFILE_FIELD'			=> 'Отображать поле для всех',
@@ -154,5 +155,3 @@ $lang = array_merge($lang, array(
 
 	'VISIBILITY_OPTION'				=> 'Видимость поля',
 ));
-
-?>

@@ -4,9 +4,8 @@
 * acp_common [Russian]
 *
 * @package language
-* @version $Id: common.php 10134 2009-09-10 15:32:16Z marshalrusty $
 * @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -60,6 +59,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_CAPTCHA'				=> 'Визуальное подтверждение',
 
+	'ACP_CAT_CUSTOMISE'			=> 'Дополнения',
 	'ACP_CAT_DATABASE'			=> 'База данных',
 	'ACP_CAT_DOT_MODS'			=> 'Модули',
 	'ACP_CAT_FORUMS'			=> 'Форумы',
@@ -81,7 +81,10 @@ $lang = array_merge($lang, array(
 	'ACP_DISALLOW_USERNAMES'	=> 'Запрещённые имена',
 
 	'ACP_EMAIL_SETTINGS'		=> 'Настройки почты',
-	'ACP_EXTENSION_GROUPS'		=> 'Группы расширений',
+	'ACP_EXTENSION_GROUPS'		=> 'Группы расширений файлов',
+	'ACP_EXTENSION_MANAGEMENT'	=> 'Управление расширениями',
+	'ACP_EXTENSIONS'			=> 'Расширения',
+
 
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Локальные права доступа',
 	'ACP_FORUM_LOGS'				=> 'Логи',
@@ -100,10 +103,10 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGE'				=> 'Управление группами',
 	'ACP_GROUPS_MANAGEMENT'			=> 'Группы',
 	'ACP_GROUPS_PERMISSIONS'		=> 'Права групп',
+	'ACP_GROUPS_POSITION'			=> 'Управление расположением групп',
 
 	'ACP_ICONS'					=> 'Значки тем',
 	'ACP_ICONS_SMILIES'			=> 'Значки тем и смайлики',
-	'ACP_IMAGESETS'				=> 'Наборы рисунков',
 	'ACP_INACTIVE_USERS'		=> 'Неактивированные пользователи',
 	'ACP_INDEX'					=> 'Главная страница',
 
@@ -115,7 +118,11 @@ $lang = array_merge($lang, array(
 	'ACP_LOGGING'				=> 'Логи',
 
 	'ACP_MAIN'					=> 'Главная страница администраторского раздела',
-	'ACP_MANAGE_EXTENSIONS'		=> 'Расширения',
+
+	'ACP_MANAGE_ATTACHMENTS'			=> 'Управление вложениями',
+	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'Здесь можно просматривать и удалять вложения, прикреплённые к сообщениям в темах и личным сообщениям.',
+
+	'ACP_MANAGE_EXTENSIONS'		=> 'Управление расширениями файлов',
 	'ACP_MANAGE_FORUMS'			=> 'Управление форумами',
 	'ACP_MANAGE_RANKS'			=> 'Управление званиями',
 	'ACP_MANAGE_REASONS'		=> 'Управление жалобами',
@@ -162,9 +169,10 @@ $lang = array_merge($lang, array(
 	'ACP_SERVER_SETTINGS'		=> 'Настройки сервера',
 	'ACP_SIGNATURE_SETTINGS'	=> 'Подписи',
 	'ACP_SMILIES'				=> 'Смайлики',
-	'ACP_STYLE_COMPONENTS'		=> 'Компоненты стилей',
 	'ACP_STYLE_MANAGEMENT'		=> 'Управление стилями',
 	'ACP_STYLES'				=> 'Стили',
+	'ACP_STYLES_CACHE'			=> 'Очистить кэш',
+	'ACP_STYLES_INSTALL'		=> 'Установить стили',
 
 	'ACP_SUBMIT_CHANGES'		=> 'Сохранить изменения',
 
@@ -226,11 +234,15 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_AS'				=> 'Скачать как',
 	'DOWNLOAD_STORE'			=> 'Скачать или сохранить на сервере',
 	'DOWNLOAD_STORE_EXPLAIN'	=> 'Вы можете напрямую скачать файл или сохранить его на сервере в папке <samp>store/</samp>.',
+	'DOWNLOADS'          		=> 'Загрузки',
 
 	'EDIT'					=> 'Изменить',
 	'ENABLE'				=> 'Включить',
 	'EXPORT_DOWNLOAD'		=> 'Скачать',
 	'EXPORT_STORE'			=> 'Сохранить',
+
+	'FILES_GONE'			=> 'Некоторые из выбранных для удаления вложений не существуют. Они могли быть удалены ранее. Остальные вложения успешно удалены.',
+	'FILES_STATS_WRONG'		=> 'Возможно, статистика вложений неверна и требует синхронизации. Правильные значения: количество вложений = %1$d, общий размер вложений = %2$s.',
 
 	'GENERAL_OPTIONS'		=> 'Общие параметры',
 	'GENERAL_SETTINGS'		=> 'Общие настройки',
@@ -240,6 +252,8 @@ $lang = array_merge($lang, array(
 	'IP'					=> 'IP-адрес пользователя',
 	'IP_HOSTNAME'			=> 'IP-адреса или хосты',
 
+	'LOAD_NOTIFICATIONS'			=> 'Показывать уведомления',
+	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'Показывать список уведомлений на каждой странице (как правило, вверху).',
 	'LOGGED_IN_AS'			=> 'Вы вошли как:',
 	'LOGIN_ADMIN'			=> 'Для входа в администраторский раздел вы должны быть авторизованы.',
 	'LOGIN_ADMIN_CONFIRM'	=> 'Для входа в администраторский раздел необходимо повторно ввести своё имя и пароль.',
@@ -257,6 +271,7 @@ $lang = array_merge($lang, array(
 	'NOTIFY'				=> 'Уведомление',
 	'NO_ADMIN'				=> 'У вас нет прав для доступа в администраторский раздел.',
 	'NO_EMAILS_DEFINED'		=> 'Не найдено правильных адресов электронной почты.',
+	'NO_FILES_TO_DELETE'	=> 'Выбранные для удаления вложения не существуют.',
 	'NO_PASSWORD_SUPPLIED'	=> 'Необходимо ввести пароль для получения доступа в администраторский раздел.',
 
 	'OFF'					=> 'Отключено',
@@ -271,6 +286,8 @@ $lang = array_merge($lang, array(
 
 	'REMIND'							=> 'Напомнить',
 	'RESYNC'							=> 'Синхронизировать',
+	'RESYNC_FILES_STATS'				=> 'Синхронизировать статистику вложений',
+	'RESYNC_FILES_STATS_EXPLAIN'		=> 'Пересчёт общего количества и размера вложений, прикрепленных к сообщениям в темах и личным сообщениям.',
 	'RETURN_TO'							=> 'Вернуться в…',
 
 	'SELECT_ANONYMOUS'		=> 'Выбрать учётную запись гостя',
@@ -282,6 +299,8 @@ $lang = array_merge($lang, array(
 	'SETTING_TOO_SHORT'		=> 'Введённое значение параметра «%1$s» слишком короткое. Минимальная допустимая длина — %2$d.',
 
 	'SHOW_ALL_OPERATIONS'	=> 'Показать все действия',
+
+	'TOTAL_SIZE'      		=> 'Общий размер',
 
 	'UCP'					=> 'Личный раздел',
 	'USERNAMES_EXPLAIN'		=> 'Вводите каждое имя на новой строке.',
@@ -356,29 +375,39 @@ $lang = array_merge($lang, array(
 	'PURGE_CACHE'			=> 'Очистить кэш',
 	'PURGE_CACHE_CONFIRM'	=> 'Вы действительно хотите очистить кэш?',
 	'PURGE_CACHE_EXPLAIN'	=> 'Очистка всех кэшированных элементов, включая кэшированные файлы шаблонов и запросы.',
+	'PURGE_CACHE_SUCCESS'	=> 'Кэш успешно очищен.',
 
 	'PURGE_SESSIONS'			=> 'Очистить все сессии',
 	'PURGE_SESSIONS_CONFIRM'	=> 'Вы действительно хотите очистить все текущие сессии?',
 	'PURGE_SESSIONS_EXPLAIN'	=> 'Очистка таблицы сессий. Сессии всех пользователей, находящихся в данный момент на конференции, будут завершены, поэтому после выполнения данного действия им вновь придётся войти на конференцию, введя имя и пароль.',
+	'PURGE_SESSIONS_SUCCESS'	=> 'Сессии успешно очищены.',
 
 	'RESET_DATE'					=> 'Сброс даты запуска конференции',
 	'RESET_DATE_CONFIRM'			=> 'Вы действительно хотите сбросить дату запуска конференции?',
-	'RESET_ONLINE'					=> 'Обнуление рекорда посещаемости',
-	'RESET_ONLINE_CONFIRM'			=> 'Вы действительно хотите обнулить рекорд посещаемости конференции?',
+	'RESET_DATE_SUCCESS'				=> 'Дата запуска конференции успешно сброшена',
+	'RESET_ONLINE'					=> 'Сброс рекорда посещаемости',
+	'RESET_ONLINE_CONFIRM'			=> 'Вы действительно хотите сбросить рекорд посещаемости конференции?',
+	'RESET_ONLINE_SUCCESS'				=> 'Рекорд посещаемости конференции успешно сброшен',
+	'RESYNC_FILES_STATS_CONFIRM'	=> 'Вы действительно хотите синхронизировать статистику вложений?',
 	'RESYNC_POSTCOUNTS'				=> 'Синхронизировать счётчики сообщений',
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Будут учтены только существующие сообщения. Удалённые сообщения не будут подсчитаны.',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Вы действительно хотите синхронизировать счётчики сообщений?',
+	'RESYNC_POSTCOUNTS_SUCCESS'			=> 'Счётчики сообщений успешно синхронизированы',
 	'RESYNC_POST_MARKING'			=> 'Синхронизировать свои темы',
 	'RESYNC_POST_MARKING_CONFIRM'	=> 'Вы действительно хотите синхронизировать свои темы?',
 	'RESYNC_POST_MARKING_EXPLAIN'	=> 'Снятие пометок со всех тем с последующей корректной маркировкой всех тем, к которым был доступ в последние шесть месяцев.',
+	'RESYNC_POST_MARKING_SUCCESS'	=> 'Свои темы успешно синхронизированы',
 	'RESYNC_STATS'					=> 'Синхронизировать статистику',
 	'RESYNC_STATS_CONFIRM'			=> 'Вы действительно хотите синхронизировать статистику?',
 	'RESYNC_STATS_EXPLAIN'			=> 'Пересчёт общего количества сообщений, тем, пользователей и файлов.',
+	'RESYNC_STATS_SUCCESS'			=> 'Статистика успешно синхронизирована',
 	'RUN'							=> 'Выполнить',
 
 	'STATISTIC'					=> 'Статистика',
 	'STATISTIC_RESYNC_OPTIONS'	=> 'Синхронизация или сброс статистики',
 
+	'TIMEZONE_INVALID'	=> 'Выбран неверный часовой пояс.',
+	'TIMEZONE_SELECTED'	=> '(текущий)',
 	'TOPICS_PER_DAY'	=> 'Тем в день',
 
 	'UPLOAD_DIR_SIZE'	=> 'Размер всех вложений',
@@ -588,16 +617,6 @@ $lang = array_merge($lang, array(
 
 	'LOG_IMAGE_GENERATION_ERROR'	=> '<strong>Ошибка при создании изображения</strong><br />» Ошибка в %1$s в строке %2$s: %3$s',
 
-	'LOG_IMAGESET_ADD_DB'			=> '<strong>Добавлен набор рисунков в базу данных</strong><br />» %s',
-	'LOG_IMAGESET_ADD_FS'			=> '<strong>Добавлен набор рисунков на сервер</strong><br />» %s',
-	'LOG_IMAGESET_DELETE'			=> '<strong>Удалён набор рисунков</strong><br />» %s',
-	'LOG_IMAGESET_EDIT_DETAILS'		=> '<strong>Изменена информация о наборе рисунков</strong><br />» %s',
-	'LOG_IMAGESET_EDIT'				=> '<strong>Изменён набор рисунков</strong><br />» %s',
-	'LOG_IMAGESET_EXPORT'			=> '<strong>Экспортирован набор рисунков</strong><br />» %s',
-	'LOG_IMAGESET_LANG_MISSING'		=> '<strong>Отсутствует локализация «%2$s» для набора рисунков</strong><br />» «%1$s»',
-	'LOG_IMAGESET_LANG_REFRESHED'	=> '<strong>Обновлена локализация набора рисунков «%2$s»</strong><br />» %1$s',
-	'LOG_IMAGESET_REFRESHED'		=> '<strong>Обновлён набор рисунков</strong><br />» %s',
-
 	'LOG_INACTIVE_ACTIVATE'	=> '<strong>Активированы пользователи</strong><br />» %s',
 	'LOG_INACTIVE_DELETE'	=> '<strong>Удалены неактивированные пользователи</strong><br />» %s',
 	'LOG_INACTIVE_REMIND'	=> '<strong>Отправлены email-напоминания неактивированным пользователям</strong><br />» %s',
@@ -668,33 +687,41 @@ $lang = array_merge($lang, array(
 	'LOG_REFERER_INVALID'		=> '<strong>Проверка рефёрера не удалась </strong><br />»Рефёрер: “<em>%1$s</em>”. Запрос был отклонён, сессия удалена.',
 	'LOG_RESET_DATE'			=> '<strong>Сброшена дата запуска конференции</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>Сброшен рекорд посещаемости</strong>',
+	'LOG_RESYNC_FILES_STATS'	=> '<strong>Синхронизирована статистика вложений</strong>',
 	'LOG_RESYNC_POSTCOUNTS'		=> '<strong>Синхронизированы счётчики сообщений пользователей</strong>',
 	'LOG_RESYNC_POST_MARKING'	=> '<strong>Синхронизированы свои темы</strong>',
 	'LOG_RESYNC_STATS'			=> '<strong>Синхронизирована статистика сообщений, тем и пользователей</strong>',
 
 	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>Созданы поисковые индексы для</strong><br />» %s',
 	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Удалены поисковые индексы для</strong><br />» %s',
+	'LOG_SPHINX_ERROR'			=> '<strong>Ошибка Sphinx</strong><br />В» %s',
 	'LOG_STYLE_ADD'				=> '<strong>Добавлен стиль</strong><br />» %s',
 	'LOG_STYLE_DELETE'			=> '<strong>Удалён стиль</strong><br />» %s',
 	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>Изменён стиль</strong><br />» %s',
 	'LOG_STYLE_EXPORT'			=> '<strong>Экспортирован стиль</strong><br />» %s',
 
+	// @deprecated 3.1
 	'LOG_TEMPLATE_ADD_DB'			=> '<strong>Добавлен шаблон в базу данных</strong><br />» %s',
+	// @deprecated 3.1
 	'LOG_TEMPLATE_ADD_FS'			=> '<strong>Добавлен шаблон на сервер</strong><br />» %s',
 	'LOG_TEMPLATE_CACHE_CLEARED'	=> '<strong>Удалена кэшированная версия файлов шаблона <em>%1$s</em></strong><br />» %2$s',
 	'LOG_TEMPLATE_DELETE'			=> '<strong>Удалён шаблон</strong><br />» %s',
 	'LOG_TEMPLATE_EDIT'				=> '<strong>Изменён шаблон <em>%1$s</em></strong><br />» %2$s',
 	'LOG_TEMPLATE_EDIT_DETAILS'		=> '<strong>Изменена информация о шаблоне</strong><br />» %s',
 	'LOG_TEMPLATE_EXPORT'			=> '<strong>Экспортирован шаблон</strong><br />» %s',
+	// @deprecated 3.1
 	'LOG_TEMPLATE_REFRESHED'		=> '<strong>Обновлён шаблон</strong><br />» %s',
 
+	// @deprecated 3.1
 	'LOG_THEME_ADD_DB'			=> '<strong>Добавлена тема в базу данных</strong><br />» %s',
+	// @deprecated 3.1
 	'LOG_THEME_ADD_FS'			=> '<strong>Добавлена тема на сервер</strong><br />» %s',
 	'LOG_THEME_DELETE'			=> '<strong>Удалена тема</strong><br />» %s',
 	'LOG_THEME_EDIT_DETAILS'	=> '<strong>Изменена информация о теме</strong><br />» %s',
 	'LOG_THEME_EDIT'			=> '<strong>Изменена тема <em>%1$s</em></strong><br />» Изменён класс <em>%2$s</em>',
 	'LOG_THEME_EDIT_FILE'		=> '<strong>Изменение темы оформления стиля <em>%1$s</em></strong><br />» Изменён файл <em>%2$s</em>',
 	'LOG_THEME_EXPORT'			=> '<strong>Экспортирована тема</strong><br />» %s',
+	// @deprecated 3.1
 	'LOG_THEME_REFRESHED'		=> '<strong>Обновлена тема</strong><br />» %s',
 
 	'LOG_UPDATE_DATABASE'	=> '<strong>Обновлена база данных с версии %1$s до версии %2$s</strong>',
@@ -747,5 +774,3 @@ $lang = array_merge($lang, array(
 	'LOG_WORD_DELETE'		=> '<strong>Удалён цензор слов</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>Изменён цензор слов</strong><br />» %s',
 ));
-
-?>

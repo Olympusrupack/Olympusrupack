@@ -4,9 +4,8 @@
 * acp_attachments [Russian]
 *
 * @package language
-* @version $Id: attachments.php 8946 2008-09-26 18:32:05Z toonarmy $
 * @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -62,6 +61,7 @@ $lang = array_merge($lang, array(
 	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> 'Максимальный размер каждого файла, вложенного в личное сообщение. Значение 0 соответствует неограниченному размеру.',
 	'ATTACH_ORPHAN_URL'					=> 'Потерянные вложения',
 	'ATTACH_POST_ID'					=> 'ID сообщения',
+	'ATTACH_POST_TYPE'					=> 'Тип сообщения',
 	'ATTACH_QUOTA'						=> 'Общая квота вложений',
 	'ATTACH_QUOTA_EXPLAIN'				=> 'Максимально доступное дисковое пространство для вложений. Значение 0 соответствует неограниченному размеру.',
 	'ATTACH_TO_POST'					=> 'Прикрепить файл к сообщению',
@@ -170,5 +170,3 @@ $lang = array_merge($lang, array(
 	'UPLOAD_ICON'					=> 'Значок вложения',
 	'UPLOAD_NOT_DIR'				=> 'Указанный путь для загрузки файлов не является папкой.',
 ));
-
-?>

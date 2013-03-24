@@ -4,9 +4,8 @@
 * acp_database [Russian]
 *
 * @package language
-* @version $Id: database.php 9765 2009-07-17 10:11:10Z bantu $
 * @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -73,5 +72,3 @@ $lang = array_merge($lang, array(
 	'TABLE_SELECT'		=> 'Выбор таблиц',
 	'TABLE_SELECT_ERROR'=> 'Необходимо выбрать хотя бы одну таблицу.',
 ));
-
-?>

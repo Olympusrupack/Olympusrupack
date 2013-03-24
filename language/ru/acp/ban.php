@@ -4,9 +4,8 @@
 * acp_ban [Russian]
 *
 * @package language
-* @version $Id: ban.php 9727 2009-07-07 13:33:53Z nickvergessen $
 * @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -81,5 +80,3 @@ $lang = array_merge($lang, array(
 	'USER_UNBAN'				=> 'Разблокировать доступ пользователям или удалить пользователей из белого списка',
 	'USER_UNBAN_EXPLAIN'		=> 'За один раз можно разблокировать (или удалить из белого списка) несколько имён, выбрав их с помощью соответствующей комбинации мыши и клавиатуры вашего компьютера и браузера. Имена из белого списка выделены особым цветом.',
 ));
-
-?>

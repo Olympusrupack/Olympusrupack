@@ -3,9 +3,8 @@
 * acp_permissions (phpBB Permission Set) [Russian]
 *
 * @package language
-* @version $Id: permissions_phpbb.php 9686 2009-06-26 11:52:54Z rxu $
 * @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 */
 
 /**
@@ -103,6 +102,7 @@ $lang = array_merge($lang, array(
 	'acl_u_chgemail'	=> array('lang' => 'Может менять email-адрес', 'cat' => 'profile'),
 	'acl_u_chgavatar'	=> array('lang' => 'Может менять аватару', 'cat' => 'profile'),
 	'acl_u_chggrp'		=> array('lang' => 'Может менять группу по умолчанию', 'cat' => 'profile'),
+	'acl_u_chgprofileinfo'	=> array('lang' => 'Может менять информацию в полях профиля', 'cat' => 'profile'),
 
 	'acl_u_attach'		=> array('lang' => 'Может прикреплять вложения', 'cat' => 'post'),
 	'acl_u_download'	=> array('lang' => 'Может скачивать файлы', 'cat' => 'post'),
@@ -136,39 +136,38 @@ $lang = array_merge($lang, array(
 
 // Forum Permissions
 $lang = array_merge($lang, array(
-	'acl_f_list'		=> array('lang' => 'Может видеть форум', 'cat' => 'post'),
-	'acl_f_read'		=> array('lang' => 'Может читать форум', 'cat' => 'post'),
+	'acl_f_list'		=> array('lang' => 'Может видеть форум', 'cat' => 'actions'),
+	'acl_f_read'		=> array('lang' => 'Может читать форум', 'cat' => 'actions'),
+	'acl_f_search'		=> array('lang' => 'Может использовать поиск в форуме', 'cat' => 'actions'),
+	'acl_f_subscribe'	=> array('lang' => 'Может подписываться на форумы', 'cat' => 'actions'),
+	'acl_f_print'		=> array('lang' => 'Может распечатывать темы', 'cat' => 'actions'),
+	'acl_f_email'		=> array('lang' => 'Может сообщать (другу) по email о теме', 'cat' => 'actions'),
+	'acl_f_bump'		=> array('lang' => 'Может поднимать темы', 'cat' => 'actions'),
+	'acl_f_user_lock'	=> array('lang' => 'Может закрывать свои темы', 'cat' => 'actions'),
+	'acl_f_download'	=> array('lang' => 'Может скачивать файлы', 'cat' => 'actions'),
+	'acl_f_report'		=> array('lang' => 'Может размещать жалобы', 'cat' => 'actions'),
+
 	'acl_f_post'		=> array('lang' => 'Может создавать темы', 'cat' => 'post'),
-	'acl_f_reply'		=> array('lang' => 'Может отвечать в темах', 'cat' => 'post'),
-	'acl_f_icons'		=> array('lang' => 'Может использовать значки тем и сообщений', 'cat' => 'post'),
-	'acl_f_announce'	=> array('lang' => 'Может создавать объявления', 'cat' => 'post'),
 	'acl_f_sticky'		=> array('lang' => 'Может прилеплять темы', 'cat' => 'post'),
+	'acl_f_announce'	=> array('lang' => 'Может создавать объявления', 'cat' => 'post'),
+	'acl_f_reply'		=> array('lang' => 'Может отвечать в темах', 'cat' => 'post'),
+	'acl_f_edit'		=> array('lang' => 'Может редактировать собственные сообщения', 'cat' => 'post'),
+	'acl_f_delete'		=> array('lang' => 'Может удалять собственные сообщения', 'cat' => 'post'),
+	'acl_f_ignoreflood' => array('lang' => 'Может игнорировать флуд-контроль', 'cat' => 'post'),
+	'acl_f_postcount'	=> array('lang' => 'Счётчик сообщений включён<br /><em>Учтите, что данная установка эффективна только при создании новых сообщений.</em>', 'cat' => 'post'),
+	'acl_f_noapprove'	=> array('lang' => 'Может размещать сообщения без одобрения', 'cat' => 'post'),
+
+	'acl_f_attach'		=> array('lang' => 'Может прикреплять вложения', 'cat' => 'content'),
+	'acl_f_icons'		=> array('lang' => 'Может использовать значки тем и сообщений', 'cat' => 'content'),
+	'acl_f_bbcode'		=> array('lang' => 'Может использовать BBCode', 'cat' => 'content'),
+	'acl_f_flash'		=> array('lang' => 'Может использовать тег [flash]', 'cat' => 'content'),
+	'acl_f_img'			=> array('lang' => 'Может использовать тег [img]', 'cat' => 'content'),
+	'acl_f_sigs'		=> array('lang' => 'Может использовать подпись', 'cat' => 'content'),
+	'acl_f_smilies'		=> array('lang' => 'Может использовать смайлики', 'cat' => 'content'),
 
 	'acl_f_poll'		=> array('lang' => 'Может создавать опросы', 'cat' => 'polls'),
 	'acl_f_vote'		=> array('lang' => 'Может голосовать в опросах', 'cat' => 'polls'),
 	'acl_f_votechg'		=> array('lang' => 'Может переголосовать', 'cat' => 'polls'),
-
-	'acl_f_attach'		=> array('lang' => 'Может прикреплять вложения', 'cat' => 'content'),
-	'acl_f_download'	=> array('lang' => 'Может скачивать файлы', 'cat' => 'content'),
-	'acl_f_sigs'		=> array('lang' => 'Может использовать подпись', 'cat' => 'content'),
-	'acl_f_bbcode'		=> array('lang' => 'Может использовать BBCode', 'cat' => 'content'),
-	'acl_f_smilies'		=> array('lang' => 'Может использовать смайлики', 'cat' => 'content'),
-	'acl_f_img'			=> array('lang' => 'Может использовать тег [img]', 'cat' => 'content'),
-	'acl_f_flash'		=> array('lang' => 'Может использовать тег [flash]', 'cat' => 'content'),
-
-	'acl_f_edit'		=> array('lang' => 'Может редактировать собственные сообщения', 'cat' => 'actions'),
-	'acl_f_delete'		=> array('lang' => 'Может удалять собственные сообщения', 'cat' => 'actions'),
-	'acl_f_user_lock'	=> array('lang' => 'Может закрывать свои темы', 'cat' => 'actions'),
-	'acl_f_bump'		=> array('lang' => 'Может поднимать темы', 'cat' => 'actions'),
-	'acl_f_report'		=> array('lang' => 'Может размещать жалобы', 'cat' => 'actions'),
-	'acl_f_subscribe'	=> array('lang' => 'Может подписываться на форумы', 'cat' => 'actions'),
-	'acl_f_print'		=> array('lang' => 'Может распечатывать темы', 'cat' => 'actions'),
-	'acl_f_email'		=> array('lang' => 'Может сообщать (другу) по email о теме', 'cat' => 'actions'),
-
-	'acl_f_search'		=> array('lang' => 'Может использовать поиск в форуме', 'cat' => 'misc'),
-	'acl_f_ignoreflood' => array('lang' => 'Может игнорировать флуд-контроль', 'cat' => 'misc'),
-	'acl_f_postcount'	=> array('lang' => 'Счётчик сообщений включён<br /><em>Учтите, что данная установка эффективна только при создании новых сообщений.</em>', 'cat' => 'misc'),
-	'acl_f_noapprove'	=> array('lang' => 'Может размещать сообщения без одобрения', 'cat' => 'misc'),
 ));
 
 // Moderator Permissions
@@ -227,6 +226,7 @@ $lang = array_merge($lang, array(
 	'acl_a_switchperm'	=> array('lang' => 'Может изменять другие права доступа', 'cat' => 'permissions'),
 
 	'acl_a_styles'		=> array('lang' => 'Может управлять стилями', 'cat' => 'misc'),
+	'acl_a_extensions'	=> array('lang' => 'Может управлять расширениями', 'cat' => 'misc'),
 	'acl_a_viewlogs'	=> array('lang' => 'Может просматривать логи', 'cat' => 'misc'),
 	'acl_a_clearlogs'	=> array('lang' => 'Может очищать логи', 'cat' => 'misc'),
 	'acl_a_modules'		=> array('lang' => 'Может управлять модулями', 'cat' => 'misc'),
@@ -237,5 +237,3 @@ $lang = array_merge($lang, array(
 	'acl_a_backup'		=> array('lang' => 'Может сохранять/восстанавливать базу данных', 'cat' => 'misc'),
 	'acl_a_search'		=> array('lang' => 'Может управлять поисковыми индексами/установками поиска', 'cat' => 'misc'),
 ));
-
-?>

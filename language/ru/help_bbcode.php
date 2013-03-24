@@ -4,9 +4,8 @@
 * help_bbcode [Russian]
 *
 * @package language
-* @version $Id: help_bbcode.php 9623 2009-06-18 18:12:28Z nickvergessen $
 * @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -112,5 +111,3 @@ $help = array(
 		1 => 'Если вы являетесь администратором этого форума и имеетe достаточные права, то можете добавить новые теги BBCode в администраторском разделе.'
 	)
 );
-
-?>

@@ -4,9 +4,8 @@
 * mcp [Russian]
 *
 * @package language
-* @version $Id: mcp.php 9854 2009-07-25 18:06:25Z naderman $
 * @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -120,8 +119,10 @@ $lang = array_merge($lang, array(
 	'LATEST_WARNING_TIME'		=> 'Последнее предупреждение вынесено',
 	'LATEST_WARNINGS'			=> 'Последние 5 предупреждений',
 	'LEAVE_SHADOW'				=> 'Оставить ссылку в старом форуме',
-	'LIST_REPORT'				=> 'Заметок: 1',
-	'LIST_REPORTS'				=> 'Заметок: %d',
+	'LIST_REPORTS'				=> array(
+		1	=> 'Заметок: %d',
+		2	=> 'Заметок: %d',
+	),
 	'LOCK'						=> 'Закрыть',
 	'LOCK_POST_POST'			=> 'Заблокировать сообщение',
 	'LOCK_POST_POST_CONFIRM'	=> 'Вы уверены, что хотите запретить редактирование этого сообщения?',
@@ -237,6 +238,7 @@ $lang = array_merge($lang, array(
 	'NO_POST'						=> 'Вы должны выбрать сообщение для того, чтобы вынести за него предупреждение пользователю.',
 	'NO_POST_REPORT'				=> 'Жалоба на это сообщение не направлялась.',
 	'NO_POST_SELECTED'				=> 'Вы должны выбрать хотя бы одно сообщение для того, чтобы произвести это действие.',
+	'NO_POSTS_QUEUE'				=> 'Нет сообщений, ожидающих одобрения.',
 	'NO_REASON_DISAPPROVAL'			=> 'Пожалуйста, укажите подходящую причину отклонения.',
 	'NO_REPORT'						=> 'Жалоба не найдена',
 	'NO_REPORTS'					=> 'Жалоб не найдено',
@@ -251,11 +253,13 @@ $lang = array_merge($lang, array(
 	'PM_REPORT_CLOSED_SUCCESS'	=> 'Выбранная жалоба на личное сообщение успешно закрыта.',
 	'PM_REPORT_DELETED_SUCCESS'	=> 'Выбранная жалоба на личное сообщение успешно удалена.',
 	'PM_REPORTED_SUCCESS'		=> 'Жалоба на это личное сообщение успешно отправлена.',
-	'PM_REPORT_TOTAL'			=> 'Всего жалоб на личные сообщения: <strong>1</strong>.',
  	'PM_REPORTS_CLOSED_SUCCESS'	=> 'Выбранные жалобы на личные сообщения успешно закрыты.',
  	'PM_REPORTS_DELETED_SUCCESS'=> 'Выбранные жалобы на личные сообщения успешно удалены.',
-	'PM_REPORTS_TOTAL'			=> 'Всего жалоб на личные сообщения: <strong>%d</strong>.',
-	'PM_REPORTS_ZERO_TOTAL'		=> 'Нет жалоб на личные сообщения.',
+	'PM_REPORTS_TOTAL'			=> array(
+		0	=> 'Нет жалоб на личные сообщения.',
+		1	=> 'Всего жалоб на личные сообщения: <strong>1</strong>.',
+		2	=> 'Всего жалоб на личные сообщения: <strong>%d</strong>.',
+	),
 	'PM_REPORT_DETAILS'			=> 'Подробности о жалобе на личное сообщение',
 	'POSTER'					=> 'Автор',
 	'POSTS_APPROVED_SUCCESS'	=> 'Выбранные сообщения одобрены.',
@@ -282,8 +286,11 @@ $lang = array_merge($lang, array(
 	'REPORTED_ON_DATE'			=> 'от',
 	'REPORTS_CLOSED_SUCCESS'	=> 'Выбранные жалобы были успешно закрыты.',
 	'REPORTS_DELETED_SUCCESS'	=> 'Выбранные жалобы были успешно удалены.',
-	'REPORTS_TOTAL'				=> 'Всего имеется жалоб для просмотра: <strong>%d</strong>.',
-	'REPORTS_ZERO_TOTAL'		=> 'Отсутствуют жалобы для просмотра.',
+	'REPORTS_TOTAL'				=> array(
+		0	=> 'Отсутствуют жалобы для просмотра.',
+		1	=> 'Всего имеется жалоб для просмотра: <strong>1</strong>.',
+		2	=> 'Всего имеется жалоб для просмотра: <strong>%d</strong>.',
+	),
 	'REPORT_CLOSED'				=> 'Эта жалоба уже была закрыта.',
 	'REPORT_CLOSED_SUCCESS'		=> 'Выбранная жалоба была успешно закрыта.',
 	'REPORT_DELETED_SUCCESS'	=> 'Выбранная жалоба была успешно удалена.',
@@ -295,7 +302,6 @@ $lang = array_merge($lang, array(
 	'REPORT_POST_EXPLAIN'		=> 'Используйте эту форму для отправки жалобы на выбранное сообщение модераторам и администраторам форума. Жалобы обычно используются только в случаях, когда сообщение нарушает правила форума.',
 	'REPORT_REASON'				=> 'Причина направления жалобы',
 	'REPORT_TIME'				=> 'Время направления жалобы',
-	'REPORT_TOTAL'				=> 'Всего имеется жалоб для просмотра: <strong>1</strong>.',
 	'RESYNC'					=> 'Синхронизировать',
 	'RETURN_MESSAGE'			=> '%sВернуться к сообщению%s',
 	'RETURN_NEW_FORUM'			=> '%sПерейти в новый форум%s',
@@ -353,9 +359,11 @@ $lang = array_merge($lang, array(
 	'TOPIC_UNLOCKED_SUCCESS'	=> 'Выбранная тема была открыта.',
 	'TOTAL_WARNINGS'			=> 'Всего предупреждений',
 
-	'UNAPPROVED_POSTS_TOTAL'		=> 'Сообщений, ожидающих одобрения: <strong>%d</strong>.',
-	'UNAPPROVED_POSTS_ZERO_TOTAL'	=> 'Нет сообщений, ожидающих одобрения.',
-	'UNAPPROVED_POST_TOTAL'			=> 'Сообщений, ожидающих одобрения: <strong>1</strong>.',
+	'UNAPPROVED_POSTS_TOTAL'		=> array(
+		0	=> 'Нет сообщений, ожидающих одобрения.',
+		1	=> 'Сообщений, ожидающих одобрения: <strong>1</strong>.',
+		2	=> 'Сообщений, ожидающих одобрения: <strong>%d</strong>.',
+	),
 	'UNLOCK'						=> 'Открыть',
 	'UNLOCK_POST'					=> 'Разблокировать сообщение',
 	'UNLOCK_POST_EXPLAIN'			=> 'Разрешить редактирование',
@@ -381,7 +389,7 @@ $lang = array_merge($lang, array(
 	'WARNING_PM_BODY'		=> 'Это предупреждение, вынесенное вам администратором или модератором этого сайта.[quote]%s[/quote]',
 	'WARNING_PM_SUBJECT'	=> 'Вам вынесено предупреждение',
 	'WARNING_POST_DEFAULT'	=> 'Это предупреждение, относящееся к следующему вашему сообщению: %s.',
-	'WARNINGS_ZERO_TOTAL'	=> 'Нет предупреждений.',
+	'NO_WARNINGS'	=> 'Нет предупреждений.',
 
 	'YOU_SELECTED_TOPIC'	=> 'Вы выбрали тему номер %d: %s.',
 
@@ -400,5 +408,3 @@ $lang = array_merge($lang, array(
 		)
 	),
 ));
-
-?>

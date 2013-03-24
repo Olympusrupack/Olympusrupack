@@ -4,9 +4,8 @@
 * recaptcha [Russian]
 *
 * @package language
-* @version $Id: captcha_recaptcha.php 9933 2009-08-06 09:12:21Z marshalrusty $
 * @copyright (c) 2009 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -48,5 +47,3 @@ $lang = array_merge($lang, array(
 
 	'RECAPTCHA_EXPLAIN'				=> 'В целях предотвращения автоматической отправки форм, введите оба отображённых слова в текстовое поле ниже.',
 ));
-
-?>

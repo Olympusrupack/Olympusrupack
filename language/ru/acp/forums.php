@@ -4,9 +4,8 @@
 * acp_forums [Russian]
 *
 * @package language
-* @version $Id: forums.php 9896 2009-07-31 12:46:15Z Kellanved $
 * @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -156,5 +155,3 @@ $lang = array_merge($lang, array(
 
 	'UNLOCKED'			=> 'Открыт',
 ));
-
-?>

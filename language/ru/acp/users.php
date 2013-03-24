@@ -4,9 +4,8 @@
 * acp_users [Russian]
 *
 * @package language
-* @version $Id: users.php 9767 2009-07-17 11:27:50Z toonarmy $
 * @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -139,5 +138,3 @@ $lang = array_merge($lang, array(
 	'USER_WARNING_LOG_DELETED'		=> 'Информация недоступна. Возможно, данная запись была удалена из журнала.',
 	'USER_TOOLS'					=> 'Основные инструменты',
 ));
-
-?>

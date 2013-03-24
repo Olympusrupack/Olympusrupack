@@ -4,9 +4,8 @@
 * groups [Russian]
 *
 * @package language
-* @version $Id: groups.php,v 1.22 2007/10/04 15:07:24 acydburn Exp $
 * @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2 
 *
 */
 
@@ -92,5 +91,3 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_DEMOTE_CONFIRM'			=> 'Вы уверены, что хотите отказаться от лидерства в выбранной группе?',
 	'USER_GROUP_DEMOTED'				=> 'Вы прекратили быть лидером группы.',
 ));
-
-?>

@@ -4,9 +4,8 @@
 * viewforum [Russian]
 *
 * @package language
-* @version $Id: viewforum.php,v 1.18 2007/10/04 15:07:24 acydburn Exp $
 * @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -65,8 +64,8 @@ $lang = array_merge($lang, array(
 	'NO_READ_ACCESS'		=> 'У вас нет доступа на чтение тем в этом форуме.',
 
 	'VIEW_FORUM'			=> 'Просмотр форума',
-	'VIEW_FORUM_TOPIC'		=> '1 тема',
-	'VIEW_FORUM_TOPICS'		=> 'Тем: %d',
+	'VIEW_FORUM_TOPICS'		=> array(
+		1	=> 'Тем: %d',
+		2	=> 'Тем: %d',
+	),
 ));
-
-?>
