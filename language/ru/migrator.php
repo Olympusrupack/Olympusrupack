@@ -39,17 +39,17 @@ $lang = array_merge($lang, array(
 
 	'GROUP_NOT_EXIST'					=> 'Группа «%s» не существует.',
 
-	'MIGRATION_DATA_DONE'				=> 'Установленные данные: %s',
-	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Migration already effectively installed (skipped): %s',
-	'MIGRATION_EXCEPTION_ERROR'			=> 'Something went wrong during the request and an exception was thrown. The changes made before the error occurred were reversed to the best of our abilities, but you should check the board for errors.',
-	'MIGRATION_NOT_FULFILLABLE'			=> 'The migration «%1$s» is not fulfillable, missing migration «%2$s».',
-	'MIGRATION_SCHEMA_DONE'				=> 'Installed Schema: %s',
+	'MIGRATION_DATA_DONE'				=> 'Обновлены данные: %s',
+	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Обновление уже было выполнено (пропущено): %s',
+	'MIGRATION_EXCEPTION_ERROR'			=> 'В процессе обновления произошла ошибка, которая вызвала исключение. Изменения, произведенные до появления ошибки, были отменены. Тем не менее, рекомендуется проверить конференцию на отсутствие ошибок в работе.',
+	'MIGRATION_NOT_FULFILLABLE'			=> 'Невозможно выполнить обновление «%1$s», пропущено обновление «%2$s».',
+	'MIGRATION_SCHEMA_DONE'				=> 'Обновлена схема: %s',
 
-	'MODULE_ERROR'						=> 'An error occured while creating a module: %s',
-	'MODULE_INFO_FILE_NOT_EXIST'		=> 'A required module info file is missing: %2$s',
-	'MODULE_NOT_EXIST'					=> 'A required module does not exist: %s',
+	'MODULE_ERROR'						=> 'Ошибка при создании модуля: %s',
+	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Обязательный компонент модуля не существует: %2$s',
+	'MODULE_NOT_EXIST'					=> 'Обязательный модуль не существует: %s',
 
-	'PERMISSION_NOT_EXIST'				=> 'The permission setting «%s» unexpectedly does not exist.',
+	'PERMISSION_NOT_EXIST'				=> 'Право доступа «%s» не существует.',
 
-	'ROLE_NOT_EXIST'					=> 'The permission role «%s» unexpectedly does not exist.',
+	'ROLE_NOT_EXIST'					=> 'Роль «%s» в системе прав доступа не существует.',
 ));
