@@ -391,6 +391,7 @@ $lang = array_merge($lang, array(
 	'NO_POSTS_TIME_FRAME'		=> 'В теме нет сообщений за выбранный период времени.',
 	'NO_FEED_ENABLED'			=> 'Каналы новостей недоступны на этой конференции.',
 	'NO_FEED'					=> 'Запрашиваемый канал новостей недоступен.',
+	'NO_STYLE_DATA'				=> 'Невозможно получить данные о стиле',
 	'NO_SUBJECT'				=> 'Не указана тема',								// Used for posts having no subject defined but displayed within management pages.
 	'NO_SUCH_SEARCH_MODULE'		=> 'Указанный поисковый механизм отсутствует.',
 	'NO_SUPPORTED_AUTH_METHODS'	=> 'Метод аутентификации не поддерживается.',
@@ -720,6 +721,7 @@ $lang = array_merge($lang, array(
 	'WHO_IS_ONLINE'		=> 'Кто сейчас на конференции',
 	'WRONG_PASSWORD'	=> 'Вы ввели неверный пароль.',
 
+	'WRONG_DATA_COLOUR'			=> 'Введённо неправильное значение цвета.',
 	'WRONG_DATA_ICQ'			=> 'Введённый номер не являются правильным номером ICQ.',
 	'WRONG_DATA_JABBER'			=> 'Введённое имя не является правильным именем Jabber.',
 	'WRONG_DATA_LANG'			=> 'Указан неправильный язык.',
