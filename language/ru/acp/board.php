@@ -40,7 +40,7 @@ $lang = array_merge($lang, array(
 	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Здесь вы можете установить общие параметры конференции, дать ей имя и описание, а также указать часовой пояс и язык, которые будут использоваться по умолчанию.',
 	'CUSTOM_DATEFORMAT'				=> 'Другой…',
 	'DEFAULT_DATE_FORMAT'			=> 'Формат даты',
-	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Синтаксис идентичен функции <code><a href="http://www.php.net/date">date</code></a> языка PHP.',
+	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Синтаксис идентичен функции <code><a href="http://www.php.net/date">date</a></code> языка PHP.',
 	'DEFAULT_LANGUAGE'				=> 'Язык конференции по умолчанию',
 	'DEFAULT_STYLE'					=> 'Стиль конференции по умолчанию',
 	'DISABLE_BOARD'					=> 'Отключить конференцию',
