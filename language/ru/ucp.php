@@ -246,8 +246,8 @@ $lang = array_merge($lang, array(
 	'GLOBAL_ANNOUNCEMENT'		=> 'Важная',
 
 	'GRAVATAR_AVATAR_EMAIL'			=> 'Адрес email Граватар',
-	'GRAVATAR_AVATAR_EMAIL_EXPLAIN'	=> 'Введите адрес email, использованный для рпегистрации учётной записи на сайте <a href="http://www.gravatar.com/">Граватар</a>.',
-	'GRAVATAR_AVATAR_SIZE'			=> 'Разсеры аватары',
+	'GRAVATAR_AVATAR_EMAIL_EXPLAIN'	=> 'Введите адрес email, использованный для регистрации учётной записи на сайте <a href="http://www.gravatar.com/">Граватар</a>.',
+	'GRAVATAR_AVATAR_SIZE'			=> 'Размеры аватары',
 	'GRAVATAR_AVATAR_SIZE_EXPLAIN'	=> 'Укажите ширину и высоту аватары. Оставьте поля пустыми для автоматического определения размеров.',
 
 	'HIDE_ONLINE'				=> 'Скрывать моё пребывание на конференции',
@@ -454,7 +454,7 @@ $lang = array_merge($lang, array(
 	'SIGNATURE_PREVIEW'			=> 'Ваша подпись в сообщениях будет выглядеть так',
 	'SIGNATURE_TOO_LONG'		=> 'Вы ввели слишком длинную подпись.',
 	'SELECT_CURRENT_TIME'		=> 'Выбрать текущее время',
-	'SELECT_TIMEZONE'			=> 'Выбрат часовой пояс',
+	'SELECT_TIMEZONE'			=> 'Выбрать часовой пояс',
 	'SORT'						=> 'Сортировать',
 	'SORT_COMMENT'				=> 'Комментарии',
 	'SORT_DOWNLOADS'			=> 'Скачивания',
@@ -515,7 +515,7 @@ $lang = array_merge($lang, array(
 	'UCP_PROFILE_PROFILE_INFO'	=> 'Личные данные',
 	'UCP_PROFILE_REG_DETAILS'	=> 'Регистрационные данные',
 	'UCP_PROFILE_SIGNATURE'		=> 'Подпись',
-	'UCP_PROFILE_AUTOLOGIN_KEYS'=> 'Изменить ключи входа функции «Запомнить меня»',
+	'UCP_PROFILE_AUTOLOGIN_KEYS'=> 'Редактировать ключи входа для функции «Запомнить меня»',
 
 	'UCP_USERGROUPS'			=> 'Группы',
 	'UCP_USERGROUPS_MEMBER'		=> 'Участие в группах',

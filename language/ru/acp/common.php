@@ -91,6 +91,7 @@ $lang = array_merge($lang, array(
 	'ACP_FORUM_MANAGEMENT'			=> 'Форумы',
 	'ACP_FORUM_MODERATORS'			=> 'Модераторы форумов',
 	'ACP_FORUM_PERMISSIONS'			=> 'Доступ к форумам',
+	'ACP_GROUPS_POSITION'			=> 'Управление местоположением группы',
 	'ACP_FORUM_PERMISSIONS_COPY'	=> 'Копирование прав доступа',
 	'ACP_FORUM_ROLES'				=> 'Форумные роли',
 
