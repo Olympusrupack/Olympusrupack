@@ -563,9 +563,9 @@ $lang = array_merge($lang, array(
 	'LOG_POST_RESTORED'			=> '<strong>Восстановлено сообщение</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Закрытие жалобы</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Удаление жалобы</strong><br />» %s',
-	'LOG_RESTORE_TOPIC'			=> '<strong>Восстановлена тема «%1$s» written by</strong><br />» %2$s',
-	'LOG_SOFTDELETE_POST'		=> '<strong>Удалено сообщение «%1$s» автора</strong><br />» %2$s',
-	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Удалена тема «%1$s» автора</strong><br />» %2$s',
+	'LOG_RESTORE_TOPIC'			=> '<strong>Восстановлена тема «%1$s», созданная пользователем</strong><br />» %2$s',
+	'LOG_SOFTDELETE_POST'		=> '<strong>Удалено в корзину сообщение «%1$s», опубликованное пользователем</strong><br />» %2$s',
+	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Удалена в корзину тема «%1$s», созданная пользователем</strong><br />» %2$s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Перемещены разделённые сообщения</strong><br />» в %s',
 	'LOG_SPLIT_SOURCE'			=> '<strong>Разделены сообщения</strong><br />» из %s',
 
