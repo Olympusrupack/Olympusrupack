@@ -308,6 +308,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATIONS_MARK_ALL_READ_SUCCESS'				=> 'Все уведомления отмечены как прочтённые.',
 	'NOTIFICATION_GROUP_MISCELLANEOUS'					=> 'Прочие уведомления',
 	'NOTIFICATION_GROUP_MODERATION'						=> 'Уведомления о модерации',
+	'NOTIFICATION_GROUP_ADMINISTRATION'					=> 'Уведомления об администрировании',
 	'NOTIFICATION_GROUP_POSTING'						=> 'Уведомления о сообщениях',
 	'NOTIFICATION_METHOD_EMAIL'							=> 'Email',
 	'NOTIFICATION_METHOD_JABBER'						=> 'Jabber',
@@ -320,6 +321,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_QUOTE'							=> 'Вас процитировали в сообщении',
 	'NOTIFICATION_TYPE_REPORT'							=> 'Жалобы на сообщения',
 	'NOTIFICATION_TYPE_TOPIC'				   			=> 'В форуме, на который вы подписаны, появились новые темы',
+	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Недавно зарегистрированный пользователь требует активации',
 
 	'NOTIFY_METHOD'					=> 'Способ уведомления',
 	'NOTIFY_METHOD_BOTH'			=> 'Оба способа',
