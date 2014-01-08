@@ -8,5 +8,4 @@ Subject: Тема отклонена — «{TOPIC_TITLE}»
 
 {REASON}
 
-
 {EMAIL_SIG}

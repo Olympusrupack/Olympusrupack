@@ -1,4 +1,4 @@
-Subject: Жалоба на сообщение {PM_SUBJECT} удалена
+Subject: Жалоба на личное сообщение {PM_SUBJECT} удалена
 
 Здравствуйте, {USERNAME}!
 

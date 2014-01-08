@@ -50,6 +50,7 @@ $lang = array_merge($lang, array(
 	'CODE'					=> 'Код',
 
 	'DELETE_TOPIC'			=> 'Удалить тему',
+	'DELETED_INFORMATION'	=> 'Удалено %2$s пользователем %1$s',
 	'DISAPPROVE'					=> 'Отклонить',
 	'DOWNLOAD_NOTICE'		=> 'У вас нет необходимых прав для просмотра вложений в этом сообщении.',
 
@@ -89,6 +90,7 @@ $lang = array_merge($lang, array(
 	'POLL_ENDED_AT'			=> 'Опрос закончился %s',
 	'POLL_RUN_TILL'			=> 'Опрос проводится до %s',
 	'POLL_VOTED_OPTION'		=> 'Вы голосовали за этот вариант',
+	'POST_DELETED_RESTORE'	=> 'Данное сообщение удалено, но может быть восстановлено.',
 	'PRINT_TOPIC'			=> 'Версия для печати',
 
 	'QUICK_MOD'				=> 'Быстрые действия',
@@ -96,6 +98,8 @@ $lang = array_merge($lang, array(
 	'QUOTE'					=> 'Цитата',
 
 	'REPLY_TO_TOPIC'		=> 'Ответить на тему',
+	'RESTORE'				=> 'Восстановить',
+	'RESTORE_TOPIC'			=> 'Восстановить тему',
 	'RETURN_POST'			=> '%sВернуться к сообщению%s',
 
 	'SUBMIT_VOTE'			=> 'Проголосовать',

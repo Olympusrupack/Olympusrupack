@@ -8,5 +8,4 @@ Subject: Сообщение отклонено — «{POST_SUBJECT}»
 
 {REASON}
 
-
 {EMAIL_SIG}
