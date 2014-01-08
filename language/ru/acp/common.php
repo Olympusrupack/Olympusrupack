@@ -362,6 +362,7 @@ $lang = array_merge($lang, array(
 
 	'GZIP_COMPRESSION'	=> 'Сжатие GZip',
 
+	'NO_SEARCH_INDEX'	=> 'Для выбранного поискового механизма «%1$s» отсутствуют поисковые индексы.<br >Создайте их в разделе %2$sПоисковые индексы%3$s.',
 	'NOT_AVAILABLE'		=> 'Недоступно',
 	'NUMBER_FILES'		=> 'Вложений',
 	'NUMBER_POSTS'		=> 'Сообщений',
@@ -667,6 +668,8 @@ $lang = array_merge($lang, array(
 	'LOG_U_ROLE_EDIT'		=> '<strong>Изменена пользовательская роль</strong><br />» %s',
 	'LOG_U_ROLE_REMOVED'	=> '<strong>Удалена пользовательская роль</strong><br />» %s',
 	
+	'LOG_PLUPLOAD_TIDY_FAILED'		=> '<strong>Невозможно открыть %1$s для очистки, проверьте настройки прав.</strong><br />Exception: %2$s<br />Trace: %3$s',
+
 	'LOG_PLUPLOAD_TIDY_FAILED'		=> '<strong>Невозможно открыть %1$s для очистки, проверьте права доступа.</strong><br />Исключение: %2$s<br />Дополнительные сведения: %3$s',
 
 	'LOG_PROFILE_FIELD_ACTIVATE'	=> '<strong>Активировано поле профиля</strong><br />» %s',

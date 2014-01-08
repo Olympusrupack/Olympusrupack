@@ -104,6 +104,7 @@ $lang = array_merge($lang, array(
 
 	'SUBMIT_VOTE'			=> 'Проголосовать',
 
+	'TOPIC_TOOLS'			=> 'Управление темой',
 	'TOTAL_VOTES'			=> 'Всего голосов',
 
 	'UNLOCK_TOPIC'			=> 'Открыть тему',
