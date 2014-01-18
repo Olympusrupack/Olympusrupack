@@ -49,7 +49,6 @@ $lang = array_merge($lang, array(
 	'PLUPLOAD_ERR_FILE_COUNT'	=> 'File count error.',
 	'PLUPLOAD_ERR_FILE_INVALID_EXT'	=> 'Ошибка: Неверное расширение файла.:',
 	'PLUPLOAD_ERR_RUNTIME_MEMORY'	=> 'Недостаточно памяти для выполнения операции.',
-	'PLUPLOAD_ERR_UPLOAD_LIMIT'	=> 'Может быть загружено одновременно только %d файл(ов). Остальные файлы не будут загружены.',
 	'PLUPLOAD_ERR_UPLOAD_URL'	=> 'Ссылка на файл для загрузки неверна, или адрес не существует.',
 	'PLUPLOAD_EXTENSION_ERROR'	=> 'Ошибка расширения файла.',
 	'PLUPLOAD_FILE'				=> 'Файл: %s',
