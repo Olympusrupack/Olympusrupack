@@ -49,8 +49,8 @@ $lang = array_merge($lang, array(
     'EXTENSIONS_ENABLED'   => 'Отключить расширения',
 
 	'EXTENSION_DELETE_DATA'  => 'Удалить данные',
-	'EXTENSION_DISABLE'      => 'Отключено',
-    'EXTENSION_ENABLE'       => 'Включено',
+	'EXTENSION_DISABLE'      => 'Отключить',
+    'EXTENSION_ENABLE'       => 'Включить',
 
 	'EXTENSION_DELETE_DATA_EXPLAIN'  => 'Удаление данных и настроек этого расширения. Файлы расширения остаются, поэтому оно может быть восстановлено.',
 	'EXTENSION_DISABLE_EXPLAIN'      => 'При отключении расширения его файлы, данные и настройки сохраняются, но добавленная этим расширением функциональность удаляется.',
