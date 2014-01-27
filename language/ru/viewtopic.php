@@ -75,8 +75,8 @@ $lang = array_merge($lang, array(
 	'MAKE_NORMAL'				=> 'Сделать обычной',
 	'MAKE_STICKY'				=> 'Сделать прилепленной',
 	'MAX_OPTIONS_SELECT'		=> array(
-		1	=> 'Можно выбрать до <strong>%d</strong> вариант ответа',
-		2	=> 'Можно выбрать до <strong>%d</strong> варианта ответа',
+		1	=> 'Можно выбрать до <strong>%d</strong> варианта ответа',
+		2	=> 'Можно выбрать до <strong>%d</strong> вариантов ответа',
 		3	=> 'Можно выбрать до <strong>%d</strong> вариантов ответа',
 	),
 	'MISSING_INLINE_ATTACHMENT'	=> 'Вложение <strong>%s</strong> больше недоступно',
@@ -117,7 +117,7 @@ $lang = array_merge($lang, array(
 	'VIEW_RESULTS'			=> 'Результаты голосования',
 	'VIEW_TOPIC_POSTS'		=> array(
 		1	=> '%d сообщение',
-		2	=> '%d сообщений',
+		2	=> '%d сообщения',
 		3	=> '%d сообщений',
 	),
 	'VIEW_UNREAD_POST'		=> 'Первое новое сообщение',
