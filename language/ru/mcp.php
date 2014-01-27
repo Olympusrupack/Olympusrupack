@@ -388,7 +388,7 @@ $lang = array_merge($lang, array(
 	'UNAPPROVED_POSTS_TOTAL'		=> array(
 		0	=> 'Нет сообщений, ожидающих одобрения.',
 		1	=> '<strong>1</strong> сообщение ожидает одобрения.',
-		2	=> '<strong>%d</strong> сообщений ожидает одобрения.',
+		2	=> '<strong>%d</strong> сообщения ожидает одобрения.',
 		3	=> '<strong>%d</strong> сообщений ожидает одобрения.',
 	),
 	'UNLOCK'						=> 'Открыть',
