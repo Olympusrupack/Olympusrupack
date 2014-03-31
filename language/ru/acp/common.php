@@ -59,9 +59,9 @@ $lang = array_merge($lang, array(
 
 	'ACP_CAPTCHA'				=> 'Визуальное подтверждение',
 
-	'ACP_CAT_CUSTOMISE'			=> 'Расширения',
+	'ACP_CAT_CUSTOMISE'			=> 'Установка расширений',
 	'ACP_CAT_DATABASE'			=> 'База данных',
-	'ACP_CAT_DOT_MODS'			=> 'Расширения',
+	'ACP_CAT_DOT_MODS'			=> 'Настройка расширений',
 	'ACP_CAT_FORUMS'			=> 'Форумы',
 	'ACP_CAT_GENERAL'			=> 'Общие',
 	'ACP_CAT_MAINTENANCE'		=> 'Обслуживание',
@@ -361,7 +361,7 @@ $lang = array_merge($lang, array(
 
 	'GZIP_COMPRESSION'	=> 'Сжатие GZip',
 
-	'NO_SEARCH_INDEX'	=> 'Для выбранного поискового механизма «%1$s» отсутствуют поисковые индексы.<br >Создайте их в разделе %2$sПоисковые индексы%3$s.',
+	'NO_SEARCH_INDEX'	=> 'Для выбранного поискового механизма «%1$s» отсутствуют поисковые индексы.<br />Создайте их в разделе %2$sПоисковые индексы%3$s.',
 	'NOT_AVAILABLE'		=> 'Недоступно',
 	'NUMBER_FILES'		=> 'Вложений',
 	'NUMBER_POSTS'		=> 'Сообщений',

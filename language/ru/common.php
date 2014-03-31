@@ -220,8 +220,6 @@ $lang = array_merge($lang, array(
 	'ERR_CONNECTING_SERVER'				=> 'Ошибка подключения к серверу.',
 	'ERR_JAB_AUTH'						=> 'Не удалось авторизоваться на сервере Jabber.',
 	'ERR_JAB_CONNECT'					=> 'Не удалось подключиться к серверу Jabber.',
-	'ERR_TEMPLATE_EVENT_LOCATION'		=> 'Указанное место события шаблона <em>[%s]</em> имеет неверный формат.',
-	'ERR_TEMPLATE_COMPILATION'		=> 'Файл не скомпилирован: %s',
 	'ERR_UNABLE_TO_LOGIN'				=> 'Указано неверное имя пользователя или пароль.',
 	'ERR_UNWATCHING'					=> 'При попытке отказаться от подписки возникла ошибка.',
 	'ERR_WATCHING'						=> 'При попытке подписаться возникла ошибка.',
@@ -443,18 +441,35 @@ $lang = array_merge($lang, array(
 	'NOT_WATCHING_FORUM'		=> 'Вы больше не подписаны на обновления в этом форуме.',
 	'NOT_WATCHING_TOPIC'		=> 'Вы больше не подписаны на эту тему.',
 	'NOTIFICATIONS'				=> 'Уведомления',
-	'NOTIFICATION_BOOKMARK'				=> '%1$s ответил в теме «%2$s», находящейся у Вас в закладках.',
-	'NOTIFICATION_BOOKMARK_TRIMMED'		=> '%1$s и %3$d других ответили в теме «%2$s», находящейся у Вас в закладках.',
+	// This applies for NOTIFICATION_BOOKMARK, NOTIFICATION_POST, and NOTIFICATION_QUOTE.
+	// %1$s will return a list of users that's concatenated using "," and "and" - see STRING_LIST
+	// Once the user count reaches 5 users or more, the list is trimmed using NOTIFICATION_X_OTHERS
+	// Examples:
+	// A replied...
+	// A and B replied...
+	// A, B and C replied...
+	// A, B, C and 2 others replied...	
+	'NOTIFICATION_BOOKMARK'				=> array(
+		1	=> '%1$s ответил в теме «%2$s», находящейся у Вас в закладках.',
+		2	=> '%1$s ответили в теме «%2$s», находящейся у Вас в закладках.',
+		3	=> '%1$s ответили в теме «%2$s», находящейся у Вас в закладках.',
+	),
 	'NOTIFICATION_GROUP_REQUEST'    => '%1$s подал запрос на вступление в группу %2$s.',
 	'NOTIFICATION_GROUP_REQUEST_APPROVED'  => 'Ваш запрос на вступление в группу %1$s одобрен.',
 	'NOTIFICATION_PM'					=> '%1$s отправил Вам личное сообщение «%2$s».',
-	'NOTIFICATION_POST'					=> '%1$s ответил в теме «%2$s».',
-	'NOTIFICATION_POST_TRIMMED'			=> '%1$s и %3$d других ответили в теме «%2$s»',
+	'NOTIFICATION_POST'					=> array(
+		1	=> '%1$s ответил в теме «%2$s».',
+		2	=> '%1$s ответили в теме «%2$s».',
+		3	=> '%1$s ответили в теме «%2$s».',
+	),
 	'NOTIFICATION_POST_APPROVED'		=> 'Ваше сообщение одобрено «%2$s».',
 	'NOTIFICATION_POST_DISAPPROVED'		=> 'Ваше сообщение «%1$s» отклонено по причине: «%2$s».',
 	'NOTIFICATION_POST_IN_QUEUE'		=> 'Новое сообщение с заголовком «%2$s» оставлено пользователем %1$s и требует одобрения.',
-	'NOTIFICATION_QUOTE'				=> '%1$s процитировал Вас в сообщении «%2$s».',
-	'NOTIFICATION_QUOTE_TRIMMED'		=> '%1$s и %3$d других процитировали Вас в теме «%2$s»',
+	'NOTIFICATION_QUOTE'				=> array(
+		1	=> '%1$s процитировал Вас в сообщении «%2$s».',
+		2	=> '%1$s процитировали Вас в сообщении «%2$s».',
+		3	=> '%1$s процитировали Вас в сообщении «%2$s».',
+	),
 	'NOTIFICATION_REPORT_PM'			=> '%1$s пожаловался на личное сообщение «%2$s» по причине: «%3$s».',
 	'NOTIFICATION_REPORT_POST'			=> '%1$s пожаловался на сообщение «%2$s» по причине: «%3$s».',
 	'NOTIFICATION_REPORT_CLOSED'   		=> '%1$s закрыл Вашу жалобу на «%2$s».',
@@ -464,6 +479,12 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> 'Новая тема «%2$s» создана пользователем %1$s и требует одобрения.',
 	'NOTIFICATION_TYPE_NOT_EXIST'    => 'Тип уведомления «%s» отсутствует в файловой системе.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> 'Пользователь «%1$s» зарегистрирован и ожидает активации учётной записи.',
+	// Used in conjuction with NOTIFICATION_BOOKMARK, NOTIFICATION_POST, and NOTIFICATION_QUOTE.
+	'NOTIFICATION_X_OTHERS'				=> array(
+		1	=> 'ещё %d пользователь',
+		2	=> '%d других',
+		3	=> '%d других',
+	),
 	'NOTIFY_ADMIN'				=> 'Уведомите администратора конференции или вебмастера.',
 	'NOTIFY_ADMIN_EMAIL'		=> 'Уведомите администратора конференции или вебмастера: <a href="mailto:%1$s">%1$s</a>',
 	'NO_ACCESS_ATTACHMENT'		=> 'Вам запрещён доступ к этому файлу.',
@@ -693,6 +714,8 @@ $lang = array_merge($lang, array(
 	'START_WATCHING_TOPIC'		=> 'Подписаться на тему',
 	'STOP_WATCHING_FORUM'		=> 'Отписаться от форума',
 	'STOP_WATCHING_TOPIC'		=> 'Отписаться от темы',
+	'STRING_LIST_MULTI'			=> '%1$s, и %2$s',
+	'STRING_LIST_SIMPLE'		=> '%1$s и %2$s',
 	'SUBFORUM'					=> 'Подфорум',
 	'SUBFORUMS'					=> 'Подфорумы',
 	'SUBJECT'					=> 'Заголовок',
