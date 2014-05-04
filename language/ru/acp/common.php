@@ -85,7 +85,6 @@ $lang = array_merge($lang, array(
 	'ACP_EXTENSION_MANAGEMENT'	=> 'Управление расширениями',
 	'ACP_EXTENSIONS'			=> 'Управление расширениями',
 
-
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Локальные права доступа',
 	'ACP_FORUM_LOGS'				=> 'Логи',
 	'ACP_FORUM_MANAGEMENT'			=> 'Форумы',
@@ -242,9 +241,6 @@ $lang = array_merge($lang, array(
 	'EXPORT_DOWNLOAD'		=> 'Скачать',
 	'EXPORT_STORE'			=> 'Сохранить',
 
-	'FILES_GONE'			=> 'Некоторые из выбранных для удаления вложений не существуют. Они могли быть удалены ранее. Остальные вложения успешно удалены.',
-	'FILES_STATS_WRONG'		=> 'Возможно, статистика вложений неверна и требует синхронизации. Правильные значения: количество вложений = %1$d, общий размер вложений = %2$s.',
-
 	'GENERAL_OPTIONS'		=> 'Общие параметры',
 	'GENERAL_SETTINGS'		=> 'Общие настройки',
 	'GLOBAL_MASK'			=> 'Глобальная маска доступа',
@@ -287,8 +283,6 @@ $lang = array_merge($lang, array(
 
 	'REMIND'							=> 'Напомнить',
 	'RESYNC'							=> 'Синхронизировать',
-	'RESYNC_FILES_STATS'				=> 'Синхронизировать статистику вложений',
-	'RESYNC_FILES_STATS_EXPLAIN'		=> 'Пересчёт общего количества и размера вложений, прикрепленных к сообщениям в темах и личным сообщениям.',
 
 	'SELECT_ANONYMOUS'		=> 'Выбрать учётную запись гостя',
 	'SELECT_OPTION'			=> 'Выберите действие',
@@ -389,7 +383,6 @@ $lang = array_merge($lang, array(
 	'RESET_ONLINE'					=> 'Сброс рекорда посещаемости',
 	'RESET_ONLINE_CONFIRM'			=> 'Вы действительно хотите сбросить рекорд посещаемости конференции?',
 	'RESET_ONLINE_SUCCESS'				=> 'Рекорд посещаемости конференции успешно сброшен',
-	'RESYNC_FILES_STATS_CONFIRM'	=> 'Вы действительно хотите синхронизировать статистику вложений?',
 	'RESYNC_POSTCOUNTS'				=> 'Синхронизировать счётчики сообщений',
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Будут учтены только существующие сообщения. Удалённые сообщения не будут подсчитаны.',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Вы действительно хотите синхронизировать счётчики сообщений?',
@@ -558,7 +551,7 @@ $lang = array_merge($lang, array(
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>Закрыта жалоба на личное сообщение</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>Удалена жалоба на личное сообщение</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Одобрение сообщения</strong><br />» %s',
-	'LOG_POST_DISAPPROVED'		=> '<strong>Отклонение сообщения «%1$s» по причине</strong><br />» %2$s',
+	'LOG_POST_DISAPPROVED'		=> '<strong>Отклонение сообщения «%1$s» автора «%3$s» по причине</strong><br />» %2$s',
 	'LOG_POST_EDITED'			=> '<strong>Редактирование сообщения в теме «%1$s», написанного автором</strong><br />» %2$s',
 	'LOG_POST_RESTORED'			=> '<strong>Восстановлено сообщение</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Закрытие жалобы</strong><br />» %s',
@@ -571,7 +564,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>Одобрение темы</strong><br />» %s',
 	'LOG_TOPIC_RESTORED'		=> '<strong>Восстановлена тема</strong><br />» %s',
-	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Отклонение темы «%1$s» по причине</strong><br />%2$s',
+	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Отклонение темы «%1$s» автора «%3$s» по причине</strong><br />%2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>Синхронизированы счётчики темы</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Изменён тип темы</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>Открыта тема</strong><br />» %s',
@@ -677,6 +670,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_PRUNE'					=> '<strong>Очищены форумы</strong><br />» %s',
 	'LOG_AUTO_PRUNE'			=> '<strong>Произведена автоочистка форумов</strong><br />» %s',
+	'LOG_PRUNE_SHADOW'		=> '<strong>Произведена автоочистка ссылок на перенесённые темы</strong><br />» %s',
 	'LOG_PRUNE_USER_DEAC'		=> '<strong>Деактивированы пользователи</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>Удалены пользователи с их сообщениями</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>Удалены пользователи, их сообщения оставлены</strong><br />» %s',
@@ -775,7 +769,11 @@ $lang = array_merge($lang, array(
 	'LOG_USER_GROUP_RESIGN'			=> '<strong>Пользователь отказался от членства в группе</strong><br />» %s',
 
 	'LOG_WARNING_DELETED'		=> '<strong>Удалено предупреждение у пользователя</strong><br />» %s',
-	'LOG_WARNINGS_DELETED'		=> '<strong>Удалено %2$s предупреждений у пользователя</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+	'LOG_WARNINGS_DELETED'		=> array(
+		1 => '<strong>Удалено предупреждение пользователя</strong><br />» %1$s',
+		2 => '<strong>Удалено %2$s предупреждения пользователя</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+		3 => '<strong>Удалено %2$s предупреждений пользователя</strong><br />» %1$s',
+	),
 	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Удалены все предупреждения у пользователя</strong><br />» %s',
 
 	'LOG_WORD_ADD'			=> '<strong>Добавлен цензор слов</strong><br />» %s',

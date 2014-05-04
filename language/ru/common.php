@@ -176,6 +176,7 @@ $lang = array_merge($lang, array(
 	'CONGRATULATIONS'		=> 'Поздравляем',
 	'CONNECTION_FAILED'		=> 'Ошибка подключения.',
 	'CONNECTION_SUCCESS'	=> 'Подключение успешно установлено.',
+	'CONTACT_USER'			=> 'Контактная информация',
 	'COOKIES_DELETED'		=> 'Все cookies, установленные конференцией, успешно удалены.',
 	'CURRENT_TIME'			=> 'Текущее время: %s',
 
@@ -227,8 +228,6 @@ $lang = array_merge($lang, array(
 	'ERROR'									=> 'Ошибка',
 	'EXPAND_VIEW'						=> 'Развернуть',
 	'EXTENSION'							=> 'Расширение',
-	'EXTENSION_CONTROLLER_MISSING'		=> 'Для расширения <strong>%s</strong> отсутствует класс контроллера и к нему невозможно получить доступ через интерфейс.',
-	'EXTENSION_CLASS_WRONG_TYPE'		=> 'Класс контроллера расширения <strong>%s</strong> не является объектом phpbb_extension_controller_interface.',
 	'EXTENSION_DISABLED'				=> 'Расширение <strong>%s</strong> не включено.',
 	'EXTENSION_DISABLED_AFTER_POSTING'	=> 'Расширение <strong>%s</strong> было запрещено, вложение больше недоступно.',
 	'EXTENSION_DOES_NOT_EXIST'			=> 'Расширение <strong>%s</strong> не существует.',
@@ -366,6 +365,7 @@ $lang = array_merge($lang, array(
 	'LDAP_NO_SERVER_CONNECTION'			=> 'Не удалось соединиться с сервером LDAP.',
 	'LDAP_SEARCH_FAILED'				=> 'Произошла ошибка при поиске в директории LDAP.',
 	'LEGEND'							=> 'Легенда',
+	'LIVE_SEARCHES_NOT_ALLOWED'			=> 'Поиск «на лету» не разрешён.',
 	'LOADING'							=> 'Загрузка',
 	'LOCATION'							=> 'Откуда',
 	'LOCK_POST'							=> 'Заблокировать сообщение',
@@ -441,14 +441,16 @@ $lang = array_merge($lang, array(
 	'NOT_WATCHING_FORUM'		=> 'Вы больше не подписаны на обновления в этом форуме.',
 	'NOT_WATCHING_TOPIC'		=> 'Вы больше не подписаны на эту тему.',
 	'NOTIFICATIONS'				=> 'Уведомления',
-	// This applies for NOTIFICATION_BOOKMARK, NOTIFICATION_POST, and NOTIFICATION_QUOTE.
+	// This applies for NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	// %1$s will return a list of users that's concatenated using "," and "and" - see STRING_LIST
 	// Once the user count reaches 5 users or more, the list is trimmed using NOTIFICATION_X_OTHERS
+	// Once the user count reaches 20 users or more, the list is trimmed using NOTIFICATION_MANY_OTHERS
 	// Examples:
 	// A replied...
 	// A and B replied...
 	// A, B and C replied...
-	// A, B, C and 2 others replied...	
+	// A, B, C and 2 others replied...
+	// A, B, C and others replied...
 	'NOTIFICATION_BOOKMARK'				=> array(
 		1	=> '%1$s ответил в теме «%2$s», находящейся у Вас в закладках.',
 		2	=> '%1$s ответили в теме «%2$s», находящейся у Вас в закладках.',
@@ -479,7 +481,8 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> 'Новая тема «%2$s» создана пользователем %1$s и требует одобрения.',
 	'NOTIFICATION_TYPE_NOT_EXIST'    => 'Тип уведомления «%s» отсутствует в файловой системе.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> 'Пользователь «%1$s» зарегистрирован и ожидает активации учётной записи.',
-	// Used in conjuction with NOTIFICATION_BOOKMARK, NOTIFICATION_POST, and NOTIFICATION_QUOTE.
+	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
+	'NOTIFICATION_MANY_OTHERS'			=> 'другие',
 	'NOTIFICATION_X_OTHERS'				=> array(
 		1	=> 'ещё %d пользователь',
 		2	=> '%d других',
@@ -795,7 +798,7 @@ $lang = array_merge($lang, array(
 	),
 	'TRACKED_PHP_ERROR'	=> 'Отслеженные ошибки PHP: %s',
 
-	'UNABLE_GET_IMAGE_SIZE'	=> 'Не удалось определить размеры изображения.',
+	'UNABLE_GET_IMAGE_SIZE'	=> 'Не удалось определить размеры изображения. Удостоверьтесь, что ссылка на изображение правильная.',
 	'UNABLE_TO_DELIVER_FILE'=> 'Не удалось доставить файл.',
 	'UNKNOWN_BROWSER'		=> 'Неизвестный браузер',
 	'UNMARK_ALL'			=> 'Снять выделение',
@@ -1413,7 +1416,7 @@ $lang = array_merge($lang, array(
 		'D M d, Y g:i a'		=> 'Пн янв 10, 2005 5:57 pm',
 		'F j, Y, g:i a'			=> 'Январь 1, 2007, 1:37 pm',
 		'|d M Y|, H:i'			=> 'Сегодня, 13:37 / 01 Янв 2007, 13:37',
-		'|F j, Y|, g:i a'		=> 'Сегодня, 1:37 pm / Январь 1, 2007, 1:37 pm'
+		'|F j, Y|, g:i a'		=> 'Сегодня, 1:37 pm / Январь 1, 2007, 1:37 pm',
 	),
 
 	// The default dateformat which will be used on new installs in this language
