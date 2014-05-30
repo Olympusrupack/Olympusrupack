@@ -1,11 +1,13 @@
 <?php
 /**
 *
-* acp_common [Russian]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -779,4 +781,8 @@ $lang = array_merge($lang, array(
 	'LOG_WORD_ADD'			=> '<strong>Добавлен цензор слов</strong><br />» %s',
 	'LOG_WORD_DELETE'		=> '<strong>Удалён цензор слов</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>Изменён цензор слов</strong><br />» %s',
+
+	'LOG_EXT_ENABLE'	=> '<strong>Расширение включено</strong><br />» %s',
+	'LOG_EXT_DISABLE'	=> '<strong>Расширение выключено</strong><br />» %s',
+	'LOG_EXT_PURGE'		=> '<strong>Удалены данные расширения</strong><br />» %s',
 ));

@@ -1,11 +1,13 @@
 <?php
 /**
 *
-* acp_board [Russian]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -406,6 +408,7 @@ $lang = array_merge($lang, array(
 
 	'APACHE_SETUP_BEFORE_USE'	=> 'Необходимо настроить аутентификацию Apache при переключении phpBB на этот метод аутентификации. Помните, что имя пользователя для аутентификации в Apache должно совпадать с вашим именем пользователя в phpBB. Аутентификация Apache может использоваться только с mod_php (не с версией CGI) и с отключённым safe_mode.',
 
+	'LDAP'							=> 'LDAP',
 	'LDAP_DN'						=> 'Основное имя LDAP [ <var>dn</var> ]',
 	'LDAP_DN_EXPLAIN'				=> 'Уникальное имя (Distinguished Name), определяющее информацию о пользователе, например <samp>o=My Company,c=US</samp>.',
 	'LDAP_EMAIL'					=> 'Email-атрибут LDAP',

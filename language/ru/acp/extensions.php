@@ -1,15 +1,16 @@
 <?php
 /**
 *
-* acp_extensions [Russian]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2012 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
-/**
-*/
+
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -83,6 +84,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_DELETE_DATA_CONFIRM'  => 'Вы уверены, что хотите удалить данные, связанные с расширением «%s»?<br /><br />Это действие удалит все данные и настройки и не может быть отменено!',
 	'EXTENSION_DISABLE_CONFIRM'      => 'Вы уверены, что хотите отключить расширение «%s»?',
 	'EXTENSION_ENABLE_CONFIRM'       => 'Вы уверены, что хотите включить расширение «%s»?',
+	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Вы уверены, что хотите использовать нестабильную версию?',
 
 	'RETURN_TO_EXTENSION_LIST'	=> 'Вернуться к списку расширений',
 
@@ -105,4 +107,14 @@ $lang = array_merge($lang, array(
 	'AUTHOR_EMAIL'			=> 'Email',
 	'AUTHOR_HOMEPAGE'		=> 'Домашняя страница',
 	'AUTHOR_ROLE'			=> 'Роль',
+
+	'NOT_UP_TO_DATE'		=> '%s требует обновления',
+	'UP_TO_DATE'			=> '%s не требует обновления',
+	'ANNOUNCEMENT_TOPIC'	=> 'Информация об обновлении',
+	'DOWNLOAD_LATEST'		=> 'Скачать обновление',
+	'NO_VERSIONCHECK'		=> 'Информация об обновлении отсутствует.',
+
+	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Перепроверить все версии',
+	'FORCE_UNSTABLE'					=> 'Сообщать о выходе бета-версий',
+	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Настройка параметров обновления',
 ));

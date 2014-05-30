@@ -1,11 +1,13 @@
 <?php
 /**
 *
-* acp_styles [Russian]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -49,11 +51,6 @@ $lang = array_merge($lang, array(
 	'INSTALL_STYLE'				=> 'Установить стиль',
 	'INSTALL_STYLES'			=> 'Установить стили',
 	'INSTALL_STYLES_EXPLAIN'	=> 'Здесь вы можете установить новые стили.<br />В случае, если какой-либо стиль в списке ниже, проверьте, не был ли он уже установлен. Если нет, проверьте правильность загрузки стиля на сервер',
-	'INSTALL_TEMPLATE'			=> 'Установить шаблон',
-	'INSTALL_TEMPLATE_EXPLAIN'	=> 'Здесь вы можете установить новый шаблон. В зависимости от конфигурации сервера вам могут быть доступны различные возможности.',
-	'INSTALL_THEME'				=> 'Установить тему',
-	'INSTALL_THEME_EXPLAIN'		=> 'Здесь вы можете установить выбранную тему. Вы можете отредактировать некоторые настройки или использовать установки по умолчанию.',
-	'INSTALLED_IMAGESET'		=> 'Установленные наборы изображений',
 	'INVALID_STYLE_ID'			=> 'Неверный идентификатор (ID) стиля.',
 
 	'NO_MATCHING_STYLES_FOUND'	=> 'Нет стилей, соответствующих запросу.',
