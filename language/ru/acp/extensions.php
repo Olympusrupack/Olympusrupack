@@ -117,4 +117,7 @@ $lang = array_merge($lang, array(
 	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Перепроверить все версии',
 	'FORCE_UNSTABLE'					=> 'Сообщать о выходе бета-версий',
 	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Настройка параметров обновления',
+
+	'META_FIELD_NOT_SET'	=> 'Обязательное метаполе %s не задано.',
+	'META_FIELD_INVALID'	=> 'Метаполе %s имеет неправильный формат.',
 ));

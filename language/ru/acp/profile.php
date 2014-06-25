@@ -39,9 +39,11 @@ if (empty($lang) || !is_array($lang))
 // Custom profile fields
 $lang = array_merge($lang, array(
 	'ADDED_PROFILE_FIELD'	=> 'Дополнительное поле успешно добавлено в профиль.',
+	'ALPHA_DOTS'			=> 'Только буквенно-цифровые и точки',
 	'ALPHA_ONLY'			=> 'Только буквенно-цифровые',
 	'ALPHA_SPACERS'			=> 'Только буквенно-цифровые и разделители',
 	'ALPHA_UNDERSCORE'		=> 'Только буквенно-цифровые и подчёркивание',
+	'ALPHA_PUNCTUATION'		=> 'Только буквенно-цифровые, запятые, точки, подчёркивание и тире, начинающиеся с буквы',
 	'ALWAYS_TODAY'			=> 'Всегда текущая дата',
 
 	'BOOL_ENTRIES_EXPLAIN'	=> 'Введите возможные варианты',
@@ -91,6 +93,7 @@ $lang = array_merge($lang, array(
 	'FIELD_DESCRIPTION'			=> 'Описание поля',
 	'FIELD_DESCRIPTION_EXPLAIN'	=> 'Подсказка к полю, показываемая пользователю',
 	'FIELD_DROPDOWN'			=> 'Раскрывающийся список',
+	'FIELD_GOOGLEPLUS'			=> 'Google+',
 	'FIELD_IDENT'				=> 'Идентификатор поля',
 	'FIELD_IDENT_ALREADY_EXIST'	=> 'Поле с таким идентификатором уже существует. Введите другой идентификатор.',
 	'FIELD_IDENT_EXPLAIN'		=> 'Название поля для его обозначения в базе данных и файлах шаблонов.',

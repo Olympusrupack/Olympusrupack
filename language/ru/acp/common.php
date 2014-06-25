@@ -75,6 +75,8 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_USERS'				=> 'Пользователи',
 	'ACP_CLIENT_COMMUNICATION'	=> 'Средства связи',
 	'ACP_COOKIE_SETTINGS'		=> 'Настройки cookies',
+	'ACP_CONTACT'				=> 'Страница для связи с администрацией',
+	'ACP_CONTACT_SETTINGS'		=> 'Настройки страницы для связи с администрацией',
 	'ACP_CRITICAL_LOGS'			=> 'Лог ошибок',
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Дополнительные поля в профиле',
 
@@ -224,8 +226,18 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Назад',
 
+	'CLI_DESCRIPTION_CRON_LIST'				=> 'Выводит список запланированных и не запланированных задач планировщика (cron).',
+	'CLI_DESCRIPTION_CRON_RUN'				=> 'Запускает все запланированные задачи планировщика (cron).',
+	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'	=> 'Имя задачи для запуска',
+
+	'CLI_DESCRIPTION_OPTION_SHELL'			=> 'Запустить оболочку.',
+
 	'COLOUR_SWATCH'			=> 'Цветовая палитра',
 	'CONFIG_UPDATED'		=> 'Настройки успешно обновлены.',
+	'CRON_LOCK_ERROR'		=> 'Не удалось получить блокировку планировщика (cron lock).',
+	'CRON_NO_SUCH_TASK'		=> 'Не удалось найти задачу планировщика «%s».',
+	'CRON_NO_TASK'			=> 'В данный момент нет задач планировщика для запуска.',
+	'CRON_NO_TASKS'			=> 'Не удалось найти задачи планировщика.',
 
 	'DEACTIVATE'				=> 'Отключить',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'Указанный путь «%s» не существует.',
@@ -286,6 +298,7 @@ $lang = array_merge($lang, array(
 	'REMIND'							=> 'Напомнить',
 	'RESYNC'							=> 'Синхронизировать',
 
+	'RUNNING_TASK'			=> 'Выполняется задача: %s.',
 	'SELECT_ANONYMOUS'		=> 'Выбрать учётную запись гостя',
 	'SELECT_OPTION'			=> 'Выберите действие',
 
@@ -296,6 +309,8 @@ $lang = array_merge($lang, array(
 
 	'SHOW_ALL_OPERATIONS'	=> 'Показать все действия',
 
+	'TASKS_NOT_READY'			=> 'Не запланированные задачи:',
+	'TASKS_READY'			=> 'Запланированные задачи:',
 	'TOTAL_SIZE'      		=> 'Общий размер',
 
 	'UCP'					=> 'Личный раздел',
@@ -542,8 +557,8 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Одобрена тема</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Поднята тема</strong><br />» %s',
-	'LOG_DELETE_POST'			=> '<strong>Удалено сообщение «%1$s», опубликованное пользователем </strong><br />» %2$s',
-	'LOG_DELETE_TOPIC'			=> '<strong>Удалена тема «%1$s», созданная пользователем </strong><br />» %2$s',
+	'LOG_DELETE_POST'			=> '<strong>Удалено сообщение «%1$s», созданное пользователем «%2$s», по причине</strong><br />» %3$s',
+	'LOG_DELETE_TOPIC'			=> '<strong>Удалена тема «%1$s», созданная пользователем «%2$s», по причине</strong><br />» %3$s',
 	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Удалена ссылка на перенесённую тему</strong><br />» %s',
 	'LOG_FORK'					=> '<strong>Скопирована тема</strong><br />» из форума %s',
 	'LOG_LOCK'					=> '<strong>Закрыта тема</strong><br />» %s',
@@ -554,13 +569,13 @@ $lang = array_merge($lang, array(
 	'LOG_PM_REPORT_DELETED'		=> '<strong>Удалена жалоба на личное сообщение</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Одобрение сообщения</strong><br />» %s',
 	'LOG_POST_DISAPPROVED'		=> '<strong>Отклонение сообщения «%1$s» автора «%3$s» по причине</strong><br />» %2$s',
-	'LOG_POST_EDITED'			=> '<strong>Редактирование сообщения в теме «%1$s», написанного автором</strong><br />» %2$s',
+	'LOG_POST_EDITED'			=> '<strong>Редактирование сообщения в теме «%1$s», созданного пользователем «%2$s», по причине</strong><br />» %3$s',
 	'LOG_POST_RESTORED'			=> '<strong>Восстановлено сообщение</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Закрытие жалобы</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Удаление жалобы</strong><br />» %s',
 	'LOG_RESTORE_TOPIC'			=> '<strong>Восстановлена тема «%1$s», созданная пользователем</strong><br />» %2$s',
-	'LOG_SOFTDELETE_POST'		=> '<strong>Удалено в корзину сообщение «%1$s», опубликованное пользователем</strong><br />» %2$s',
-	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Удалена в корзину тема «%1$s», созданная пользователем</strong><br />» %2$s',
+	'LOG_SOFTDELETE_POST'		=> '<strong>Удалено в корзину сообщение «%1$s», созданное пользователем «%2$s», по причине</strong><br />» %3$s',
+	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Удалена в корзину тема «%1$s», созданная пользователем «%2$s», по причине</strong><br />» %3$s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Перемещены разделённые сообщения</strong><br />» в %s',
 	'LOG_SPLIT_SOURCE'			=> '<strong>Разделены сообщения</strong><br />» из %s',
 

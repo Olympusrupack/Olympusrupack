@@ -49,6 +49,8 @@ $lang = array_merge($lang, array(
 	'BEFORE'				=> 'до',
 
 	'CC_EMAIL'				=> 'Выслать мне копию этого сообщения.',
+	'CONTACT_USER'			=> 'Контакты',
+	'CONTACT_ADMIN'			=> 'Отправить сообщение администрации',
 
 	'DEST_LANG'				=> 'Язык',
 	'DEST_LANG_EXPLAIN'		=> 'Выберите язык получателя сообщения (если доступен).',
@@ -61,6 +63,8 @@ $lang = array_merge($lang, array(
 	'EMPTY_MESSAGE_EMAIL'	=> 'Вы должны ввести текст сообщения для отправки.',
 	'EMPTY_MESSAGE_IM'		=> 'Вы должны ввести текст сообщения для отправки.',
 	'EMPTY_NAME_EMAIL'		=> 'Вы должны ввести настоящее имя получателя.',
+	'EMPTY_SENDER_EMAIL'	=> 'Вы должны ввести правильный адрес email.',
+	'EMPTY_SENDER_NAME'		=> 'Вы должны указать имя.',
 	'EMPTY_SUBJECT_EMAIL'	=> 'Вы должны указать тему сообщения.',
 	'EQUAL_TO'				=> 'равно',
 
@@ -99,6 +103,8 @@ $lang = array_merge($lang, array(
 
 	'MORE_THAN'				=> 'больше',
 
+	'NO_CONTACT_FORM'		=> 'Форма для связи с администрацией отключена.',
+	'NO_CONTACT_PAGE'		=> 'Страница для связи с администрацией отключена.',
 	'NO_EMAIL'				=> 'Вам не разрешено посылать email этому пользователю.',
 	'NO_VIEW_USERS'			=> 'У вас нет доступа к списку пользователей.',
 
@@ -114,6 +120,8 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MARKED'			=> 'Выбрать отмеченных',
 	'SELECT_SORT_METHOD'	=> 'Поле сортировки',
+	'SENDER_EMAIL_ADDRESS'	=> 'Ваш адрес email',
+	'SENDER_NAME'			=> 'Ваше имя',
 	'SEND_ICQ_MESSAGE'		=> 'Отправить ICQ-сообщение',
 	'SEND_IM'				=> 'Отправить мгновенное сообщение',
 	'SEND_JABBER_MESSAGE'	=> 'Отправить Jabber-сообщение',
@@ -138,4 +146,9 @@ $lang = array_merge($lang, array(
 	'USERS_PER_PAGE'		=> 'Пользователей на странице',
 
 	'VIEWING_PROFILE'		=> 'Профиль пользователя %s',
+	'VIEW_FACEBOOK_PROFILE'	=> 'Просмотр профиля Facebook',
+	'VIEW_SKYPE_PROFILE'	=> 'Просмотр профиля Skype',
+	'VIEW_TWITTER_PROFILE'	=> 'Просмотр профиля Twitter',
+	'VIEW_YOUTUBE_CHANNEL'  => 'Просмотр профиля YouTube',
+	'VIEW_GOOGLEPLUS_PROFILE' => 'Просмотр профиля Google+',
 ));
