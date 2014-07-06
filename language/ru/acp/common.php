@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_CAPTCHA'				=> 'Визуальное подтверждение',
 
-	'ACP_CAT_CUSTOMISE'			=> 'Установка расширений',
+	'ACP_CAT_CUSTOMISE'			=> 'Персонализация',
 	'ACP_CAT_DATABASE'			=> 'База данных',
 	'ACP_CAT_DOT_MODS'			=> 'Настройка расширений',
 	'ACP_CAT_FORUMS'			=> 'Форумы',
