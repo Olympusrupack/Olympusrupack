@@ -248,7 +248,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_AS'				=> 'Скачать как',
 	'DOWNLOAD_STORE'			=> 'Скачать или сохранить на сервере',
 	'DOWNLOAD_STORE_EXPLAIN'	=> 'Вы можете напрямую скачать файл или сохранить его на сервере в папке <samp>store/</samp>.',
-	'DOWNLOADS'          		=> 'Загрузки',
+	'DOWNLOADS'					=> 'Загрузки',
 
 	'EDIT'					=> 'Изменить',
 	'ENABLE'				=> 'Включить',
@@ -311,7 +311,7 @@ $lang = array_merge($lang, array(
 
 	'TASKS_NOT_READY'			=> 'Не запланированные задачи:',
 	'TASKS_READY'			=> 'Запланированные задачи:',
-	'TOTAL_SIZE'      		=> 'Общий размер',
+	'TOTAL_SIZE'			=> 'Общий размер',
 
 	'UCP'					=> 'Личный раздел',
 	'USERNAMES_EXPLAIN'		=> 'Вводите каждое имя на новой строке.',

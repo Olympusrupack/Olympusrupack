@@ -49,7 +49,6 @@ $lang = array_merge($lang, array(
 	'BEFORE'				=> 'до',
 
 	'CC_EMAIL'				=> 'Выслать мне копию этого сообщения.',
-	'CONTACT_USER'			=> 'Контакты',
 	'CONTACT_ADMIN'			=> 'Отправить сообщение администрации',
 
 	'DEST_LANG'				=> 'Язык',
@@ -149,6 +148,6 @@ $lang = array_merge($lang, array(
 	'VIEW_FACEBOOK_PROFILE'	=> 'Просмотр профиля Facebook',
 	'VIEW_SKYPE_PROFILE'	=> 'Просмотр профиля Skype',
 	'VIEW_TWITTER_PROFILE'	=> 'Просмотр профиля Twitter',
-	'VIEW_YOUTUBE_CHANNEL'  => 'Просмотр профиля YouTube',
+	'VIEW_YOUTUBE_CHANNEL'	=> 'Просмотр профиля YouTube',
 	'VIEW_GOOGLEPLUS_PROFILE' => 'Просмотр профиля Google+',
 ));

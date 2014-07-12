@@ -331,12 +331,12 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_BOOKMARK'						=> 'В теме, помещённой в закладки, появились новые сообщения',
 	'NOTIFICATION_TYPE_GROUP_REQUEST'					=> 'Поступил запрос на вступление в группу, лидером которой вы являетесь',
 	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'				=> 'Сообщение или тема требуют одобрения',
-	'NOTIFICATION_TYPE_MODERATION_QUEUE'   				=> 'Ваши сообщения/темы одобрены или отклонены модератором',
+	'NOTIFICATION_TYPE_MODERATION_QUEUE'				=> 'Ваши сообщения/темы одобрены или отклонены модератором',
 	'NOTIFICATION_TYPE_PM'								=> 'Вам отправлено личное сообщение',
 	'NOTIFICATION_TYPE_POST'							=> 'В теме, на которую вы подписаны, появились новые сообщения',
 	'NOTIFICATION_TYPE_QUOTE'							=> 'Вас процитировали в сообщении',
 	'NOTIFICATION_TYPE_REPORT'							=> 'Жалобы на сообщения',
-	'NOTIFICATION_TYPE_TOPIC'				   			=> 'В форуме, на который вы подписаны, появились новые темы',
+	'NOTIFICATION_TYPE_TOPIC'							=> 'В форуме, на который вы подписаны, появились новые темы',
 	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Недавно зарегистрированный пользователь требует активации',
 
 	'NOTIFY_METHOD'					=> 'Способ уведомления',
@@ -363,6 +363,7 @@ $lang = array_merge($lang, array(
 	),
 	'NO_ACTION_MODE'				=> 'Не выбрано действие для сообщения.',
 	'NO_AUTHOR'						=> 'Не указан автор сообщения',
+	'NO_AVATAR'						=> 'Не выбрана аватара',
 	'NO_AVATAR_CATEGORY'			=> 'Нет',
 
 	'NO_AUTH_DELETE_MESSAGE'		=> 'У вас нет доступа к удалению личных сообщений.',
