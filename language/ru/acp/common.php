@@ -431,7 +431,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INACTIVE_USERS'		=> 'Неактивированные пользователи',
 
 	'WELCOME_PHPBB'			=> 'Добро пожаловать в phpBB',
-	'WRITABLE_CONFIG'		=> 'Файл <samp>config.php</samp> в настоящее время доступен для записи. Настоятельно рекомендуется изменить право доступа к этому файлу на 640 или по крайней мере на 644 (например: <a href="http://ru.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
+	'WRITABLE_CONFIG'		=> 'Файл config.php в настоящее время доступен для записи. Настоятельно рекомендуется изменить право доступа к этому файлу на 640 или по крайней мере на 644 (например: <a href="http://ru.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
 ));
 
 // Inactive Users
@@ -737,7 +737,7 @@ $lang = array_merge($lang, array(
 	'LOG_THEME_ADD_FS'			=> '<strong>Добавлена тема на сервер</strong><br />» %s',
 	'LOG_THEME_DELETE'			=> '<strong>Удалена тема</strong><br />» %s',
 	'LOG_THEME_EDIT_DETAILS'	=> '<strong>Изменена информация о теме</strong><br />» %s',
-	'LOG_THEME_EDIT'			=> '<strong>Изменена тема <em>%1$s</em></strong><br />» Изменён класс <em>%2$s</em>',
+	'LOG_THEME_EDIT'			=> '<strong>Изменена тема <em>%1$s</em></strong>',
 	'LOG_THEME_EDIT_FILE'		=> '<strong>Изменение темы оформления стиля <em>%1$s</em></strong><br />» Изменён файл <em>%2$s</em>',
 	'LOG_THEME_EXPORT'			=> '<strong>Экспортирована тема</strong><br />» %s',
 	// @deprecated 3.1
@@ -788,8 +788,8 @@ $lang = array_merge($lang, array(
 	'LOG_WARNING_DELETED'		=> '<strong>Удалено предупреждение у пользователя</strong><br />» %s',
 	'LOG_WARNINGS_DELETED'		=> array(
 		1 => '<strong>Удалено предупреждение пользователя</strong><br />» %1$s',
-		2 => '<strong>Удалено %2$s предупреждения пользователя</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
-		3 => '<strong>Удалено %2$s предупреждений пользователя</strong><br />» %1$s',
+		2 => '<strong>Удалено %2$d предупреждения пользователя</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+		3 => '<strong>Удалено %2$d предупреждений пользователя</strong><br />» %1$s',
 	),
 	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Удалены все предупреждения у пользователя</strong><br />» %s',
 
