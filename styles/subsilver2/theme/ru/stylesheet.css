@@ -26,7 +26,7 @@
 }
 .imageset.icon_contact_pm {
 	background-image: url("./icon_contact_pm.gif");
-	padding-left: 72px;
+	padding-left: 70px;
 	padding-top: 20px;
 }
 .imageset.phpbb_yahoo-icon, .imageset.icon_contact_yahoo {
@@ -66,12 +66,12 @@
 }
 .imageset.icon_user_online {
 	background-image: url("./icon_user_online.gif");
-	padding-left: 72px;
+	padding-left: 70px;
 	padding-top: 20px;
 }
 .imageset.icon_user_offline {
 	background-image: url("./icon_user_offline.gif");
-	padding-left: 72px;
+	padding-left: 70px;
 	padding-top: 20px;
 }
 .imageset.icon_user_profile {
@@ -91,12 +91,12 @@
 }
 .imageset.button_pm_new {
 	background-image: url("./button_pm_new.gif");
-	padding-left: 97px;
+	padding-left: 106px;
 	padding-top: 27px;
 }
 .imageset.button_pm_reply {
 	background-image: url("./button_pm_reply.gif");
-	padding-left: 90px;
+	padding-left: 88px;
 	padding-top: 20px;
 }
 .imageset.button_topic_locked {
@@ -106,7 +106,7 @@
 }
 .imageset.button_topic_new {
 	background-image: url("./button_topic_new.gif");
-	padding-left: 97px;
+	padding-left: 105px;
 	padding-top: 27px;
 }
 .imageset.button_topic_reply {
