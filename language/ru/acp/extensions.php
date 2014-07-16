@@ -90,7 +90,7 @@ $lang = array_merge($lang, array(
 
 	'EXT_DETAILS'			=> 'Информация о расширении',
 	'DISPLAY_NAME'			=> 'Отображаемое имя',
-	'CLEAN_NAME'			=> 'Чистое имя',
+	'CLEAN_NAME'			=> 'Имя на сервере',
 	'TYPE'					=> 'Тип',
 	'DESCRIPTION'			=> 'Описание',
 	'VERSION'				=> 'Версия',
