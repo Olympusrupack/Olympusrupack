@@ -89,8 +89,8 @@ $lang = array_merge($lang, array(
 	'RETURN_TO_EXTENSION_LIST'	=> 'Вернуться к списку расширений',
 
 	'EXT_DETAILS'			=> 'Информация о расширении',
-	'DISPLAY_NAME'			=> 'Показать имя',
-	'CLEAN_NAME'			=> 'Очистить имя',
+	'DISPLAY_NAME'			=> 'Отображаемое имя',
+	'CLEAN_NAME'			=> 'Чистое имя',
 	'TYPE'					=> 'Тип',
 	'DESCRIPTION'			=> 'Описание',
 	'VERSION'				=> 'Версия',
