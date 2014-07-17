@@ -462,26 +462,26 @@ $lang = array_merge($lang, array(
 	// A, B, C and 2 others replied...
 	// A, B, C and others replied...
 	'NOTIFICATION_BOOKMARK'				=> array(
-		1	=> '<strong>Ответ</strong> от %1$s в теме, находящейся у Вас в закладках:',
-		2	=> '<strong>Ответ</strong> от %1$s в теме, находящейся у Вас в закладках:',
-		3	=> '<strong>Ответ</strong> от %1$s в теме, находящейся у Вас в закладках:',
+		1	=> '<strong>Ответ</strong> от пользователя %1$s в теме, находящейся у Вас в закладках:',
+		2	=> '<strong>Ответ</strong> от пользователей %1$s в теме, находящейся у Вас в закладках:',
+		3	=> '<strong>Ответ</strong> от пользователей %1$s в теме, находящейся у Вас в закладках:',
 	),
 	'NOTIFICATION_FORUM'				=> '<em>Форум:</em> %1$s',
 	'NOTIFICATION_GROUP_REQUEST'    => '<strong>Запрос</strong> от %1$s на вступление в группу %2$s.',
 	'NOTIFICATION_GROUP_REQUEST_APPROVED'  => '<strong>Одобрен запрос</strong> на вступление в группу %1$s.',
 	'NOTIFICATION_PM'					=> '<strong>Личное сообщение</strong> от %1$s:',
 	'NOTIFICATION_POST'					=> array(
-		1	=> '<strong>Ответ</strong> от %1$s в теме:',
-		2	=> '<strong>Ответ</strong> от %1$s в теме:',
-		3	=> '<strong>Ответ</strong> от %1$s в теме:',
+		1	=> '<strong>Ответ</strong> от пользователя %1$s в теме:',
+		2	=> '<strong>Ответ</strong> от пользователей %1$s в теме:',
+		3	=> '<strong>Ответ</strong> от пользователей %1$s в теме:',
 	),
 	'NOTIFICATION_POST_APPROVED'		=> '<strong>Сообщение одобрено</strong>:',
 	'NOTIFICATION_POST_DISAPPROVED'		=> '<strong>Сообщение отклонено</strong>:',
 	'NOTIFICATION_POST_IN_QUEUE'		=> '<strong>Ожидает одобрения</strong> сообщение от %1$s:',
 	'NOTIFICATION_QUOTE'				=> array(
-		1	=> '<strong>Цитата</strong> от %1$s в сообщении:',
-		2	=> '<strong>Цитата</strong> от %1$s в сообщении:',
-		3	=> '<strong>Цитата</strong> от %1$s в сообщении:',
+		1	=> '<strong>Цитата</strong> от пользователя %1$s в сообщении:',
+		2	=> '<strong>Цитата</strong> от пользователей %1$s в сообщении:',
+		3	=> '<strong>Цитата</strong> от пользователей %1$s в сообщении:',
 	),
 	'NOTIFICATION_REFERENCE'			=> '«%1$s»',
 	'NOTIFICATION_REASON'				=> '<em>Причина:</em> %1$s.',
@@ -495,9 +495,9 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_NOT_EXIST'    => 'Тип уведомления «%s» отсутствует в файловой системе.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Ожидает активации</strong> новый пользователь: «%1$s»',
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
-	'NOTIFICATION_MANY_OTHERS'			=> 'другие',
+	'NOTIFICATION_MANY_OTHERS'			=> 'других',
 	'NOTIFICATION_X_OTHERS'				=> array(
-		1	=> 'ещё %d пользователь',
+		1	=> 'ещё %d пользователя',
 		2	=> '%d других',
 		3	=> '%d других',
 	),
