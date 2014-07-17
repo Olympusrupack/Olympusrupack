@@ -45,8 +45,8 @@ $lang = array_merge($lang, array(
 
 	'DETAILS'				=> 'Информация',
 
-	'EXTENSIONS_DISABLED'  => 'Отключенные расширения',
-	'EXTENSIONS_ENABLED'   => 'Включенные расширения',
+	'EXTENSIONS_DISABLED'  => 'Отключённые расширения',
+	'EXTENSIONS_ENABLED'   => 'Включённые расширения',
 
 	'EXTENSION_DELETE_DATA'  => 'Удалить данные',
 	'EXTENSION_DISABLE'      => 'Отключить',
@@ -74,7 +74,7 @@ $lang = array_merge($lang, array(
 			<li>Загрузите новые файлы</li>
 			<li>Включите расширение</li>
 		</ol>',
-	'EXTENSION_REMOVE_HEADLINE'	=> 'Полное удаление расширения.',
+	'EXTENSION_REMOVE_HEADLINE'	=> 'Полное удаление расширения',
 	'EXTENSION_REMOVE_EXPLAIN'	=> '<ol>
 			<li>Отключите расширение</li>
 			<li>Удалите данные расширения</li>
