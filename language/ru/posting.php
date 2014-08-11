@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_O_HELP'				=> 'Упорядоченный список: [list=1][*]Пункт первый[/list] или [list=a][*]Пункт a[/list]',
 	'BBCODE_P_HELP'				=> 'Вставить изображение: [img]http://image_url[/img]',
 	'BBCODE_Q_HELP'				=> 'Цитата: [quote]текст[/quote]',
-	'BBCODE_S_HELP'				=> 'Цвет шрифта: [color=red]текст[/color] Совет: вы можете использовать также конструкцию color=#FF0000',
+	'BBCODE_S_HELP'				=> 'Цвет шрифта: [color=red]текст[/color] или [color=#FF0000]текст[/color]',
 	'BBCODE_U_HELP'				=> 'Подчёркнутый текст: [u]текст[/u]',
 	'BBCODE_W_HELP'				=> 'Вставить ссылку: [url]http://url[/url] или [url=http://url]Текст ссылки[/url]',
 	'BBCODE_Y_HELP'				=> 'Список: добавить элемент списка',

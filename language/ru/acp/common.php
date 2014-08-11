@@ -226,12 +226,6 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Назад',
 
-	'CLI_DESCRIPTION_CRON_LIST'				=> 'Выводит список запланированных и не запланированных задач планировщика (cron).',
-	'CLI_DESCRIPTION_CRON_RUN'				=> 'Запускает все запланированные задачи планировщика (cron).',
-	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'	=> 'Имя задачи для запуска',
-
-	'CLI_DESCRIPTION_OPTION_SHELL'			=> 'Запустить оболочку.',
-
 	'COLOUR_SWATCH'			=> 'Цветовая палитра',
 	'CONFIG_UPDATED'		=> 'Настройки успешно обновлены.',
 	'CRON_LOCK_ERROR'		=> 'Не удалось получить блокировку планировщика (cron lock).',
