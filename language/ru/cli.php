@@ -73,6 +73,9 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Не удалось удалить файлы и данные расширения %s',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'Успешно удалены файлы и данные расширения %s',
 	'CLI_EXTENSION_NOT_FOUND'			=> 'Расширений не найдено.',
+	'CLI_EXTENSIONS_AVAILABLE'			=> 'Доступные',
+	'CLI_EXTENSIONS_DISABLED'			=> 'Отключённые',
+	'CLI_EXTENSIONS_ENABLED'			=> 'Включённые',
 
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Успешно пересчитаны все значения хэшей email.',
 ));

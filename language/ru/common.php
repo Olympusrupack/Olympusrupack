@@ -545,6 +545,11 @@ $lang = array_merge($lang, array(
 	'NO_USER_SPECIFIED'			=> 'Имя пользователя не определено.',
 
 	// Nullar/Singular/Plural language entry. The key numbers define the number range in which a certain grammatical expression is valid.
+	'NUM_ATTACHMENTS'		=> array(
+		1	=> '%d вложение',
+		2	=> '%d вложения',
+		3	=> '%d вложений',
+	),
 	'NUM_POSTS_IN_QUEUE'	=> array(
 		0		=> 'Нет сообщений в очереди',
 		1		=> '%d сообщение в очереди',
@@ -909,6 +914,10 @@ $lang = array_merge($lang, array(
 	'WRONG_DATA_COLOUR'      => 'Введено неверное значение цвета.',
 	'WRONG_DATA_JABBER'			=> 'Введённое имя не является правильным именем Jabber.',
 	'WRONG_DATA_LANG'			=> 'Указан неправильный язык.',
+	'WRONG_DATA_POST_SD'		=> 'Выбран неверный метод сортировки сообщений.',
+	'WRONG_DATA_POST_SK'		=> 'Выбрано неверное поле сортировки сообщений.',
+	'WRONG_DATA_TOPIC_SD'		=> 'Выбран неверный метод сортировки тем.',
+	'WRONG_DATA_TOPIC_SK'		=> 'Выбрано неверное поле сортировки тем.',
 	'WROTE'						=> 'писал(а)',
 
 	'YAHOO'				=> 'Yahoo Messenger',
