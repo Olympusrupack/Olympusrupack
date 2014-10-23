@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_SPHINX_PORT_EXPLAIN'			=> 'Порт, по которому доступен процесс sphinx (searchd). Оставьте значение пустым для использования порта по умолчанию 9312',
 	'FULLTEXT_SPHINX_WRONG_DATABASE'		=> 'Поисковый механизм sphinx для phpBB поддерживает только СУБД MySQL и PostgreSQL.',
 	'FULLTEXT_SPHINX_CONFIG_FILE'			=> 'Файл конфигурации Sphinx',
-	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'Содержимое для создания файла конфигурации sphinx. Указанные данные должны быть сохранены в файле sphinx.conf, используемый поисковым процессом sphinx.',
+	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'Содержимое для создания файла конфигурации sphinx. Указанные данные должны быть сохранены в файле sphinx.conf, используемый поисковым процессом sphinx. Замените лексемы [dbuser] и [dbpassword] на имя и пароль для вашей базы данных.',
 	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'Пути к папкам для хранения данных и конфигурации sphinx не заданы. Задайте их для того, чтобы создать файл конфигурации.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'Общие настройки поиска',
