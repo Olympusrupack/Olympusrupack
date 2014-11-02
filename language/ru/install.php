@@ -547,7 +547,7 @@ $lang = array_merge($lang, array(
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>Перейти на <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">страницу файлов phpBB.com</a> и скачать архив с пакетом автоматического обновления («Automatic Update Package»).<br /><br /></li>
 			<li>Распаковать архив.<br /><br /></li>
-			<li>Закачать разархивированную папку install в корень phpBB (туда, где находится файл config.php).<br /><br /></li>
+			<li>Закачать разархивированные папки «install» и «vendor» в корневую папку phpBB (туда же, где находится файл config.php).<br /><br /></li>
 		</ul>
 
 		<p>После этого конференция станет недоступна для обычных пользователей, из-за того, что теперь присутствует закачанная вами папка install.<br /><br />
