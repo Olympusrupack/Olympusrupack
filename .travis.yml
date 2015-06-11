@@ -6,7 +6,7 @@ php:
 
 env:
   global:
-    - PHPBB_TAG="3.1.x"              # CHANGE the tag to checkout for validation HERE
+    - PHPBB_TAG="release-3.1.5"              # CHANGE the tag to checkout for validation HERE
     - PHPBB_VERSION="3.1"            # CHANGE the main version of phpBB HERE - 3.0 or 3.1
     - PHPBB_LANGUAGE="ru"            # CHANGE the language iso to validate HERE
 
@@ -25,7 +25,7 @@ before_install:
  - curl -sS "https://getcomposer.org/installer" | php
 
 install:
- - php composer.phar install --dev --no-interaction --prefer-source
+ - composer install --dev --no-interaction --prefer-source
 
 script:
   - php vendor/bin/PhpbbTranslationValidator.php validate $PHPBB_LANGUAGE --phpbb-version=$PHPBB_VERSION --display-notices
