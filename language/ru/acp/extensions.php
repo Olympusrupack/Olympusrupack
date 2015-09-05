@@ -68,7 +68,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_NAME'			=> 'Имя расширения',
 	'EXTENSION_ACTIONS'			=> 'Действия',
 	'EXTENSION_OPTIONS'			=> 'Настройки',
-	'EXTENSION_INSTALL_HEADLINE'=> 'Installing an extension',
+	'EXTENSION_INSTALL_HEADLINE'=> 'Установка расширения',
 	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
 			<li>Скачайте расширение из базы данных расширений phpBB</li>
 			<li>Разархивируйте расширение и закачайте файлы на сервер в папку <samp>ext/</samp> конференции</li>

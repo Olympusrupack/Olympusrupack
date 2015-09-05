@@ -82,5 +82,5 @@ $lang = array_merge($lang, array(
 
 	'UNINSTALL_DEFAULT'		=> 'Нельзя удалить стиль по умолчанию.',
 
-	'BROWSE_STYLES_DATABASE'	=> 'перейти в базу данных стилей',
+	'BROWSE_STYLES_DATABASE'	=> 'Перейти в базу данных стилей',
 ));
