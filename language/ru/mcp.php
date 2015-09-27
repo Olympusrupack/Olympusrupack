@@ -137,6 +137,7 @@ $lang = array_merge($lang, array(
 	'LOCK_TOPICS_CONFIRM'		=> 'Вы уверены, что хотите закрыть все выбранные темы?',
 	'LOGS_CURRENT_TOPIC'		=> 'Просмотр логов темы:',
 	'LOGIN_EXPLAIN_MCP'			=> 'Вы должны войти для модерирования этого форума.',
+	'LOGVIEW_VIEWPOST'			=> 'Просмотреть сообщение',
 	'LOGVIEW_VIEWTOPIC'			=> 'Просмотреть тему',
 	'LOGVIEW_VIEWLOGS'			=> 'Просмотреть лог темы',
 	'LOGVIEW_VIEWFORUM'			=> 'Просмотреть форум',

@@ -99,6 +99,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_TOPIC_NOTIFY'		=> 'Разрешить подписку на темы',
 	'BOARD_PM'					=> 'Разрешить личные сообщения',
 	'BOARD_PM_EXPLAIN'			=> 'Включение обмена личными сообщениями для всех пользователей.',
+	'ALLOW_BOARD_NOTIFICATIONS' => 'Разрешить уведомления',
 ));
 
 // Avatar Settings

@@ -56,14 +56,29 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Включить заданное расширение.',
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Найти миграции, не имеющие зависимостей.',
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Получить значение параметра конфигурации',
-	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Увеличить значение параметра конфиругации',
+	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Увеличить значение числового параметра конфиругации',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Вывести список всех расширений из базы данных и файловой системы.',
+
+	'CLI_DESCRIPTION_OPTION_ENV'				=> 'Наименование окружения.',
 	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> 'Запустить командную строку в безопасном режиме (без расширений).',
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Запустить командную строку.',
+
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Удалить расширение вместе с данными.',
+	'CLI_DESCRIPTION_REPARSER_LIST'				=> 'Выводит список типов текста, доступных для репарсинга.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE'			=> 'Осуществляет репарсинг сохранённого текста с помощью текущих сервисов text_formatter.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'	=> 'Тип текста для репарсинга. оставьте поле пустым для репарсинга всех типов.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Не сохранять любые изменения; только вывести предполагаемый результат',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'Наименьшее значение ID (идентификатора) записи для обработки',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'Наибольшее значение ID (идентификатора) записи для обработки',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Приблизительное число обрабатываемых записей в единицу времени',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Продолжить репарсинг с момента последней остановки',
 	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Пересчитать поле user_email_hash в таблице пользователей.',
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Установить значение параметра конфигурации в случае, если старое значение совпадает с текущим',
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Установить значение параметра конфигурации',
+
+	'CLI_DESCRIPTION_THUMBNAIL_DELETE'		=> 'Удалить все существующие миниатюры.',
+	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'	=> 'Создать все недостающие миниатюры.',
+	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'	=> 'Пересоздать заново все миниатюры.',
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Не удалось отключить расширение %s',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'Успешно отключено расширение %s',
@@ -78,4 +93,26 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_ENABLED'			=> 'Включённые',
 
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Успешно пересчитаны все значения хэшей email.',
+
+	'CLI_REPARSER_REPARSE_REPARSING'		=> 'Обработка %1$s (диапазон %2$d..%3$d)',
+	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'Обработка %s...',
+	'CLI_REPARSER_REPARSE_SUCCESS'			=> 'Обработка успешно завершена',
+
+	// In all the case %1$s is the logical name of the file and %2$s the real name on the filesystem
+	// eg: big_image.png (2_a51529ae7932008cf8454a95af84cacd) generated.
+	'CLI_THUMBNAIL_DELETED'		=> '%1$s (%2$s) удалена.',
+	'CLI_THUMBNAIL_DELETING'	=> 'Удаление миниатюр',
+	'CLI_THUMBNAIL_SKIPPED'		=> '%1$s (%2$s) пропущена.',
+	'CLI_THUMBNAIL_GENERATED'	=> '%1$s (%2$s) создана.',
+	'CLI_THUMBNAIL_GENERATING'	=> 'Создание миниатюр',
+	'CLI_THUMBNAIL_GENERATING_DONE'	=> 'Все миниатюры были пересозданы.',
+	'CLI_THUMBNAIL_DELETING_DONE'	=> 'Все миниатюры были удалены.',
+
+	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'Миниатюры для создания отсутствуют.',
+	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'Миниатюры для удаления отсутствуют.',
+));
+
+// Additional help for commands.
+$lang = array_merge($lang, array(
+	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Можно указать только имя отдельной задачи для запуска.',
 ));
