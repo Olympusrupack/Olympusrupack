@@ -48,9 +48,16 @@ $lang = array_merge($lang, array(
 	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Обновление уже было выполнено (пропущено): %s',
 	'MIGRATION_EXCEPTION_ERROR'			=> 'В процессе обновления произошла ошибка, которая вызвала исключение. Изменения, произведенные до появления ошибки, были отменены. Тем не менее, рекомендуется проверить конференцию на отсутствие ошибок в работе.',
 	'MIGRATION_NOT_FULFILLABLE'			=> 'Невозможно выполнить обновление «%1$s», пропущено обновление «%2$s».',
+	'MIGRATION_NOT_INSTALLED'			=> 'Обновление «%s» не установлено.',
 	'MIGRATION_NOT_VALID'				=> '%s не является корректным обновлением.',
 	'MIGRATION_SCHEMA_DONE'				=> 'Обновлена схема: %1$s; Время: %2$.2f секунд',
 	'MIGRATION_SCHEMA_RUNNING'			=> 'Обновление схемы: %s.',
+
+	'MIGRATION_REVERT_DATA_DONE'		=> 'Отмена обновления данных: %1$s; Time: %2$.2f секунд',
+	'MIGRATION_REVERT_DATA_IN_PROGRESS'	=> 'Отмена обновления данных: %1$s; Time: %2$.2f секунд',
+	'MIGRATION_REVERT_DATA_RUNNING'		=> 'Отмена обновления данных: %s.',
+	'MIGRATION_REVERT_SCHEMA_DONE'		=> 'Отмена обновления схемы: %1$s; Time: %2$.2f секунд',
+	'MIGRATION_REVERT_SCHEMA_RUNNING'	=> 'Отмена обновления схемы: %s.',
 
 	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'Файл обновления содержит ошибки. Обработчик оператора if не смог найти условие.',
 	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'Файл обновления содержит ошибки. Обработчик оператора if не смог обнаружить корректный запуск шага обновления.',

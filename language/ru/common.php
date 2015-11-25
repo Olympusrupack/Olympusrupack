@@ -89,6 +89,7 @@ $lang = array_merge($lang, array(
 	'ALL_POSTS'						=> 'Все сообщения',
 	'ALL_TIMES'						=> 'Часовой пояс: <span title="%2$s">%1$s</span>',
 	'ALL_TOPICS'					=> 'Все темы',
+	'ALT_TEXT'						=> 'Текст для всплывающей подсказки',
 	'AND'							=> 'и',
 	'ARE_WATCHING_FORUM'			=> 'Вы подписаны на уведомления о новых сообщениях в этом форуме.',
 	'ARE_WATCHING_TOPIC'			=> 'Вы подписаны на уведомления о новых сообщениях в этой теме.',
@@ -350,9 +351,10 @@ $lang = array_merge($lang, array(
 	'IMAGE_FILETYPE_INVALID'	=> 'Тип файла изображения %d не поддерживается для MIME-типа %s.',
 	'IMAGE_FILETYPE_MISMATCH'	=> 'Несовпадение типа изображения: ожидаемое расширение %1$s вместо полученного %2$s.',
 	'IN'						=> 'в форуме',
+	'INACTIVE'					=> 'Неактивен',
 	'INDEX'						=> 'Главная страница',
 	'INFORMATION'				=> 'Информация',
-	'INSECURE_REDIRECT'      => 'Попытка перенаправления на потенциально опасный сайт.',
+	'INSECURE_REDIRECT'			=> 'Попытка перенаправления на потенциально опасный сайт.',
 	'INTERESTS'					=> 'Интересы',
 	'INVALID_DIGEST_CHALLENGE'	=> 'Неверный запрос аутентификации.',
 	'INVALID_EMAIL_LOG'			=> 'Возможно, введён неверный адрес email: <strong>%s</strong>',
@@ -469,7 +471,7 @@ $lang = array_merge($lang, array(
 		3	=> '<strong>Ответ</strong> от пользователей %1$s в теме, находящейся у Вас в закладках:',
 	),
 	'NOTIFICATION_FORUM'				=> '<em>Форум:</em> %1$s',
-	'NOTIFICATION_GROUP_REQUEST'    => '<strong>Запрос</strong> от пользователя %1$s на вступление в группу %2$s.',
+	'NOTIFICATION_GROUP_REQUEST'		=> '<strong>Запрос</strong> от пользователя %1$s на вступление в группу %2$s.',
 	'NOTIFICATION_GROUP_REQUEST_APPROVED'  => '<strong>Одобрен запрос</strong> на вступление в группу %1$s.',
 	'NOTIFICATION_METHOD_INVALID'		=> 'Метод «%s» не связан с каким-либо действующим методом уведомления.',
 	'NOTIFICATION_PM'					=> '<strong>Личное сообщение</strong> от пользователя %1$s:',
@@ -495,8 +497,8 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_APPROVED'		=> '<strong>Тема одобрена</strong>:',
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> '<strong>Тема отклонена</strong>:',
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Ожидает одобрения</strong> тема, созданная пользователем %1$s:',
-	'NOTIFICATION_TYPE_NOT_EXIST'    => 'Тип уведомления «%s» отсутствует в файловой системе.',
-	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Ожидает активации</strong> новый пользователь: «%1$s»',
+	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Тип уведомления «%s» отсутствует в файловой системе.',
+	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Ожидает активации</strong> деактивированный или новый пользователь: «%1$s»',
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'других',
 	'NOTIFICATION_X_OTHERS'				=> array(
@@ -534,7 +536,7 @@ $lang = array_merge($lang, array(
 	'NO_POSTS_TIME_FRAME'		=> 'В теме нет сообщений за выбранный период времени.',
 	'NO_FEED_ENABLED'			=> 'Каналы новостей недоступны на этой конференции.',
 	'NO_FEED'					=> 'Запрашиваемый канал новостей недоступен.',
-	'NO_STYLE_DATA'        => 'Не удалось получить данные о стиле',
+	'NO_STYLE_DATA'				=> 'Не удалось получить данные о стиле',
 	'NO_SUBJECT'				=> 'Не указана тема',								// Used for posts having no subject defined but displayed within management pages.
 	'NO_SUCH_SEARCH_MODULE'		=> 'Указанный поисковый механизм отсутствует.',
 	'NO_SUPPORTED_AUTH_METHODS'	=> 'Метод аутентификации не поддерживается.',
@@ -912,10 +914,9 @@ $lang = array_merge($lang, array(
 	'WEBSITE'			=> 'Сайт',
 	'WHOIS'				=> 'Информация об IP-адресе',
 	'WHO_IS_ONLINE'		=> 'Кто сейчас на конференции',
-	'WLM'				=> 'WLM',
 	'WRONG_PASSWORD'	=> 'Вы ввели неверный пароль.',
 
-	'WRONG_DATA_COLOUR'      => 'Введено неверное значение цвета.',
+	'WRONG_DATA_COLOUR'			=> 'Введено неверное значение цвета.',
 	'WRONG_DATA_JABBER'			=> 'Введённое имя не является правильным именем Jabber.',
 	'WRONG_DATA_LANG'			=> 'Указан неправильный язык.',
 	'WRONG_DATA_POST_SD'		=> 'Выбран неверный метод сортировки сообщений.',
@@ -988,7 +989,7 @@ $lang = array_merge($lang, array(
 	// Timezones can be translated. We use this for the Etc/GMT timezones here,
 	// because they are named invers to their offset.
 	'timezones'		=> array(
-		'UTC'      				=> 'UTC',
+		'UTC'					=> 'UTC',
 		'UTC_OFFSET'			=> 'UTC%1$s',
 		'UTC_OFFSET_CURRENT'	=> 'UTC%1$s - %2$s',
 

@@ -50,7 +50,9 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_CRON_LIST'					=> 'Вывести список готовых и не готовых к выполнению задач планировщика (cron).',
 	'CLI_DESCRIPTION_CRON_RUN'					=> 'Запустить все готовые к выполнению задачи планировщика (cron).',
 	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'		=> 'Имя задачи планировщика, которая будет выполнена',
+	'CLI_DESCRIPTION_DB_LIST'					=> 'Показать все установленные и доступные миграции.',
 	'CLI_DESCRIPTION_DB_MIGRATE'				=> 'Обновить базу данных путём применения миграций.',
+	'CLI_DESCRIPTION_DB_REVERT'					=> 'Отменить миграцию.',
 	'CLI_DESCRIPTION_DELETE_CONFIG'				=> 'Удалить параметр конфигурации',
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Отключить заданное расширение.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Включить заданное расширение.',
@@ -93,6 +95,12 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_ENABLED'			=> 'Включённые',
 
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Успешно пересчитаны все значения хэшей email.',
+
+	'CLI_MIGRATION_NAME'					=> 'Имя миграции, включая пространство имён (используйте прямой слэш вместо обратного во избежание проблем).',
+	'CLI_MIGRATIONS_AVAILABLE'				=> 'Доступные миграции',
+	'CLI_MIGRATIONS_INSTALLED'				=> 'Установленные миграции',
+	'CLI_MIGRATIONS_ONLY_AVAILABLE'		    => 'Показать только доступные миграции',
+	'CLI_MIGRATIONS_EMPTY'                  => 'Нет миграций.',
 
 	'CLI_REPARSER_REPARSE_REPARSING'		=> 'Обработка %1$s (диапазон %2$d..%3$d)',
 	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'Обработка %s...',
