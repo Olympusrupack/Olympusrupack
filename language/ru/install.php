@@ -84,7 +84,7 @@ $lang = array_merge($lang, array(
 	'ACP_LINK'	=> 'Take me to <a href="%1$s">the ACP</a>',
 
 	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB уже установлен.',
-	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB ещё не установлен.'
+	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB ещё не установлен.',
 ));
 
 // Requirements translation
@@ -114,13 +114,15 @@ $lang = array_merge($lang, array(
 
 	'RETEST_REQUIREMENTS'	=> 'Проверить повторно',
 
-	'STAGE_REQUIREMENTS'	=> 'Проверить требования'
+	'STAGE_REQUIREMENTS'	=> 'Проверить требования',
 ));
 
 // General error messages
 $lang = array_merge($lang, array(
 	'INST_ERR_MISSING_DATA'		=> 'На этой странице необходимо заполнить все поля.',
-	'PHPBB_ALREADY_INSTALLED'	=> 'phpBB уже установлен.'
+
+	'TIMEOUT_DETECTED_TITLE'	=> 'Программа установки определила превышение времени ожидания запроса',
+	'TIMEOUT_DETECTED_MESSAGE'	=> 'Произошло превышение времени ожидания запроса при исполнении программы установки. Можно попробовать обновить эту страницу в браузере, что может привести к порче данных. Предпочтительным решением является увеличение времени исполнения в настройках PHP, лиюо использование интерфейса командной строки (CLI).',
 ));
 
 // Updater
@@ -200,6 +202,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_SQLITE3'		=> 'Установлена устаревшая версия расширения SQLite. Её необходимо обновить как минимум до версии 3.6.15.',
 	'INST_ERR_DB_NO_ORACLE'			=> 'Для установленной на сервере версии Oracle необходимо установить значение параметра <var>NLS_CHARACTERSET</var> равным <var>UTF8</var>. Либо обновите базу данных до версии 9.2 или выше, либо измените значение параметра.',
 	'INST_ERR_DB_NO_POSTGRES'		=> 'Выбранная база данных создана не с кодировкой <var>UNICODE</var> или <var>UTF8</var>. Попробуйте установить конференцию в базу данных с кодировкой <var>UNICODE</var> или <var>UTF8</var>.',
+	'INST_SCHEMA_FILE_NOT_WRITABLE'	=> 'Файл схемы базы данных недоступен для записи',
 
 	//
 	// Email data
@@ -275,9 +278,11 @@ $lang = array_merge($lang, array(
 	'TASK_CREATE_CONFIG_FILE'	=> 'Создание файла конфигурации',
 
 	// Install database
-	'TASK_ADD_CONFIG_SETTINGS'		=> 'Запись настроек конфигурации',
-	'TASK_ADD_DEFAULT_DATA'			=> 'Запись настроек по умолчанию в базу данных',
-	'TASK_CREATE_DATABASE_SCHEMA'	=> 'Создание схемы базы данных',
+	'TASK_ADD_CONFIG_SETTINGS'			=> 'Запись настроек конфигурации',
+	'TASK_ADD_DEFAULT_DATA'				=> 'Запись настроек по умолчанию в базу данных',
+	'TASK_CREATE_DATABASE_SCHEMA_FILE'	=> 'Создание файла схемы базы данных',
+	'TASK_SETUP_DATABASE'				=> 'Настройка базы данных',
+	'TASK_CREATE_TABLES'				=> 'Создание таблиц в базе данных',
 
 	// Install data
 	'TASK_ADD_BOTS'			=> 'Регистрация ботов',
@@ -312,12 +317,14 @@ $lang = array_merge($lang, array(
 // CLI messages
 $lang = array_merge($lang, array(
 	'CLI_INSTALL_BOARD'				=> 'Установка phpBB',
+	'CLI_UPDATE_BOARD'				=> 'Обновление phpBB',
 	'CLI_INSTALL_SHOW_CONFIG'		=> 'Показать используемую конфигурацию',
 	'CLI_INSTALL_VALIDATE_CONFIG'	=> 'Проверить файл конфигурации',
 	'CLI_CONFIG_FILE'				=> 'Используемый файл конфигурации',
 	'MISSING_FILE'					=> 'Файл %1$s недоступен',
 	'MISSING_DATA'					=> 'Файл конфигурации отсутствует или содержит неверные настройки.',
 	'INVALID_YAML_FILE'				=> 'Не удалось прочесть YAML файл %1$s',
+	'CONFIGURATION_VALID'			=> 'Файл конфигурации не содержит ошибок',
 ));
 
 // Common updater messages
