@@ -82,6 +82,21 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'	=> 'Создать все недостающие миниатюры.',
 	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'	=> 'Пересоздать заново все миниатюры.',
 
+	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Активировать (или деактивировать) учётную запись.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Имя пользователя для активации.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_DEACTIVATE'	=> 'Деактивировать учётную запись пользователя',
+	'CLI_DESCRIPTION_USER_ACTIVATE_ACTIVE'		=> 'Учётная запись пользователя уже активирована.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_INACTIVE'	=> 'Учётная запись пользователя уже деактивирована.',
+	'CLI_DESCRIPTION_USER_ADD'					=> 'Добавить новую учётную запись.',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_USERNAME'	=> 'Имя нового пользователя',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_PASSWORD'	=> 'пароль нового пользователя',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_EMAIL'		=> 'Адрес e-mail нового пользователя',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Отправить сообщение email для активации нового пользователя (по умолчанию не отправляется)',
+	'CLI_DESCRIPTION_USER_DELETE'				=> 'Удалить учётную запись.',
+	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'Имя пользователя для удаления',
+	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Удалить все сообщения пользователя. Если данная опция не используется, сообщения пользователя не будут удалены.',
+	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Восстановить очищенные имена пользователей.',
+
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Не удалось отключить расширение %s',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'Успешно отключено расширение %s',
 	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'Не удалось включить расширение %s',
@@ -118,9 +133,25 @@ $lang = array_merge($lang, array(
 
 	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'Миниатюры для создания отсутствуют.',
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'Миниатюры для удаления отсутствуют.',
+
+	'CLI_USER_ADD_SUCCESS'		=> 'Пользователь %s успешно добавлен.',
+	'CLI_USER_DELETE_CONFIRM'	=> 'вы уверены, что хотите удалить «%s»? [y/N]',
+	'CLI_USER_RECLEAN_START'	=> 'Восстановление очищенных имён пользователей',
+	'CLI_USER_RECLEAN_DONE'		=> [
+		0	=> 'Восстановление очищенных имён завершено. Нет очищенных имён, требующих восстановления.',
+		1	=> 'Восстановление очищенных имён завершено. Восстановлено %d очищенное имя.',
+		2	=> 'Восстановление очищенных имён завершено. Восстановлено %d очищенных имени.',
+		3	=> 'Восстановление очищенных имён завершено. Восстановлено %d очищенных имён.',
+	],
 ));
 
 // Additional help for commands.
 $lang = array_merge($lang, array(
 	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Можно указать только имя отдельной задачи для запуска.',
+	'CLI_HELP_USER_ACTIVATE'	=> 'Активировать учётную запись пользователя, или деактивировать, используя параметр <info>--deactivate</info>.
+Для отправки пользователю сообщения email для активации, используйте параметр <info>--send-email</info>.',
+	'CLI_HELP_USER_ADD'			=> 'Команда <info>%command.name%</info> добавляет нового пользователя:
+При запуске данной команды без параметров, будет предложено их задать.
+Для отправки новому пользователю сообщения email, используйте параметр <info>--send-email</info>.',
+	'CLI_HELP_USER_RECLEAN'		=> 'При восстановлении очищенных имён пользователей будет осуществлена проверка всех учетных записей на существование очищенного имени. очищенные имена регистронезависимы, нормализованы и преобразованы в кодировку ASCII.',
 ));

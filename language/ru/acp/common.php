@@ -226,6 +226,16 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Назад',
 
+	'CANNOT_CHANGE_FILE_GROUP'	=> 'Не удалось изменить группу для файла',
+	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Не удалось изменить права доступа для файла',
+	'CANNOT_COPY_FILES'		=> 'Не удалось скопировать файлы',
+	'CANNOT_CREATE_SYMLINK'	=> 'Не удалось создать символическую ссылку',
+	'CANNOT_DELETE_FILES'	=> 'Не удалось удалить файлы из системы',
+	'CANNOT_DUMP_FILE'		=> 'Не удалось создать файл',
+	'CANNOT_MIRROR_DIRECTORY'	=> 'Не удалось скопировать папку',
+	'CANNOT_RENAME_FILE'	=> 'Не удалось переименовать файл в системе',
+	'CANNOT_TOUCH_FILES'	=> 'Не удалось определить существование файла',
+
 	'CONTAINER_EXCEPTION' 	=> 'Произошла ошибка phpBB при компиляции контейнера, связанная с одним из установленных расширений. По этой причине, все установленные расширения были временно отключены. Попробуйте очистить кэш конференции. Все расширения будут автоматически включены, если ошибка контейнера будет устранена. В противном случае, обратитесь на сайт официальной русской поддержки <a href="http://www.phpbbguru.net/support">phpBB Guru</a> для получения помощи.',
 	'EXCEPTION' 			=> 'Исключение',
 
@@ -607,6 +617,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_ERROR_JABBER'		=> '<strong>Ошибка Jabber</strong><br />» %s',
 	'LOG_ERROR_EMAIL'		=> '<strong>Ошибка почты</strong><br />» %s',
+	'LOG_ERROR_CAPTCHA'		=> '<strong>Ошибка CAPTCHA</strong><br />» %s',
 
 	'LOG_FORUM_ADD'							=> '<strong>Создан форум</strong><br />» %s',
 	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Скопированы права доступа</strong> из форума «%1$s» в форум<br />» %2$s',
