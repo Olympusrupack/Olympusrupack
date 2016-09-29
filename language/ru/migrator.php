@@ -51,12 +51,14 @@ $lang = array_merge($lang, array(
 	'MIGRATION_NOT_INSTALLED'			=> 'Обновление «%s» не установлено.',
 	'MIGRATION_NOT_VALID'				=> '%s не является корректным обновлением.',
 	'MIGRATION_SCHEMA_DONE'				=> 'Обновлена схема: %1$s; Время: %2$.2f секунд',
+	'MIGRATION_SCHEMA_IN_PROGRESS'		=> 'Установка схемы: %1$s; Время: %2$.2f секунд',
 	'MIGRATION_SCHEMA_RUNNING'			=> 'Обновление схемы: %s.',
 
-	'MIGRATION_REVERT_DATA_DONE'		=> 'Отмена обновления данных: %1$s; Time: %2$.2f секунд',
+	'MIGRATION_REVERT_DATA_DONE'		=> 'Отменено обновление данных: %1$s; Time: %2$.2f секунд',
 	'MIGRATION_REVERT_DATA_IN_PROGRESS'	=> 'Отмена обновления данных: %1$s; Time: %2$.2f секунд',
 	'MIGRATION_REVERT_DATA_RUNNING'		=> 'Отмена обновления данных: %s.',
-	'MIGRATION_REVERT_SCHEMA_DONE'		=> 'Отмена обновления схемы: %1$s; Time: %2$.2f секунд',
+	'MIGRATION_REVERT_SCHEMA_DONE'		=> 'Отменено обновление схемы: %1$s; Time: %2$.2f секунд',
+	'MIGRATION_REVERT_SCHEMA_IN_PROGRESS'	=> 'Отмена обновления схемы: %1$s; Time: %2$.2f seconds',
 	'MIGRATION_REVERT_SCHEMA_RUNNING'	=> 'Отмена обновления схемы: %s.',
 
 	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'Файл обновления содержит ошибки. Обработчик оператора if не смог найти условие.',
@@ -67,9 +69,12 @@ $lang = array_merge($lang, array(
 	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'Файл обновления содержит ошибки. Требуемый метод отсутствует в файле обновления.',
 
 	'MODULE_ERROR'						=> 'Ошибка при создании модуля: %s',
+	'MODULE_EXISTS'						=> 'Модуль уже существует: %s',
+	'MODULE_EXIST_MULTIPLE'				=> 'Несколько модулей с указанным именем родительского модуля уже существуют: %s. Попробуйте использовать ключи before/after для уточнения нужного местоположения добавляемого модуля.',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Обязательный компонент модуля не существует: %2$s',
 	'MODULE_NOT_EXIST'					=> 'Обязательный модуль не существует: %s',
 
+	'PARENT_MODULE_FIND_ERROR'			=> 'Не удалось найти требуемый идентификатор родительского модуля: %s',
 	'PERMISSION_NOT_EXIST'				=> 'Право доступа «%s» не существует.',
 
 	'ROLE_NOT_EXIST'					=> 'Роль «%s» в системе прав доступа не существует.',

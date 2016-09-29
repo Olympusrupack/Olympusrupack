@@ -575,6 +575,7 @@ $lang = array_merge($lang, array(
 	'SMTP_PORT'						=> 'Порт сервера SMTP',
 	'SMTP_PORT_EXPLAIN'				=> 'Изменяйте порт только в том случае, если вам точно известно, что сервер использует другой порт.',
 	'SMTP_SERVER'					=> 'Адрес сервера SMTP',
+	'SMTP_SERVER_EXPLAIN'			=> 'Учтите, что необходимо указывать протокол для соединения с сервером SMTP. Например: "ssl://your.mailserver.com"',
 	'SMTP_SETTINGS'					=> 'Настройки SMTP',
 	'SMTP_USERNAME'					=> 'Имя пользователя SMTP',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Введите имя только в случае, если сервер SMTP требует этого.',

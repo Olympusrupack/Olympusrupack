@@ -111,7 +111,7 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'			=> 'Размеры рисунков для ссылки',
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Если рисунок больше указанных размеров, то вместо него будет отображена ссылка для загрузки этого рисунка. Введите размеры 0×0 для отключения этой возможности.',
-	'IMAGICK_PATH'				=> 'Путь к программе Imagemagick',
+	'IMAGICK_PATH'				=> 'Путь к программе ImageMagick',
 	'IMAGICK_PATH_EXPLAIN'		=> 'Полный путь к программе Imagemagick. Например, <samp>/usr/bin/</samp>.',
 
 	'MAX_ATTACHMENTS'				=> 'Максимум вложений в одном сообщении',
@@ -147,7 +147,7 @@ $lang = array_merge($lang, array(
 	'REMOVE_DISALLOWED_IPS'			=> 'Удаление или удаление из исключённых <em>запрешённых</em> IP-адресов или узлов',
 	'RESYNC_FILES_STATS_CONFIRM'	=> 'Вы действительно хотите синхронизировать статистику вложений?',
 
-	'SEARCH_IMAGICK'				=> 'Найти Imagemagick',
+	'SEARCH_IMAGICK'				=> 'Найти ImageMagick',
 	'SECURE_ALLOW_DENY'				=> 'Список разрешённых и запрещённых',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'Изменение поведения по умолчанию списка разрешённых и запрещённых при включении безопасных загрузок на <strong>белый список</strong> (Разрешить) или на <strong>чёрный список</strong> (Запретить).',
 	'SECURE_DOWNLOADS'				=> 'Включить безопасные загрузки',

@@ -113,6 +113,8 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'phpBB не будет работать, если PHP собран без поддержки UTF-8 для расширения PCRE.',
 	'PHP_JSON_SUPPORT'					=> 'Поддержка PHP JSON',
 	'PHP_JSON_SUPPORT_EXPLAIN'			=> 'Для правильной работы phpBB должно быть доступно расширение PHP JSON.',
+	'PHP_XML_SUPPORT'					=> 'Поддержка PHP XML/DOM',
+	'PHP_XML_SUPPORT_EXPLAIN'			=> 'Для правильной работы phpBB должно быть доступно расширение PHP XML/DOM.',
 	'PHP_SUPPORTED_DB'					=> 'Поддерживаемые базы данных',
 	'PHP_SUPPORTED_DB_EXPLAIN'			=> 'Необходима поддержка хотя бы одной совместимой системы управления базами данных со стороны PHP. Если ни одна СУБД не доступна, свяжитесь с хостинг-провайдером или обратитесь к соответствующему разделу документации по установке и настройке PHP.',
 
@@ -178,11 +180,11 @@ $lang = array_merge($lang, array(
 	'DB_PASSWORD'			=> 'Пароль к БД',
 	'DB_NAME'				=> 'Имя базы данных',
 	'DB_USERNAME'			=> 'Имя пользователя БД',
+	'DATABASE_VERSION'		=> 'Версия СУБД',
 	'TABLE_PREFIX'			=> 'Префикс таблиц в базе данных',
 	'TABLE_PREFIX_EXPLAIN'	=> 'Префикс должен начинаться с буквы и может содержать только буквы, числа и знаки подчёркивания.',
 
 	// Database options
-	'DB_OPTION_MSSQL'		=> 'MSSQL Server 2000+',
 	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ через ODBC',
 	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ Native ]',
 	'DB_OPTION_MYSQL'		=> 'MySQL',
@@ -212,6 +214,14 @@ $lang = array_merge($lang, array(
 	// Email data
 	//
 	'EMAIL_CONFIG'	=> 'Настройки E-mail',
+
+	// Package info
+	'PACKAGE_VERSION'					=> 'Установленная версия',
+	'UPDATE_INCOMPLETE'				=> 'Не удалось завершить обновление.',
+	'UPDATE_INCOMPLETE_MORE'		=> 'Прочтите информацию ниже для устранения ошибки.',
+	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Незавершённое обновление</h1>
+
+		<p>Обнаружена неудачная попытка обновления. Запустите <a href="%1$s" title="%1$s">программу обновления базы данных</a>, выберите вариант <em>Только база данных</em> и нажмите кнопку <strong>Отправить</strong>. Не забудьте удалить папку «install» после успешного обновления базы данных.</p>',
 
 	//
 	// Server data
@@ -425,6 +435,7 @@ $lang = array_merge($lang, array(
 	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'Следующие файлы не были изменены и представляют собой оригинальные файлы phpBB той версии, которую вы хотите обновить.',
 	'FILES_UP_TO_DATE'				=> 'Уже обновлённые файлы',
 	'FILES_UP_TO_DATE_EXPLAIN'		=> 'Следующие файлы уже соответствуют файлам новой версии и не нуждаются в обновлении.',
+	'FILES_VERSION'					=> 'Версия файлов',
 	'TOGGLE_DISPLAY'				=> 'Показать/скрыть список файлов',
 
 	// File updater
