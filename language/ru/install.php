@@ -72,7 +72,6 @@ $lang = array_merge($lang, array(
 	<ul>
 		<li>MySQL 3.23 и выше (поддерживается MySQLi)</li>
 		<li>PostgreSQL 8.3 и выше</li>
-		<li>SQLite 2.8.2 и выше</li>
 		<li>SQLite 3.6.15 и выше</li>
 		<li>MS SQL Server 2000 и выше (напрямую или через ODBC)</li>
 		<li>MS SQL Server 2005 и выше (native)</li>
@@ -191,7 +190,6 @@ $lang = array_merge($lang, array(
 	'DB_OPTION_MYSQLI'		=> 'MySQL с расширением MySQLi',
 	'DB_OPTION_ORACLE'		=> 'Oracle',
 	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
-	'DB_OPTION_SQLITE'		=> 'SQLite 2',
 	'DB_OPTION_SQLITE3'		=> 'SQLite 3',
 
 	// Errors
@@ -204,7 +202,6 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_ERROR'			=> 'Сообщения об ошибке недоступно.',
 	'INST_ERR_PREFIX'				=> 'Таблицы с указанным префиксом уже существуют. Введите другой префикс.',
 	'INST_ERR_DB_NO_MYSQLI'			=> 'Установленная на сервере версия MySQL несовместима с выбранным вариантом «MySQL с расширением MySQLi». Вместо него попробуйте выбрать вариант «MySQL».',
-	'INST_ERR_DB_NO_SQLITE'			=> 'Установлена устаревшая версия расширения SQLite. Её необходимо обновить как минимум до версии 2.8.2.',
 	'INST_ERR_DB_NO_SQLITE3'		=> 'Установлена устаревшая версия расширения SQLite. Её необходимо обновить как минимум до версии 3.6.15.',
 	'INST_ERR_DB_NO_ORACLE'			=> 'Для установленной на сервере версии Oracle необходимо установить значение параметра <var>NLS_CHARACTERSET</var> равным <var>UTF8</var>. Либо обновите базу данных до версии 9.2 или выше, либо измените значение параметра.',
 	'INST_ERR_DB_NO_POSTGRES'		=> 'Выбранная база данных создана не с кодировкой <var>UNICODE</var> или <var>UTF8</var>. Попробуйте установить конференцию в базу данных с кодировкой <var>UNICODE</var> или <var>UTF8</var>.',
@@ -304,6 +301,7 @@ $lang = array_merge($lang, array(
 	'TASK_ADD_MODULES'		=> 'Установка модулей',
 
 	// Install finish tasks
+	'TASK_INSTALL_EXTENSIONS'	=> 'Установка расширений',
 	'TASK_NOTIFY_USER'			=> 'Отправка e-mail уведомлений',
 	'TASK_POPULATE_MIGRATIONS'	=> 'Выполнение миграций',
 
@@ -453,6 +451,8 @@ $lang = array_merge($lang, array(
 	'STAGE_UPDATE_DATABASE'		=> 'Обновление базы данных',
 
 	'INLINE_UPDATE_SUCCESSFUL'		=> 'База данных успешно обновлена.',
+
+	'TASK_UPDATE_EXTENSIONS'	=> 'Обновление расширений',
 ));
 
 // Converter

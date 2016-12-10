@@ -94,7 +94,6 @@ $lang = array_merge($lang, array(
 	'ACP_FORUM_MANAGEMENT'			=> 'Форумы',
 	'ACP_FORUM_MODERATORS'			=> 'Модераторы форумов',
 	'ACP_FORUM_PERMISSIONS'			=> 'Доступ к форумам',
-	'ACP_GROUPS_POSITION'			=> 'Управление местоположением группы',
 	'ACP_FORUM_PERMISSIONS_COPY'	=> 'Копирование прав доступа',
 	'ACP_FORUM_ROLES'				=> 'Форумные роли',
 
@@ -108,6 +107,8 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGEMENT'			=> 'Группы',
 	'ACP_GROUPS_PERMISSIONS'		=> 'Права групп',
 	'ACP_GROUPS_POSITION'			=> 'Управление расположением групп',
+
+	'ACP_HELP_PHPBB'			=> 'Помочь в поддержке phpBB',
 
 	'ACP_ICONS'					=> 'Значки тем',
 	'ACP_ICONS_SMILIES'			=> 'Значки тем и смайлики',
@@ -168,7 +169,6 @@ $lang = array_merge($lang, array(
 	'ACP_SEARCH_SETTINGS'		=> 'Поиск',
 
 	'ACP_SECURITY_SETTINGS'		=> 'Безопасность',
-	'ACP_SEND_STATISTICS'		=> 'Статистические данные',
 	'ACP_SERVER_CONFIGURATION'	=> 'Конфигурация сервера',
 	'ACP_SERVER_SETTINGS'		=> 'Настройки сервера',
 	'ACP_SIGNATURE_SETTINGS'	=> 'Подписи',
@@ -328,6 +328,10 @@ $lang = array_merge($lang, array(
 	'USERNAMES_EXPLAIN'		=> 'Вводите каждое имя на новой строке.',
 	'USER_CONTROL_PANEL'	=> 'Личный раздел',
 
+	'UPDATE_NEEDED'			=> 'Конференция требует обновления.',
+	'UPDATE_NOT_NEEDED'		=> 'Конференция обновлена.',
+	'UPDATES_AVAILABLE'		=> 'Доступны обновления:',
+
 	'WARNING'				=> 'Внимание',
 ));
 
@@ -475,16 +479,18 @@ $lang = array_merge($lang, array(
 	'USER_IS_INACTIVE'		=> 'Пользователь не активирован',
 ));
 
-// Send statistics page
+// Help support phpBB page
 $lang = array_merge($lang, array(
 	'EXPLAIN_SEND_STATISTICS'	=> 'Отправьте нам информацию о вашем сервере и конфигурации phpBB для статистического анализа. Вся информация, которая могла бы идентифицировать вас или ваш сайт, удалена — данные полностью <strong>анонимны</strong>. Основываясь на предоставленной вами информации, мы будем принимать решения о функциональности будущих версий phpBB. Статистические данные представляются публично. Мы также используем эти данные совместно с проектом PHP (язык программирования, на котором написан phpBB).',
 	'EXPLAIN_SHOW_STATISTICS'	=> 'Используя кнопку ниже, вы можете просмотреть все переменные, которые будут переданы.',
 	'DONT_SEND_STATISTICS'		=> 'Переход на главную страницу администраторского раздела',
 	'GO_ACP_MAIN'				=> 'Переход на главную страницу администраторского раздела',
 	'HIDE_STATISTICS'			=> 'Скрыть подробности',
-	'SEND_STATISTICS'			=> 'Отправка статистической информации',
+	'SEND_STATISTICS'			=> 'Отправка статистики',
+	'SEND_STATISTICS_LONG'		=> 'Отправка статистической информации',
 	'SHOW_STATISTICS'			=> 'Показать подробности',
 	'THANKS_SEND_STATISTICS'	=> 'Благодарим за предоставленную вами информацию!',
+	'FAIL_SEND_STATISTICS'		=> 'Не удалось отправить статистику',
 ));
 
 // Log Entries
@@ -818,4 +824,5 @@ $lang = array_merge($lang, array(
 	'LOG_EXT_ENABLE'	=> '<strong>Расширение включено</strong><br />» %s',
 	'LOG_EXT_DISABLE'	=> '<strong>Расширение отключено</strong><br />» %s',
 	'LOG_EXT_PURGE'		=> '<strong>Удалены данные расширения</strong><br />» %s',
+	'LOG_EXT_UPDATE'	=> '<strong>Расширение обновлено</strong><br />» %s',
 ));
