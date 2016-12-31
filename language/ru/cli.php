@@ -67,6 +67,7 @@ $lang = array_merge($lang, array(
 
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Удаляет расширение вместе с его данными.',
 	'CLI_DESCRIPTION_REPARSER_LIST'						=> 'Выводит список типов текста, доступных для репарсинга.',
+	'CLI_DESCRIPTION_REPARSER_AVAILABLE'				=> 'Доступные репарсеры:',
 	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Осуществляет репарсинг сохранённого текста с помощью текущих сервисов text_formatter.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'Тип текста для репарсинга. оставьте поле пустым для репарсинга всех типов.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Не сохранять любые изменения; только вывести предполагаемый результат',
