@@ -187,6 +187,9 @@ $lang = array_merge($lang, array(
 	'CONTACT'				=> 'Контактная информация',
 	'CONTACT_USER'			=> 'Контактная информация пользователя %s',
 	'CONTACT_US'			=> 'Связаться с администрацией',
+	'COOKIE_CONSENT_INFO'	=> 'Подробнее',
+	'COOKIE_CONSENT_MSG'	=> 'Этот сайт использует cookies для обеспечения своей корректной работы.',
+	'COOKIE_CONSENT_OK'		=> 'Согласен',
 	'COOKIES_DELETED'		=> 'Все cookies, установленные конференцией, успешно удалены.',
 	'CURRENT_TIME'			=> 'Текущее время: %s',
 
