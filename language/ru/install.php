@@ -199,6 +199,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_NAME'			=> 'Не указано название базы данных.',
 	'INST_ERR_DB_FORUM_PATH'		=> 'Указанный файл базы данных находится в папке конференции. Необходимо переместить его в папку, недоступную из интернета.',
 	'INST_ERR_DB_CONNECT'			=> 'Не удалось подключиться к базе данных. Ниже показан текст сообщения об ошибке.',
+	'INST_ERR_DB_NO_WRITABLE'		=> 'База данных и папка, в которой она находится, должны быть доступны для записи.',
 	'INST_ERR_DB_NO_ERROR'			=> 'Сообщения об ошибке недоступно.',
 	'INST_ERR_PREFIX'				=> 'Таблицы с указанным префиксом уже существуют. Введите другой префикс.',
 	'INST_ERR_DB_NO_MYSQLI'			=> 'Установленная на сервере версия MySQL несовместима с выбранным вариантом «MySQL с расширением MySQLi». Вместо него попробуйте выбрать вариант «MySQL».',
@@ -224,6 +225,7 @@ $lang = array_merge($lang, array(
 	// Server data
 	//
 	// Form labels
+	'UPGRADE_INSTRUCTIONS'			=> 'Новая версия <strong>%1$s</strong> уже доступна. ознакомьтесь с <a href="%2$s" title="%2$s"><strong>объявлением о её выходе</strong></a>, чтобы узнать об изменениях и способах обновления.',
 	'SERVER_CONFIG'				=> 'Настройки сервера',
 	'SCRIPT_PATH'				=> 'Путь к конференции',
 	'SCRIPT_PATH_EXPLAIN'		=> 'Путь к папке, содержащей phpBB, относительно имени домена. Например, <samp>/phpBB3</samp>.',
@@ -296,9 +298,10 @@ $lang = array_merge($lang, array(
 	'TASK_CREATE_TABLES'				=> 'Создание таблиц в базе данных',
 
 	// Install data
-	'TASK_ADD_BOTS'			=> 'Регистрация ботов',
-	'TASK_ADD_LANGUAGES'	=> 'Установка доступных языковых пакетов',
-	'TASK_ADD_MODULES'		=> 'Установка модулей',
+	'TASK_ADD_BOTS'				=> 'Регистрация ботов',
+	'TASK_ADD_LANGUAGES'		=> 'Установка доступных языковых пакетов',
+	'TASK_ADD_MODULES'			=> 'Установка модулей',
+	'TASK_CREATE_SEARCH_INDEX'	=> 'Создание поискового индекса',
 
 	// Install finish tasks
 	'TASK_INSTALL_EXTENSIONS'	=> 'Установка расширений',

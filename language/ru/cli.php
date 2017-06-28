@@ -57,6 +57,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Отключить заданное расширение.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Включить заданное расширение.',
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Найти миграции, не имеющие зависимостей.',
+	'CLI_DESCRIPTION_FIX_LEFT_RIGHT_IDS'		=> 'Восстановление древовидной структуры форумов и модулей.',
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Получить значение параметра конфигурации',
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Увеличить значение числового параметра конфиругации',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Вывести список всех расширений из базы данных и файловой системы.',
@@ -89,7 +90,9 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Проверка обновлений с ипользованием кэша.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Выбор типа проверки обновлений (только на стабильные версии или включая нестабильные).',
 
-	'CLI_ERROR_INVALID_STABILITY' => '"%s" нестабильно.',
+	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Обновить устаревшие хэши паролей с использованием шифрования bcrypt.',
+
+	'CLI_ERROR_INVALID_STABILITY' => 'Для "%s" необходимо установить признак "stable" (стабильная) или "unstable" (нестабильная).',
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Активировать (или деактивировать) учётную запись.',
 	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Имя пользователя для активации.',
@@ -108,8 +111,10 @@ $lang = array_merge($lang, array(
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Не удалось отключить расширение %s',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'Успешно отключено расширение %s',
+	'CLI_EXTENSION_DISABLED'			=> 'Расширение %s не включено',
 	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'Не удалось включить расширение %s',
 	'CLI_EXTENSION_ENABLE_SUCCESS'		=> 'Успешно включено расширение %s',
+	'CLI_EXTENSION_ENABLED'				=> 'Расширение %s уже включено',
 	'CLI_EXTENSION_NAME'				=> 'Имя расширения',
 	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Не удалось удалить файлы и данные расширения %s',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'Успешно удалены файлы и данные расширения %s',
@@ -120,7 +125,9 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_DISABLED'			=> 'Отключённые',
 	'CLI_EXTENSIONS_ENABLED'			=> 'Включённые',
 
+	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Успешно восстановлена древовидеая структура форумов и модулей.',
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Успешно пересчитаны все значения хэшей email.',
+	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Успешно обновлены устаревшие хэши паролей с использованием шифрования bcrypt.',
 
 	'CLI_MIGRATION_NAME'					=> 'Имя миграции, включая пространство имён (используйте прямой слэш вместо обратного во избежание проблем).',
 	'CLI_MIGRATIONS_AVAILABLE'				=> 'Доступные миграции',

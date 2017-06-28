@@ -190,6 +190,7 @@ $lang = array_merge($lang, array(
 	'COOKIE_CONSENT_INFO'	=> 'Подробнее',
 	'COOKIE_CONSENT_MSG'	=> 'Этот сайт использует cookies для обеспечения своей корректной работы.',
 	'COOKIE_CONSENT_OK'		=> 'Согласен',
+	'COOKIE_CONSENT_HREF'	=> 'http://cookiesandyou.com',
 	'COOKIES_DELETED'		=> 'Все cookies, установленные конференцией, успешно удалены.',
 	'CURRENT_TIME'			=> 'Текущее время: %s',
 
