@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'USER_LANG'			=> 'ru',
 
 	// You can define different rules for the determination of plural forms here.
-	// See http://wiki.phpbb.com/Plural_Rules for more information
+	// See https://area51.phpbb.com/docs/dev/32x/language/plurals.html for more information
 	// or ask the translation manager for help.
 	// Rule #7 Families: Slavic (Bosnian, Croatian, Serbian, Russian, Ukrainian)
 	// 0 can be handled special case. If you add a key 0 to your array, that will be used 
@@ -587,6 +587,7 @@ $lang = array_merge($lang, array(
 	),
 	'OPTIONS'					=> 'Настройки',
 
+	'PAGE_NOT_FOUND'		=> 'Запрошенная страница не найдена.',
 	'PAGE_OF'				=> 'Страница <strong>%1$d</strong> из <strong>%2$d</strong>',
 	'PAGE_TITLE_NUMBER'		=> 'Страница %s',
 	'PASSWORD'				=> 'Пароль',
