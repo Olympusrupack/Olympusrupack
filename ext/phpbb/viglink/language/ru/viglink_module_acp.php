@@ -50,5 +50,5 @@ $lang = array_merge($lang, array(
 	'ACP_VIGLINK_CLAIM'				=> 'Запросить собственную комиссию',
 	'ACP_VIGLINK_CLAIM_EXPLAIN'		=> 'Можно запросить перевод комиссии со ссылок, монетизируемых VigLink, в свой адрес, а не проекту phpBB. Для управления настройками учётной записи, зарегистрируйтесь на «VigLink Convert», перейдя по ссылке «Конвертировать учётную запись».',
 	'ACP_VIGLINK_CONVERT_ACCOUNT'	=> 'Конвертировать учётную запись',
-	'ACP_VIGLINK_NO_CONVERT_LINK'	=> 'Конвертирование учётной записи VigLink недоступно.'
+	'ACP_VIGLINK_NO_CONVERT_LINK'	=> 'Конвертирование учётной записи VigLink недоступно.',
 ));
