@@ -78,6 +78,7 @@ $lang = array_merge($lang, array(
 	'STYLE_UNINSTALL'			=> 'Удалить',
 	'STYLE_UNINSTALL_DEPENDENT'	=> 'Стиль «%s» не может быть удалён, так как является родительским для других стилей.',
 	'STYLE_UNINSTALLED'			=> 'Стиль «%s» успешно удалён.',
+	'STYLE_PHPBB_VERSION'		=> 'Версия phpBB',
 	'STYLE_USED_BY'				=> 'Используют (с ботами)',
 	'STYLE_VERSION'				=> 'Версия стиля',
 
