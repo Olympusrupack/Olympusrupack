@@ -1,4 +1,5 @@
 Subject: Уведомление о новом сообщении — «{FORUM_NAME}»
+List-Unsubscribe: <{U_STOP_WATCHING_FORUM}>
 
 Здравствуйте, {USERNAME}!
 
