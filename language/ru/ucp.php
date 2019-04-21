@@ -276,6 +276,7 @@ $lang = array_merge($lang, array(
 	'IMPORTANT_NEWS'			=> 'Важные объявления',
 	'INVALID_USER_BIRTHDAY'		=> 'Введённая дата дня рождения имеет неверный формат.',
 	'INVALID_CHARS_USERNAME'	=> 'Имя пользователя содержит запрещённые символы.',
+	'INVALID_EMOJIS_USERNAME'	=> 'Имя пользователя содержит запрещённые символы (Эмодзи).',
 	'INVALID_CHARS_NEW_PASSWORD'=> 'Пароль не содержит требуемых символов.',
 	'ITEMS_REQUIRED'			=> 'Поля вашего профиля, отмеченные *, обязательны к заполнению.',
 
@@ -306,6 +307,7 @@ $lang = array_merge($lang, array(
 	'MESSAGE_EDITED'				=> 'Сообщение успешно изменено.',
 	'MESSAGE_HISTORY'				=> 'История сообщений',
 	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Автор удалил это сообщение.',
+	'MESSAGE_REPORTED_MESSAGE'		=> 'Обжалованное сообщение',
 	'MESSAGE_SENT_ON'				=> 'от',
 	'MESSAGE_STORED'				=> 'Ваше сообщение успешно отправлено.',
 	'MESSAGE_TO'					=> 'Кому',

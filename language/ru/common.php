@@ -815,6 +815,10 @@ $lang = array_merge($lang, array(
 	'TOPIC_REVIEW'		=> 'Обзор темы',
 	'TOPIC_TITLE'		=> 'Название темы',
 	'TOPIC_UNAPPROVED'	=> 'Данная тема не была одобрена.',
+	'TOPIC_UNAPPROVED_FORUM'	=> array(
+		1	=> 'Имеется тема, ожидающая одобрения',
+		2	=> 'Имеются темы, ожидающие одобрения',
+	),
 	'TOPIC_DELETED'		=> 'Данная тема была удалена.',
 	'TOTAL_ATTACHMENTS'	=> 'Вложения',
 	'TOTAL_LOGS'		=> array(
