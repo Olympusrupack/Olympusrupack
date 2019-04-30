@@ -325,6 +325,7 @@ $lang = array_merge($lang, array(
 	'TOTAL_SIZE'			=> 'Общий размер',
 
 	'UCP'					=> 'Личный раздел',
+	'URL_INVALID'			=> 'Введённая ссылка для настройки «%1$s» является неверной.',
 	'USERNAMES_EXPLAIN'		=> 'Вводите каждое имя на новой строке.',
 	'USER_CONTROL_PANEL'	=> 'Личный раздел',
 
