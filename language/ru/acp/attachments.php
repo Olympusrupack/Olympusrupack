@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_ATTACHMENT_SETTINGS_EXPLAIN'	=> 'Здесь вы можете настроить основные параметры вложений и связанных с ними специальных категорий.',
 	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'Здесь вы можете добавлять, удалять и изменять группы расширений. Также здесь можно отключать определённые группы расширений, назначать на группы специальные категории, изменять режим загрузки вложений, а также указать значок, который будет отображаться перед вложением, принадлежащим определённой группе.',
 	'ACP_MANAGE_EXTENSIONS_EXPLAIN'		=> 'Здесь вы можете управлять разрешёнными расширениями. Для активации расширений посетите страницу «Группы расширений». Мы настоятельно рекомендуем не разрешать потенциально опасные расширения (такие, как <code>php</code>, <code>php3</code>, <code>php4</code>, <code>phtml</code>, <code>pl</code>, <code>cgi</code>, <code>py</code>, <code>rb</code>, <code>asp</code>, <code>aspx</code> и так далее…).',
@@ -166,4 +166,4 @@ $lang = array_merge($lang, array(
 	'UPLOAD_DIR_EXPLAIN'			=> 'Примечание: если вы измените эту папку в то время, как в ней уже имеются загруженные файлы, то вам придётся вручную скопировать эти файлы в новую папку.',
 	'UPLOAD_ICON'					=> 'Значок вложения',
 	'UPLOAD_NOT_DIR'				=> 'Указанный путь для загрузки файлов не является папкой.',
-));
+]);

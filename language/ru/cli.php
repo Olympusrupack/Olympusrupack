@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 */
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -34,7 +34,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'CLI_CONFIG_CANNOT_CACHED'			=> 'Включите данную опцию, если значение параметра конфигурации изменяется слишком часто, для её кэширования.',
 	'CLI_CONFIG_CURRENT'				=> 'Текущее значение параметра конфигурации. Используйте 0 и 1, чтобы задавать значения логического типа (boolean)',
 	'CLI_CONFIG_DELETE_SUCCESS'			=> 'Успешно удалён параметр конфигурации %s.',
@@ -163,10 +163,10 @@ $lang = array_merge($lang, array(
 		2	=> 'Восстановление очищенных имён завершено. Восстановлено %d очищенных имени.',
 		3	=> 'Восстановление очищенных имён завершено. Восстановлено %d очищенных имён.',
 	],
-));
+]);
 
 // Additional help for commands.
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Можно указать только имя отдельной задачи для запуска.',
 	'CLI_HELP_USER_ACTIVATE'	=> 'Активировать учётную запись пользователя, или деактивировать, используя параметр <info>--deactivate</info>.
 Для отправки пользователю сообщения email для активации, используйте параметр <info>--send-email</info>.',
@@ -174,4 +174,4 @@ $lang = array_merge($lang, array(
 При запуске данной команды без параметров, будет предложено их задать.
 Для отправки новому пользователю сообщения email, используйте параметр <info>--send-email</info>.',
 	'CLI_HELP_USER_RECLEAN'		=> 'При восстановлении очищенных имён пользователей будет осуществлена проверка всех учетных записей на существование очищенного имени. очищенные имена регистронезависимы, нормализованы и преобразованы в кодировку ASCII.',
-));
+]);

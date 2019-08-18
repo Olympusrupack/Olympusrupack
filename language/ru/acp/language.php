@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_FILES'						=> 'Администраторские файлы',
 	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Здесь вы можете устанавливать и удалять языковые пакеты. Языковой пакет, используемый на конференции по умолчанию, помечен звёздочкой (*).',
 
@@ -75,4 +75,4 @@ $lang = array_merge($lang, array(
 	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Языковые пакеты, доступные для установки',
 
 	'BROWSE_LANGUAGE_PACKS_DATABASE'	=> 'Перейти в базу данных языковых пакетов',
-));
+]);

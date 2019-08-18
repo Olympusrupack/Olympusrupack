@@ -21,10 +21,10 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'HELP_BBCODE_BLOCK_IMAGES'	=> 'Показ изображений в сообщениях',
 	'HELP_BBCODE_BLOCK_INTRO'	=> 'Вступление',
 	'HELP_BBCODE_BLOCK_LINKS'	=> 'Создание ссылок',
@@ -63,4 +63,4 @@ $lang = array_merge($lang, array(
 	'HELP_BBCODE_TEXT_COLOR_QUESTION'	=> 'Как изменить цвет или размер текста',
 	'HELP_BBCODE_TEXT_COMBINE_ANSWER'	=> 'Да, это возможно. Например, чтобы привлечь внимание, можно написать:<br /><br /><strong>[size=200][color=red][b]</strong>ПОСМОТРИТЕ НА МЕНЯ!<strong>[/b][/color][/size]</strong><br /><br />в этом случае будет выведено <span style="color:red;font-size:200%;"><strong>ПОСМОТРИТЕ НА МЕНЯ!</strong></span><br /><br />Не рекомендуется выводить таким образом длинные тексты! Учтите, что автор сообщения должен позаботиться о правильном закрытии тегов. Например, следующее использование тегов BBCode неверно:<br /><br /><strong>[b][u]</strong>Это неверно<strong>[/b][/u]</strong>',
 	'HELP_BBCODE_TEXT_COMBINE_QUESTION'	=> 'Могу ли я комбинировать теги?',
-));
+]);

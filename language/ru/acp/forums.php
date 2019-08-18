@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 // Forum Admin
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'AUTO_PRUNE_DAYS'			=> 'Автоочистка по дате последнего сообщения',
 	'AUTO_PRUNE_DAYS_EXPLAIN'	=> 'Количество дней с последнего сообщения, по прошествии которых тема будет удалена.',
 	'AUTO_PRUNE_FREQ'			=> 'Частота автоматической очистки',
@@ -97,6 +97,7 @@ $lang = array_merge($lang, array(
 	'FORUM_LINK_TRACK_EXPLAIN'			=> 'Записывает количество щелчков по ссылке на форум.',
 	'FORUM_NAME'						=> 'Имя форума',
 	'FORUM_NAME_EMPTY'					=> 'Необходимо ввести имя этого форума.',
+	'FORUM_NAME_EMOJI'					=> 'Введено неправильное имя форума.<br>Следующие символы в имени не поддерживаются:<br>%s',
 	'FORUM_PARENT'						=> 'Родительский форум',
 	'FORUM_PASSWORD'					=> 'Пароль к форуму',
 	'FORUM_PASSWORD_CONFIRM'			=> 'Подтверждение пароля к форуму',
@@ -162,4 +163,4 @@ $lang = array_merge($lang, array(
 	'TYPE_LINK'			=> 'Ссылка',
 
 	'UNLOCKED'			=> 'Открыт',
-));
+]);

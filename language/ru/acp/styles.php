@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,53 +36,54 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
-	'ACP_STYLES_EXPLAIN'	=> 'Здесь вы можете управлять стилями, доступными на конференции. Вы можете изменять существующие стили, удалять, деактивировать, повторно активировать, устанавливать новые. Вы также можете увидеть, как будет выглядеть стиль, используя функцию предпросмотра. Также указано общее количество пользователей для каждого стиля. Учтите, что принудительная замена стилей пользователей здесь не производится.',
-	'CANNOT_BE_INSTALLED'			=> 'Невозможно установить',
-	'CONFIRM_UNINSTALL_STYLES'		=> 'Вы действительно хотите отменить установку стиля?',
-	'COPYRIGHT'						=> 'Копирайт',
+$lang = array_merge($lang, [
+	'ACP_STYLES_EXPLAIN'						=> 'Здесь вы можете управлять стилями, доступными на конференции.<br>Учтите, что невозможно удалить стиль «<strong>prosilver</strong>», так как он является основным, от которого наследуют другие стили.',
+	'CANNOT_BE_INSTALLED'						=> 'Невозможно установить',
+	'CONFIRM_UNINSTALL_STYLES'					=> 'Вы действительно хотите отменить установку стиля?',
+	'COPYRIGHT'									=> 'Копирайт',
 
-	'DEACTIVATE_DEFAULT'		=> 'Вы не можете сделать неактивным стиль по умолчанию.',
-	'DELETE_FROM_FS'			=> 'Удалить с сервера',
-	'DELETE_STYLE_FILES_FAILED'	=> 'При удалении файлов стиля «%s» произошла ошибка.',
-	'DELETE_STYLE_FILES_SUCCESS'	=> 'Файлы стиля «%s» успешно удалены.',
-	'DETAILS'					=> 'Информация',
-	'INHERITING_FROM'			=> 'Наследует из',
-	'INSTALL_STYLE'				=> 'Установить стиль',
-	'INSTALL_STYLES'			=> 'Установить стили',
-	'INSTALL_STYLES_EXPLAIN'	=> 'Здесь вы можете установить новые стили.<br />В случае, если какой-либо стиль отсутствует в списке ниже, проверьте, не был ли он уже установлен. Если этот стиль не установлен, проверьте правильность его загрузки на сервер.',
-	'INVALID_STYLE_ID'			=> 'Неверный идентификатор (ID) стиля.',
+	'DEACTIVATE_DEFAULT'						=> 'Вы не можете сделать неактивным стиль по умолчанию.',
+	'DELETE_FROM_FS'							=> 'Удалить с сервера',
+	'DELETE_STYLE_FILES_FAILED'					=> 'При удалении файлов стиля «%s» произошла ошибка.',
+	'DELETE_STYLE_FILES_SUCCESS'				=> 'Файлы стиля «%s» успешно удалены.',
+	'DETAILS'									=> 'Информация',
+	'INHERITING_FROM'							=> 'Наследует из',
+	'INSTALL_STYLE'								=> 'Установить стиль',
+	'INSTALL_STYLES'							=> 'Установить стили',
+	'INSTALL_STYLES_EXPLAIN'					=> 'Здесь вы можете установить новые стили.<br />В случае, если какой-либо стиль отсутствует в списке ниже, проверьте, не был ли он уже установлен. Если этот стиль не установлен, проверьте правильность его загрузки на сервер.',
+	'INVALID_STYLE_ID'							=> 'Неверный идентификатор (ID) стиля.',
 
-	'NO_MATCHING_STYLES_FOUND'	=> 'Нет стилей, соответствующих запросу.',
-	'NO_UNINSTALLED_STYLE'		=> 'Все стили установлены',
+	'NO_MATCHING_STYLES_FOUND'					=> 'Нет стилей, соответствующих запросу.',
+	'NO_UNINSTALLED_STYLE'						=> 'Все стили установлены',
 
-	'PURGED_CACHE'				=> 'Кэш очищен.',
+	'PURGED_CACHE'								=> 'Кэш очищен.',
  
-	'REQUIRES_STYLE'			=> 'Этому стилю требуется установленный стиль «%s».',
+	'REQUIRES_STYLE'							=> 'Этому стилю требуется установленный стиль «%s».',
 
-	'STYLE_ACTIVATE'			=> 'Активировать',
-	'STYLE_ACTIVE'				=> 'Активирован',
-	'STYLE_DEACTIVATE'			=> 'Деактивировать',
-	'STYLE_DEFAULT'				=> 'Назначить используемым по умолчанию',
-	'STYLE_DEFAULT_CHANGE_INACTIVE'	=> 'Необходимо активировать стиль прежде, чем назначить его стилем по умолчанию.',
-	'STYLE_ERR_INVALID_PARENT'	=> 'Родительский стиль неверен.',
-	'STYLE_ERR_NAME_EXIST'		=> 'Стиль с таким именем уже существует.',
-	'STYLE_ERR_STYLE_NAME'		=> 'Вы должны задать имя для этого стиля.',
-	'STYLE_NAME_RESERVED'		=> 'Стиль «%s» не может быть установлен, так как данное имя является зарезервированным.',
-	'STYLE_INSTALLED'			=> 'Стиль «%s» успешно установлен.',
+	'STYLE_ACTIVATE'							=> 'Активировать',
+	'STYLE_ACTIVE'								=> 'Активирован',
+	'STYLE_DEACTIVATE'							=> 'Деактивировать',
+	'STYLE_DEFAULT'								=> 'Назначить используемым по умолчанию',
+	'STYLE_DEFAULT_CHANGE_INACTIVE'				=> 'Необходимо активировать стиль прежде, чем назначить его стилем по умолчанию.',
+	'STYLE_ERR_INVALID_PARENT'					=> 'Родительский стиль неверен.',
+	'STYLE_ERR_NAME_EXIST'						=> 'Стиль с таким именем уже существует.',
+	'STYLE_ERR_STYLE_NAME'						=> 'Вы должны задать имя для этого стиля.',
+	'STYLE_NAME_RESERVED'						=> 'Стиль «%s» не может быть установлен, так как данное имя является зарезервированным.',
+	'STYLE_INSTALLED'							=> 'Стиль «%s» успешно установлен.',
 	'STYLE_INSTALLED_RETURN_INSTALLED_STYLES'	=> 'Вернуться к списку установленных стилей.',
 	'STYLE_INSTALLED_RETURN_UNINSTALLED_STYLES'	=> 'Установить другие стили.',
-	'STYLE_NAME'				=> 'Имя стиля',
-	'STYLE_NOT_INSTALLED'		=> 'Не удалось установить стиль «%s».',
-	'STYLE_PATH'				=> 'Путь к стилю',
-	'STYLE_UNINSTALL'			=> 'Удалить',
-	'STYLE_UNINSTALL_DEPENDENT'	=> 'Стиль «%s» не может быть удалён, так как является родительским для других стилей.',
-	'STYLE_UNINSTALLED'			=> 'Стиль «%s» успешно удалён.',
-	'STYLE_PHPBB_VERSION'		=> 'Версия phpBB',
-	'STYLE_USED_BY'				=> 'Используют (с ботами)',
-	'STYLE_VERSION'				=> 'Версия стиля',
+	'STYLE_NAME'								=> 'Имя стиля',
+	'STYLE_NOT_INSTALLED'						=> 'Не удалось установить стиль «%s».',
+	'STYLE_PATH'								=> 'Путь к стилю',
+	'STYLE_UNINSTALL'							=> 'Удалить',
+	'STYLE_UNINSTALL_DEPENDENT'					=> 'Стиль «%s» не может быть удалён, так как является родительским для других стилей.',
+	'STYLE_UNINSTALLED'							=> 'Стиль «%s» успешно удалён.',
+	'STYLE_PHPBB_VERSION'						=> 'Версия phpBB',
+	'STYLE_USED_BY'								=> 'Используют (с ботами)',
+	'STYLE_VERSION'								=> 'Версия стиля',
 
-	'UNINSTALL_DEFAULT'		=> 'Нельзя удалить стиль по умолчанию.',
+	'UNINSTALL_PROSILVER'						=> 'Нельзя удалить стиль «prosilver».',
+	'UNINSTALL_DEFAULT'							=> 'Нельзя удалить стиль по умолчанию.',
 
-	'BROWSE_STYLES_DATABASE'	=> 'Перейти в базу данных стилей',
-));
+	'BROWSE_STYLES_DATABASE'					=> 'Перейти в базу данных стилей',
+]);

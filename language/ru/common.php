@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'TRANSLATION_INFO'	=> '<a href=\'http://www.phpbbguru.net/\'>Русская поддержка phpBB</a>',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d.m.Y|',	// 01 Jan 2007 (with Relative days enabled)
@@ -97,6 +97,7 @@ $lang = array_merge($lang, array(
 	'ATTACHED_IMAGE_NOT_IMAGE'		=> 'Вы попытались отправить недопустимый тип файла изображения.',
 	'AUTHOR'						=> 'Автор',
 	'AUTH_NO_PROFILE_CREATED'		=> 'Не удалось создать профиль пользователя.',
+	'AUTH_PROVIDER_OAUTH_ERROR_ALREADY_LINKED'				=> 'Данная учётная запись уже связана с другим пользователем.',
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_ENTRY'				=> 'Неверная запись в базу данных.',
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_SERVICE_TYPE'		=> 'Для обработчика сервиса oAuth предоставлен неверный тип сервиса.',
 	'AUTH_PROVIDER_OAUTH_ERROR_SERVICE_NOT_CREATED'			=> 'Сервис OAuth не создан',
@@ -546,6 +547,7 @@ $lang = array_merge($lang, array(
 	'NO_FEED_ENABLED'			=> 'Каналы новостей недоступны на этой конференции.',
 	'NO_FEED'					=> 'Запрашиваемый канал новостей недоступен.',
 	'NO_STYLE_DATA'				=> 'Не удалось получить данные о стиле',
+	'NO_STYLE_CFG'				=> 'Не удалось загрузить файл конфигурации для стиля: %s',
 	'NO_SUBJECT'				=> 'Не указана тема',								// Used for posts having no subject defined but displayed within management pages.
 	'NO_SUCH_SEARCH_MODULE'		=> 'Указанный поисковый механизм отсутствует.',
 	'NO_SUPPORTED_AUTH_METHODS'	=> 'Метод аутентификации не поддерживается.',
@@ -1482,4 +1484,4 @@ $lang = array_merge($lang, array(
 	// Translators should change this if a the usual date format is different
 	'default_dateformat'	=>'|d M Y|, H:i', // Сегодня, 13:37 / 01 Янв 2007, 13:37
 
-));
+]);

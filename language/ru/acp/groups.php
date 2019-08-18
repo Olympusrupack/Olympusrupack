@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_GROUPS_MANAGE_EXPLAIN'		=> 'C помощью этой панели вы можете управлять всеми группами пользователей. Вы можете удалять их, создавать новые и редактировать существующие. Кроме этого, вы можете назначать лидеров, изменять открытый/скрытый/закрытый статус групп, а также задавать названия и описания групп.',
 	'ADD_GROUP_CATEGORY'			=> 'Добавить категорию',
 	'ADD_USERS'						=> 'Добавление пользователей',
@@ -156,4 +156,4 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_DEFAULT'			=> 'Назначить группой по умолчанию',
 	'USER_GROUP_DEFAULT_EXPLAIN'	=> 'Установка этой группы в качестве группы по умолчанию для добавляемых в группу пользователей.',
 	'USER_GROUP_LEADER'				=> 'Назначить лидером группы',
-));
+]);

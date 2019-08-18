@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 // Common installer pages
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'INSTALL_PANEL'	=> 'Установка конференции',
 	'SELECT_LANG'				=> 'Выберите язык',
 
@@ -84,10 +84,10 @@ $lang = array_merge($lang, array(
 
 	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB уже установлен.',
 	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB ещё не установлен.',
-));
+]);
 
 // Requirements translation
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	// Filesystem requirements
 	'FILE_NOT_EXISTS'						=> 'Файл не существует',
 	'FILE_NOT_EXISTS_EXPLAIN'				=> 'Для установки phpBB требуется файл %1$s.',
@@ -120,18 +120,18 @@ $lang = array_merge($lang, array(
 	'RETEST_REQUIREMENTS'	=> 'Проверить повторно',
 
 	'STAGE_REQUIREMENTS'	=> 'Проверить требования',
-));
+]);
 
 // General error messages
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'INST_ERR_MISSING_DATA'		=> 'На этой странице необходимо заполнить все поля.',
 
 	'TIMEOUT_DETECTED_TITLE'	=> 'Программа установки определила превышение времени ожидания запроса',
 	'TIMEOUT_DETECTED_MESSAGE'	=> 'Произошло превышение времени ожидания запроса при исполнении программы установки. Можно попробовать обновить эту страницу в браузере, что может привести к порче данных. Предпочтительным решением является увеличение времени исполнения в настройках PHP, либо использование интерфейса командной строки (CLI).',
-));
+]);
 
 // Updater
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'STAGE_OBTAIN_DATA'	=> 'Задать параметры установки',
 
 	//
@@ -230,10 +230,10 @@ $lang = array_merge($lang, array(
 	'SERVER_CONFIG'				=> 'Настройки сервера',
 	'SCRIPT_PATH'				=> 'Путь к конференции',
 	'SCRIPT_PATH_EXPLAIN'		=> 'Путь к папке, содержащей phpBB, относительно имени домена. Например, <samp>/phpBB3</samp>.',
-));
+]);
 
 // Default database schema entries…
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'CONFIG_BOARD_EMAIL_SIG'		=> 'Спасибо, Администрация',
 	'CONFIG_SITE_DESC'				=> 'Краткое описание вашей конференции',
 	'CONFIG_SITENAME'				=> 'ваш_домен.ru',
@@ -276,18 +276,18 @@ $lang = array_merge($lang, array(
 	'SMILIES_WINK'					=> 'Подмигивает',
 
 	'TOPICS_TOPIC_TITLE'			=> 'Добро пожаловать в phpBB3',
-));
+]);
 
 // Common navigation items' translation
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'MENU_OVERVIEW'		=> 'Обзор',
 	'MENU_INTRO'		=> 'Вступление',
 	'MENU_LICENSE'		=> 'Лицензия',
 	'MENU_SUPPORT'		=> 'Поддержка',
-));
+]);
 
 // Task names
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	// Install filesystem
 	'TASK_CREATE_CONFIG_FILE'	=> 'Создание файла конфигурации',
 
@@ -311,10 +311,10 @@ $lang = array_merge($lang, array(
 
 	// Installer general progress messages
 	'INSTALLER_FINISHED'	=> 'Программа установки успешно завершила работу',
-));
+]);
 
 // Installer's general messages
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'MODULE_NOT_FOUND'				=> 'Модуль не найден',
 	'MODULE_NOT_FOUND_DESCRIPTION'	=> 'Не найденный модуль сервиса «%s» не инициализирован.',
 
@@ -328,10 +328,10 @@ $lang = array_merge($lang, array(
 	'TASK_CLASS_NOT_FOUND'				=> 'Определение задачи сервиса программы установки неверно. Для заданного имени сервиса «%1$s» ожидается пространство имён «%2$s». Для получения дополнительной информации обратитесь к документации по task_interface.',
 
 	'INSTALLER_CONFIG_NOT_WRITABLE'	=> 'Файл конфигурации недоступен для записи.',
-));
+]);
 
 // CLI messages
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'CLI_INSTALL_BOARD'				=> 'Установка phpBB',
 	'CLI_UPDATE_BOARD'				=> 'Обновление phpBB',
 	'CLI_INSTALL_SHOW_CONFIG'		=> 'Показать используемую конфигурацию',
@@ -341,10 +341,10 @@ $lang = array_merge($lang, array(
 	'MISSING_DATA'					=> 'Файл конфигурации отсутствует или содержит неверные настройки.',
 	'INVALID_YAML_FILE'				=> 'Не удалось прочесть YAML файл %1$s',
 	'CONFIGURATION_VALID'			=> 'Файл конфигурации не содержит ошибок',
-));
+]);
 
 // Common updater messages
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'UPDATE_INSTALLATION'			=> 'Обновление версии phpBB',
 	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Здесь вы можете обновить вашу версию phpBB до последней.<br />Во время этого процесса все ваши файлы будут проверены на целостность. Вы сможете просмотреть файлы и вносимые в них изменения перед обновлением.<br /><br />Само обновление может быть выполнено двумя способами.</p><h2>Обновление вручную</h2><p>Этот способ заключается в том, что вы скачиваете индивидуальный набор обновлённых файлов, чтобы не потерять сделанные вами изменения в имеющихся файлах. Скачав этот архив, вы должны вручную закачать файлы из него в соответствующие им местоположения относительно корневой папки phpBB. После этого вам будет дана возможность провести проверку, что все файлы занимают полагающиеся им места.</p><h2>Автоматическое обновление по FTP</h2><p>Этот способ похож на первый, но без необходимости скачивать обновлённые файлы и закачивать их на сервер самостоятельно, это будет сделано за вас. Чтобы воспользоваться этим способом, вам нужно знать запрашиваемые программой обновления данные о вашем FTP-сервере. По окончании вы будете направлены на повторное сравнение файлов с целью удостовериться, что обновление прошло успешно.<br /><br />',
 	'UPDATE_INSTRUCTIONS'			=> '
@@ -394,10 +394,10 @@ $lang = array_merge($lang, array(
 		Вам будут даны указания в ходе процесса обновления, а по его окончании вам сообщат об этом.
 		</p>
 	',
-));
+]);
 
 // Updater forms
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	// Updater types
 	'UPDATE_TYPE'			=> 'Тип обновления',
 
@@ -417,19 +417,19 @@ $lang = array_merge($lang, array(
 
 	// FTP settings
 	'FTP_SETTINGS'			=> 'Настройки FTP',
-));
+]);
 
 // Requirements messages
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'UPDATE_FILES_NOT_FOUND'	=> 'Папка с файлами обновления не найдена. Удостоверьтесь, что соответствующие файлы загружены на сервер.',
 
 	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'Ваша версия phpBB самая последняя и не требует обновления. Если необходимо проверить целостность файлов, удостоверьтесь, что соответствующие файлы обновления загружены на сервер.',
 	'OLD_UPDATE_FILES'				=> 'Используется устаревшее обновление. Найденные файлы предназначены для обновления версии %1$s до %2$s, но последняя версия phpBB — %3$s.',
 	'INCOMPATIBLE_UPDATE_FILES'		=> 'Найденные файлы обновления несовместимы с установленной версией phpBB. Установлена версия %1$s, однако файл обновления предназначен для обновления версии %2$s до %3$s.',
-));
+]);
 
 // Update files
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'STAGE_UPDATE_FILES'		=> 'Обновление файлов',
 
 	// Check files
@@ -478,19 +478,19 @@ $lang = array_merge($lang, array(
 
 	'UPDATE_CONTINUE_UPDATE_PROCESS'	=> 'Продолжить процесс обновления',
 	'UPDATE_RECHECK_UPDATE_FILES'		=> 'Повторно проверить файлы',
-));
+]);
 
 // Update database
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'STAGE_UPDATE_DATABASE'		=> 'Обновление базы данных',
 
 	'INLINE_UPDATE_SUCCESSFUL'		=> 'База данных успешно обновлена.',
 
 	'TASK_UPDATE_EXTENSIONS'	=> 'Обновление расширений',
-));
+]);
 
 // Converter
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	// Common converter messages
 	'CONVERT_NOT_EXIST'			=> 'Указанный конвертер не существует.',
 	'DEV_NO_TEST_FILE'			=> 'В конвертере не указано значение переменной test_file. Если вы пользователь этого конвертера, то сообщите об этой ошибке его автору, поскольку она не должна возникать. Если вы автор конвертера, то вы должны задать имя существующего файла конвертируемой конференции для проверки правильности пути к ней.',
@@ -596,4 +596,4 @@ $lang = array_merge($lang, array(
 	'CONV_SAVED_MESSAGES'				=> 'Сохранённые сообщения',
 
 	'PRE_CONVERT_COMPLETE'			=> 'Все этапы подготовки к конвертированию успешно завершены. Теперь вы можете начать процесс конвертирования. Учтите, что вам, возможно, придётся вручную произвести некоторые действия и настройки. После конвертирования обязательно проверьте назначенные права доступа, восстановите поисковый индекс, который не подлежал конвертированию, если необходимо, а также удостоверьтесь, что все файлы были успешно скопированы (например, аватары и смайлики).',
-));
+]);

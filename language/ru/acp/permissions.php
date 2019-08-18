@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_PERMISSIONS_EXPLAIN'	=> '
 		<p>Права доступа чрезвычайно детализированы и сгруппированы в четыре основных раздела:</p>
 
@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 
 		<br />
 
-		<p>Для получения более подробной информации по настройке и управлению правами доступа на вашей конференции phpBB3 смотрите <a href="http://www.phpbbguru.net/documentation/admin/permissions/">Раздел 3.7 нашего руководства</a>.</p>
+		<p>Для получения более подробной информации по настройке и управлению правами доступа на вашей конференции phpBB3 смотрите <a href="httpы://www.phpbbguru.net/documentation/admin/permissions/">Раздел 3.7 нашего руководства</a>.</p>
 	',
 
 	'ACL_NEVER'				=> 'Никогда',
@@ -284,4 +284,4 @@ $lang = array_merge($lang, array(
 
 	'WRONG_PERMISSION_TYPE'				=> 'Выбран неправильный тип прав.',
 	'WRONG_PERMISSION_SETTING_FORMAT'	=> 'Права установлены в неверном формате, их обработка невозможна.',
-));
+]);

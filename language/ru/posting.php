@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,13 +36,14 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ADD_ATTACHMENT'			=> 'Добавить вложения',
 	'ADD_ATTACHMENT_EXPLAIN'	=> 'Если вы не хотите добавлять вложения, оставьте поля пустыми.',
 	'ADD_FILE'					=> 'Добавить файл',
 	'ADD_POLL'					=> 'Добавить опрос',
 	'ADD_POLL_EXPLAIN'			=> 'Если вы не хотите добавлять опрос к вашему сообщению, оставьте поля пустыми.',
 	'ALREADY_DELETED'			=> 'Это сообщение уже удалено.',
+	'ATTACH_COMMENT_NO_EMOJIS'	=> 'Комментарий к файлу содержит запрещённые символы (Emoji).',
 	'ATTACH_DISK_FULL'			=> 'Недостаточно свободного места на диске для загрузки данного вложения.',
 	'ATTACH_QUOTA_REACHED'		=> 'Достигнут максимальный общий размер ваших вложений.',
 	'ATTACH_SIG'				=> 'Присоединить подпись (её можно изменять в личном разделе)',
@@ -298,4 +299,4 @@ $lang = array_merge($lang, array(
 
 	'WRONG_FILESIZE'			=> 'Слишком большой размер вложения. Максимальный разрешённый размер: %1$d %2$s.',
 	'WRONG_SIZE'				=> 'Размеры изображения должны быть не менее %1$s×%2$s и не более %3$s×%4$s. Размер отправленного изображения — %5$s×%6$s.',
-));
+]);

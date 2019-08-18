@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ADMIN_SIG_PREVIEW'		=> 'Предварительный просмотр подписи',
 	'AT_LEAST_ONE_FOUNDER'	=> 'Вы не можете понизить статус этого основателя до обычного пользователя. На конференции должен быть по крайней мере один основатель. Если вы хотите изменить статус основателя для этого пользователя, то сначала сделайте основателем другого пользователя.',
 
@@ -140,4 +140,4 @@ $lang = array_merge($lang, array(
 	'USER_SIG_UPDATED'				=> 'Подпись пользователя успешно обновлена.',
 	'USER_WARNING_LOG_DELETED'		=> 'Информация недоступна. Возможно, данная запись была удалена из журнала.',
 	'USER_TOOLS'					=> 'Основные инструменты',
-));
+]);

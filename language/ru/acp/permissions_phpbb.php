@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -46,7 +46,7 @@ if (empty($lang) || !is_array($lang))
 */
 
 // Define categories and permission types
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACL_CAT_ACTIONS'		=> 'Действия',
 	'ACL_CAT_CONTENT'		=> 'Содержимое',
 	'ACL_CAT_FORUMS'		=> 'Форумы',
@@ -61,10 +61,10 @@ $lang = array_merge($lang, array(
 	'ACL_CAT_SETTINGS'		=> 'Установки',
 	'ACL_CAT_TOPIC_ACTIONS'	=> 'Действия с темами',
 	'ACL_CAT_USER_GROUP'	=> 'Пользователи и группы',
-));
+]);
 
 // User Permissions
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACL_U_VIEWPROFILE'	=> 'Может просматривать профили, список пользователей и страницу «Кто сейчас на конференции»',
 	'ACL_U_CHGNAME'		=> 'Может менять имя',
 	'ACL_U_CHGPASSWD'	=> 'Может менять пароль',
@@ -101,10 +101,10 @@ $lang = array_merge($lang, array(
 	'ACL_U_HIDEONLINE'	=> 'Может прятать статус присутствия',
 	'ACL_U_VIEWONLINE'	=> 'Может видеть статус присутствия',
 	'ACL_U_SEARCH'		=> 'Может использовать поиск',
-));
+]);
 
 // Forum Permissions
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACL_F_LIST'		=> 'Может видеть форум',
 	'ACL_F_LIST_TOPICS' => 'Может видеть список тем в форуме',
 	'ACL_F_READ'		=> 'Может читать форум',
@@ -140,10 +140,10 @@ $lang = array_merge($lang, array(
 	'ACL_F_POLL'		=> 'Может создавать опросы',
 	'ACL_F_VOTE'		=> 'Может голосовать в опросах',
 	'ACL_F_VOTECHG'		=> 'Может переголосовать',
-));
+]);
 
 // Moderator Permissions
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACL_M_EDIT'		=> 'Может редактировать сообщения',
 	'ACL_M_DELETE'		=> 'Может безвозвратно удалять сообщения',
 	'ACL_M_SOFTDELETE'	=> 'Может удалять в корзину сообщения<br /><em>Модераторы, имеющие право одобрять сообщения, могут восстанавливать удалённые сообщения.</em>',
@@ -160,10 +160,10 @@ $lang = array_merge($lang, array(
 	'ACL_M_WARN'		=> 'Может объявлять предупреждения<br /><em>Это право может быть назначено только глобально, а не на уровне форумов.</em>', // This moderator setting is only global (and not local)
 	'ACL_M_PM_REPORT'	=> 'Может закрывать и удалять жалобы на личные сообщения<br /><em>Это право может быть назначено только глобально, а не на уровне форумов.</em>', // This moderator setting is only global (and not local)
 	'ACL_M_BAN'			=> 'Может управлять блокировкой<br /><em>Это право может быть назначено только глобально, а не на уровне форумов.</em>', // This moderator setting is only global (and not local)
-));
+]);
 
 // Admin Permissions
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACL_A_BOARD'		=> 'Может изменять настройки конференции и проверять обновления',
 	'ACL_A_SERVER'		=> 'Может изменять параметры настройки сервера',
 	'ACL_A_JABBER'		=> 'Может изменять настройки Jabber',
@@ -210,4 +210,4 @@ $lang = array_merge($lang, array(
 	'ACL_A_REASONS'		=> 'Может управлять списком жалоб/причин',
 	'ACL_A_BACKUP'		=> 'Может сохранять/восстанавливать базу данных',
 	'ACL_A_SEARCH'		=> 'Может управлять поисковыми индексами/установками поиска',
-));
+]);

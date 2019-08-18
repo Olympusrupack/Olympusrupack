@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 // Custom profile fields
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ADDED_PROFILE_FIELD'	=> 'Дополнительное поле успешно добавлено в профиль.',
 	'ALPHA_DOTS'			=> 'Только латинские буквенные символы, цифры и точки',
 	'ALPHA_ONLY'			=> 'Только латинские буквенные символы и цифры',
@@ -111,7 +111,7 @@ $lang = array_merge($lang, array(
 	'FIRST_OPTION'				=> 'Первый вариант',
 
 	'HIDE_PROFILE_FIELD'			=> 'Скрытое поле',
-	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Поле скрыто от всех, кроме самого пользователя, администраторов и модераторов. Если в Личном разделе опция отображения поля отключена, пользователь не сможет видеть или изменять его, это смогут сделать только администраторы.',
+	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Поле скрыто от всех, кроме администраторов и модераторов. Если в Личном разделе опция отображения поля отключена, пользователь не сможет видеть или изменять его, это смогут сделать только администраторы.',
 
 	'INVALID_CHARS_FIELD_IDENT'	=> 'Идентификатор поля может содержать только латинские строчные буквы и _ (символ нижнего подчёркивания)',
 	'INVALID_FIELD_IDENT_LEN'	=> 'Идентификатор поля может быть длиной не более 17 символов',
@@ -173,4 +173,4 @@ $lang = array_merge($lang, array(
 	'USER_FIELD_NAME'	=> 'Имя поля/заголовок, показываемый пользователю',
 
 	'VISIBILITY_OPTION'				=> 'Видимость поля',
-));
+]);

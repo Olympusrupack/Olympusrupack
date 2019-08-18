@@ -22,7 +22,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'PLUPLOAD_ADD_FILES'		=> 'Добавить файлы',
 	'PLUPLOAD_ADD_FILES_TO_QUEUE'	=> 'Добавьте файлы в очередь и нажмите кнопку «Загрузить».',
 	'PLUPLOAD_ALREADY_QUEUED'	=> '%s уже присутствует в очереди.',
@@ -76,4 +76,4 @@ $lang = array_merge($lang, array(
 	// Note: This string is formatted independently by plupload and so does not
 	// use the same formatting rules as normal phpBB translation strings
 	'PLUPLOAD_UPLOADED'			=> 'Загружено файлов: %d/%d',
-));
+]);
