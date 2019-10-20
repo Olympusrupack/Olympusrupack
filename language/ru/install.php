@@ -49,7 +49,7 @@ $lang = array_merge($lang, [
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Поддержка',
-	'SUPPORT_BODY'				=> 'Полная поддержка предоставляется для последнего стабильного релиза phpBB3 бесплатно. Она включает:</p><ul><li>установку</li><li>конфигурацию</li><li>технические вопросы</li><li>проблемы, связанные с потенциальными ошибками программного обеспечения</li><li>обновление версий — кандидатов на релиз (RC) до последней стабильной версии</li><li>конвертирование phpBB 2.0.x в phpBB3</li><li>конвертирование в phpBB3 другого программного обеспечения для конференций (смотрите <a href="https://www.phpbb.com/community/viewforum.php?f=486">Convertors Forum</a>)</li></ul><p>Мы предлагаем пользователям, до сих пор использующим бета-версии phpBB3, заново установить последнюю версию. </p><h2>Расширения/Стили</h2><p>Вопросы, связанные с расширениями, обсуждаются в соответствующем форуме <a href="https://www.phpbb.com/community/viewforum.php?f=451">Extensions Forum</a>.<br />Вопросы, связанные со стилями, обсуждаются в соответствующем форуме <a href="https://www.phpbb.com/community/viewforum.php?f=471">Styles Forum</a>.<br /><br />Если ваш вопрос связан с конкретным продуктом, задавайте его в теме, посвящённой этому продукту.</p><h2>Получение поддержки</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">С чего начать</a><br /><a href="https://www.phpbb.com/support/">Поддержка</a><br /><a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/">Краткое руководство</a><br /><br />Чтобы быть в курсе последних новостей и релизов, вы можете подписаться на аккаунты в <a href="https://www.twitter.com/phpbb/">Twitter</a> и <a href="https://www.facebook.com/phpbb/">Facebook</a><br /><br />',
+	'SUPPORT_BODY'				=> 'Полная поддержка предоставляется для последнего стабильного релиза phpBB3 бесплатно. Она включает:</p><ul><li>установку</li><li>конфигурацию</li><li>технические вопросы</li><li>проблемы, связанные с потенциальными ошибками программного обеспечения</li><li>обновление версий — кандидатов на релиз (RC) до последней стабильной версии</li><li>конвертирование phpBB 2.0.x в phpBB3</li><li>конвертирование в phpBB3 другого программного обеспечения для конференций (смотрите <a href="https://www.phpbb.com/community/viewforum.php?f=486">Convertors Forum</a>)</li></ul><p>Мы предлагаем пользователям, до сих пор использующим бета-версии phpBB3, заново установить последнюю версию. </p><h2>Расширения/Стили</h2><p>Вопросы, связанные с расширениями, обсуждаются в соответствующем форуме <a href="https://www.phpbb.com/community/viewforum.php?f=451">Extensions Forum</a>.<br />Вопросы, связанные со стилями, обсуждаются в соответствующем форуме <a href="https://www.phpbb.com/community/viewforum.php?f=471">Styles Forum</a>.<br /><br />Если ваш вопрос связан с конкретным продуктом, задавайте его в теме, посвящённой этому продукту.</p><h2>Получение поддержки</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">С чего начать</a><br /><a href="https://www.phpbb.com/support/">Поддержка</a><br /><a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/">Краткое руководство</a><br /><br />Чтобы быть в курсе последних новостей и релизов, вы можете подписаться на аккаунты в <a href="https://www.twitter.com/phpbb/">Twitter</a> и <a href="https://www.facebook.com/phpbb/">Facebook</a><br /><br />',
 
 	// License
 	'LICENSE_TITLE'		=> 'General Public License',
@@ -70,7 +70,7 @@ $lang = array_merge($lang, [
 
 	<p>phpBB3 поддерживает следующие базы данных:</p>
 	<ul>
-		<li>MySQL 3.23 и выше (поддерживается MySQLi)</li>
+		<li>MySQL 4.1.3 и выше (поддерживается MySQLi)</li>
 		<li>PostgreSQL 8.3 и выше</li>
 		<li>SQLite 3.6.15 и выше</li>
 		<li>MS SQL Server 2000 и выше (напрямую или через ODBC)</li>
@@ -105,7 +105,7 @@ $lang = array_merge($lang, [
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'Версия PHP',
-	'PHP_VERSION_REQD_EXPLAIN'			=> 'Для работы phpBB необходим PHP версии 5.4.0 или выше.',
+	'PHP_VERSION_REQD_EXPLAIN'			=> 'Для работы phpBB необходим PHP версии 7.1.0 или выше.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'Функция PHP getimagesize() недоступна',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> 'Для правильной работы phpBB должна быть доступна функция getimagesize.',
 	'PCRE_UTF_SUPPORT'					=> 'Поддержка UTF-8 в PCRE',
@@ -186,7 +186,6 @@ $lang = array_merge($lang, [
 	// Database options
 	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ через ODBC',
 	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ Native ]',
-	'DB_OPTION_MYSQL'		=> 'MySQL',
 	'DB_OPTION_MYSQLI'		=> 'MySQL с расширением MySQLi',
 	'DB_OPTION_ORACLE'		=> 'Oracle',
 	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
@@ -565,7 +564,7 @@ $lang = array_merge($lang, [
 
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'Конвертирование завершено',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'Вы успешно сконвертировали вашу конференцию в формат phpBB 3.2. Вы можете <a href="../">войти на конференцию</a>. Убедитесь, что все настройки успешно перенесены, прежде чем запустите конференцию, удалив папку install. Помните, что вспомогательную информацию по использованию phpBB можно получить в интернете, изучив <a href="https://www.phpbb.com/support/docs/en/3.2/ug/">документацию</a>, а также на <a href="https://www.phpbb.com/phpBB/viewforum.php?f=466">форуме поддержки phpBB Group</a> и форумах официальной русской поддержки <a href="http://www.phpbbguru.net">phpBB Guru</a>.',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'Вы успешно сконвертировали вашу конференцию в формат phpBB 3.3. Вы можете <a href="../">войти на конференцию</a>. Убедитесь, что все настройки успешно перенесены, прежде чем запустите конференцию, удалив папку install. Помните, что вспомогательную информацию по использованию phpBB можно получить в интернете, изучив <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">документацию</a>, а также на <a href="https://www.phpbb.com/phpBB/viewforum.php?f=466">форуме поддержки phpBB Group</a> и форумах официальной русской поддержки <a href="http://www.phpbbguru.net">phpBB Guru</a>.',
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'На старой конференции включена загрузка вложений по FTP. Отключите эту функцию и убедитесь в правильности указанной папки для загрузки, затем скопируйте все файлы вложений в эту новую папку, доступную через интернет. После этого перезапустите конвертер.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Отсутствует доступная информация о конфигурации для конвертирования.',

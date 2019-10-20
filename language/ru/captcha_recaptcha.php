@@ -43,10 +43,10 @@ $lang = array_merge($lang, [
 	'RECAPTCHA_INCORRECT'			=> 'Приведено неверное решение',
 	'RECAPTCHA_NOSCRIPT'			=> 'Включите JavaScript в браузере, чтобы увидеть задание против спам-ботов.',
 
-	'RECAPTCHA_PUBLIC'				=> 'Публичный ключ reCaptcha (Public Key)',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Ваш публичный ключ reCaptcha. Ключи можно получить на сайте <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
-	'RECAPTCHA_PRIVATE'				=> 'Закрытый ключ reCaptcha (Private Key)',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Ваш закрытый ключ reCaptcha. Ключи можно получить на сайте <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_PUBLIC'				=> 'Ключ сайта (Site key)',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Ключ reCaptcha вашего сайта. Ключи можно получить на сайте <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>. Используйте версию reCAPTCHA v2 &gt; Invisible reCAPTCHA.',
+	'RECAPTCHA_PRIVATE'				=> 'Секретный ключ (Secret key)',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Ваш секретный ключ reCaptcha. Ключи можно получить на сайте <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>. Используйте версию reCAPTCHA v2 &gt; Invisible reCAPTCHA.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'В целях предотвращения автоматической отправки форм спам-ботами, решите предлагаемое задание.',
+	'RECAPTCHA_INVISIBLE'			=> 'Данный вид CAPTCHA является невидимым. Чтобы удостовериться в его работоспособности, в правом нижнем углу данной страницы должен отобразиться маленький значок.',
 ]);

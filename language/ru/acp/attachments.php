@@ -68,7 +68,6 @@ $lang = array_merge($lang, [
 	'ATTACH_QUOTA_EXPLAIN'				=> 'Максимально доступное дисковое пространство для вложений. Значение 0 соответствует неограниченному размеру.',
 	'ATTACH_TO_POST'					=> 'Прикрепить файл к сообщению',
 
-	'CAT_FLASH_FILES'			=> 'Файлы Flash',
 	'CAT_IMAGES'				=> 'Рисунки',
 	'CHECK_CONTENT'				=> 'Проверять вложения',
 	'CHECK_CONTENT_EXPLAIN'		=> 'Некоторые браузеры могут быть обмануты при определении MIME-типа загружаемых файлов. Включение данной опции гарантирует, что такие файлы, вероятнее всего, будут отклоняться во время загрузки.',
@@ -99,7 +98,6 @@ $lang = array_merge($lang, [
 	'EXT_GROUP_ARCHIVES'			=> 'Архивы',
 	'EXT_GROUP_DOCUMENTS'			=> 'Документы',
 	'EXT_GROUP_DOWNLOADABLE_FILES'	=> 'Скачиваемые файлы',
-	'EXT_GROUP_FLASH_FILES'			=> 'Файлы Flash',
 	'EXT_GROUP_IMAGES'				=> 'Изображения',
 	'EXT_GROUP_PLAIN_TEXT'			=> 'Текстовые файлы',
 

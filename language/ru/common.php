@@ -277,6 +277,17 @@ $lang = array_merge($lang, [
 	'FSOCK_DISABLED'		=> 'Действие не может быть завершено, поскольку функция <var>fsockopen</var> отключена или запрашиваемый сервер не найден.',
 	'FSOCK_TIMEOUT'			=> 'Таймаут соединения.',
 
+	'FILESYSTEM_CANNOT_CHANGE_FILE_GROUP'		=> 'Не удалось изменить группу для файла',
+	'FILESYSTEM_CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Не удалось изменить права доступа для файла',
+	'FILESYSTEM_CANNOT_COPY_FILES'				=> 'Не удалось скопировать файлы',
+	'FILESYSTEM_CANNOT_CREATE_SYMLINK'			=> 'Не удалось создать символическую ссылку',
+	'FILESYSTEM_CANNOT_CREATE_DIRECTORY'		=> 'Не удалось создать папку',
+	'FILESYSTEM_CANNOT_DELETE_FILES'			=> 'Не удалось удалить файлы из системы',
+	'FILESYSTEM_CANNOT_DUMP_FILE'				=> 'Не удалось создать файл',
+	'FILESYSTEM_CANNOT_MIRROR_DIRECTORY'		=> 'Не удалось скопировать папку',
+	'FILESYSTEM_CANNOT_RENAME_FILE'				=> 'Не удалось переименовать файл в системе',
+	'FILESYSTEM_CANNOT_TOUCH_FILES'				=> 'Не удалось определить существование файла',
+
 	'FTP_FSOCK_HOST'				=> 'FTP-сервер',
 	'FTP_FSOCK_HOST_EXPLAIN'		=> 'FTP-сервер для соединения с сайтом.',
 	'FTP_FSOCK_PASSWORD'			=> 'Пароль FTP',
@@ -509,7 +520,7 @@ $lang = array_merge($lang, [
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Ожидает одобрения</strong> тема, созданная пользователем %1$s:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Тип уведомления «%s» отсутствует в файловой системе.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Ожидает активации</strong> деактивированный или новый пользователь: «%1$s»',
-	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
+	// Used in conjunction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'других',
 	'NOTIFICATION_X_OTHERS'				=> array(
 		1	=> 'ещё %d пользователя',
